@@ -1,0 +1,2062 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            iJusXd3bGpKXsAfTtqKgAw
+input     hidden    iflsig                        AAP1E1EAAAAAXaypmA21fiMkkXiudrcoa5j6GcYejhNx
+input     text      q                                                 
+
+curl  https://www.google.com//search?source=hp&ei=iJusXd3bGpKXsAfTtqKgAw&iflsig=AAP1E1EAAAAAXaypmA21fiMkkXiudrcoa5j6GcYejhNx&q=
+
+
+
+
+https://books.google.ch/bkshp?hl=de&tab=wp0
+method:GET
+https://books.google.ch/bkshp?hl=de&tab=wp0//www.google.com/search
+input     hidden    tbm                           bks                 
+input     text      q                                                 
+
+curl  https://books.google.ch/bkshp?hl=de&tab=wp0//www.google.com/search?tbm=bks&q=<h1>blabla</h1>
+
+
+
+
+https://www.facebook.com/AndroidOfficial/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2721                
+input     hidden    lsd                           AVr_UoCb            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103818_GKz_         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2721&lsd=AVr_UoCb&email=1&pass=1&timezone=&lgndim=&lgnrnd=103818_GKz_&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2721                
+input     hidden    lsd                           AVr_UoCb            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103818_GKz_         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/AndroidOfficial/
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2721&lsd=AVr_UoCb&email=1&pass=1&timezone=&lgndim=&lgnrnd=103818_GKz_&lgnjs=n&ab_test_data=&locale=de_DE&next=https://www.facebook.com/AndroidOfficial/&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/
+method:post
+https://www.facebook.com/AndroidOfficial//ajax/ufi/modify.php
+input     hidden    jazoest                       2721                
+input     hidden    lsd                           AVr_UoCb            
+input     hidden    ft_ent_identifier             3178685555536624    
+input     hidden    data_only_response            1                   
+
+curl  https://www.facebook.com/AndroidOfficial//ajax/ufi/modify.php?jazoest=2721&lsd=AVr_UoCb&ft_ent_identifier=3178685555536624&data_only_response=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/
+method:post
+https://www.facebook.com/AndroidOfficial//ajax/ufi/modify.php
+input     hidden    jazoest                       2721                
+input     hidden    lsd                           AVr_UoCb            
+input     hidden    ft_ent_identifier             3176304072441439    
+input     hidden    data_only_response            1                   
+
+curl  https://www.facebook.com/AndroidOfficial//ajax/ufi/modify.php?jazoest=2721&lsd=AVr_UoCb&ft_ent_identifier=3176304072441439&data_only_response=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/likes
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2652                
+input     hidden    lsd                           AVr3nFPL            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103819_SJ1o         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2652&lsd=AVr3nFPL&email=1&pass=1&timezone=&lgndim=&lgnrnd=103819_SJ1o&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/likes
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2652                
+input     hidden    lsd                           AVr3nFPL            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103819_SJ1o         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/AndroidOfficial/
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2652&lsd=AVr3nFPL&email=1&pass=1&timezone=&lgndim=&lgnrnd=103819_SJ1o&lgnjs=n&ab_test_data=&locale=de_DE&next=https://www.facebook.com/AndroidOfficial/&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/likes?ref=page_internal
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2564                
+input     hidden    lsd                           AVr568T4            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103821_8pD5         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2564&lsd=AVr568T4&email=1&pass=1&timezone=&lgndim=&lgnrnd=103821_8pD5&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/AndroidOfficial/likes?ref=page_internal
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2564                
+input     hidden    lsd                           AVr568T4            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103821_8pD5         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/AndroidOfficial/
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2564&lsd=AVr568T4&email=1&pass=1&timezone=&lgndim=&lgnrnd=103821_8pD5&lgnjs=n&ab_test_data=&locale=de_DE&next=https://www.facebook.com/AndroidOfficial/&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2726                
+input     hidden    lsd                           AVoXl_lA            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103823_aBwk         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301?jazoest=2726&lsd=AVoXl_lA&email=1&pass=1&timezone=&lgndim=&lgnrnd=103823_aBwk&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2726                
+input     hidden    lsd                           AVoXl_lA            
+input     text      email                                             
+
+curl  https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover?jazoest=2726&lsd=AVoXl_lA&email=<h1>blabla</h1>
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2777                
+input     hidden    lsd                           AVqy_aTt            
+input     hidden    initial_request_id            A3RGHKy1wLYgh8iGLmaEUmN
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103824_-5wk         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  https://messenger.com//login/password/?jazoest=2777&lsd=AVqy_aTt&initial_request_id=A3RGHKy1wLYgh8iGLmaEUmN&timezone=&lgndim=&lgnrnd=103824_-5wk&lgnjs=n&email=&pass=1&persistent=1&default_persistent=0
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2751                
+input     hidden    lsd                           AVr7zZnm            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103825_7D6t         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301?jazoest=2751&lsd=AVr7zZnm&email=1&pass=1&timezone=&lgndim=&lgnrnd=103825_7D6t&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2751                
+input     hidden    lsd                           AVr7zZnm            
+input     text      email                                             
+
+curl  https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover?jazoest=2751&lsd=AVr7zZnm&email=<h1>blabla</h1>
+
+
+
+
+https://www.facebook.com/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2660                
+input     hidden    lsd                           AVogEnA3            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103825_4moK         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2660&lsd=AVogEnA3&email=1&pass=1&timezone=&lgndim=&lgnrnd=103825_4moK&lgnjs=n&ab_test_data=&locale=de_DE&next=https://www.facebook.com/&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.facebook.com/
+method:post
+https://m.facebook.com/reg/
+input     hidden    jazoest                       2660                
+input     hidden    lsd                           AVogEnA3            
+input     text      firstname                                         
+input     text      lastname                                          
+input     text      reg_email__                                       
+input     text      reg_email_confirmation__                          
+input     text      reg_second_contactpoint__                         
+input     password  reg_passwd__                                      
+select              birthday_day                                      
+select              birthday_month                                    
+select              birthday_year                                     
+input     radio     sex                           1                   
+input     radio     sex                           2                   
+input     radio     sex                           -1                  
+select              preferred_pronoun                                 
+input     text      custom_gender                                     
+input     hidden    referrer                                          
+input     hidden    asked_to_login                0                   
+input     hidden    use_custom_gender                                 
+input     hidden    terms                         on                  
+input     hidden    ns                            0                   
+input     hidden    ri                            d9933903-9e75-4866-a8e7-87ed6c3cf404
+input     hidden    action_dialog_shown                               
+input     hidden    contactpoint_label            email_or_phone      
+input     hidden    ignore                        reg_email_confirmation__|reg_second_contactpoint__
+input     hidden    locale                        de_DE               
+input     hidden    reg_instance                  kZusXSMYNBAf3eVEf3vse9mR
+input     hidden    captcha_persist_data          AZlks4SUEzf9Fnhx5w3GMiKPpfIFBGwLF4LdKbgpYBX2G-LAqn1bo8ZJgS91gCnSYNMgvFKR22dcOwoXlO1E4uiA-gouXCYct3hqUoydkkTdCq8f4AyT13p8lPGitRGIw8qttOxQ6jXs3TX6mxec20qunNeR8AVgPj_P9FOMxLNOK1p6Zj7jm2-q4xaqo5xnm4S-gIq_xkeVzn3mtE2OWl0Np4yrA-TomNvzl7eBL4Wy_mOjI4mwGIQOxRYMbAhNladQIj13az9z4p9ntVbhFRn8DUF2NlV-GIRFvVRjDWd94ftM-O_PFb6onkakTkjF1SDfxOFSA2YKnoV_07-Gtqrud5z_WEk4dNzpXo7YBMx55goQfTvJG7h5XOtDLGZ13_0
+input     hidden    captcha_response                                  
+
+curl  https://m.facebook.com/reg/?jazoest=2660&lsd=AVogEnA3&firstname=&lastname=&reg_email__=&reg_email_confirmation__=&reg_second_contactpoint__=&reg_passwd__=1&birthday_day=1&birthday_month=1&birthday_year=1&sex=1&sex=2&sex=-1&preferred_pronoun=1&custom_gender=<h1>blabla</h1>&referrer=&asked_to_login=0&use_custom_gender=&terms=on&ns=0&ri=d9933903-9e75-4866-a8e7-87ed6c3cf404&action_dialog_shown=&contactpoint_label=email_or_phone&ignore=reg_email_confirmation__|reg_second_contactpoint__&locale=de_DE&reg_instance=kZusXSMYNBAf3eVEf3vse9mR&captcha_persist_data=AZlks4SUEzf9Fnhx5w3GMiKPpfIFBGwLF4LdKbgpYBX2G-LAqn1bo8ZJgS91gCnSYNMgvFKR22dcOwoXlO1E4uiA-gouXCYct3hqUoydkkTdCq8f4AyT13p8lPGitRGIw8qttOxQ6jXs3TX6mxec20qunNeR8AVgPj_P9FOMxLNOK1p6Zj7jm2-q4xaqo5xnm4S-gIq_xkeVzn3mtE2OWl0Np4yrA-TomNvzl7eBL4Wy_mOjI4mwGIQOxRYMbAhNladQIj13az9z4p9ntVbhFRn8DUF2NlV-GIRFvVRjDWd94ftM-O_PFb6onkakTkjF1SDfxOFSA2YKnoV_07-Gtqrud5z_WEk4dNzpXo7YBMx55goQfTvJG7h5XOtDLGZ13_0&captcha_response=1
+
+
+
+
+https://www.facebook.com/policies/cookies/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2745                
+input     hidden    lsd                           AVpcZoaU            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103825_x8VR         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110?jazoest=2745&lsd=AVpcZoaU&email=1&pass=1&timezone=&lgndim=&lgnrnd=103825_x8VR&lgnjs=n&ab_test_data=&locale=de_DE&login_source=login_bluebar&guid=&prefill_contact_point=1&prefill_source=1&prefill_type=1
+
+
+
+
+https://www.youtube.com/user/GoogleMobile/
+method:POST
+https://www.youtube.com/user/GoogleMobile//logout
+input     hidden    action_logout                 1                   
+
+curl  https://www.youtube.com/user/GoogleMobile//logout?action_logout=1
+
+
+
+
+https://www.youtube.com/user/GoogleMobile/
+method:
+https://www.youtube.com/user/GoogleMobile//results
+input     text      search_query                                      
+
+curl  https://www.youtube.com/user/GoogleMobile//results?search_query=
+
+
+
+
+https://www.youtube.com/user/GoogleMobile/
+method:get
+https://www.youtube.com/user/GoogleMobile//user/GoogleMobile/search
+input     text      query                                             
+
+curl  https://www.youtube.com/user/GoogleMobile//user/GoogleMobile/search?query=
+
+
+
+
+https://twitter.com/Android
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FAndroid
+input     hidden    authenticity_token            ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+
+curl  https://mobile.twitter.com/i/nojs_router?path=%2FAndroid?authenticity_token=ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+
+
+
+
+https://twitter.com/Android
+method:
+https://twitter.com/Android/search
+input     text      q                                                 
+
+curl  https://twitter.com/Android/search?q=<h1>blabla</h1>
+
+
+
+
+https://twitter.com/Android
+method:POST
+https://twitter.com/Android/sessions/change_locale
+input     hidden    lang                                              
+input     hidden    redirect                                          
+input     hidden    authenticity_token            ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+
+curl  https://twitter.com/Android/sessions/change_locale?lang=1&redirect=1&authenticity_token=ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+
+
+
+
+https://twitter.com/Android
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /Android            
+input     hidden    authenticity_token            ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+input     hidden    ui_metrics                                        
+
+curl  https://twitter.com/sessions?session[username_or_email]=<h1>blabla</h1>&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/Android&authenticity_token=ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba&ui_metrics=1
+
+
+
+
+https://twitter.com/Android
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /Android            
+input     hidden    authenticity_token            ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba
+input     hidden    ui_metrics                                        
+
+curl  https://twitter.com/sessions?session[username_or_email]=<h1>blabla</h1>&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/Android&authenticity_token=ccfbe52df0e8e2a255c7ecb63bb4069fa3a7d7ba&ui_metrics=1
+
+
+
+
+https://dev.twitter.com/web/embedded-tweets
+method:post
+https://dev.twitter.com/web/embedded-tweetsindex.html
+input     radio     csatFormOption                This page is missing information.
+input     radio     csatFormOption                The information was hard to follow or confusing.
+input     radio     csatFormOption                There is inaccurate information.
+input     radio     csatFormOption                There is a broken link or typo.
+textarea            additionalFeedback                                
+
+curl  https://dev.twitter.com/web/embedded-tweetsindex.html?csatFormOption=This page is missing information.&csatFormOption=The information was hard to follow or confusing.&csatFormOption=There is inaccurate information.&csatFormOption=There is a broken link or typo.&additionalFeedback=<h1>blabla</h1>
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:
+https://www.demandbase.com/
+input     search                                                      
+
+curl  https://www.demandbase.com/
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl  https://www.demandbase.com/privacy-policy/?first_name=&last_name=&job_title=&email=&phone=&company=&demandbaseSubscriptionFormOptInCheck=1&referer=//www.demandbase.com/company&retURL=//www.demandbase.com/&lead_source=Website&Campaign_ID=70140000000ViNK&LastSFDCCampaignStatus=Converted
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl  https://www.demandbase.com/privacy-policy/?first_name=&last_name=&job_title=&email=&phone=&company=&demandbaseSubscriptionFormOptInCheck=1&referer=//www.demandbase.com/company&retURL=//www.demandbase.com/&lead_source=Website&Campaign_ID=70140000000ViNK&LastSFDCCampaignStatus=Converted
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:POST
+https://www.youtube.com/Glassdoor/logout
+input     hidden    action_logout                 1                   
+
+curl  https://www.youtube.com/Glassdoor/logout?action_logout=1
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:
+https://www.youtube.com/Glassdoor/results
+input     text      search_query                                      
+
+curl  https://www.youtube.com/Glassdoor/results?search_query=
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:get
+https://www.youtube.com/Glassdoor/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  https://www.youtube.com/Glassdoor/user/GlassdoorInc/search?query=
+
+
+
+
+https://www.glassdoor.de/blog/
+method:get
+https://www.glassdoor.de/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.fr/blog/
+method:get
+https://www.glassdoor.fr/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:POST
+https://www.youtube.com/user/GlassdoorInc/logout
+input     hidden    action_logout                 1                   
+
+curl  https://www.youtube.com/user/GlassdoorInc/logout?action_logout=1
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:
+https://www.youtube.com/user/GlassdoorInc/results
+input     text      search_query                                      
+
+curl  https://www.youtube.com/user/GlassdoorInc/results?search_query=
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:get
+https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search?query=
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:POST
+https://www.youtube.com/user/GlassdoorInc/logout
+input     hidden    action_logout                 1                   
+
+curl  https://www.youtube.com/user/GlassdoorInc/logout?action_logout=1
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:
+https://www.youtube.com/user/GlassdoorInc/results
+input     text      search_query                                      
+
+curl  https://www.youtube.com/user/GlassdoorInc/results?search_query=
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:get
+https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search?query=
+
+
+
+
+https://www.glassdoor.nl/blog/
+method:get
+https://www.glassdoor.nl/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.nl/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.nl/blog/
+method:get
+https://www.glassdoor.nl/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.nl/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.fr/blog/marque-employeur/
+method:get
+https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.de/blog/employer-branding/
+method:get
+https://www.glassdoor.de/blog/employer-branding//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/blog/employer-branding//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.uk/employers/type/guide
+method:get
+https://www.glassdoor.co.uk/employers/
+input     search    s                                                 
+
+curl  https://www.glassdoor.co.uk/employers/?s=
+
+
+
+
+https://www.glassdoor.co.uk/employers/type/guide
+method:get
+https://www.glassdoor.co.uk/employers/
+input     search    s                                                 
+
+curl  https://www.glassdoor.co.uk/employers/?s=
+
+
+
+
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=Demandbase&locT=&locId=&jobType=
+
+
+
+
+https://www.privacyshield.gov/list
+method:post
+https://www.privacyshield.gov/list/participant_search
+input     hidden    j_id0:j_id1:j_id67            j_id0:j_id1:j_id67  
+input     text      j_id0:j_id1:j_id67:searchTerm                     
+select              j_id0:j_id1:j_id67:status                         
+select              j_id0:j_id1:j_id67:program                        
+select              j_id0:j_id1:j_id67:dataType                       
+select              j_id0:j_id1:j_id67:dsp                            
+select              j_id0:j_id1:j_id67:j_id142                        
+
+curl  https://www.privacyshield.gov/list/participant_search?j_id0:j_id1:j_id67=j_id0:j_id1:j_id67&j_id0:j_id1:j_id67:searchTerm=<h1>blabla</h1>&j_id0:j_id1:j_id67:status=1&j_id0:j_id1:j_id67:program=1&j_id0:j_id1:j_id67:dataType=1&j_id0:j_id1:j_id67:dsp=1&j_id0:j_id1:j_id67:j_id142=1
+
+
+
+
+http://www.adobe.com/go/creativecloud_forums
+method:post
+https://community.adobe.com/t5/community/page.searchformv32.form.form
+input     hidden    t:cp                          search/contributions/page
+input     hidden    lia-form-context              OS68OUj1tGgu7VeYX3U-fFWANmFGmpJgEq1eTLw73x1rxw5GpTsVZwNPU_gRqK4rIaSw5-1Vfsy9-Ke0JG4L3EgyEuflE5yRyd7V84viO7Pib9c8SWb7Qj6Yc0nPTTS45_Mf7C3vHna7dyCVnnUF8fdtud6b5oocFcqTUEAfu-9oVQYIVMD2CKnooZj8KiRYCO3Z9zxLdzywBWDAvXuyd4AE6GjEveZdk0Zaa8_Abi7RCPuoX-5aKgUrlhw74Bxpwv8Tf4I4uoR6mpkBF7DWif5erfdpvuPB87nzJAKHuEpzsBz7V7A-VLuUwhSdQMUv6J-puz--Sbc2_yBgqSVJNBYDqkW_cBpOrx6HQil0opSD12RTrAmQ3gYN6O5bOPNUGW_LUx_cJBTDYXGJrEUYheBmh639H0Mfylz4rlflcoc5n7l1NikdjorkQwErRw87H7EL85VKtVUBMNMmyGUfViyRJ_4WmX2z-1zhuAHEJva7K9uILWhQm-OsG3xGRv-_kmgH9D-d-wGEcXcGaps94qKtkBfGUVl2GP9PhL5alH9Upzh606AHtE0dDkKHbr1jYEhpyoqLyvdlrhvc0Kd8wqLVy-zj8Vsn8UmCmvJhOx_3PjRZPja8rD_WeUifkLZdGJoVHzFRQbN6h9saOnJnzBXStUmW21I76OT1HOqmTXZzUPT5M6Mci-RYb98OQnJxK0q6XtnWOwR0DzLpAlnKPPLtPxP8QMm5wG9ltH1DCGAvSXEKwlIXUVmMDDAm9YuVguQsGn8zEAGSmROWgcFlV-zxbjKBV4a3E-tqi6zL6S71huOTT-TdX8QQglypUXF-DxhzooD3asct7kj9VwNlsaxNzicxEQ-gs6R6bgtBiRIRctKXV7nXWwO4biwPKC0pwkikTp1BcBJGa94-6Xe1IfEHTEVb-Hq_8gG4LfrFYAvBznDR2n3hlb0XhBaKejE_PoxNHxv-On6zkZkY9jtV9aumE90haz3dBf6MnaEWMEmef0XUX9QDH_-SD0vbY7Qu-X-mNsTjjXKovbFjJM7vi8zOhp_seGHlXMnOVT6iDV_SlS99i5bdqFRfxKvWQ20Q63BfcGizZJnItJODXBCilFgsB_Ppv85DfBE4dCcQy_sGyUqcd9-3gIafnvy96BFwqxl-EU8wgJN6oP-BiANJQjdCcMwt7WtMD-i9U1etYjRQsRlD62AG5tlg22WlWrQ_bcUY90zLme7UGO4KIfWJW_7cb1VcxGTErRwRn1wA2l1XpwryH-W4aOVvJrPauKJk81OO-mzhpUjoY5b7PSZFNR2NdpfBgC_3UibnGgXr5vQ.
+input     hidden    liaFormContentKey             CommunityPage::searchformv32.form:
+input     hidden    t:formdata                    BJR3mZgsgXhChjmdyYZbPmMg/lU=:H4sIAAAAAAAAALWRzUrDQBSFr4WuiohF30C3iahdaEUogkWoGgyu5SadptEkE2du+rPpo/gE4kt04c538AHcunJhkkm1VsHE1tVwzx3O+c7M/QuU+3XYkwyF3dVtHpBwrYhcHkjdQIftq02HC7+3s62pyREYRB4Kl4ZSQI0LR8MQ7S7TCEMmSQxrms0F81xLs1AyrWHFItp07DKvvWEyisLNy3Hlef3xrQRLLaikwdw7Q58RVFvX2EPdw8DRzZgncOqDkGBVhTc/w+clbxQlNwS3mZRmZPmulHHU+KG923m9eyoBDML+IRzkxkksKDuS22xA8hZGAATLSj1S6ryuiWm5fw6neU38uGGsZmLS+wdpwlrNVma6Sl9p4VmqwQUYeV3pxipUYu17iaut/whUTU6gmdc4kkxMW87MkwIriT79BYuLKIwccPryCjPzB3Ki/xH5l4gU+R2rKjjg2gQAAA==
+input     hidden    lia-action-token              u0JTTJIacECw7drgFRGIqoNYsu9jvncl1GnpZTRd9Og.
+input     hidden    form_UID                      form_21f73ee9781721 
+input     hidden    form_instance_key                                 
+select              searchGranularity                                 
+input     hidden    submitContextX                searchForm          
+input     text      messageSearchField                                
+input     text      messageSearchField_0                              
+input     text      userSearchField                                   
+input     text      noteSearchField                                   
+input     hidden    as-search-action-id                               
+
+curl  https://community.adobe.com/t5/community/page.searchformv32.form.form?t:cp=search/contributions/page&lia-form-context=OS68OUj1tGgu7VeYX3U-fFWANmFGmpJgEq1eTLw73x1rxw5GpTsVZwNPU_gRqK4rIaSw5-1Vfsy9-Ke0JG4L3EgyEuflE5yRyd7V84viO7Pib9c8SWb7Qj6Yc0nPTTS45_Mf7C3vHna7dyCVnnUF8fdtud6b5oocFcqTUEAfu-9oVQYIVMD2CKnooZj8KiRYCO3Z9zxLdzywBWDAvXuyd4AE6GjEveZdk0Zaa8_Abi7RCPuoX-5aKgUrlhw74Bxpwv8Tf4I4uoR6mpkBF7DWif5erfdpvuPB87nzJAKHuEpzsBz7V7A-VLuUwhSdQMUv6J-puz--Sbc2_yBgqSVJNBYDqkW_cBpOrx6HQil0opSD12RTrAmQ3gYN6O5bOPNUGW_LUx_cJBTDYXGJrEUYheBmh639H0Mfylz4rlflcoc5n7l1NikdjorkQwErRw87H7EL85VKtVUBMNMmyGUfViyRJ_4WmX2z-1zhuAHEJva7K9uILWhQm-OsG3xGRv-_kmgH9D-d-wGEcXcGaps94qKtkBfGUVl2GP9PhL5alH9Upzh606AHtE0dDkKHbr1jYEhpyoqLyvdlrhvc0Kd8wqLVy-zj8Vsn8UmCmvJhOx_3PjRZPja8rD_WeUifkLZdGJoVHzFRQbN6h9saOnJnzBXStUmW21I76OT1HOqmTXZzUPT5M6Mci-RYb98OQnJxK0q6XtnWOwR0DzLpAlnKPPLtPxP8QMm5wG9ltH1DCGAvSXEKwlIXUVmMDDAm9YuVguQsGn8zEAGSmROWgcFlV-zxbjKBV4a3E-tqi6zL6S71huOTT-TdX8QQglypUXF-DxhzooD3asct7kj9VwNlsaxNzicxEQ-gs6R6bgtBiRIRctKXV7nXWwO4biwPKC0pwkikTp1BcBJGa94-6Xe1IfEHTEVb-Hq_8gG4LfrFYAvBznDR2n3hlb0XhBaKejE_PoxNHxv-On6zkZkY9jtV9aumE90haz3dBf6MnaEWMEmef0XUX9QDH_-SD0vbY7Qu-X-mNsTjjXKovbFjJM7vi8zOhp_seGHlXMnOVT6iDV_SlS99i5bdqFRfxKvWQ20Q63BfcGizZJnItJODXBCilFgsB_Ppv85DfBE4dCcQy_sGyUqcd9-3gIafnvy96BFwqxl-EU8wgJN6oP-BiANJQjdCcMwt7WtMD-i9U1etYjRQsRlD62AG5tlg22WlWrQ_bcUY90zLme7UGO4KIfWJW_7cb1VcxGTErRwRn1wA2l1XpwryH-W4aOVvJrPauKJk81OO-mzhpUjoY5b7PSZFNR2NdpfBgC_3UibnGgXr5vQ.&liaFormContentKey=CommunityPage::searchformv32.form:&t:formdata=BJR3mZgsgXhChjmdyYZbPmMg/lU=:H4sIAAAAAAAAALWRzUrDQBSFr4WuiohF30C3iahdaEUogkWoGgyu5SadptEkE2du+rPpo/gE4kt04c538AHcunJhkkm1VsHE1tVwzx3O+c7M/QuU+3XYkwyF3dVtHpBwrYhcHkjdQIftq02HC7+3s62pyREYRB4Kl4ZSQI0LR8MQ7S7TCEMmSQxrms0F81xLs1AyrWHFItp07DKvvWEyisLNy3Hlef3xrQRLLaikwdw7Q58RVFvX2EPdw8DRzZgncOqDkGBVhTc/w+clbxQlNwS3mZRmZPmulHHU+KG923m9eyoBDML+IRzkxkksKDuS22xA8hZGAATLSj1S6ryuiWm5fw6neU38uGGsZmLS+wdpwlrNVma6Sl9p4VmqwQUYeV3pxipUYu17iaut/whUTU6gmdc4kkxMW87MkwIriT79BYuLKIwccPryCjPzB3Ki/xH5l4gU+R2rKjjg2gQAAA==&lia-action-token=u0JTTJIacECw7drgFRGIqoNYsu9jvncl1GnpZTRd9Og.&form_UID=form_21f73ee9781721&form_instance_key=&searchGranularity=1&submitContextX=searchForm&messageSearchField=&messageSearchField_0=&userSearchField=&noteSearchField=&as-search-action-id=1
+
+
+
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+method:get
+https://us.netdonor.net/page/6650/donate/1
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       gf_other_choice     
+input     text      transaction.donationAmt.other                     
+input     hidden    type                          One Time            
+input     hidden    ea.tracking.id                deed-overlay        
+
+curl  https://us.netdonor.net/page/6650/donate/1?transaction.donationAmt=5&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=gf_other_choice&transaction.donationAmt.other=<h1>blabla</h1>&type=One Time&ea.tracking.id=deed-overlay
+
+
+
+
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer
+method:post
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2
+input     hidden    hidden                                            
+input     hidden    sessionId                     6e25c8b1caee44afa5f2bf68bcd5bc6a-server50012
+input     hidden    gatewaykey                                        
+input     hidden    gatewayaccountid                                  
+input     hidden    gatewaymode                                       
+input     hidden    transaction.selprodvariantid                      
+input     radio     transaction.recurrpay         one-time            
+input     radio     transaction.recurrpay         Y                   
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       10                  
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       75                  
+input     radio     transaction.donationAmt       100                 
+input     radio     transaction.donationAmt                           
+input     text      transaction.donationAmt.other                     
+input     hidden    transaction.recurrfreq        MONTHLY             
+input     hidden    transaction.recurrday                             
+input     hidden    transaction.paycurrency       USD                 
+input     text      supporter.firstName                               
+input     text      supporter.lastName                                
+input     text      supporter.emailAddress                            
+input     checkbox  supporter.questions.60047     Y                   
+
+curl  https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2?hidden=&sessionId=6e25c8b1caee44afa5f2bf68bcd5bc6a-server50012&gatewaykey=&gatewayaccountid=&gatewaymode=&transaction.selprodvariantid=&transaction.recurrpay=one-time&transaction.recurrpay=Y&transaction.donationAmt=5&transaction.donationAmt=10&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=75&transaction.donationAmt=100&transaction.donationAmt=&transaction.donationAmt.other=&transaction.recurrfreq=MONTHLY&transaction.recurrday=&transaction.paycurrency=USD&supporter.firstName=&supporter.lastName=&supporter.emailAddress=&supporter.questions.60047=Y
+
+
+
+
+https://www.flickr.com/people/pingnews/
+method:get
+https://www.flickr.com/people/pingnews//search/
+input     text      text                                              
+
+curl  https://www.flickr.com/people/pingnews//search/?text=
+
+
+
+
+https://www.flickr.com/groups/utata/
+method:get
+https://www.flickr.com/groups/utata//search/
+input     text      text                                              
+
+curl  https://www.flickr.com/groups/utata//search/?text=
+
+
+
+
+https://www.flickr.com/groups/utata/
+method:post
+https://www.flickr.com/groups/utata//help/optin
+input     hidden    groups_members_opt            0                   
+input     hidden    groups_discuss_opt            0                   
+input     hidden    groups_opt                    0                   
+input     hidden    redirect_url                  /groups/utata/?rb=1 
+input     hidden    csrf                                              
+
+curl  https://www.flickr.com/groups/utata//help/optin?groups_members_opt=0&groups_discuss_opt=0&groups_opt=0&redirect_url=/groups/utata/?rb=1&csrf=
+
+
+
+
+https://www.smugmug.com/
+method:get
+https://www.smugmug.com//search/
+input     text      q                                                 
+input     hidden    c                             photos              
+
+curl  https://www.smugmug.com//search/?q=<h1>blabla</h1>&c=photos
+
+
+
+
+http://dgrin.com
+method:get
+http://dgrin.com/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  http://dgrin.com/search?adv=&search=&title=&author=&cat=1&subcats=1&followedcats=1&archived=1&tags=&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=
+

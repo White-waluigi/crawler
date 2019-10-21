@@ -1,0 +1,29 @@
+https://www.voat.co/
+method:post
+https://www.voat.co//Account/Login?ReturnUrl=%2Faccount%2Flogin%3FreturnUrl%3D%2F
+	input-hidden:RequestVerificationToken
+	input-text:UserName
+	input-password:Password
+	input-checkbox:RememberMe
+	input-submit:
+	input-hidden:RememberMe
+
+https://www.voat.co/
+method:post
+https://www.voat.co//Account/Login?ReturnUrl=%2Faccount%2Flogin%3FreturnUrl%3D%2F
+	input-hidden:RequestVerificationToken
+	input-text:UserName
+	input-password:Password
+	input-checkbox:RememberMe
+	input-submit:
+	input-hidden:RememberMe
+https://www.voat.co/
+method:post
+https://www.voat.co//Account/Login?ReturnUrl=%2F
+	input-hidden:RequestVerificationToken
+	input-text:UserName
+	input-password:Password
+	input-checkbox:RememberMe
+	input-submit:
+	input-hidden:RememberMe
+

@@ -1,0 +1,30 @@
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+wikileaks.org
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+torproject.org

@@ -1,0 +1,19 @@
+https://www.yourworldoftext.com/
+method:get
+https://www.yourworldoftext.com/#
+	input-text:coord_input_X
+	input-text:coord_input_Y
+	input-submit:
+
+https://www.yourworldoftext.com/
+method:get
+https://www.yourworldoftext.com/#
+	input-text:coord_input_X
+	input-text:coord_input_Y
+	input-submit:
+https://www.yourworldoftext.com/
+method:get
+https://www.yourworldoftext.com/#
+	input-text:url_input
+	input-submit:
+

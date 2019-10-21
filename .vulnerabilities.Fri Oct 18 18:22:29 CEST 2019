@@ -1,0 +1,83 @@
+http://blog.4chan.org//search
+	input-text:q
+	input-submit:
+
+https://blog.4chan.org/post/152411853897/4chan-bandwidth-was-3pb-last-month-4chan-doesnt#notes/search
+	input-text:q
+	input-submit:
+
+https://mobile.twitter.com/i/nojs_router?path=%2FObscurityOnline%2Fstatus%2F1158510676907704321
+	input-hidden:authenticity_token
+
+https://twitter.com/ObscurityOnline/status/1158510676907704321/search
+	input-text:q
+
+https://twitter.com/ObscurityOnline/status/1158510676907704321/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+http://support.twitter.com/forums/26810/entries/78525/en/search
+	input-search:q
+
+http://support.twitter.com/forums/26810/entries/78525/en/search.html
+	input-text:q
+
+http://support.twitter.com/forums/26810/entries/78525index.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+
+https://twittercommunity.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2006-nissan-pathfinder-clicking-noise-in-front/151005/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2013-lincoln-mkz-hybrid-ride-control-gone/150407/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2010-ford-taurus-won-t-turn-over/150998/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+

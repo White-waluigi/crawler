@@ -1,0 +1,670 @@
+https://www.google.ch//search
+	input-hidden:source
+	input-hidden:ei
+	input-hidden:iflsig
+	input-text:q
+	input-submit:btnK
+	input-submit:btnI
+	input-submit:btnK
+	input-submit:btnI
+
+https://sustainability.google//search
+	input-text:q
+
+https://sustainability.google//search
+	input-text:q
+
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+	input-hidden:authenticity_token
+
+https://twitter.com/YouTube/search
+	input-text:q
+
+https://twitter.com/YouTube/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+https://twitter.com/signup
+	input-submit:
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+
+https://twittercommunity.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2006-nissan-pathfinder-clicking-noise-in-front/151005/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2013-lincoln-mkz-hybrid-ride-control-gone/150407/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2010-ford-taurus-won-t-turn-over/150998/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2008-toyota-camry-solara-dealers-and-contractors/150742/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2005-nissan-frontier-wont-start-until-after-at-least-10-minutes-wait/151014/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/should-i-just-get-rid-of-this-stratus-04/150936/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/welcome-to-the-car-talk-community/8/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://github.com/commonmark/web/tree/gh-pages/help/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+
+https://github.com/commonmark/web/tree/gh-pages/help/commonmark/commonmark-web/search
+	input-hidden:utf8
+	input-text:q
+	input-hidden:type
+
+https://talk.commonmark.org/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://talk.commonmark.org/t/should-parsers-save-line-column-information-for-inlines/848/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://talk.commonmark.org/t/explicit-rtl-indication-in-pure-markdown/286/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://en.wikipedia.org/wiki/Comparison_of_text_editors#Right-to-left_and_bidirectional_text/w/index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+http://live.gnome.org/Gedit/Plugins/Apps/Gedit/PluginsLists
+	input-hidden:action
+	input-hidden:context
+	input-text:value
+	input-submit:titlesearch
+	input-submit:fullsearch
+
+http://www.redhat.com//en/search/node
+	input-text:keys
+	input-submit:op
+	input-hidden:form_build_id
+	input-hidden:form_id
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=ERWjr-IJWoKWsy_lXTtJ0SLz9BxXyuLNAaqgIlT-BOk&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&tab_id=1XE9EqRWOC0
+	input-text:username
+	input-password:password
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:email
+	input-submit:did_submit
+
+https://messenger.com//login/password/
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:initial_request_id
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-text:email
+	input-password:pass
+	input-checkbox:persistent
+	input-hidden:default_persistent
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:email
+	input-submit:did_submit
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://m.facebook.com/reg/
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:firstname
+	input-text:lastname
+	input-text:reg_email__
+	input-text:reg_email_confirmation__
+	input-text:reg_second_contactpoint__
+	input-password:reg_passwd__
+	select-:birthday_day
+	select-:birthday_month
+	select-:birthday_year
+	input-radio:sex
+	input-radio:sex
+	input-radio:sex
+	select-:preferred_pronoun
+	input-text:custom_gender
+	input-hidden:referrer
+	input-hidden:asked_to_login
+	input-hidden:use_custom_gender
+	input-hidden:terms
+	input-hidden:ns
+	input-hidden:ri
+	input-hidden:action_dialog_shown
+	input-hidden:contactpoint_label
+	input-hidden:ignore
+	input-hidden:locale
+	input-hidden:reg_instance
+	input-hidden:captcha_persist_data
+	input-hidden:captcha_response
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.redhat.com/wapps/ugc/register.html/wapps/ugc/register.html?_flowId=register-flow&_flowExecutionKey=e1s1
+	input-hidden:notificationChecksum
+	input-hidden:timeZoneOffset
+	input-radio:userType
+	input-radio:userType
+	input-text:user.login
+	input-text:user.personalInfo.email
+	input-password:password
+	input-password:passwordConfirmation
+	input-text:user.personalInfo.company
+	input-text:user.personalInfo.title
+	input-text:user.personalInfo.firstName
+	input-text:user.personalInfo.lastName
+	select-:site.address.countryCode
+	input-text:site.address.address1
+	input-text:site.address.address2
+	input-text:site.address.address3
+	input-text:site.address.postalCode
+	input-text:site.address.city
+	input-text:site.address.county
+	input-text:site.address.state
+	input-text:user.personalInfo.phoneNumber
+	input-text:user.personalInfo.faxNumber
+	input-hidden:redirect
+	input-submit:_eventId_submit
+	input-hidden:_flowExecutionKey
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=z5AYAKyW2eFcBx1qN2tA_knRXsTPQmKrNRSSGPJkbGI&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=legacy-idp-servlets&tab_id=m6RAwJukjq4
+	input-text:username
+	input-password:password
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=LeHAckK5jqsc-i0WbsYZdaf3oPiU2Y2b4ZJ6qyozCxQ&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=legacy-idp-servlets&tab_id=MDrVJ7rDtuE
+	input-text:username
+	input-password:password
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=gb4CB_xvX_YPpFzrD5rUWD4oAIcYHSUyEt2-wTYtSVk&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&tab_id=3HbFJr7xKgc
+	input-text:username
+	input-password:password
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=LToar1aoz0DZuLY3yqVgT8a_J7I1ubxs2l5QQGhT4XY&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&tab_id=-t-vgG_g2Mk
+	input-text:username
+	input-password:password
+
+https://www.redhat.com/wapps/ugc/register.html/wapps/ugc/register.html?_flowId=register-flow&_flowExecutionKey=e1s1
+	input-hidden:notificationChecksum
+	input-hidden:timeZoneOffset
+	input-radio:userType
+	input-radio:userType
+	input-text:user.login
+	input-text:user.personalInfo.email
+	input-password:password
+	input-password:passwordConfirmation
+	input-text:user.personalInfo.company
+	input-text:user.personalInfo.title
+	input-text:user.personalInfo.firstName
+	input-text:user.personalInfo.lastName
+	select-:site.address.countryCode
+	input-text:site.address.address1
+	input-text:site.address.address2
+	input-text:site.address.address3
+	input-text:site.address.postalCode
+	input-text:site.address.city
+	input-text:site.address.county
+	input-text:site.address.state
+	input-text:user.personalInfo.phoneNumber
+	input-text:user.personalInfo.faxNumber
+	input-hidden:redirect
+	input-submit:_eventId_submit
+	input-hidden:_flowExecutionKey
+
+https://sso.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=JOXe5JymK3TAsdaBR3QIn5zUg9D3RKWR8ZEOdUJZeBw&execution=42ab36f8-26fd-4425-9aba-7792a9f08f59&client_id=legacy-idp-servlets&tab_id=NU4i0WnFGl4
+	input-text:username
+	input-password:password
+
+https://www.gnome.org/
+	input-text:s
+
+https://www.wordpress.org//wordpress.org/search/do-search.php
+	input-text:search
+
+https://forms.fsfe.org/email
+	input-hidden:appid
+	input-text:name
+	input-email:confirm
+	select-:country
+	input-text:zip
+	input-text:comment
+	input-checkbox:permissionPriv
+	input-checkbox:permissionPub
+	input-checkbox:permissionNews
+	input-text:url
+
+https://fsfe.org/share
+	input-radio:popup
+	input-hidden:ref
+	input-hidden:url
+	input-hidden:title
+	input-:website
+	input-radio:popup
+	input-text:diasporapod
+	input-radio:popup
+	input-text:mastodonpod
+
+https://fsfe.org/share
+	input-radio:popup
+	input-hidden:ref
+	input-hidden:url
+	input-hidden:title
+	input-:website
+	input-radio:popup
+	input-text:diasporapod
+	input-radio:popup
+	input-text:mastodonpod
+
+https://www.ow2.org//view/Main/Search
+	input-text:text
+
+https://www.ow2con.org/view/2019/Videos/view/Main/Search
+	input-text:text
+
+https://public.slidesharecdn.com/KishoreGopalakrishna/pinot-realtime-distributed-olap-datastore/search/slideshow
+	input-hidden:searchfrom
+	input-text:q
+
+https://public.slidesharecdn.com/KishoreGopalakrishna/pinot-realtime-distributed-olap-datastore/search/slideshow
+	input-text:q
+
+https://public.slidesharecdn.com/KishoreGopalakrishna/pinot-realtime-distributed-olap-datastore#
+	input-text:
+
+https://public.slidesharecdn.com/jeanbaptiste.dumont/the-ai-rush/search/slideshow
+	input-hidden:searchfrom
+	input-text:q
+
+https://public.slidesharecdn.com/jeanbaptiste.dumont/the-ai-rush/search/slideshow
+	input-text:q
+
+https://public.slidesharecdn.com/jeanbaptiste.dumont/the-ai-rush#
+	input-text:
+
+https://public.slidesharecdn.com/jeanfrancoisim/intro-to-pinot-20160104/search/slideshow
+	input-hidden:searchfrom
+	input-text:q
+
+https://public.slidesharecdn.com/jeanfrancoisim/intro-to-pinot-20160104/search/slideshow
+	input-text:q
+
+https://public.slidesharecdn.com/jeanfrancoisim/intro-to-pinot-20160104#
+	input-text:
+
+https://public.slidesharecdn.com/PewInternet/10-facts-about-jobs-in-the-future/search/slideshow
+	input-hidden:searchfrom
+	input-text:q
+
+https://public.slidesharecdn.com/PewInternet/10-facts-about-jobs-in-the-future/search/slideshow
+	input-text:q
+
+https://public.slidesharecdn.com/PewInternet/10-facts-about-jobs-in-the-future#
+	input-text:
+
+https://us.netdonor.net/page/6650/donate/1
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-text:transaction.donationAmt.other
+	input-hidden:type
+	input-hidden:ea.tracking.id
+	input-submit:
+
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2
+	input-hidden:hidden
+	input-hidden:sessionId
+	input-hidden:gatewaykey
+	input-hidden:gatewayaccountid
+	input-hidden:gatewaymode
+	input-hidden:transaction.selprodvariantid
+	input-radio:transaction.recurrpay
+	input-radio:transaction.recurrpay
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-text:transaction.donationAmt.other
+	input-hidden:transaction.recurrfreq
+	input-hidden:transaction.recurrday
+	input-hidden:transaction.paycurrency
+	input-text:supporter.firstName
+	input-text:supporter.lastName
+	input-text:supporter.emailAddress
+	input-checkbox:supporter.questions.60047
+
+https://www.flickr.com/people/pingnews//search/
+	input-submit:
+	input-text:text
+
+http://www.radioopensource.org/the-new-age-of-old-age//
+	input-search:s
+	input-image:
+
+http://radioopensource.org/
+	input-search:s
+	input-submit:
+
+http://radioopensource.org/about//
+	input-search:s
+	input-image:
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+http://sqsp.link/w5Jigj/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://support.squarespace.com/hc/categories/200352188-Knowledge-Base/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+

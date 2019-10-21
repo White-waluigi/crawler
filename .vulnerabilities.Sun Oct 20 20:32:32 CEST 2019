@@ -1,0 +1,2169 @@
+
+
+
+http://www.fassadenaward.ch
+method:post
+http://www.fassadenaward.ch//prixforix.us14.list-manage.com/subscribe/post?u=302a1eebb4919e7248421ca2b&id=0f2beb0006
+input     email     EMAIL                                             
+input     text      NAMEV                                             
+input     text      NAME                                              
+input     radio     SPONSORING                    Ja                  
+input     radio     SPONSORING                    Nein                
+input     radio     TEILNEHMER                    Ja                  
+input     radio     TEILNEHMER                    Nein                
+input     text      b_302a1eebb4919e7248421ca2b_0f2beb0006                    
+
+curl  "http://www.fassadenaward.ch//prixforix.us14.list-manage.com/subscribe/post?u=302a1eebb4919e7248421ca2b&id=0f2beb0006?EMAIL=&NAMEV=blabla&NAME=blabla&SPONSORING=Ja&SPONSORING=Nein&TEILNEHMER=Ja&TEILNEHMER=Nein&b_302a1eebb4919e7248421ca2b_0f2beb0006=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.wicona.ch
+method:GET
+http://www.wicona.ch/de/ch/System-pages/Suchen/
+input     hidden    lang                          de                  
+input     text      searchText                                        
+
+curl  "http://www.wicona.ch/de/ch/System-pages/Suchen/?lang=de&searchText=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://hydro.com/
+method:GET
+https://hydro.com//en-CH/search/
+input     text      q                                                 
+
+curl  "https://hydro.com//en-CH/search/?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shapesbyhydro.com/
+method:post
+https://www.shapesbyhydro.com//en/contact-form/
+input     hidden    CurrentForm.ContentReferenceWhenSubmitting5                   
+select              CurrentForm.Subject                               
+input     text      CurrentForm.Name                                  
+input     text      CurrentForm.Organization                          
+select              CurrentForm.Country                               
+input     text      CurrentForm.Email                                 
+input     text      CurrentForm.PhoneNumber                           
+textarea            CurrentForm.YourMessage                           
+
+curl  "https://www.shapesbyhydro.com//en/contact-form/?CurrentForm.ContentReferenceWhenSubmitting=5&CurrentForm.Subject=1&CurrentForm.Name=blabla&CurrentForm.Organization=blabla&CurrentForm.Country=1&CurrentForm.Email=blabla&CurrentForm.PhoneNumber=blabla&CurrentForm.YourMessage=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shapesbyhydro.com/
+method:post
+https://www.shapesbyhydro.com//en/newsletters/
+input     hidden    CurrentForm.SubscribeAction   Subscribe           
+input     text      CurrentForm.Name                                  
+input     text      CurrentForm.Email                                 
+input     text      CurrentForm.Company                               
+input     text      CurrentForm.Jobtitle                              
+select              CurrentForm.Country                               
+
+curl  "https://www.shapesbyhydro.com//en/newsletters/?CurrentForm.SubscribeAction=Subscribe&CurrentForm.Name=blabla&CurrentForm.Email=blabla&CurrentForm.Company=blabla&CurrentForm.Jobtitle=blabla&CurrentForm.Country=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shapesbyhydro.com/
+method:
+https://www.shapesbyhydro.com//en/search/
+input     text      q                                                 
+
+curl  "https://www.shapesbyhydro.com//en/search/?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/norskhydroasa
+method:
+https://twitter.com/norskhydroasa/search
+input     text      q                                                 
+
+curl  "https://twitter.com/norskhydroasa/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/norskhydroasa
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /norskhydroasa      
+input     hidden    authenticity_token            3f51673a482f0e262241c9d7e23fd28a452d0e0b
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/norskhydroasa&authenticity_token=3f51673a482f0e262241c9d7e23fd28a452d0e0b&ui_metrics=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/norskhydroasa
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /norskhydroasa      
+input     hidden    authenticity_token            3f51673a482f0e262241c9d7e23fd28a452d0e0b
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/norskhydroasa&authenticity_token=3f51673a482f0e262241c9d7e23fd28a452d0e0b&ui_metrics=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dev.twitter.com/web/embedded-tweets
+method:post
+https://dev.twitter.com/web/embedded-tweetsindex.html
+input     radio     csatFormOption                This page is missing information.
+input     radio     csatFormOption                The information was hard to follow or confusing.
+input     radio     csatFormOption                There is inaccurate information.
+input     radio     csatFormOption                There is a broken link or typo.
+textarea            additionalFeedback                                
+
+curl  "https://dev.twitter.com/web/embedded-tweetsindex.html?csatFormOption=This page is missing information.&csatFormOption=The information was hard to follow or confusing.&csatFormOption=There is inaccurate information.&csatFormOption=There is a broken link or typo.&additionalFeedback=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl  "https://www.demandbase.com/privacy-policy/?first_name=blabla&last_name=blabla&job_title=blabla&email=&phone=blabla&company=blabla&demandbaseSubscriptionFormOptInCheck=1&referer=//www.demandbase.com/company&retURL=//www.demandbase.com/&lead_source=Website&Campaign_ID=70140000000ViNK&LastSFDCCampaignStatus=Converted" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl  "https://www.demandbase.com/privacy-policy/?first_name=blabla&last_name=blabla&job_title=blabla&email=&phone=blabla&company=blabla&demandbaseSubscriptionFormOptInCheck=1&referer=//www.demandbase.com/company&retURL=//www.demandbase.com/&lead_source=Website&Campaign_ID=70140000000ViNK&LastSFDCCampaignStatus=Converted" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:
+https://www.youtube.com/Glassdoor/results
+input     text      search_query                                      
+
+curl  "https://www.youtube.com/Glassdoor/results?search_query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:get
+https://www.youtube.com/Glassdoor/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  "https://www.youtube.com/Glassdoor/user/GlassdoorInc/search?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:get
+https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search
+input     hidden    utf8                          ✓                   
+input     text      q                                                 
+input     hidden    type                                              
+
+curl  "https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search?utf8=✓&q=blabla&type=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://github.community
+method:post
+https://github.community/t5/community/page.searchformv3.form.form
+input     hidden    t:cp                          search/contributions/page
+input     hidden    lia-form-context              9F7jqUi9moRpCSoJmmeCkGQHbkM-s0TJyXMEAr4rAV9E1jdx8MrgIqLP0dgikMRCyZqJa8gZJmaHY77s0slFjCWuYfyOCqSGoJGIAD6DK4YoDDFt9NKs7gydDToq2S1eLIPVf2J43igxl-FWxqhHVkdel358o-_TqcBIijwAUD7cHucqLJoWHnv87FMVpPHYQ-s7YwoFUDNkSp3v971F_WBnxYLp7f6mSp-ekpsYHkog5EdX_Jnw1jNBaLRZuu1J_77BPthvqMtireRkpc6hJvc-GEjQ4gCSQDF4JnRzoeP-3Wwxd3HPu6sJyS3XQBpDNTbNlwnXX95aqtyph8lqFqCG8NMVU6FmkAwbeQhvNmxqiCxdzeECFTVkUg2Da-KZVwwlBTeqWS-6G-DalAj4RYtcZrKSZ3_5WfKGLwYv4xWdn6OXFo6CM4orJzbvH8nP4WO2oZoUAuitQPkf_FeOrH0Bp6bGglgDSfYipZNpF3Pf-B78VvazFbUYEPaKZJqtx7QHOib-mlfzXvK9nap9Ld99vjXBLlqCVXTb4XrFOVRnH5Z9g8pdGklOtUf2WzYTkSWOKxPxRYeohGIMxO_9D6KG0ePNFti_Qcu-FkprtbtU2maflaOXVRNl8ZkdLTCMmbkXy12DGkaYI6LFilctD2qNckQoZXLov9gojjtUuPuuVtTj8XeGqugRktpnNRJui_B4C7gQQjPCfAi5D7pSqkLXftOHAxgC9qVcmwE0PkQ55xGlV7nMR78WOkVuJlEtVd7PcVe6hmUE5HxfzwShuElvtIrC2y_FbCLd3acsmO32Wz4mD2_xMFSgKzkYolbr_FC8QsjbXPZcKYBAsSJJUk0BFuxN8uB2H4u3wsfhqXFbkKYNsXXtg5CjynZgdF4cTjdA0sH7VagsHSNJ9WslKFkBKXvcJnLyMD3xKbhmPC688kabxKYLz4Fn-udIhHY7-aWCAwh6FrlI4nrW6odcjgYMnGbLalsQijsh8bxqrIearv8OlVKTC_cGKcvXrW-2LXvaxHoYYMVeHTtroe9gwA8sBmo6eOH8g6pYwqqQ4EcxUNAOCauZOfQc9hVqby4EQLKfCUkwEyCdrqi29Tq_PyjRL1lZNxDmYzVkAaR2S5sPSe8Ez4Yb_zMizboTdID2VfoOs_ik4WnP5GxZ7uPL0DfY9E8O6h_qDuAaTN_TNDtpC8WunxH2XKnOkyRxoBc9iD3JDhxXsryOSXlQLv8-TQB4rdszWgtccuJ7g1N26c4.
+input     hidden    liaFormContentKey             CommunityPage::searchformv3.form:
+input     hidden    t:formdata                    9zKJRb2t6eBUSdsJE51rxcarwSY=:H4sIAAAAAAAAALWQMU7DMBSGH5U6VQgJwQ1gdZCgCxVDhVQxRKUoYka2+5oGkjjYTlMWjsIJEJfo0I07cABWJgbsJKBSkEigTJH/F/3f9979MzSzI+gopJKPHS5iLQOW6kDEyhlQHw+LyUjIaLJPVMqiQJcf+zNOtZLQFtInNKF8jETTBJWWN23ChcQwYIRRhaTLTEi57gUYDnc81Gmyez5rPW3PXxuw5kIrR4uwTyPUsOle0gl1Qhr7jmeMYr8zTTSsF+DjAvx3725d74EUHJXybI9SBjZ7GB6MXu4eGwDTJOuDW1EoMi0mLDPb/U2kruEWwFyjHHn5KDdZNcqSmtkZnFYs1Ves1gpbX1e42PsHXrHHCfQq9qYK5WLj0vtdf8Pmi+dfGaGucCz0pxMsvT+Ebf474R8IufAbDQePfjcEAAA=
+input     hidden    lia-action-token              O9CE2eUbOc1qSoqumLLESLtPdc5UV39e4SAfJGhAffc.
+input     hidden    form_UID                      form                
+input     hidden    form_instance_key                                 
+input     hidden    submitContextX                searchForm          
+input     text      messageSearchField                                
+input     text      messageSearchField_0                              
+input     text      userSearchField                                   
+input     text      noteSearchField                                   
+input     hidden    as-search-action-id                               
+
+curl  "https://github.community/t5/community/page.searchformv3.form.form?t:cp=search/contributions/page&lia-form-context=9F7jqUi9moRpCSoJmmeCkGQHbkM-s0TJyXMEAr4rAV9E1jdx8MrgIqLP0dgikMRCyZqJa8gZJmaHY77s0slFjCWuYfyOCqSGoJGIAD6DK4YoDDFt9NKs7gydDToq2S1eLIPVf2J43igxl-FWxqhHVkdel358o-_TqcBIijwAUD7cHucqLJoWHnv87FMVpPHYQ-s7YwoFUDNkSp3v971F_WBnxYLp7f6mSp-ekpsYHkog5EdX_Jnw1jNBaLRZuu1J_77BPthvqMtireRkpc6hJvc-GEjQ4gCSQDF4JnRzoeP-3Wwxd3HPu6sJyS3XQBpDNTbNlwnXX95aqtyph8lqFqCG8NMVU6FmkAwbeQhvNmxqiCxdzeECFTVkUg2Da-KZVwwlBTeqWS-6G-DalAj4RYtcZrKSZ3_5WfKGLwYv4xWdn6OXFo6CM4orJzbvH8nP4WO2oZoUAuitQPkf_FeOrH0Bp6bGglgDSfYipZNpF3Pf-B78VvazFbUYEPaKZJqtx7QHOib-mlfzXvK9nap9Ld99vjXBLlqCVXTb4XrFOVRnH5Z9g8pdGklOtUf2WzYTkSWOKxPxRYeohGIMxO_9D6KG0ePNFti_Qcu-FkprtbtU2maflaOXVRNl8ZkdLTCMmbkXy12DGkaYI6LFilctD2qNckQoZXLov9gojjtUuPuuVtTj8XeGqugRktpnNRJui_B4C7gQQjPCfAi5D7pSqkLXftOHAxgC9qVcmwE0PkQ55xGlV7nMR78WOkVuJlEtVd7PcVe6hmUE5HxfzwShuElvtIrC2y_FbCLd3acsmO32Wz4mD2_xMFSgKzkYolbr_FC8QsjbXPZcKYBAsSJJUk0BFuxN8uB2H4u3wsfhqXFbkKYNsXXtg5CjynZgdF4cTjdA0sH7VagsHSNJ9WslKFkBKXvcJnLyMD3xKbhmPC688kabxKYLz4Fn-udIhHY7-aWCAwh6FrlI4nrW6odcjgYMnGbLalsQijsh8bxqrIearv8OlVKTC_cGKcvXrW-2LXvaxHoYYMVeHTtroe9gwA8sBmo6eOH8g6pYwqqQ4EcxUNAOCauZOfQc9hVqby4EQLKfCUkwEyCdrqi29Tq_PyjRL1lZNxDmYzVkAaR2S5sPSe8Ez4Yb_zMizboTdID2VfoOs_ik4WnP5GxZ7uPL0DfY9E8O6h_qDuAaTN_TNDtpC8WunxH2XKnOkyRxoBc9iD3JDhxXsryOSXlQLv8-TQB4rdszWgtccuJ7g1N26c4.&liaFormContentKey=CommunityPage::searchformv3.form:&t:formdata=9zKJRb2t6eBUSdsJE51rxcarwSY=:H4sIAAAAAAAAALWQMU7DMBSGH5U6VQgJwQ1gdZCgCxVDhVQxRKUoYka2+5oGkjjYTlMWjsIJEJfo0I07cABWJgbsJKBSkEigTJH/F/3f9979MzSzI+gopJKPHS5iLQOW6kDEyhlQHw+LyUjIaLJPVMqiQJcf+zNOtZLQFtInNKF8jETTBJWWN23ChcQwYIRRhaTLTEi57gUYDnc81Gmyez5rPW3PXxuw5kIrR4uwTyPUsOle0gl1Qhr7jmeMYr8zTTSsF+DjAvx3725d74EUHJXybI9SBjZ7GB6MXu4eGwDTJOuDW1EoMi0mLDPb/U2kruEWwFyjHHn5KDdZNcqSmtkZnFYs1Ves1gpbX1e42PsHXrHHCfQq9qYK5WLj0vtdf8Pmi+dfGaGucCz0pxMsvT+Ebf474R8IufAbDQePfjcEAAA=&lia-action-token=O9CE2eUbOc1qSoqumLLESLtPdc5UV39e4SAfJGhAffc.&form_UID=form&form_instance_key=&submitContextX=searchForm&messageSearchField=blabla&messageSearchField_0=blabla&userSearchField=blabla&noteSearchField=blabla&as-search-action-id=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://github.community
+method:post
+https://github.community/t5/community/page.searchform.form.form
+input     hidden    t:cp                          search/contributions/page
+input     hidden    lia-form-context              _hGxJALqRlFT9gBVbglRhoy_dF00iy4xCMwr9eBZYkrxoWAAtiGFUvMfVgUJdMjil9D_UdgAcCyRhb8TTbwb4QZesWlHP97NqdjgAsSMmndAzJyo7OsabO1loyDSv88HeDfiB8sw1K_zi25OFHma8-2-Dh6T4sf5pPFBuF9Ot4HE2DhoH6kg0YNGVCw5_ntYHIMOdNWhSEO-VdwJsUoi5_5_qXrzadRPtfpdC6oAHMaLyxvT2HMZC1g2e43SnsL4r6mzQHIN88OvFo2LfUHtc6l6QCCSS0cnL-46XHG3aDk6mPeQVxIWfS1BtmpB3QgTVt27w5mly5SjCzphK49HIAeC6ylTPDCD-32Uzm-TXNFsU8QXpLnsYFXseJiynUj3SXrBh5pLU43nORL6iudhKNUcSr9qdwwm6xrou-bEwAMU-fIOy9nLl56txWIgIuWyY4S8bJCPSNe5nySatPT4CKcLo6iG3NMJC4oN_IDLcYaTOpNz-EFjhAH1w1ssNZnq_wV6ORn8ZZg2yNDy6CkxmmgmdL-exKQarL28cjoXfE4zeD4smvDs-OdWvrXeFjTTygkGDYZH_RgtXfbzLTwZECtOokQcCIoKfIbQ3GqjpjSrdXqAUQmjBt702ODQpj-ATXD5VkB23UXHzE9xiQVA7cg8KNZueYT7Izjr53_mt_FrCXHuas-jfRq8n3i9s7nS9_oxrdsCg_eKtszqzLdqzUAabXJf_cgkpRjCrRy-IFn1w1qoRMfBLXD1Jk4BF5kd4oSHZd6Dhi-HYxY21sYCyfjBnFKFSEqv9xMufEBe_suXuCYjfag7mBhxjp2yYLzQE4jpoKPdE7tdqao6mPb0dBGugK8SF52VPM56v9XUVRidMAafR0s3WFCMSp6u7QIyh2fdIK-AVRUfLmtNQfaH29JvEMmaqoF9oRBt-D4uoqXAVXIyFoaZN9YP56a4PUrDD29auQ6uO7t51KePZFceqs7SU_Dkw0NSUcWulr2y1Tr6pRga65wvqDBdAg5Pxp6D54I7URFfTeH9JqwS7XkrDA..
+input     hidden    liaFormContentKey             CommunityPage::searchform.form:
+input     hidden    t:formdata                    3iBfLoFGruCAfpDVd4a1Ml2BQhE=:H4sIAAAAAAAAAK2SMU7DMBSGH5U6VQiB4AawJgwUAZ0qUJFQgEoRM3pJ3TSQxMF+IenCUTgB4hId2LgDB2BlYiCJEygFibRksv0/+/+/Z/vhFZqxASeSobBHus0DEq4VkcsDqffRYQeqMuTC13wmZSoVisu8wS+SFNDmwtEwRHvENMKQSRLjtmZzwTzX0iyUTOtaqYg29bIjmyajKNy6mLReNp7eG7BkQCsn4d4Z+oxgzbjCW9Q9DBzdTAEDp5OEqVykm3l6blV7L915e+kLbqdGZmT5rpRp9uRxsDN8u39uACRhfA6nlfjo2qqGeAN3AATrP+/icrv2tCysGffgqJJrJJmY9ptZl+grmT79hjX5zwcbcPrW/Mz6EzbTF4H9w1/B7sFuJTM1dQQGkYfCpXGJt6oqx1+VxT0VUgf2qx3PPjwVQ7aVJVRSLSv1UKn/ssyhPgC3sZUktgQAAA==
+input     hidden    lia-action-token              j5S0wda3BIIXv8QwqPiZjL5JA5rx5ZeSH1JdmzmUqFY.
+input     hidden    form_UID                      form_0              
+input     hidden    form_instance_key                                 
+input     text      messageSearchField                                
+input     text      messageSearchField_0                              
+input     text      userSearchField                                   
+input     text      noteSearchField                                   
+select              searchGranularity                                 
+input     hidden    submitContextX                searchForm          
+
+curl  "https://github.community/t5/community/page.searchform.form.form?t:cp=search/contributions/page&lia-form-context=_hGxJALqRlFT9gBVbglRhoy_dF00iy4xCMwr9eBZYkrxoWAAtiGFUvMfVgUJdMjil9D_UdgAcCyRhb8TTbwb4QZesWlHP97NqdjgAsSMmndAzJyo7OsabO1loyDSv88HeDfiB8sw1K_zi25OFHma8-2-Dh6T4sf5pPFBuF9Ot4HE2DhoH6kg0YNGVCw5_ntYHIMOdNWhSEO-VdwJsUoi5_5_qXrzadRPtfpdC6oAHMaLyxvT2HMZC1g2e43SnsL4r6mzQHIN88OvFo2LfUHtc6l6QCCSS0cnL-46XHG3aDk6mPeQVxIWfS1BtmpB3QgTVt27w5mly5SjCzphK49HIAeC6ylTPDCD-32Uzm-TXNFsU8QXpLnsYFXseJiynUj3SXrBh5pLU43nORL6iudhKNUcSr9qdwwm6xrou-bEwAMU-fIOy9nLl56txWIgIuWyY4S8bJCPSNe5nySatPT4CKcLo6iG3NMJC4oN_IDLcYaTOpNz-EFjhAH1w1ssNZnq_wV6ORn8ZZg2yNDy6CkxmmgmdL-exKQarL28cjoXfE4zeD4smvDs-OdWvrXeFjTTygkGDYZH_RgtXfbzLTwZECtOokQcCIoKfIbQ3GqjpjSrdXqAUQmjBt702ODQpj-ATXD5VkB23UXHzE9xiQVA7cg8KNZueYT7Izjr53_mt_FrCXHuas-jfRq8n3i9s7nS9_oxrdsCg_eKtszqzLdqzUAabXJf_cgkpRjCrRy-IFn1w1qoRMfBLXD1Jk4BF5kd4oSHZd6Dhi-HYxY21sYCyfjBnFKFSEqv9xMufEBe_suXuCYjfag7mBhxjp2yYLzQE4jpoKPdE7tdqao6mPb0dBGugK8SF52VPM56v9XUVRidMAafR0s3WFCMSp6u7QIyh2fdIK-AVRUfLmtNQfaH29JvEMmaqoF9oRBt-D4uoqXAVXIyFoaZN9YP56a4PUrDD29auQ6uO7t51KePZFceqs7SU_Dkw0NSUcWulr2y1Tr6pRga65wvqDBdAg5Pxp6D54I7URFfTeH9JqwS7XkrDA..&liaFormContentKey=CommunityPage::searchform.form:&t:formdata=3iBfLoFGruCAfpDVd4a1Ml2BQhE=:H4sIAAAAAAAAAK2SMU7DMBSGH5U6VQiB4AawJgwUAZ0qUJFQgEoRM3pJ3TSQxMF+IenCUTgB4hId2LgDB2BlYiCJEygFibRksv0/+/+/Z/vhFZqxASeSobBHus0DEq4VkcsDqffRYQeqMuTC13wmZSoVisu8wS+SFNDmwtEwRHvENMKQSRLjtmZzwTzX0iyUTOtaqYg29bIjmyajKNy6mLReNp7eG7BkQCsn4d4Z+oxgzbjCW9Q9DBzdTAEDp5OEqVykm3l6blV7L915e+kLbqdGZmT5rpRp9uRxsDN8u39uACRhfA6nlfjo2qqGeAN3AATrP+/icrv2tCysGffgqJJrJJmY9ptZl+grmT79hjX5zwcbcPrW/Mz6EzbTF4H9w1/B7sFuJTM1dQQGkYfCpXGJt6oqx1+VxT0VUgf2qx3PPjwVQ7aVJVRSLSv1UKn/ssyhPgC3sZUktgQAAA==&lia-action-token=j5S0wda3BIIXv8QwqPiZjL5JA5rx5ZeSH1JdmzmUqFY.&form_UID=form_0&form_instance_key=&messageSearchField=blabla&messageSearchField_0=blabla&userSearchField=blabla&noteSearchField=blabla&searchGranularity=1&submitContextX=searchForm" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://aircall.pr.co
+method:get
+http://aircall.pr.co/search/press_releases
+input     text      q                                                 
+
+curl  "http://aircall.pr.co/search/press_releases?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.demain.fr/emploi/offres-demplois/le-journal-de-lemploi-200-postes-chez-aircall/
+method:get
+https://www.demain.fr/
+input     text      s                                                 
+
+curl  "https://www.demain.fr/?s=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://playtv.fr/replay-tv/videos/demain-tv/
+method:
+http://playtv.fr/replay-tv/videos/demain-tv//recherche/
+input     text      q                                                 
+
+curl  "http://playtv.fr/replay-tv/videos/demain-tv//recherche/?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.wibox.fr/playtv/
+method:post
+http://www.wibox.fr/playtv//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "http://www.wibox.fr/playtv//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://espace-client.wibox.fr
+method:post
+https://espace-client.wibox.fr/Accueil/login
+input     hidden    redirect                                          
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://espace-client.wibox.fr/Accueil/login?redirect=&username=blabla&password=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://espace-client.wibox.fr/Accueil/passwordRecup
+method:post
+https://espace-client.wibox.fr/Accueil/passwordRecup
+input     text      id_client                                         
+input     text      contact_cli                                       
+
+curl  "https://espace-client.wibox.fr/Accueil/passwordRecup?id_client=blabla&contact_cli=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://espace-client.wibox.fr/accueil/login
+method:post
+https://espace-client.wibox.fr/Accueil/login
+input     hidden    redirect                                          
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://espace-client.wibox.fr/Accueil/login?redirect=&username=blabla&password=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:post
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//newsletter/post
+input     text      email                                             
+input     hidden    _token                        hKlVA247_O0_gKpXJSmTJZcQxVa-A6bmosoUQpdyqVc
+
+curl  "https://www.wibox.fr//newsletter/post?email=blabla&_token=hKlVA247_O0_gKpXJSmTJZcQxVa-A6bmosoUQpdyqVc" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://espace-client.wibox.fr/accueil/login
+method:post
+https://espace-client.wibox.fr/Accueil/login
+input     hidden    redirect                                          
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://espace-client.wibox.fr/Accueil/login?redirect=&username=blabla&password=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://espace-client.wibox.fr/Accueil/passwordRecup
+method:post
+https://espace-client.wibox.fr/Accueil/passwordRecup
+input     text      id_client                                         
+input     text      contact_cli                                       
+
+curl  "https://espace-client.wibox.fr/Accueil/passwordRecup?id_client=blabla&contact_cli=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:post
+https://www.wibox.fr//test-eligibilite-fibre-optique
+input     text      zip_code                                          
+
+curl  "https://www.wibox.fr//test-eligibilite-fibre-optique?zip_code=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.wibox.fr/
+method:POST
+https://www.wibox.fr//newsletter/post
+input     text      email                                             
+input     hidden    _token                        XFnxkiaHHB3hvdO46LI7qq32Yyx4-fhhmqD6yQgB4tM
+
+curl  "https://www.wibox.fr//newsletter/post?email=blabla&_token=XFnxkiaHHB3hvdO46LI7qq32Yyx4-fhhmqD6yQgB4tM" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://webmail.wibox.fr/
+method:post
+http://webmail.wibox.fr/./?_task=login
+input     hidden    _token                        nVZvv9jwdwwnuPL1PRIoHgT2ox0hV2zp
+input     hidden    _task                         login               
+input     hidden    _action                       login               
+input     hidden    _timezone                     _default_           
+input     hidden    _url                                              
+input     text      _user                                             
+input     password  _pass                                             
+
+curl  "http://webmail.wibox.fr/./?_task=login?_token=nVZvv9jwdwwnuPL1PRIoHgT2ox0hV2zp&_task=login&_action=login&_timezone=_default_&_url=&_user=blabla&_pass=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.dartybox.fr/cms/web/thd/tv/tv-sur-pc
+method:post
+http://www.dartybox.fr/cms/web/thd/tv/tv-sur-pc/enablers-prospect/services/WSRedboxProspect
+input     text      adresseEmail                  Entrez votre adresse e-mail
+
+curl  "http://www.dartybox.fr/cms/web/thd/tv/tv-sur-pc/enablers-prospect/services/WSRedboxProspect?adresseEmail=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.darty.com
+method:get
+http://www.darty.com/nav/recherche
+input     text      text                                              
+
+curl  "http://www.darty.com/nav/recherche?text=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.darty.com
+method:get
+https://magasin.darty.com/search
+input     text      query                                             
+
+curl  "https://magasin.darty.com/search?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.darty.com
+method:post
+http://www.darty.com#
+input     radio     optin_civilite                MME                 
+input     radio     optin_civilite                M                   
+input     text      optin_nom                                         
+input     text      optin_prenom                                      
+select              optin_date_jj                                     
+select              optin_date_mm                                     
+select              optin_date_aa                                     
+input     text      optin_telephone                                   
+select              optin_magasin                                     
+input     radio     optin_sms                     true                
+input     radio     optin_sms                     false               
+input     radio     optin_fnac                    true                
+input     radio     optin_fnac                    false               
+input     hidden    optin_email                                       
+
+curl  "http://www.darty.com#?optin_civilite=MME&optin_civilite=M&optin_nom=blabla&optin_prenom=blabla&optin_date_jj=1&optin_date_mm=1&optin_date_aa=1&optin_telephone=blabla&optin_magasin=1&optin_sms=true&optin_sms=false&optin_fnac=true&optin_fnac=false&optin_email=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://ugap-recrute.talent-soft.com/
+method:post
+https://ugap-recrute.talent-soft.com//Account/Login
+input     hidden    __RequestVerificationToken    RWYWOCzi51-xZ_ImVMl6asBpV7JrBylZzXUVaqbiX3do0poIK_3NzcW2M1ajl2GqpB0jXzSzh6dY-G2s2qQq-yLf3bw1
+input     text      Login                                             
+input     password  Password                                          
+input     checkbox  StayConnected                 true                
+input     hidden    StayConnected                 false               
+input     hidden    ReturnUrl                     /mon-compte/mon-espace.aspx
+
+curl  "https://ugap-recrute.talent-soft.com//Account/Login?__RequestVerificationToken=RWYWOCzi51-xZ_ImVMl6asBpV7JrBylZzXUVaqbiX3do0poIK_3NzcW2M1ajl2GqpB0jXzSzh6dY-G2s2qQq-yLf3bw1&Login=blabla&Password=1&StayConnected=true&StayConnected=false&ReturnUrl=/mon-compte/mon-espace.aspx" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.cision.fi/yhteydenotto/?nav_location=eyebrow_menu
+method:post
+https://s1632284857.t.eloqua.com/e/f2
+input     hidden    elqFormName                   FIpoicontact        
+input     hidden                                                      
+input     hidden    elqSiteID                     1632284857          
+input     hidden    gACampaign1                                       
+input     hidden    gAContent1                                        
+input     hidden    gAMedium1                                         
+input     hidden    gASource1                                         
+input     hidden    gATerm1                                           
+input     hidden    originalGACampaign1                               
+input     hidden    originalGAContent1                                
+input     hidden    originalGAMedium1                                 
+input     hidden    originalGASource1                                 
+input     hidden    originalGATerm1                                   
+input     hidden    sFDCLastCampaignID            701w0000001AegF     
+input     hidden    CLID                          site_header         
+input     hidden    GCLID__c                                          
+input     hidden    siteLanguage                  fi                  
+input     hidden    campaign_id                   701w0000001AegF     
+input     hidden    org_campaign_id               701w0000001AegF     
+input     hidden    retURL                        https://www.cision.fi/yhteydenotto/kiitos/
+input     hidden    leadSourceMostRecent1                             
+input     text      firstName                                         
+input     text      lastName                                          
+input     email     emailAddress                                      
+input     tel       busPhone                                          
+input     text      company                                           
+select              country                                           
+select              state                                             
+select              jobrole                                           
+select              jobtitle                                          
+select              poi                                               
+input     checkbox  optin                         0                   
+input     hidden    CLID                          site_header         
+
+curl  "https://s1632284857.t.eloqua.com/e/f2?elqFormName=FIpoicontact&&elqSiteID=1632284857&gACampaign1=&gAContent1=&gAMedium1=&gASource1=&gATerm1=&originalGACampaign1=&originalGAContent1=&originalGAMedium1=&originalGASource1=&originalGATerm1=&sFDCLastCampaignID=701w0000001AegF&CLID=site_header&GCLID__c=1&siteLanguage=fi&campaign_id=701w0000001AegF&org_campaign_id=701w0000001AegF&retURL=https://www.cision.fi/yhteydenotto/kiitos/&leadSourceMostRecent1=&firstName=blabla&lastName=blabla&emailAddress=1&busPhone=1&company=blabla&country=1&state=1&jobrole=1&jobtitle=1&poi=1&optin=0&CLID=site_header" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.cisionjobs.eu?nav_location=footer
+method:get
+https://www.cisionjobs.eu?nav_location=footer/searchjobs/
+input     text      Keywords                                          
+input     text      radialtown                                        
+input     hidden    LocationId                                        
+select              RadialLocation                                    
+
+curl  "https://www.cisionjobs.eu?nav_location=footer/searchjobs/?Keywords=blabla&radialtown=blabla&LocationId=1&RadialLocation=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.theguardian.com/inequality/2017/aug/08/rise-of-the-racist-robots-how-ai-is-learning-all-our-worst-impulses
+method:
+https://www.google.co.uk/search
+input     text      q                                                 
+input     hidden    as_sitesearch                 www.theguardian.com 
+
+curl  "https://www.google.co.uk/search?q=blabla&as_sitesearch=www.theguardian.com" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://stux.wufoo.com/forms/permissions-and-licensing-request/
+method:post
+https://stux.wufoo.com/forms/permissions-and-licensing-request/
+input     text      Field1                                            
+input     text      Field2                                            
+select              Field217                                          
+input     text      Field3                                            
+input     text      Field4                                            
+input     text      Field5                                            
+input     text      Field6                                            
+input     text      Field7                                            
+input     text      Field8                                            
+select              Field9                                            
+input     tel       Field10                                           
+input     tel       Field10-1                                         
+input     tel       Field10-2                                         
+input     email     Field11                                           
+input     checkbox  Field116                      Photo               
+input     checkbox  Field117                      Graphic or Illustration
+input     checkbox  Field118                      Video               
+input     checkbox  Field120                      Article Text        
+input     checkbox  Field121                      Custom Article Reprint
+input     checkbox  Field119                      Other               
+input     text      Field216                                          
+input     text      Field221                                          
+input     text      Field222                                          
+input     text      Field224-1                                        
+input     text      Field224-2                                        
+input     text      Field224                                          
+textarea            Field220                                          
+select              Field227                                          
+input     checkbox  Field340                      Book cover (print only)
+input     checkbox  Field344                      Book cover (electronic only)
+input     checkbox  Field341                      Book interior (print only) 
+input     checkbox  Field345                      Book interior (electronic only) 
+input     checkbox  Field348                      Textbook cover (print only)
+input     checkbox  Field353                      Textbook cover (electronic only)
+input     checkbox  Field350                      Textbook interior (print only)
+input     checkbox  Field354                      Textbook interior (electronic only)
+input     checkbox  Field342                      Magazine cover (print and electronic)
+input     checkbox  Field351                      Magazine interior (print and electronic)
+input     checkbox  Field343                      Newspaper (print and electronic)
+input     checkbox  Field346                      Web / online        
+input     checkbox  Field347                      Apps (iPad, iPhone, Android)
+input     checkbox  Field352                      Newsletter  (print only)
+input     checkbox  Field349                      Newsletter  (electronic / email only)
+input     text      Field755                                          
+input     text      Field756                                          
+input     text      Field762                                          
+input     text      Field757                                          
+select              Field749                                          
+input     checkbox  Field442                      Television news program
+input     checkbox  Field449                      Television documentary / Educational program
+input     checkbox  Field443                      Television scripted program
+input     checkbox  Field450                      Television non-scripted program / Talk show
+input     checkbox  Field444                      Movie documentary / Educational
+input     checkbox  Field445                      Movie non-documentary
+input     checkbox  Field446                      Video on Demand (Netflix, Youtube, Hulu)
+input     text      Field751                                          
+input     checkbox  Field544                      Select one          
+input     checkbox  Field545                      Billboards / Busboards
+input     checkbox  Field546                      Print Advertising (magazine, newspaper)
+input     checkbox  Field547                      Social Media (Facebook, Twitter, Instagram, Pinterest)
+input     checkbox  Field548                      Television          
+input     checkbox  Field549                      Advertorial         
+input     checkbox  Field550                      Web / Digital       
+input     checkbox  Field644                      Internal print brochure, newsletter and collateral
+input     checkbox  Field645                      Internal digital / Intranet, email, video and presentation
+input     checkbox  Field646                      Internal wall display and decor
+input     checkbox  Field647                      Nonprofit and Museum display
+select              Field753                                          
+textarea            Field744                                          
+input     text      Field764                                          
+select              Field745                                          
+input     text      Field760                                          
+input     text      Field225-1                                        
+input     text      Field225-2                                        
+input     text      Field225                                          
+input     checkbox  Field238                      Yes! I'm in a hurry and willing to pay extra!
+input     hidden    currentPage                   wuBet2PrTFeJwUPfyFszwuBeVKbLxLsSwZBvUVekmwf8Owuslashhwuslashk=
+textarea            comment                                           
+input     hidden    idstamp                       hnv5ph/FTheBMpmJHC4wzg==
+input     hidden    stats                         {"errors":0,"startTime":0,"endTime":0,"referer":null}
+input     hidden    clickOrEnter                                      
+
+curl  "https://stux.wufoo.com/forms/permissions-and-licensing-request/?Field1=blabla&Field2=blabla&Field217=1&Field3=blabla&Field4=blabla&Field5=blabla&Field6=blabla&Field7=blabla&Field8=blabla&Field9=1&Field10=&Field10-1=&Field10-2=&Field11=&Field116=Photo&Field117=Graphic or Illustration&Field118=Video&Field120=Article Text&Field121=Custom Article Reprint&Field119=Other&Field216=blabla&Field221=blabla&Field222=blabla&Field224-1=blabla&Field224-2=blabla&Field224=blabla&Field220=blabla&Field227=1&Field340=Book cover (print only)&Field344=Book cover (electronic only)&Field341=Book interior (print only) &Field345=Book interior (electronic only) &Field348=Textbook cover (print only)&Field353=Textbook cover (electronic only)&Field350=Textbook interior (print only)&Field354=Textbook interior (electronic only)&Field342=Magazine cover (print and electronic)&Field351=Magazine interior (print and electronic)&Field343=Newspaper (print and electronic)&Field346=Web / online&Field347=Apps (iPad, iPhone, Android)&Field352=Newsletter  (print only)&Field349=Newsletter  (electronic / email only)&Field755=blabla&Field756=blabla&Field762=blabla&Field757=blabla&Field749=1&Field442=Television news program&Field449=Television documentary / Educational program&Field443=Television scripted program&Field450=Television non-scripted program / Talk show&Field444=Movie documentary / Educational&Field445=Movie non-documentary&Field446=Video on Demand (Netflix, Youtube, Hulu)&Field751=blabla&Field544=Select one&Field545=Billboards / Busboards&Field546=Print Advertising (magazine, newspaper)&Field547=Social Media (Facebook, Twitter, Instagram, Pinterest)&Field548=Television&Field549=Advertorial&Field550=Web / Digital&Field644=Internal print brochure, newsletter and collateral&Field645=Internal digital / Intranet, email, video and presentation&Field646=Internal wall display and decor&Field647=Nonprofit and Museum display&Field753=1&Field744=blabla&Field764=blabla&Field745=1&Field760=blabla&Field225-1=blabla&Field225-2=blabla&Field225=blabla&Field238=Yes! I'm in a hurry and willing to pay extra!&currentPage=wuBet2PrTFeJwUPfyFszwuBeVKbLxLsSwZBvUVekmwf8Owuslashhwuslashk=&comment=blabla&idstamp=hnv5ph/FTheBMpmJHC4wzg==&stats={"errors":0,"startTime":0,"endTime":0,"referer":null}&clickOrEnter=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+method:post
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing//propublica.us6.list-manage.com/subscribe/post?u=ff2018a8e2&id=f74e196955
+input     email     EMAIL                                             
+input     checkbox  group[15237][128]             128                 
+input     text      b_ff2018a8e2_f74e196955                           
+
+curl  "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing//propublica.us6.list-manage.com/subscribe/post?u=ff2018a8e2&id=f74e196955?EMAIL=&group[15237][128]=128&b_ff2018a8e2_f74e196955=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+method:post
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing//propublica.us6.list-manage.com/subscribe/post?u=ff2018a8e2&id=f74e196955
+input     email     EMAIL                                             
+input     checkbox  group[15237][128]             128                 
+input     text      b_ff2018a8e2_f74e196955                           
+
+curl  "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing//propublica.us6.list-manage.com/subscribe/post?u=ff2018a8e2&id=f74e196955?EMAIL=&group[15237][128]=128&b_ff2018a8e2_f74e196955=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://creativecommons.org/licenses/by-nc-nd/3.0/
+method:get
+https://us.netdonor.net/page/6650/donate/1
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       gf_other_choice     
+input     text      transaction.donationAmt.other                     
+input     hidden    type                          One Time            
+input     hidden    ea.tracking.id                deed-overlay        
+
+curl  "https://us.netdonor.net/page/6650/donate/1?transaction.donationAmt=5&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=gf_other_choice&transaction.donationAmt.other=blabla&type=One Time&ea.tracking.id=deed-overlay" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer
+method:post
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2
+input     hidden    hidden                                            
+input     hidden    sessionId                     a93a09b73fa648c887a9b791032ad974-server50012
+input     hidden    gatewaykey                                        
+input     hidden    gatewayaccountid                                  
+input     hidden    gatewaymode                                       
+input     hidden    transaction.selprodvariantid                      
+input     radio     transaction.recurrpay         one-time            
+input     radio     transaction.recurrpay         Y                   
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       10                  
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       75                  
+input     radio     transaction.donationAmt       100                 
+input     radio     transaction.donationAmt                           
+input     text      transaction.donationAmt.other                     
+input     hidden    transaction.recurrfreq        MONTHLY             
+input     hidden    transaction.recurrday                             
+input     hidden    transaction.paycurrency       USD                 
+input     text      supporter.firstName                               
+input     text      supporter.lastName                                
+input     text      supporter.emailAddress                            
+input     checkbox  supporter.questions.60047     Y                   
+
+curl  "https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2?hidden=&sessionId=a93a09b73fa648c887a9b791032ad974-server50012&gatewaykey=&gatewayaccountid=&gatewaymode=&transaction.selprodvariantid=&transaction.recurrpay=one-time&transaction.recurrpay=Y&transaction.donationAmt=5&transaction.donationAmt=10&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=75&transaction.donationAmt=100&transaction.donationAmt=&transaction.donationAmt.other=blabla&transaction.recurrfreq=MONTHLY&transaction.recurrday=&transaction.paycurrency=USD&supporter.firstName=blabla&supporter.lastName=blabla&supporter.emailAddress=blabla&supporter.questions.60047=Y" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.flickr.com/people/pingnews/
+method:get
+https://www.flickr.com/people/pingnews//search/
+input     text      text                                              
+
+curl  "https://www.flickr.com/people/pingnews//search/?text=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.flickr.com/groups/utata/
+method:get
+https://www.flickr.com/groups/utata//search/
+input     text      text                                              
+
+curl  "https://www.flickr.com/groups/utata//search/?text=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.smugmug.com/
+method:get
+https://www.smugmug.com//search/
+input     text      q                                                 
+input     hidden    c                             photos              
+
+curl  "https://www.smugmug.com//search/?q=blabla&c=photos" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://dgrin.com
+method:get
+http://dgrin.com/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "http://dgrin.com/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://vanillicon.com/
+method:get
+http://vanillicon.com///vanillicon.com/
+input     text      seed                                              
+
+curl  "http://vanillicon.com///vanillicon.com/?seed=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://blog.vanillaforums.com/
+method:
+https://blog.vanillaforums.com//search
+input     text      query                                             
+
+curl  "https://blog.vanillaforums.com//search?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://vanillaforums.org/discussions/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      search                                            
+
+curl  "https://vanillaforums.org/discussions/search?search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      search                                            
+
+curl  "https://vanillaforums.org/discussions/search?search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      Search                                            
+
+curl  "https://vanillaforums.org/discussions/search?Search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://accounts.vanillaforums.com/entry/signin
+method:post
+https://accounts.vanillaforums.com/entry/signin/entry/signin
+input     hidden    TransientKey                                      
+input     hidden    hpt                                               
+input     hidden    Target                                            
+input     text      Email                                             
+input     password  Password                                          
+input     hidden    Checkboxes[]                  RememberMe          
+input     checkbox  RememberMe                    1                   
+
+curl  "https://accounts.vanillaforums.com/entry/signin/entry/signin?TransientKey=&hpt=&Target=&Email=blabla&Password=&Checkboxes[]=RememberMe&RememberMe=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://accounts.vanillaforums.com/entry/signin
+method:post
+https://accounts.vanillaforums.com/entry/signin/entry/passwordrequest
+input     hidden    TransientKey                                      
+input     hidden    hpt                                               
+input     text      Email                                             
+
+curl  "https://accounts.vanillaforums.com/entry/signin/entry/passwordrequest?TransientKey=&hpt=&Email=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/smugmug-customization/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    cat                           64                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-customization/search?cat=64&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    cat                           64                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-customization/search?cat=64&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/smugmug-pro-sales-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    cat                           35                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-pro-sales-support/search?cat=35&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    cat                           35                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-pro-sales-support/search?cat=35&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/bug-reporting/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    cat                           54                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/bug-reporting/search?cat=54&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    cat                           54                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/bug-reporting/search?cat=54&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/smugmug-product-news/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    cat                           62                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-product-news/search?cat=62&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    cat                           62                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-product-news/search?cat=62&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/smugmug-feature-requests/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    cat                           63                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-feature-requests/search?cat=63&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    cat                           63                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-feature-requests/search?cat=63&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/smugmug-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    cat                           12                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-support/search?cat=12&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    cat                           12                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/smugmug-support/search?cat=12&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com/categories/dgrin-forum-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    cat                           28                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/dgrin-forum-support/search?cat=28&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    cat                           28                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  "https://dgrin.com/categories/dgrin-forum-support/search?cat=28&adv=1&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://dgrin.com/
+method:get
+https://dgrin.com//search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  "https://dgrin.com//search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.flickr.com/help/forum/en-us/72157645851675914/lastpage#reply
+method:get
+https://www.flickr.com/help/forum/en-us/72157645851675914/lastpage#reply/search/
+input     text      q                                                 
+
+curl  "https://www.flickr.com/help/forum/en-us/72157645851675914/lastpage#reply/search/?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.amazon.com/gp/product/1501144324/ref=as_li_tl?ie=UTF8&tag=territoryrunc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1501144324&linkId=f439d86ad86d536449e3f9e53c64991d
+method:get
+https://www.amazon.com/gp/product/1501144324/ref=as_li_tl?ie=UTF8&tag=territoryrunc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1501144324&linkId=f439d86ad86d536449e3f9e53c64991d/errors/validateCaptcha
+input     hidden    amzn                          DKx/Hg+rVL1qmAT84AFVkQ==
+input     hidden    amzn-r                        /gp/product/1501144324/ref=as_li_tl?ie=UTF8&tag=territoryrunc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1501144324&linkId=f439d86ad86d536449e3f9e53c64991d
+input     text      field-keywords                                    
+
+curl  "https://www.amazon.com/gp/product/1501144324/ref=as_li_tl?ie=UTF8&tag=territoryrunc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1501144324&linkId=f439d86ad86d536449e3f9e53c64991d/errors/validateCaptcha?amzn=DKx/Hg+rVL1qmAT84AFVkQ==&amzn-r=/gp/product/1501144324/ref=as_li_tl?ie=UTF8&tag=territoryrunc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1501144324&linkId=f439d86ad86d536449e3f9e53c64991d&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496
+method:GET
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496/s/ref=nb_sb_noss
+select              url                                               
+input     text      field-keywords                                    
+
+curl  "https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496/s/ref=nb_sb_noss?url=1&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.amazon.in/b?ie=UTF8&node=6691071031&pf_rd_p=f77b3f7f-745e-4dc3-a731-8d4f5c9ccca7&pf_rd_r=5DVJC2AX0CHV31Y0YWNW
+method:GET
+https://www.amazon.in/b?ie=UTF8&node=6691071031&pf_rd_p=f77b3f7f-745e-4dc3-a731-8d4f5c9ccca7&pf_rd_r=5DVJC2AX0CHV31Y0YWNW/s/ref=nb_sb_noss
+select              url                                               
+input     text      field-keywords                                    
+
+curl  "https://www.amazon.in/b?ie=UTF8&node=6691071031&pf_rd_p=f77b3f7f-745e-4dc3-a731-8d4f5c9ccca7&pf_rd_r=5DVJC2AX0CHV31Y0YWNW/s/ref=nb_sb_noss?url=1&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.amazon.nl/ref=footer_nl
+method:GET
+http://www.amazon.nl/ref=footer_nl/s/ref=nb_sb_noss
+input     hidden    __mk_nl_NL                    ÅMÅŽÕÑ              
+select              url                                               
+input     text      field-keywords                                    
+
+curl  "http://www.amazon.nl/ref=footer_nl/s/ref=nb_sb_noss?__mk_nl_NL=ÅMÅŽÕÑ&url=1&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.amazon.ae/ref=footer_ae
+method:GET
+http://www.amazon.ae/ref=footer_ae/s/ref=nb_sb_noss
+select              url                                               
+input     text      field-keywords                                    
+
+curl  "http://www.amazon.ae/ref=footer_ae/s/ref=nb_sb_noss?url=1&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/welcome
+method:get
+https://www.shopbop.com/welcome/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/welcome/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/welcome
+method:post
+https://www.shopbop.com/welcome/s/subscriptions/MASTER
+input     text                                                        
+input     hidden                                  MASTER              
+input     hidden                                  Global Header       
+input     hidden    _csrf                         32bff4e1-f429-4048-8b60-ae65603e7254
+
+curl  "https://www.shopbop.com/welcome/s/subscriptions/MASTER?blabla&MASTER&Global Header&_csrf=32bff4e1-f429-4048-8b60-ae65603e7254" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://cn.shopbop.com/i18n/switchSubdomains
+method:get
+https://cn.shopbop.com/i18n/switchSubdomains/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://cn.shopbop.com/i18n/switchSubdomains/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/i18n/switchSubdomains
+method:get
+https://www.shopbop.com/i18n/switchSubdomains/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/i18n/switchSubdomains/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://ru.shopbop.com/i18n/switchSubdomains
+method:get
+https://ru.shopbop.com/i18n/switchSubdomains/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://ru.shopbop.com/i18n/switchSubdomains/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112675734810,os=2,link=shopbopDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112675734810,os=2,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112675734810,os=2,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/#cs=ov=112676275960,os=1,link=eastDaneDomainHeader
+method:get
+https://www.shopbop.com/#cs=ov=112676275960,os=1,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/#cs=ov=112676275960,os=1,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112673895120,os=1,link=eastDaneDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112673895120,os=1,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112673895120,os=1,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/#cs=ov=112676238770,os=1,link=eastDaneDomainHeader
+method:get
+https://www.shopbop.com/#cs=ov=112676238770,os=1,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/#cs=ov=112676238770,os=1,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/#cs=ov=112676238770,os=1,link=shopbopDomainHeader
+method:get
+https://www.shopbop.com/#cs=ov=112676238770,os=1,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/#cs=ov=112676238770,os=1,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.shopbop.com/#cs=ov=112676275960,os=1,link=shopbopDomainHeader
+method:get
+https://www.shopbop.com/#cs=ov=112676275960,os=1,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.shopbop.com/#cs=ov=112676275960,os=1,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112675734810,os=2,link=eastDaneDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112675734810,os=2,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112675734810,os=2,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112675828460,os=2,link=shopbopDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112675828460,os=2,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112675828460,os=2,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112675828460,os=2,link=eastDaneDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112675828460,os=2,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112675828460,os=2,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112676275830,os=2,link=shopbopDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112676275830,os=2,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112676275830,os=2,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112676275830,os=2,link=eastDaneDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112676275830,os=2,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112676275830,os=2,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://ru.shopbop.com/i18n/switchSubdomains
+method:get
+https://ru.shopbop.com/i18n/switchSubdomains/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://ru.shopbop.com/i18n/switchSubdomains/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112676238580,os=1,link=shopbopDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112676238580,os=1,link=shopbopDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112676238580,os=1,link=shopbopDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.eastdane.com/#cs=ov=112676238580,os=1,link=eastDaneDomainHeader
+method:get
+https://www.eastdane.com/#cs=ov=112676238580,os=1,link=eastDaneDomainHeader/s/products
+input     text      query                                             
+input     hidden    searchSuggestion              false               
+
+curl  "https://www.eastdane.com/#cs=ov=112676238580,os=1,link=eastDaneDomainHeader/s/products?query=blabla&searchSuggestion=false" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.bookdepository.com/
+method:
+https://www.bookdepository.com//search
+input     text      searchTerm                                        
+input     hidden    search                        Find book           
+
+curl  "https://www.bookdepository.com//search?searchTerm=blabla&search=Find book" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://blog.alexa.com/
+method:post
+https://blog.alexa.com/thanks-for-subscribing/
+input     text      input_1                                           
+input     email     input_2                                           
+select              input_3                                           
+select              input_4                                           
+select              input_5                                           
+input     hidden    name                          blog-subscribed     
+
+curl  "https://blog.alexa.com/thanks-for-subscribing/?input_1=blabla&input_2=&input_3=1&input_4=1&input_5=1&name=blog-subscribed" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://try.alexa.com/offer/guided-tour/
+method:post
+https://try.alexa.com/offer/guided-tour//guided-tour
+input     text      input_1                                           
+input     email     input_2                                           
+select              input_3                                           
+select              input_3                                           
+input     hidden    name                          tour00-full-tour    
+
+curl  "https://try.alexa.com/offer/guided-tour//guided-tour?input_1=blabla&input_2=&input_3=1&input_3=1&name=tour00-full-tour" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.imdb.com/
+method:get
+https://www.imdb.com//find
+input     hidden    ref_                          nv_sr_fn            
+input     text      q                                                 
+select              s                                                 
+
+curl  "https://www.imdb.com//find?ref_=nv_sr_fn&q=blabla&s=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://blog.aboutamazon.com
+method:
+https://blog.aboutamazon.com/search
+input     text      q                                                 
+
+curl  "https://blog.aboutamazon.com/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://blog.aboutamazon.in
+method:
+https://blog.aboutamazon.in/search
+input     text      q                                                 
+
+curl  "https://blog.aboutamazon.in/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.in/supporting-small-business
+method:
+https://www.aboutamazon.in/search
+input     text      q                                                 
+
+curl  "https://www.aboutamazon.in/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:
+https://www.aboutamazon.es/buscar
+input     text      q                                                 
+
+curl  "https://www.aboutamazon.es/buscar?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:GET
+https://www.aboutamazon.es/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.es/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:GET
+https://www.aboutamazon.es/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.es/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:GET
+https://www.aboutamazon.es/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.es/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:GET
+https://www.aboutamazon.es/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.es/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.es
+method:GET
+https://www.aboutamazon.es/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.es/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.eu
+method:
+https://www.aboutamazon.eu/search
+input     text      q                                                 
+
+curl  "https://www.aboutamazon.eu/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.eu/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.eu/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.eu/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.it
+method:
+https://www.aboutamazon.it/cerca
+input     text      q                                                 
+
+curl  "https://www.aboutamazon.it/cerca?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.it/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.it/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+textarea            q                                                 
+
+curl  "https://www.aboutamazon.it/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.amazon.es
+method:GET
+https://www.amazon.es/s/ref=nb_sb_noss
+input     hidden    __mk_es_ES                    ÅMÅŽÕÑ              
+select              url                                               
+input     text      field-keywords                                    
+
+curl  "https://www.amazon.es/s/ref=nb_sb_noss?__mk_es_ES=ÅMÅŽÕÑ&url=1&field-keywords=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.iberlibro.com/
+method:post
+https://www.iberlibro.com//servlet/SearchResults
+input     hidden    cm_sp                         SearchF-_-topnav-_-Results
+input     hidden    sts                           t                   
+input     text      kn                                                
+
+curl  "https://www.iberlibro.com//servlet/SearchResults?cm_sp=SearchF-_-topnav-_-Results&sts=t&kn=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.iberlibro.com/
+method:get
+https://www.iberlibro.com//servlet/SearchResults
+input     hidden    sts                           t                   
+input     hidden    cm_sp                         SearchF-_-home-_-Results
+input     text      an                                                
+input     text      tn                                                
+input     text      kn                                                
+input     text      isbn                                              
+
+curl  "https://www.iberlibro.com//servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=blabla&tn=blabla&kn=blabla&isbn=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://app.fillz.com/login
+method:POST
+https://app.fillz.com/login/login/
+input     hidden    csrf_token                    a98b3066b34bd8f075ab717b94328d6243b9c170##1571682725##48f8d91c288e4d9bd27bbced99b4d505915a1278
+input     hidden    next                                              
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://app.fillz.com/login/login/?csrf_token=a98b3066b34bd8f075ab717b94328d6243b9c170##1571682725##48f8d91c288e4d9bd27bbced99b4d505915a1278&next=&username=blabla&password=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://app.fillz.com/login
+method:POST
+https://app.fillz.com/login/login/
+input     hidden    csrf_token                    a98b3066b34bd8f075ab717b94328d6243b9c170##1571682727##fc1b70e94f7c83270b3bd54869bf261f7849062d
+input     hidden    next                                              
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://app.fillz.com/login/login/?csrf_token=a98b3066b34bd8f075ab717b94328d6243b9c170##1571682727##fc1b70e94f7c83270b3bd54869bf261f7849062d&next=&username=blabla&password=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.bookfinder.com/?cm_sp=Ftr-_-Home-_-companies1
+method:GET
+https://www.bookfinder.com/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     text      isbn                                              
+input     reset                                   Reset fields        
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     hidden    mode                          basic               
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.bookfinder.com/search/?author=blabla&title=blabla&lang=1&isbn=blabla&Reset fields&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&mode=basic&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.bookfinder.com?lang=any&mode=advanced&ref=bf_s1_ft_l1
+method:GET
+https://www.bookfinder.com/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     reset                                   Reset fields        
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     radio     binding                       *                   
+input     radio     binding                       HARD                
+input     radio     binding                       SOFT                
+input     text      isbn                                              
+input     text      keywords                                          
+input     text      minprice                                          
+input     text      maxprice                                          
+input     text      publisher                                         
+input     text      min_year                                          
+input     text      max_year                                          
+input     checkbox  classic                       on                  
+input     hidden    mode                          advanced            
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.bookfinder.com/search/?author=blabla&title=blabla&lang=1&Reset fields&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&binding=*&binding=HARD&binding=SOFT&isbn=blabla&keywords=blabla&minprice=blabla&maxprice=blabla&publisher=blabla&min_year=blabla&max_year=blabla&classic=on&mode=advanced&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.justbooks.nl/?ref=bf_s1_ft_s5
+method:GET
+https://www.justbooks.nl/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     text      isbn                                              
+input     reset                                   Formulier wissen    
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     hidden    mode                          basic               
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.nl/search/?author=blabla&title=blabla&lang=1&isbn=blabla&Formulier wissen&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&mode=basic&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.justbooks.nl?lang=any&mode=advanced&ref=bf_s1_ft_l2
+method:GET
+https://www.justbooks.nl/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     reset                                   Formulier wissen    
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     radio     binding                       *                   
+input     radio     binding                       HARD                
+input     radio     binding                       SOFT                
+input     text      isbn                                              
+input     text      keywords                                          
+input     text      minprice                                          
+input     text      maxprice                                          
+input     text      publisher                                         
+input     text      min_year                                          
+input     text      max_year                                          
+input     hidden    mode                          advanced            
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.nl/search/?author=blabla&title=blabla&lang=1&Formulier wissen&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&binding=*&binding=HARD&binding=SOFT&isbn=blabla&keywords=blabla&minprice=blabla&maxprice=blabla&publisher=blabla&min_year=blabla&max_year=blabla&mode=advanced&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.justbooks.fr/?ref=bf_s1_ft_s4
+method:GET
+https://www.justbooks.fr/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     text      isbn                                              
+input     reset                                   Effacer             
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     hidden    mode                          basic               
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.fr/search/?author=blabla&title=blabla&lang=1&isbn=blabla&Effacer&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&mode=basic&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.justbooks.fr?lang=any&mode=advanced&ref=bf_s1_ft_l6
+method:GET
+https://www.justbooks.fr/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     reset                                   Effacer             
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     radio     binding                       *                   
+input     radio     binding                       HARD                
+input     radio     binding                       SOFT                
+input     text      isbn                                              
+input     text      keywords                                          
+input     text      minprice                                          
+input     text      maxprice                                          
+input     text      publisher                                         
+input     text      min_year                                          
+input     text      max_year                                          
+input     hidden    mode                          advanced            
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.fr/search/?author=blabla&title=blabla&lang=1&Effacer&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&binding=*&binding=HARD&binding=SOFT&isbn=blabla&keywords=blabla&minprice=blabla&maxprice=blabla&publisher=blabla&min_year=blabla&max_year=blabla&mode=advanced&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.justbooks.de/?ref=bf_s1_ft_s3
+method:GET
+https://www.justbooks.de/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     text      isbn                                              
+input     reset                                   Formular l&ouml;schen
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     hidden    mode                          basic               
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.de/search/?author=blabla&title=blabla&lang=1&isbn=blabla&Formular l&ouml;schen&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&mode=basic&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_s1_ft_l1
+method:GET
+https://www.justbooks.de/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     reset                                   Formular l&ouml;schen
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     radio     binding                       *                   
+input     radio     binding                       HARD                
+input     radio     binding                       SOFT                
+input     text      isbn                                              
+input     text      keywords                                          
+input     text      minprice                                          
+input     text      maxprice                                          
+input     text      publisher                                         
+input     text      min_year                                          
+input     text      max_year                                          
+input     hidden    mode                          advanced            
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.de/search/?author=blabla&title=blabla&lang=1&Formular l&ouml;schen&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&binding=*&binding=HARD&binding=SOFT&isbn=blabla&keywords=blabla&minprice=blabla&maxprice=blabla&publisher=blabla&min_year=blabla&max_year=blabla&mode=advanced&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.justbooks.de/ueberuns/?ref=bf_s1_hd_3
+method:GET
+https://www.justbooks.de/search/
+input     text      keywords                                          
+input     hidden    currency                      CHF                 
+input     hidden    lang                          de                  
+input     hidden    st                            sh                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.de/search/?keywords=blabla&currency=CHF&lang=de&st=sh&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_uu_ft_l1
+method:GET
+https://www.justbooks.de/search/
+input     text      author                                            
+input     text      title                                             
+select              lang                                              
+input     reset                                   Formular l&ouml;schen
+input     radio     new_used                      *                   
+input     radio     new_used                      N                   
+input     radio     new_used                      U                   
+input     checkbox  first_ed                      on                  
+input     checkbox  signed                        on                  
+input     checkbox  no_pod                        on                  
+input     checkbox  no_isbn                       on                  
+select              destination                                       
+select              currency                                          
+input     radio     binding                       *                   
+input     radio     binding                       HARD                
+input     radio     binding                       SOFT                
+input     text      isbn                                              
+input     text      keywords                                          
+input     text      minprice                                          
+input     text      maxprice                                          
+input     text      publisher                                         
+input     text      min_year                                          
+input     text      max_year                                          
+input     hidden    mode                          advanced            
+input     hidden    st                            sr                  
+input     hidden    ac                            qr                  
+
+curl  "https://www.justbooks.de/search/?author=blabla&title=blabla&lang=1&Formular l&ouml;schen&new_used=*&new_used=N&new_used=U&first_ed=on&signed=on&no_pod=on&no_isbn=on&destination=1&currency=1&binding=*&binding=HARD&binding=SOFT&isbn=blabla&keywords=blabla&minprice=blabla&maxprice=blabla&publisher=blabla&min_year=blabla&max_year=blabla&mode=advanced&st=sr&ac=qr" 2> /dev/null 1| grep "blabla";echo $?
+

@@ -1,0 +1,1849 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            45qsXbasO4aukwXJgK-ADA
+input     hidden    iflsig                        AAP1E1EAAAAAXayo9DxlMWBggAYgaURE3ATl3IHjqPLl
+input     text      q                                                 
+
+curl --data source=hp --data ei=45qsXbasO4aukwXJgK-ADA --data iflsig=AAP1E1EAAAAAXayo9DxlMWBggAYgaURE3ATl3IHjqPLl --data q=  https://www.google.com//search
+
+
+
+
+https://support.google.com?hl=en
+method:
+https://support.google.com?hl=en/search?hl=en
+input     search    q                                                 
+input     hidden    from_promoted_search          true                
+
+curl --data q= --data from_promoted_search=true  https://support.google.com?hl=en/search?hl=en
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp  https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp  https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+
+
+
+
+https://twitter.com/WazeLocal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FWazeLocal
+input     hidden    authenticity_token            fc614f9d3dd93d04c429de631052f9aaed1b8fa3
+
+curl --data authenticity_token=fc614f9d3dd93d04c429de631052f9aaed1b8fa3  https://mobile.twitter.com/i/nojs_router?path=%2FWazeLocal
+
+
+
+
+https://twitter.com/WazeLocal
+method:
+https://twitter.com/WazeLocal/search
+input     text      q                                                 
+
+curl --data q=<h1>blabla</h1>  https://twitter.com/WazeLocal/search
+
+
+
+
+https://twitter.com/WazeLocal
+method:POST
+https://twitter.com/WazeLocal/sessions/change_locale
+input     hidden    lang                                              
+input     hidden    redirect                                          
+input     hidden    authenticity_token            fc614f9d3dd93d04c429de631052f9aaed1b8fa3
+
+curl --data lang=1 --data redirect=1 --data authenticity_token=fc614f9d3dd93d04c429de631052f9aaed1b8fa3  https://twitter.com/WazeLocal/sessions/change_locale
+
+
+
+
+https://twitter.com/WazeLocal
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /WazeLocal          
+input     hidden    authenticity_token            fc614f9d3dd93d04c429de631052f9aaed1b8fa3
+input     hidden    ui_metrics                                        
+
+curl --data session[username_or_email]=<h1>blabla</h1> --data session[password]=1 --data remember_me=1 --data return_to_ssl=true --data scribe_log=1 --data redirect_after_login=/WazeLocal --data authenticity_token=fc614f9d3dd93d04c429de631052f9aaed1b8fa3 --data ui_metrics=1  https://twitter.com/sessions
+
+
+
+
+https://twitter.com/WazeLocal
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /WazeLocal          
+input     hidden    authenticity_token            fc614f9d3dd93d04c429de631052f9aaed1b8fa3
+input     hidden    ui_metrics                                        
+
+curl --data session[username_or_email]=<h1>blabla</h1> --data session[password]=1 --data remember_me=1 --data return_to_ssl=true --data scribe_log=1 --data redirect_after_login=/WazeLocal --data authenticity_token=fc614f9d3dd93d04c429de631052f9aaed1b8fa3 --data ui_metrics=1  https://twitter.com/sessions
+
+
+
+
+https://dev.twitter.com/web/embedded-tweets
+method:post
+https://dev.twitter.com/web/embedded-tweetsindex.html
+input     radio     csatFormOption                This page is missing information.
+input     radio     csatFormOption                The information was hard to follow or confusing.
+input     radio     csatFormOption                There is inaccurate information.
+input     radio     csatFormOption                There is a broken link or typo.
+textarea            additionalFeedback                                
+
+curl --data csatFormOption=This page is missing information. --data csatFormOption=The information was hard to follow or confusing. --data csatFormOption=There is inaccurate information. --data csatFormOption=There is a broken link or typo. --data additionalFeedback=<h1>blabla</h1>  https://dev.twitter.com/web/embedded-tweetsindex.html
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:
+https://www.demandbase.com/
+input     search                                                      
+
+curl  https://www.demandbase.com/
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl --data first_name= --data last_name= --data job_title= --data email= --data phone= --data company= --data demandbaseSubscriptionFormOptInCheck=1 --data referer=//www.demandbase.com/company --data retURL=//www.demandbase.com/ --data lead_source=Website --data Campaign_ID=70140000000ViNK --data LastSFDCCampaignStatus=Converted  https://www.demandbase.com/privacy-policy/
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl --data first_name= --data last_name= --data job_title= --data email= --data phone= --data company= --data demandbaseSubscriptionFormOptInCheck=1 --data referer=//www.demandbase.com/company --data retURL=//www.demandbase.com/ --data lead_source=Website --data Campaign_ID=70140000000ViNK --data LastSFDCCampaignStatus=Converted  https://www.demandbase.com/privacy-policy/
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.facebook.com/Glassdoor/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVoyRIuc            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103543_1ziQ         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2754 --data lsd=AVoyRIuc --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103543_1ziQ --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+
+
+
+
+https://www.facebook.com/Glassdoor/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVoyRIuc            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103543_1ziQ         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/Glassdoor/
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2754 --data lsd=AVoyRIuc --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103543_1ziQ --data lgnjs=n --data ab_test_data= --data locale=de_DE --data next=https://www.facebook.com/Glassdoor/ --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+
+
+
+
+https://www.facebook.com/Glassdoor/
+method:post
+https://www.facebook.com/Glassdoor//ajax/ufi/modify.php
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVoyRIuc            
+input     hidden    ft_ent_identifier             10156270857875755   
+input     hidden    data_only_response            1                   
+
+curl --data jazoest=2754 --data lsd=AVoyRIuc --data ft_ent_identifier=10156270857875755 --data data_only_response=1  https://www.facebook.com/Glassdoor//ajax/ufi/modify.php
+
+
+
+
+https://www.facebook.com/Glassdoor/
+method:post
+https://www.facebook.com/Glassdoor//ajax/ufi/modify.php
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVoyRIuc            
+input     hidden    ft_ent_identifier             10156244151710755   
+input     hidden    data_only_response            1                   
+
+curl --data jazoest=2754 --data lsd=AVoyRIuc --data ft_ent_identifier=10156244151710755 --data data_only_response=1  https://www.facebook.com/Glassdoor//ajax/ufi/modify.php
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVrIymSg            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103545_unAj         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2754 --data lsd=AVrIymSg --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103545_unAj --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2754                
+input     hidden    lsd                           AVrIymSg            
+input     text      email                                             
+
+curl --data jazoest=2754 --data lsd=AVrIymSg --data email=<h1>blabla</h1>  https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2685                
+input     hidden    lsd                           AVrUz0XM            
+input     hidden    initial_request_id            A_yqXUBovC3McnLzP2kxLpk
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103546_DRNq         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl --data jazoest=2685 --data lsd=AVrUz0XM --data initial_request_id=A_yqXUBovC3McnLzP2kxLpk --data timezone= --data lgndim= --data lgnrnd=103546_DRNq --data lgnjs=n --data email= --data pass=1 --data persistent=1 --data default_persistent=0  https://messenger.com//login/password/
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2654                
+input     hidden    lsd                           AVrQ0APs            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103547_SbJm         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2654 --data lsd=AVrQ0APs --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103547_SbJm --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2654                
+input     hidden    lsd                           AVrQ0APs            
+input     text      email                                             
+
+curl --data jazoest=2654 --data lsd=AVrQ0APs --data email=<h1>blabla</h1>  https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+
+
+
+
+https://www.facebook.com/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2671                
+input     hidden    lsd                           AVrj30uT            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103547_v5w4         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    next                          https://www.facebook.com/
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2671 --data lsd=AVrj30uT --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103547_v5w4 --data lgnjs=n --data ab_test_data= --data locale=de_DE --data next=https://www.facebook.com/ --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+
+
+
+
+https://www.facebook.com/
+method:post
+https://m.facebook.com/reg/
+input     hidden    jazoest                       2671                
+input     hidden    lsd                           AVrj30uT            
+input     text      firstname                                         
+input     text      lastname                                          
+input     text      reg_email__                                       
+input     text      reg_email_confirmation__                          
+input     text      reg_second_contactpoint__                         
+input     password  reg_passwd__                                      
+select              birthday_day                                      
+select              birthday_month                                    
+select              birthday_year                                     
+input     radio     sex                           1                   
+input     radio     sex                           2                   
+input     radio     sex                           -1                  
+select              preferred_pronoun                                 
+input     text      custom_gender                                     
+input     hidden    referrer                                          
+input     hidden    asked_to_login                0                   
+input     hidden    use_custom_gender                                 
+input     hidden    terms                         on                  
+input     hidden    ns                            0                   
+input     hidden    ri                            c17e20cc-039f-4686-8e34-3e12bdb80a98
+input     hidden    action_dialog_shown                               
+input     hidden    contactpoint_label            email_or_phone      
+input     hidden    ignore                        reg_email_confirmation__|reg_second_contactpoint__
+input     hidden    locale                        de_DE               
+input     hidden    reg_instance                  85qsXQS9s7GcIbWMCqoG5AFV
+input     hidden    captcha_persist_data          AZlvvJPCdkiRXrffHmNBtvrk0W_rw5EhxMMjROHJFmXm7Es_K58qYvEitMHdocevh6Gdl8Grz1Z1ku8bz29nBCDLR3HUxcb71xsHoJHIMvWJ7AbLaKCMpPa_4Y9In-l60IYI_xR0uZTMW7jO64wUbJXApWj6CdTPPU2_fo9LG0F3oUYx1vX8TZAKVs_RUQkS1Ejr-kF-lXAPVhLMWm55Di-xUSltqcMj51Jbaiz1sQDDdYqi5JxSXMSxXpAbrDj1KjsospXf2FBLxh23FZnKWTVQVpzyDLSp0Y7uOEtVBzsN-mTYihmdZWXU_rw0iSKMzOytpGBBtqJgeuQ2ud5ouaBdmC5eU5Yz_5OWYqyqR-zrZV-kpsm_ZAwOs6DUAnjba04
+input     hidden    captcha_response                                  
+
+curl --data jazoest=2671 --data lsd=AVrj30uT --data firstname= --data lastname= --data reg_email__= --data reg_email_confirmation__= --data reg_second_contactpoint__= --data reg_passwd__=1 --data birthday_day=1 --data birthday_month=1 --data birthday_year=1 --data sex=1 --data sex=2 --data sex=-1 --data preferred_pronoun=1 --data custom_gender=<h1>blabla</h1> --data referrer= --data asked_to_login=0 --data use_custom_gender= --data terms=on --data ns=0 --data ri=c17e20cc-039f-4686-8e34-3e12bdb80a98 --data action_dialog_shown= --data contactpoint_label=email_or_phone --data ignore=reg_email_confirmation__|reg_second_contactpoint__ --data locale=de_DE --data reg_instance=85qsXQS9s7GcIbWMCqoG5AFV --data captcha_persist_data=AZlvvJPCdkiRXrffHmNBtvrk0W_rw5EhxMMjROHJFmXm7Es_K58qYvEitMHdocevh6Gdl8Grz1Z1ku8bz29nBCDLR3HUxcb71xsHoJHIMvWJ7AbLaKCMpPa_4Y9In-l60IYI_xR0uZTMW7jO64wUbJXApWj6CdTPPU2_fo9LG0F3oUYx1vX8TZAKVs_RUQkS1Ejr-kF-lXAPVhLMWm55Di-xUSltqcMj51Jbaiz1sQDDdYqi5JxSXMSxXpAbrDj1KjsospXf2FBLxh23FZnKWTVQVpzyDLSp0Y7uOEtVBzsN-mTYihmdZWXU_rw0iSKMzOytpGBBtqJgeuQ2ud5ouaBdmC5eU5Yz_5OWYqyqR-zrZV-kpsm_ZAwOs6DUAnjba04 --data captcha_response=1  https://m.facebook.com/reg/
+
+
+
+
+https://www.facebook.com/policies/cookies/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2678                
+input     hidden    lsd                           AVoLQnh-            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103547_SCBA         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2678 --data lsd=AVoLQnh- --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103547_SCBA --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1  https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+
+
+
+
+https://www.glassdoor.co.uk/employers/type/guide
+method:get
+https://www.glassdoor.co.uk/employers/
+input     search    s                                                 
+
+curl --data s=  https://www.glassdoor.co.uk/employers/
+
+
+
+
+https://www.glassdoor.co.uk/employers/type/guide
+method:get
+https://www.glassdoor.co.uk/employers/
+input     search    s                                                 
+
+curl --data s=  https://www.glassdoor.co.uk/employers/
+
+
+
+
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.sg/employers/blog/
+method:get
+https://www.glassdoor.sg/employers/blog-search/
+input     search    swpquery                                          
+
+curl --data swpquery=  https://www.glassdoor.sg/employers/blog-search/
+
+
+
+
+https://www.glassdoor.sg/employers/blog/
+method:get
+https://www.glassdoor.sg/employers/blog-search/
+input     search    swpquery                                          
+
+curl --data swpquery=  https://www.glassdoor.sg/employers/blog-search/
+
+
+
+
+https://www.glassdoor.sg/employers/topics/how-to-use-glassdoor/
+method:get
+https://www.glassdoor.sg/employers/
+input     search    s                                                 
+
+curl --data s=  https://www.glassdoor.sg/employers/
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.de/blog/
+method:get
+https://www.glassdoor.de/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword= --data locT= --data locId= --data jobType=  https://www.glassdoor.de/blog//Job/jobs.htm
+
+
+
+
+https://www.glassdoor.fr/blog/
+method:get
+https://www.glassdoor.fr/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword= --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/blog//Job/jobs.htm
+
+
+
+
+https://www.glassdoor.nl/blog/
+method:get
+https://www.glassdoor.nl/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword= --data locT= --data locId= --data jobType=  https://www.glassdoor.nl/blog//Job/jobs.htm
+
+
+
+
+https://www.glassdoor.fr/blog/marque-employeur/
+method:get
+https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword= --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm
+
+
+
+
+https://www.glassdoor.de/blog/employer-branding/
+method:get
+https://www.glassdoor.de/blog/employer-branding//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword= --data locT= --data locId= --data jobType=  https://www.glassdoor.de/blog/employer-branding//Job/jobs.htm
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://fr.glassdoor.ca/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ca/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.br/Visão-geral/Trabalhar-na-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://fr.glassdoor.be/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://nl.glassdoor.be/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.au/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.ar/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.sg/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://de.glassdoor.ch/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.at/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.nz/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.nl/Overzicht/Werken-bij-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.mx/Descripción-general/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm
+method:get
+https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.it/Panoramica/Lavorando-in-Demandbase-EI_IE271272.13,23.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.ie/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.co.in/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.com.hk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.fr/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm
+method:get
+https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.es/Resumen/Trabajar-en-Demandbase-EI_IE271272.12,22.htm/Reviews/company-reviews.htm
+
+
+
+
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl --data suggestCount=0 --data suggestChosen=false --data clickSource=searchBtn --data typedKeyword= --data sc.keyword=Demandbase --data locT= --data locId= --data jobType=  https://www.glassdoor.de/Überblick/Arbeit-bei-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+

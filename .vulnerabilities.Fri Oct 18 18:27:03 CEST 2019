@@ -1,0 +1,444 @@
+https://mobile.twitter.com/i/nojs_router?path=%2FFHNW
+	input-hidden:authenticity_token
+
+https://twitter.com/FHNW/search
+	input-text:q
+
+https://twitter.com/FHNW/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+https://twitter.com/signup
+	input-submit:
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/pages/Network-Advertising-Initiative/1404760919736948/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.facebook.com/pages/Network-Advertising-Initiative/1404760919736948/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/google.apps.referral/?ref=py_c/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.facebook.com/google.apps.referral/?ref=py_c/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:email
+	input-submit:did_submit
+
+https://messenger.com//login/password/
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:initial_request_id
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-text:email
+	input-password:pass
+	input-checkbox:persistent
+	input-hidden:default_persistent
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:email
+	input-submit:did_submit
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://m.facebook.com/reg/
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-text:firstname
+	input-text:lastname
+	input-text:reg_email__
+	input-text:reg_email_confirmation__
+	input-text:reg_second_contactpoint__
+	input-password:reg_passwd__
+	select-:birthday_day
+	select-:birthday_month
+	select-:birthday_year
+	input-radio:sex
+	input-radio:sex
+	input-radio:sex
+	select-:preferred_pronoun
+	input-text:custom_gender
+	input-hidden:referrer
+	input-hidden:asked_to_login
+	input-hidden:use_custom_gender
+	input-hidden:terms
+	input-hidden:ns
+	input-hidden:ri
+	input-hidden:action_dialog_shown
+	input-hidden:contactpoint_label
+	input-hidden:ignore
+	input-hidden:locale
+	input-hidden:reg_instance
+	input-hidden:captcha_persist_data
+	input-hidden:captcha_response
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-submit:
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:login_source
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-email:email
+	input-password:pass
+	input-hidden:timezone
+	input-hidden:lgndim
+	input-hidden:lgnrnd
+	input-hidden:lgnjs
+	input-hidden:ab_test_data
+	input-hidden:locale
+	input-hidden:next
+	input-hidden:guid
+	input-hidden:prefill_contact_point
+	input-hidden:prefill_source
+	input-hidden:prefill_type
+
+https://www.facebook.com/pages/Network-Advertising-Initiative/1404760919736948/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.facebook.com/pages/Network-Advertising-Initiative/1404760919736948/ajax/ufi/modify.php
+	input-hidden:jazoest
+	input-hidden:lsd
+	input-hidden:ft_ent_identifier
+	input-hidden:data_only_response
+
+https://www.youtube.com/watch?v=AItooXIqHxo/logout
+	input-hidden:action_logout
+
+https://www.youtube.com/watch?v=AItooXIqHxo/results
+	input-text:search_query
+
+https://www.fosi.org//search
+	input-text:query
+
+https://www.fosi.org///fosi.us9.list-manage.com/subscribe/post?u=63a9e87570aeeb13357d87c0d&id=800d47c6d0
+	input-text:NAME
+	input-email:EMAIL
+	input-text:MMERGE3
+	input-checkbox:group[18101][1]
+	input-checkbox:group[18101][2]
+	input-checkbox:group[18101][4]
+	input-text:b_63a9e87570aeeb13357d87c0d_800d47c6d0
+
+https://www.fosi.org/privacy-policy/search
+	input-text:query
+
+https://www.fosi.org/privacy-policy//fosi.us9.list-manage.com/subscribe/post?u=63a9e87570aeeb13357d87c0d&id=800d47c6d0
+	input-text:NAME
+	input-email:EMAIL
+	input-text:MMERGE3
+	input-checkbox:group[18101][1]
+	input-checkbox:group[18101][2]
+	input-checkbox:group[18101][4]
+	input-text:b_63a9e87570aeeb13357d87c0d_800d47c6d0
+
+https://www.fosi.org/cookie-policy//search
+	input-text:query
+
+https://www.fosi.org/cookie-policy///fosi.us9.list-manage.com/subscribe/post?u=63a9e87570aeeb13357d87c0d&id=800d47c6d0
+	input-text:NAME
+	input-email:EMAIL
+	input-text:MMERGE3
+	input-checkbox:group[18101][1]
+	input-checkbox:group[18101][2]
+	input-checkbox:group[18101][4]
+	input-text:b_63a9e87570aeeb13357d87c0d_800d47c6d0
+
+https://www.unicef.org//search
+	input-hidden:force
+	input-text:query
+	input-text:search_date_range_picker
+	input-text:created[min]
+	input-text:created[max]
+
+https://www.unicef.org//api/unicef-component-mosaic/getbyoption/00ea6518-7234-4894-a90c-71056cca2ec0
+	select-:mosaic_dropdown
+	input-hidden:form_build_id
+	input-hidden:form_id
+

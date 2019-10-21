@@ -1,0 +1,662 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            E6asXdjMEYbMwALXw4uYDA
+input     hidden    iflsig                        AAP1E1EAAAAAXay0IzNTJ3krnDebfvVpOEwWHwkLL4Pf
+input     text      q                                                 
+
+curl  "https://www.google.com//search?source=hp&ei=E6asXdjMEYbMwALXw4uYDA&iflsig=AAP1E1EAAAAAXay0IzNTJ3krnDebfvVpOEwWHwkLL4Pf&q=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  "https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search?blabla&src=itunes_serp" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  "https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search?blabla&src=itunes_serp" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://twitter.com/share?url=https://g.co/DigitalGarage&text=Free Training Course From Google
+method:post
+https://twitter.com/intent/sessions
+input     hidden    text                          Free Training Course From Google
+input     hidden    url                           https://g.co/DigitalGarage
+input     hidden    repost_after_login            /intent/tweet       
+input     hidden    authenticity_token            55ddd2527d5ec1ac3707041c4010bcbe2e2611a1
+textarea            status                                            
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/intent/sessions?text=Free Training Course From Google&url=https://g.co/DigitalGarage&repost_after_login=/intent/tweet&authenticity_token=55ddd2527d5ec1ac3707041c4010bcbe2e2611a1&status=blabla&session[username_or_email]=blabla&session[password]=&remember_me=1&ui_metrics=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage
+method:post
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100
+input     hidden    jazoest                       2689                
+input     hidden    lsd                           AVq1EoVn            
+input     hidden                                                      
+input     hidden    api_key                       966242223397117     
+input     hidden    cancel_url                    https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_
+input     hidden    display                       popup               
+input     hidden    enable_profile_selector                           
+input     hidden    isprivate                                         
+input     hidden    legacy_return                 0                   
+input     hidden    profile_selector_ids                              
+input     hidden    return_session                                    
+input     hidden    skip_api_login                1                   
+input     hidden    signed_next                   1                   
+input     hidden    trynum                        1                   
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112322_SbDl         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+input     hidden    first_prefill_source                              
+input     hidden    first_prefill_type                                
+input     hidden    had_cp_prefilled              false               
+input     hidden    had_password_prefilled        false               
+input     hidden    ab_test_data                                      
+
+curl  "http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100?jazoest=2689&lsd=AVq1EoVn&1&api_key=966242223397117&cancel_url=https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_&display=popup&enable_profile_selector=&isprivate=&legacy_return=0&profile_selector_ids=&return_session=&skip_api_login=1&signed_next=1&trynum=1&timezone=&lgndim=&lgnrnd=112322_SbDl&lgnjs=n&email=blabla&pass=1&prefill_contact_point=&prefill_source=1&prefill_type=1&first_prefill_source=1&first_prefill_type=1&had_cp_prefilled=false&had_password_prefilled=false&ab_test_data=" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.facebook.com/recover/initiate/?ars=facebook_login
+method:post
+https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2722                
+input     hidden    lsd                           AVqwx88k            
+input     text      email                                             
+
+curl  "https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2722&lsd=AVqwx88k&email=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2696                
+input     hidden    lsd                           AVrJiSdE            
+input     hidden    initial_request_id            AWsR4uZli-C9nODB_B4loDV
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112324_4pqI         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  "https://messenger.com//login/password/?jazoest=2696&lsd=AVrJiSdE&initial_request_id=AWsR4uZli-C9nODB_B4loDV&timezone=&lgndim=&lgnrnd=112324_4pqI&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2651                
+input     hidden    lsd                           AVqAro01            
+input     text      email                                             
+
+curl  "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2651&lsd=AVqAro01&email=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2671                
+input     hidden    lsd                           AVo4iJdN            
+input     text      email                                             
+
+curl  "https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2671&lsd=AVo4iJdN&email=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://fr-fr.messenger.com/
+method:post
+https://fr-fr.messenger.com//login/password/
+input     hidden    jazoest                       2647                
+input     hidden    lsd                           AVq0_Q9f            
+input     hidden    initial_request_id            AR2bI_nHJ_KGDQIIh_dznZe
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112326_ZCc3         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  "https://fr-fr.messenger.com//login/password/?jazoest=2647&lsd=AVq0_Q9f&initial_request_id=AR2bI_nHJ_KGDQIIh_dznZe&timezone=&lgndim=&lgnrnd=112326_ZCc3&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2692                
+input     hidden    lsd                           AVqOO4cw            
+input     text      email                                             
+
+curl  "https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover?jazoest=2692&lsd=AVqOO4cw&email=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.facebook.com/
+method:post
+https://www.facebook.com//login/
+input     hidden    jazoest                       2736                
+input     hidden    lsd                           AVpHTwwO            
+input     text      email                                             
+input     password  pass                                              
+
+curl  "https://www.facebook.com//login/?jazoest=2736&lsd=AVpHTwwO&email=blabla&pass=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:get
+https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search
+input     hidden    utf8                          ✓                   
+input     text      q                                                 
+input     hidden    type                                              
+
+curl  "https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search?utf8=✓&q=blabla&type=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:
+https://twitter.com/github/search
+input     text      q                                                 
+
+curl  "https://twitter.com/github/search?q=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            4bbb099a371118a4663abc1de32d2ed551a64b90
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=4bbb099a371118a4663abc1de32d2ed551a64b90&ui_metrics=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            4bbb099a371118a4663abc1de32d2ed551a64b90
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=4bbb099a371118a4663abc1de32d2ed551a64b90&ui_metrics=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     text      q                                                 
+
+curl  "https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html?q=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://twittercommunity.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://vimeo.com/lougriffith
+method:get
+https://vimeo.com/lougriffith//vimeo.com/search
+input     text      q                                                 
+
+curl  "https://vimeo.com/lougriffith//vimeo.com/search?q=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/powered-by-extole/
+method:
+https://www.extole.com/powered-by-extole/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/powered-by-extole/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/powered-by-extole/
+method:post
+https://www.extole.com/powered-by-extole//powered-by-extole/#gf_2
+input     text      input_1                                           
+input     text      input_2                                           
+input     tel       input_7                                           
+input     text      input_3                                           
+input     text      input_4                                           
+select              input_8                                           
+select              input_5                                           
+input     checkbox  input_11.1                    false               
+input     hidden    input_9                       Marketing           
+input     hidden    input_10                      Requested Demo      
+input     text      input_12                                          
+input     hidden    gform_ajax                    form_id=2&title=1&description=1&tabindex=100
+input     hidden    is_submit_2                   1                   
+input     hidden    gform_submit                  2                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_2                       WyJbXSIsIjYyOWYyZGUyOWNlYTY1YmJjZWIyMzNiOWYxODRkZTFmIl0=
+input     hidden    gform_target_page_number_2    0                   
+input     hidden    gform_source_page_number_2    1                   
+input     hidden    gform_field_values                                
+
+curl  "https://www.extole.com/powered-by-extole//powered-by-extole/#gf_2?input_1=blabla&input_2=blabla&input_7=&input_3=blabla&input_4=blabla&input_8=1&input_5=1&input_11.1=false&input_9=Marketing&input_10=Requested Demo&input_12=blabla&gform_ajax=form_id=2&title=1&description=1&tabindex=100&is_submit_2=1&gform_submit=2&gform_unique_id=&state_2=WyJbXSIsIjYyOWYyZGUyOWNlYTY1YmJjZWIyMzNiOWYxODRkZTFmIl0=&gform_target_page_number_2=0&gform_source_page_number_2=1&gform_field_values=" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/solutions/for-consumer-financial/
+method:
+https://www.extole.com/solutions/for-consumer-financial/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/solutions/for-consumer-financial/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/solutions/loyalty-membership/
+method:
+https://www.extole.com/solutions/loyalty-membership/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/solutions/loyalty-membership/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/solutions/retail/
+method:
+https://www.extole.com/solutions/retail/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/solutions/retail/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/solutions/
+method:
+https://www.extole.com/solutions/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/solutions/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/platform-features/
+method:
+https://www.extole.com/platform-features/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/platform-features/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/platform/
+method:
+https://www.extole.com/platform/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/platform/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.extole.com/
+method:
+https://www.extole.com/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://www.extole.com/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://vimeo.com/cookie_policy
+method:get
+https://vimeo.com/cookie_policy//vimeo.com/search
+input     text      q                                                 
+
+curl  "https://vimeo.com/cookie_policy//vimeo.com/search?q=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://iabeurope.eu/members-login/
+method:post
+https://iabeurope.eu/wp-login.php
+input     hidden    redirect_to                   /members-login/     
+input     text      log                                               
+input     password  pwd                                               
+input     checkbox  rememberme                                        
+
+curl  "https://iabeurope.eu/wp-login.php?redirect_to=/members-login/&log=blabla&pwd=1&rememberme=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+http://www.iab.net/
+method:post
+http://www.iab.net//
+select              input_15                                          
+input     text      input_16                                          
+input     text      input_17                                          
+input     text      input_22                      website@iab.com     
+textarea            input_18                                          
+input     hidden    is_submit_135                 1                   
+input     hidden    gform_submit                  135                 
+input     hidden    gform_unique_id                                   
+input     hidden    state_135                     WyJbXSIsIjIzMTI5MDBmZWVhMzBjYjcyNGM2Njg0MDliNDJlZTMwIl0=
+input     hidden    gform_target_page_number_135  0                   
+input     hidden    gform_source_page_number_135  1                   
+input     hidden    gform_field_values                                
+
+curl  "http://www.iab.net//?input_15=1&input_16=blabla&input_17=blabla&input_22=blabla&input_18=blabla&is_submit_135=1&gform_submit=135&gform_unique_id=&state_135=WyJbXSIsIjIzMTI5MDBmZWVhMzBjYjcyNGM2Njg0MDliNDJlZTMwIl0=&gform_target_page_number_135=0&gform_source_page_number_135=1&gform_field_values=" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://thedma.org/
+method:
+https://thedma.org/#
+input     search    phrase                                            
+input     text      phrase                                            
+
+curl  "https://thedma.org/#?phrase=&phrase=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.ana.net/calendar/index/calendar_filter/industry
+method:POST
+https://www.ana.net/user/login
+input     hidden    submitted                     Y                   
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://www.ana.net/user/login?submitted=Y&username=blabla&password=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.ana.net/calendar/index/calendar_filter/industry
+method:get
+https://www.ana.net/calendar/index/calendar_filter/industry/sitesearch/detail
+input               section                       insights            
+input     text      query                                             
+
+curl  "https://www.ana.net/calendar/index/calendar_filter/industry/sitesearch/detail?section=insights&query=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.ana.net/calendar/index/calendar_filter/industry
+method:get
+https://www.ana.net/calendar/index/calendar_filter/industry/sitesearch/detail
+input               section                       site                
+input     text      query                                             
+
+curl  "https://www.ana.net/calendar/index/calendar_filter/industry/sitesearch/detail?section=site&query=blabla" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/
+method:GET
+https://www.home.neustar//search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar//search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/
+method:GET
+https://www.home.neustar//search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar//search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www2.webmetrics.com/mod3/cpcgi/cp.cgi
+method:post
+https://www2.webmetrics.com/mod3/cpcgi/cp.cgi/mod3/cpcgi/cp.cgi
+input     hidden    initialize                    1                   
+input     hidden    login                         1                   
+input     text      username                                          
+input     password  password                                          
+
+curl  "https://www2.webmetrics.com/mod3/cpcgi/cp.cgi/mod3/cpcgi/cp.cgi?initialize=1&login=1&username=blabla&password=" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www2.webmetrics.com/forgotpassword.html
+method:post
+https://www2.webmetrics.com/forgotpassword.html
+input     hidden                                  request             
+input     text      account                                           
+input     text      requestName                                       
+input     button                                  submit              
+
+curl  "https://www2.webmetrics.com/forgotpassword.html?request&account=blabla&requestName=blabla&submit" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://portal.ultradns.com
+method:post
+https://portal.ultradns.comj_security_check
+input     text      j_username                                        
+input     password  j_password                                        
+input     checkbox  rememberme                                        
+
+curl  "https://portal.ultradns.comj_security_check?j_username=blabla&j_password=1&rememberme=1" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/privacy
+method:GET
+https://www.home.neustar/privacy/search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar/privacy/search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/privacy
+method:GET
+https://www.home.neustar/privacy/search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar/privacy/search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/privacy/privacy-policy#cookies
+method:GET
+https://www.home.neustar/privacy/privacy-policy#cookies/search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar/privacy/privacy-policy#cookies/search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://www.home.neustar/privacy/privacy-policy#cookies
+method:GET
+https://www.home.neustar/privacy/privacy-policy#cookies/search
+input     hidden    search                        true                
+input     text      query                                             
+input     image                                   search              
+
+curl  "https://www.home.neustar/privacy/privacy-policy#cookies/search?search=true&query=blabla&search" 2> /dev/null 1| grep "blabla"
+
+
+
+
+https://feedback-form.truste.com/watchdog/request
+method:post
+https://feedback-form.truste.com/watchdog/requestsubmit
+input               url                                               
+input               companyName                                       
+input     hidden    companyId                                         
+select              countryCode                                       
+input     radio     lang                          en                  
+input     radio     lang                          fr                  
+input     hidden    language                      en                  
+select              complaintType                                     
+input     hidden    additionalInfo                                    
+textarea            description                                       
+select              lastContacted                                     
+textarea            siteResponse                                      
+textarea            resolution                                        
+input     text      email                                             
+input     text      name                                              
+input     radio     pii                           yes                 
+input     radio     pii                           no                  
+input     hidden    BDC_VCID_captchaResponse      71e9e55c2b664733af5693db4f14fbff
+input     hidden    BDC_BackWorkaround_captchaResponse0                   
+input     hidden    BDC_Hs_captchaResponse        efa80621271615aa13cdf5b9b1cd0c766930257b
+input     hidden    BDC_SP_captchaResponse        1679475902          
+input     text      captchaResponse                                   
+input     hidden    tmv                                               
+
+curl  "https://feedback-form.truste.com/watchdog/requestsubmit?url=&companyName=&companyId=&countryCode=1&lang=en&lang=fr&language=en&complaintType=1&additionalInfo=1&description=blabla&lastContacted=1&siteResponse=blabla&resolution=blabla&email=blabla&name=blabla&pii=yes&pii=no&BDC_VCID_captchaResponse=71e9e55c2b664733af5693db4f14fbff&BDC_BackWorkaround_captchaResponse=0&BDC_Hs_captchaResponse=efa80621271615aa13cdf5b9b1cd0c766930257b&BDC_SP_captchaResponse=1679475902&captchaResponse=blabla&tmv=" 2> /dev/null 1| grep "blabla"
+

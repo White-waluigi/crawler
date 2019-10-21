@@ -1,0 +1,123 @@
+https://www.youtube.com/watch?v=JaMJi1_1tkA/logout
+	input-hidden:action_logout
+
+https://www.youtube.com/watch?v=JaMJi1_1tkA/results
+	input-text:search_query
+
+https://sustainability.google//search
+	input-text:q
+
+https://sustainability.google//search
+	input-text:q
+
+https://itunes.apple.com/app/youtube/id544007664?mt=8//www.apple.com/us/search
+	input-text:
+	input-hidden:src
+
+https://www.apple.com/ios/app-store//us/search
+	input-text:
+	input-hidden:src
+
+https://support.apple.com//www.apple.com/us/search
+	input-text:
+	input-hidden:src
+
+https://support.apple.com/kb/index
+	input-hidden:page
+	input-hidden:type
+	input-hidden:src
+	input-hidden:locale
+	input-text:q
+
+https://mobile.twitter.com/i/nojs_router?path=%2FAppleSupport
+	input-hidden:authenticity_token
+
+https://twitter.com/AppleSupport/search
+	input-text:q
+
+https://twitter.com/AppleSupport/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+https://twitter.com/signup
+	input-submit:
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+
+https://twittercommunity.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com//login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2006-nissan-pathfinder-clicking-noise-in-front/151005/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2013-lincoln-mkz-hybrid-ride-control-gone/150407/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2010-ford-taurus-won-t-turn-over/150998/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/2008-toyota-camry-solara-dealers-and-contractors/150742/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+
+https://community.cartalk.com/t/should-i-just-get-rid-of-this-stratus-04/150936/login
+	input-text:username
+	input-password:password
+	input-hidden:redirect
+	input-submit:
+

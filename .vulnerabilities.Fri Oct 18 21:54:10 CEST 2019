@@ -1,0 +1,4030 @@
+https://www.google.ch/
+method:GET
+https://www.google.ch//search
+	input-hidden:source
+	input-hidden:ei
+	input-hidden:iflsig
+	input-text:q
+	input-submit:btnK
+	input-submit:btnI
+	input-submit:btnK
+	input-submit:btnI
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+	input-text:q
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+	input-text:q
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+	input-hidden:authenticity_token
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+	input-text:q
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+	input-submit:
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+	input-hidden:authenticity_token
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+	input-text:q
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+
+http://support.twitter.com/forums/26810/entries/78525
+method:
+http://support.twitter.com/forums/26810/entries/78525/en/search
+	input-search:q
+
+http://support.twitter.com/forums/26810/entries/78525
+method:
+http://support.twitter.com/forums/26810/entries/78525/en/search.html
+	input-text:q
+
+http://support.twitter.com/forums/26810/entries/78525
+method:post
+http://support.twitter.com/forums/26810/entries/78525index.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+
+https://investor.twitterinc.com/
+method:post
+https://investor.twitterinc.com/default.aspx
+	input-hidden:__EVENTTARGET
+	input-hidden:__EVENTARGUMENT
+	input-hidden:__VIEWSTATE
+	input-text:_ctrl0$ctl15$txtSearchInput
+	input-submit:_ctrl0$ctl15$btnSearch
+	input-text:_ctrl0$ctl24$txtSearchInput
+	input-submit:_ctrl0$ctl24$btnSearch
+	input-hidden:__antiCSRF
+
+http://creativecommons.org/licenses/by/2.0/be/deed.en
+method:get
+https://us.netdonor.net/page/6650/donate/1
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-text:transaction.donationAmt.other
+	input-hidden:type
+	input-hidden:ea.tracking.id
+	input-submit:
+
+https://freedomdefined.org/
+method:
+https://freedomdefined.org//index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+https://freedomdefined.org/Licenses/CC-BY-2.5
+method:
+https://freedomdefined.org/Licenses/CC-BY-2.5/index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+http://freedomdefined.org/index.php?title=Licenses/CC-BY-2.5&oldid=23156
+method:
+http://freedomdefined.org/index.php?title=Licenses/CC-BY-2.5&oldid=23156/index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+https://freedomdefined.org/Licenses/CC-BY-2.5
+method:
+https://freedomdefined.org/Licenses/CC-BY-2.5/index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+http://freedomdefined.org/index.php?title=Definition&oldid=19268
+method:
+http://freedomdefined.org/index.php?title=Definition&oldid=19268/index.php
+	input-search:search
+	input-hidden:title
+	input-submit:fulltext
+	input-submit:go
+
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=deed-top
+method:post
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=deed-top/page/6650/donate/2
+	input-hidden:hidden
+	input-hidden:sessionId
+	input-hidden:gatewaykey
+	input-hidden:gatewayaccountid
+	input-hidden:gatewaymode
+	input-hidden:transaction.selprodvariantid
+	input-radio:transaction.recurrpay
+	input-radio:transaction.recurrpay
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-radio:transaction.donationAmt
+	input-text:transaction.donationAmt.other
+	input-hidden:transaction.recurrfreq
+	input-hidden:transaction.recurrday
+	input-hidden:transaction.paycurrency
+	input-text:supporter.firstName
+	input-text:supporter.lastName
+	input-text:supporter.emailAddress
+	input-checkbox:supporter.questions.60047
+
+https://www.flickr.com/photos/pingnews/433793895/
+method:get
+https://www.flickr.com/photos/pingnews/433793895//search/
+	input-submit:
+	input-text:text
+
+https://www.smugmug.com/
+method:get
+https://www.smugmug.com//search/
+	input-text:q
+	input-hidden:c
+
+https://blog.flickr.net/
+method:get
+https://blog.flickr.net/
+	input-text:s
+	input-submit:
+
+https://blog.flickr.net/
+method:
+https://blog.flickr.net/#
+	textarea-:carousel-reblog-content
+	select-:carousel-reblog-to-blog-id
+	input-submit:carousel-reblog-submit
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:_wpnonce
+	input-hidden:_wp_http_referer
+
+http://www.dribbble.com/jtrav
+method:
+https://dribbble.com/search
+	input-search:q
+
+http://www.dribbble.com/jtrav
+method:
+https://dribbble.com/search
+	input-search:q
+
+http://www.dribbble.com/jtrav
+method:get
+http://www.dribbble.com/jtrav/jtrav
+	input-hidden:utf8
+	select-:stream
+
+http://www.dribbble.com/jtrav
+method:post
+https://dribbble.com/signup
+	input-hidden:utf8
+	input-hidden:authenticity_token
+	input-text:user[email]
+	input-password:user[password]
+	input-text:user[name]
+	input-text:user[login]
+	input-checkbox:user[agree_to_terms]
+	input-submit:commit
+
+http://www.dribbble.com/jtrav
+method:post
+http://www.dribbble.com/jtrav/session
+	input-hidden:utf8
+	input-hidden:authenticity_token
+	input-hidden:return_to
+	input-text:login
+	input-password:password
+	input-submit:
+
+https://www.sketchapp.com/support/
+method:POST
+https://api.sketchapp.com/1/newsletter/subscribe/
+	input-email:email
+
+https://developer.sketchapp.com
+method:get
+https://developer.sketchapp.com
+	input-search:yo
+
+https://github.com/BohemianCoding/SketchAPI
+method:post
+https://github.com/BohemianCoding/SketchAPI/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+
+https://github.com/BohemianCoding/SketchAPI
+method:get
+https://github.com/BohemianCoding/SketchAPI/BohemianCoding/SketchAPI/search
+	input-hidden:utf8
+	input-text:q
+	input-hidden:type
+
+https://github.com/BohemianCoding/SketchAPI
+method:post
+https://github.com/BohemianCoding/SketchAPI/prompt_dismissals/signup
+	input-hidden:utf8
+	input-hidden:_method
+	input-hidden:authenticity_token
+
+https://developer.sketch.com/reference/api
+method:get
+https://developer.sketch.com/reference/api
+	input-search:yo
+
+https://sketch.com/docs/symbols/
+method:POST
+https://api.sketchapp.com/1/newsletter/subscribe/
+	input-email:email
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+method:get
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/en-US/search
+	input-search:q
+
+https://www.mozilla.org/about/
+method:post
+https://www.mozilla.org/about//en-US/newsletter/
+	input-hidden:newsletters
+	input-hidden:source_url
+	input-email:email
+	select-:country
+	select-:lang
+	input-radio:fmt
+	input-radio:fmt
+	input-checkbox:privacy
+
+https://www.mozilla.org/about/
+method:get
+https://www.mozilla.org/about/#
+	select-:lang
+
+https://spotifyforvendors.com/
+method:get
+https://spotifyforvendors.com/
+	input-text:s
+
+https://spotifyforvendors.com/
+method:get
+https://spotifyforvendors.com/
+	input-text:s
+
+https://spotifyforvendors.com/faq/
+method:get
+https://spotifyforvendors.com/
+	input-text:s
+
+https://spotifyforvendors.com/faq/
+method:get
+https://spotifyforvendors.com/
+	input-text:s
+
+https://supplier.coupahost.com/
+method:post
+https://supplier.coupahost.com//sessions
+	input-hidden:utf8
+	input-hidden:authenticity_token
+	input-text:sessions[email]
+	input-password:sessions[password]
+	input-hidden:locale
+
+https://supplier.coupahost.com/
+method:post
+https://supplier.coupahost.com//request_invite
+	input-hidden:utf8
+	input-hidden:authenticity_token
+	input-text:invitation[first_name]
+	input-text:invitation[last_name]
+	input-text:invitation[supplier_name]
+	input-text:invitation[email]
+	input-hidden:invitation[source]
+	input-hidden:invitation[email_text]
+
+http://www.coupa.com/supplier-terms-and-conditions/
+method:get
+http://www.coupa.com/supplier-terms-and-conditions//search
+	input-text:
+	input-submit:
+
+http://blog.getsatisfaction.com/
+method:get
+https://blog.sprinklr.com/
+	input-text:s
+
+https://www.sprinklr.com/advertising/
+method:post
+https://sprinklr.tfaforms.net/rest/responses/processor
+	input-text:tfa_2
+	input-text:tfa_45
+	input-text:tfa_1
+	input-text:tfa_48
+	input-hidden:tfa_51
+	input-hidden:tfa_1349
+	input-hidden:tfa_1350
+	input-hidden:tfa_1351
+	input-hidden:tfa_1352
+	input-hidden:tfa_1353
+	input-hidden:tfa_1354
+	input-hidden:tfa_1355
+	input-hidden:tfa_1356
+	input-hidden:tfa_1357
+	input-hidden:tfa_1358
+	input-hidden:tfa_1359
+	input-hidden:tfa_1360
+	input-hidden:tfa_1361
+	input-hidden:tfa_1362
+	input-hidden:tfa_1363
+	input-hidden:tfa_1364
+	input-hidden:tfa_1365
+	input-hidden:tfa_1366
+	input-hidden:tfa_1367
+	input-hidden:tfa_1368
+	input-checkbox:tfa_1370
+	input-hidden:tfa_1374
+	input-hidden:tfa_1376
+	input-hidden:tfa_1377
+	input-hidden:tfa_1378
+	input-hidden:tfa_1381
+	input-text:tfa_1397
+	input-text:tfa_1398
+	input-text:tfa_1399
+	select-:tfa_1400
+	input-hidden:tfa_1640
+	input-submit:
+	input-hidden:tfa_dbCounters
+	input-hidden:tfa_dbFormId
+	input-hidden:tfa_dbResponseId
+	input-hidden:tfa_dbControl
+	input-hidden:tfa_dbTimeStarted
+	input-hidden:tfa_referrer
+	input-hidden:tfa_dbVersionId
+	input-hidden:tfa_switchedoff
+
+https://www.sprinklr.com/advertising/
+method:get
+https://www.sprinklr.com
+	input-search:s
+
+https://www.sprinklr.com/marketing/
+method:post
+https://sprinklr.tfaforms.net/rest/responses/processor
+	input-text:tfa_2
+	input-text:tfa_45
+	input-text:tfa_1
+	input-text:tfa_48
+	input-hidden:tfa_51
+	input-hidden:tfa_1349
+	input-hidden:tfa_1350
+	input-hidden:tfa_1351
+	input-hidden:tfa_1352
+	input-hidden:tfa_1353
+	input-hidden:tfa_1354
+	input-hidden:tfa_1355
+	input-hidden:tfa_1356
+	input-hidden:tfa_1357
+	input-hidden:tfa_1358
+	input-hidden:tfa_1359
+	input-hidden:tfa_1360
+	input-hidden:tfa_1361
+	input-hidden:tfa_1362
+	input-hidden:tfa_1363
+	input-hidden:tfa_1364
+	input-hidden:tfa_1365
+	input-hidden:tfa_1366
+	input-hidden:tfa_1367
+	input-hidden:tfa_1368
+	input-checkbox:tfa_1370
+	input-hidden:tfa_1374
+	input-hidden:tfa_1376
+	input-hidden:tfa_1377
+	input-hidden:tfa_1378
+	input-hidden:tfa_1381
+	input-text:tfa_1397
+	input-text:tfa_1398
+	input-text:tfa_1399
+	select-:tfa_1400
+	input-hidden:tfa_1640
+	input-submit:
+	input-hidden:tfa_dbCounters
+	input-hidden:tfa_dbFormId
+	input-hidden:tfa_dbResponseId
+	input-hidden:tfa_dbControl
+	input-hidden:tfa_dbTimeStarted
+	input-hidden:tfa_referrer
+	input-hidden:tfa_dbVersionId
+	input-hidden:tfa_switchedoff
+
+https://www.sprinklr.com/marketing/
+method:get
+https://www.sprinklr.com
+	input-search:s
+
+https://www.sprinklr.com/
+method:post
+https://sprinklr.tfaforms.net/rest/responses/processor
+	input-text:tfa_2
+	input-text:tfa_45
+	select-:tfa_1317
+	input-text:tfa_48
+	input-text:tfa_1
+	input-text:tfa_1407
+	input-hidden:tfa_1349
+	input-hidden:tfa_1350
+	input-hidden:tfa_1351
+	input-text:tfa_1396
+	input-text:tfa_1397
+	input-text:tfa_1398
+	input-checkbox:tfa_1400
+	input-hidden:tfa_1405
+	input-hidden:tfa_1406
+	input-submit:
+	input-hidden:tfa_dbCounters
+	input-hidden:tfa_dbFormId
+	input-hidden:tfa_dbResponseId
+	input-hidden:tfa_dbControl
+	input-hidden:tfa_dbTimeStarted
+	input-hidden:tfa_referrer
+	input-hidden:tfa_dbVersionId
+	input-hidden:tfa_switchedoff
+
+https://blog.sprinklr.com
+method:get
+https://blog.sprinklr.com/
+	input-text:s
+
+https://app.sprinklr.com/ui/login
+method:post
+https://app.sprinklr.com/ui/loginauth
+	input-hidden:ref
+	input-hidden:ref
+	input-hidden:samlRequest
+	input-hidden:refHash
+	input-hidden:requestQueryString
+	input-hidden:service
+	input-text:uid
+	input-password:pass
+
+https://www.sprinklr.com/contact-us/
+method:post
+https://sprinklr.tfaforms.net/rest/responses/processor
+	input-text:tfa_2
+	input-text:tfa_45
+	select-:tfa_1317
+	input-text:tfa_48
+	input-text:tfa_1
+	input-text:tfa_1407
+	input-hidden:tfa_1349
+	input-hidden:tfa_1350
+	input-hidden:tfa_1351
+	input-text:tfa_1396
+	input-text:tfa_1397
+	input-text:tfa_1398
+	input-checkbox:tfa_1400
+	input-hidden:tfa_1405
+	input-hidden:tfa_1406
+	input-submit:
+	input-hidden:tfa_dbCounters
+	input-hidden:tfa_dbFormId
+	input-hidden:tfa_dbResponseId
+	input-hidden:tfa_dbControl
+	input-hidden:tfa_dbTimeStarted
+	input-hidden:tfa_referrer
+	input-hidden:tfa_dbVersionId
+	input-hidden:tfa_switchedoff
+
+http://www.wikihow.com/Clear-Your-Browser's-Cookies
+method:get
+http://www.wikihow.com/Clear-Your-Browser's-Cookies/wikiHowTo
+	input-text:search
+	input-submit:
+
+https://www.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t
+method:get
+https://www.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t/wikiHowTo
+	input-text:search
+	input-submit:
+
+https://m.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t
+method:
+https://m.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t/wikiHowTo
+	input-text:search
+
+https://m.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t
+method:
+https://m.wikihow.vn/X%C3%B3a-cookie-c%E1%BB%A7a-tr%C3%ACnh-duy%E1%BB%87t/wikiHowTo
+	input-text:search
+	input-submit:
+
+https://m.wikihow.com.tr/Taray%C4%B1c%C4%B1n%C4%B1n-%C3%87erezleri-Nas%C4%B1l-Temizlenir
+method:
+https://m.wikihow.com.tr/Taray%C4%B1c%C4%B1n%C4%B1n-%C3%87erezleri-Nas%C4%B1l-Temizlenir/wikiHowTo
+	input-text:search
+
+https://m.wikihow.com.tr/Taray%C4%B1c%C4%B1n%C4%B1n-%C3%87erezleri-Nas%C4%B1l-Temizlenir
+method:
+https://m.wikihow.com.tr/Taray%C4%B1c%C4%B1n%C4%B1n-%C3%87erezleri-Nas%C4%B1l-Temizlenir/wikiHowTo
+	input-text:search
+	input-submit:
+
+https://m.wikihow.jp/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AECookie%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B
+method:
+https://m.wikihow.jp/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AECookie%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B/wikiHowTo
+	input-text:search
+
+https://m.wikihow.jp/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AECookie%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B
+method:
+https://m.wikihow.jp/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%AECookie%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B/wikiHowTo
+	input-text:search
+	input-submit:
+
+https://m.wikihow.jp/%E8%A6%96%E5%8A%9B%E3%82%92%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B
+method:
+https://m.wikihow.jp/%E8%A6%96%E5%8A%9B%E3%82%92%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B/wikiHowTo
+	input-text:search
+
+https://m.wikihow.jp/%E8%A6%96%E5%8A%9B%E3%82%92%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B
+method:
+https://m.wikihow.jp/%E8%A6%96%E5%8A%9B%E3%82%92%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B/wikiHowTo
+	input-text:search
+	input-submit:
+
+http://www.mayoclinic.org/diseases-conditions/nearsightedness/basics/treatment/con-20027548
+method:post
+http://www.mayoclinic.org/diseases-conditions/nearsightedness/basics/treatment/con-20027548/diseases-conditions/nearsightedness/diagnosis-treatment/drc-20375561
+	input-hidden:__VIEWSTATE
+	input-hidden:__VIEWSTATEGENERATOR
+	input-hidden:__EVENTVALIDATION
+	input-hidden:ctl01$CookiesEnabledHiddenField
+	input-text:ctl01$ctl00$searchTerm
+	input-submit:ctl01$ctl00$Search
+
+https://www.mayo.edu/research/clinical-trials
+method:post
+https://www.mayo.edu/research/clinical-trials/research/clinical-trials
+	input-hidden:__VIEWSTATE
+	input-hidden:__VIEWSTATEGENERATOR
+	input-hidden:__SCROLLPOSITIONX
+	input-hidden:__SCROLLPOSITIONY
+	input-hidden:__EVENTTARGET
+	input-hidden:__EVENTARGUMENT
+	input-hidden:__EVENTVALIDATION
+	input-text:siteSearchKeyword
+	input-button:ctl17$ctl00$Search
+	input-text:searchKeyword
+	input-button:ctl17$SearchMobileAzure
+	input-text:AzureClinicalStudiesHomepageKeywords
+	input-submit:main_0$maincontent_0$AzureSearchStudiesButton
+	input-hidden:main_0$maincontent_0$SearchUrlPrefixHiddenField
+	input-checkbox:main_0$maincontent_0$OpenStudiesCheckBox
+
+https://www.mayocliniclabs.com/
+method:get
+https://www.mayocliniclabs.com//search.php
+	input-text:q
+
+https://www.mayocliniclabs.com/
+method:get
+https://www.mayocliniclabs.com//test-catalog/search.php
+	input-text:search
+
+https://news.mayocliniclabs.com/category/mml-education/on-demand-programs/hot-topic/
+method:get
+https://www.mayocliniclabs.com/search.php
+	input-text:q
+
+https://news.mayocliniclabs.com/category/mml-education/on-demand-programs/hot-topic/
+method:get
+https://www.mayocliniclabs.com/search.php
+	input-text:q
+
+https://www.mayomedicallaboratories.com/customer-service/quality/index.html
+method:get
+https://www.mayomedicallaboratories.com/customer-service/quality/index.html/search.php
+	input-text:q
+
+https://www.mayomedicallaboratories.com/customer-service/quality/index.html
+method:get
+https://www.mayomedicallaboratories.com/customer-service/quality/index.html/test-catalog/search.php
+	input-text:search
+
+https://www.cms.gov/Regulations-and-Guidance/Legislation/CLIA/index.html
+method:get
+https://search.cms.gov/search
+	input-hidden:utf8
+	input-hidden:affiliate
+	input-hidden:dc
+	input-text:query
+	input-submit:commit
+
+https://www.cms.gov/Regulations-and-Guidance/Legislation/CLIA/index.html
+method:
+https://public.govdelivery.com/accounts/USCMS/subscribers/qualify
+	input-hidden:qsp
+	input-text:email
+	input-submit:email-submit
+
+https://www.cms.gov/cciio/index.html
+method:get
+https://search.cms.gov/search
+	input-hidden:utf8
+	input-hidden:affiliate
+	input-hidden:dc
+	input-text:query
+	input-submit:commit
+
+https://www.cms.gov/cciio/index.html
+method:
+https://public.govdelivery.com/accounts/USCMS/subscribers/qualify
+	input-hidden:qsp
+	input-text:email
+	input-submit:email-submit
+
+https://www.medicare.gov
+method:get
+https://www.medicare.gov/medicare-search
+	input-text:global_search
+	input-submit:
+
+https://www.medicare.gov
+method:post
+https://public.govdelivery.com/accounts/USCMSMYMEDICARE/subscribers/qualify
+	input-text:email
+
+https://wordpress.org/
+method:get
+https://wordpress.org///wordpress.org/search/do-search.php
+	input-text:search
+
+https://publiccode.eu/
+method:post
+https://forms.fsfe.org/email
+	input-hidden:appid
+	input-text:name
+	input-email:confirm
+	select-:country
+	input-text:zip
+	input-text:comment
+	input-checkbox:permissionPriv
+	input-checkbox:permissionPub
+	input-checkbox:permissionNews
+	input-text:url
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+	input-radio:popup
+	input-hidden:ref
+	input-hidden:url
+	input-hidden:title
+	input-:website
+	input-radio:popup
+	input-text:diasporapod
+	input-radio:popup
+	input-text:mastodonpod
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+	input-radio:popup
+	input-hidden:ref
+	input-hidden:url
+	input-hidden:title
+	input-:website
+	input-radio:popup
+	input-text:diasporapod
+	input-radio:popup
+	input-text:mastodonpod
+
+https://ev.kde.org
+method:post
+https://www.paypal.com/en_US/cgi-bin/webscr
+	input-hidden:cmd
+	input-hidden:lc
+	input-hidden:item_name
+	input-hidden:custom
+	input-hidden:currency_code
+	input-hidden:cbt
+	input-hidden:return
+	input-hidden:notify_url
+	input-hidden:business
+	input-text:amount
+
+http://www.kde.org/community/whatiskde/impressum.php
+method:post
+https://www.paypal.com/en_US/cgi-bin/webscr
+	input-hidden:cmd
+	input-hidden:lc
+	input-hidden:item_name
+	input-hidden:custom
+	input-hidden:currency_code
+	input-hidden:cbt
+	input-hidden:return
+	input-hidden:notify_url
+	input-hidden:business
+	input-text:amount
+
+https://www.qt.io/blog/qt-creator-4.11-beta-released
+method:
+https://www.qt.io/
+	input-submit:
+	input-text:s
+
+http://lists.qt-project.org/mailman/listinfo/qt-creator
+method:POST
+http://lists.qt-project.org/mailman/listinfo/qt-creator../../listinfo/qt-creator
+
+http://lists.qt-project.org/mailman/listinfo/qt-creator
+method:POST
+http://lists.qt-project.org/mailman/listinfo/qt-creator../../subscribe/qt-creator
+	input-Text:email
+	input-Text:fullname
+	input-Password:pw
+	input-Password:pw-conf
+	input-radio:digest
+	input-radio:digest
+	input-Submit:email-button
+
+http://lists.qt-project.org/mailman/listinfo/qt-creator
+method:POST
+http://lists.qt-project.org/mailman/listinfo/qt-creator../../roster/qt-creator
+	input-HIDDEN:language
+	input-Text:roster-email
+	input-Password:roster-pw
+	input-SUBMIT:SubscriberRoster
+
+http://lists.qt-project.org/mailman/listinfo/qt-creator
+method:POST
+http://lists.qt-project.org/mailman/listinfo/qt-creator../../options/qt-creator
+	input-TEXT:email
+	input-SUBMIT:UserOptions
+	input-HIDDEN:language
+
+http://www.debian.org/
+method:get
+https://search.debian.org/cgi-bin/omega
+	input-hidden:DB
+	input-:P
+	input-submit:
+
+https://git.spi-inc.org/gitweb/?p=website.git
+method:get
+https://git.spi-inc.org/gitweb/?p=website.git/gitweb
+	input-hidden:p
+	input-hidden:a
+	input-hidden:h
+	select-:st
+	input-text:s
+	input-checkbox:sr
+
+http://git-scm.com/
+method:
+http://git-scm.com//search/results
+	input-text:search
+
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git
+method:get
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/pub/scm/linux/kernel/git/torvalds/linux.git/log/
+	select-:qt
+	input-search:q
+	input-submit:
+
+https://git-scm.com/
+method:
+https://git-scm.com//search/results
+	input-text:search
+
+https://git.postgresql.org/gitweb/
+method:get
+https://git.postgresql.org/gitweb//gitweb/
+	input-hidden:a
+	input-text:s
+	input-checkbox:sr
+	input-submit:btnS
+
+https://git.postgresql.org/gitweb/?p=postgresql.git;a=summary
+method:get
+https://git.postgresql.org/gitweb/?p=postgresql.git;a=summary/gitweb/
+	input-hidden:p
+	input-hidden:a
+	input-hidden:h
+	select-:st
+	input-text:s
+	input-checkbox:sr
+
+https://git-scm.org/
+method:
+https://git-scm.org//search/results
+	input-text:search
+
+https://perl5.git.perl.org/perl.git
+method:get
+https://perl5.git.perl.org/perl.git/perl.git
+	input-hidden:a
+	input-hidden:h
+	select-:st
+	input-text:s
+	input-checkbox:sr
+
+http://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20
+method:get
+http://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20/errors/validateCaptcha
+	input-hidden:amzn
+	input-hidden:amzn-r
+	input-text:field-keywords
+
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496
+method:GET
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496/s/ref=nb_sb_noss
+	select-:url
+	input-submit:
+	input-text:field-keywords
+
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496
+method:get
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496/gp/help/customer/display.html/ref=hp_search_footer/143-8888727-2474138?ie=UTF8&nodeId=
+	input-hidden:__mk_en_US
+	input-search:help_keywords
+	input-submit:
+	input-hidden:search
+	input-hidden:nodeId
+	input-hidden:kwHidden
+	input-hidden:sprefix
+	input-hidden:locale
+
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496
+method:get
+https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496/gp/help/customer/display.html/ref=hp_search_request/143-8888727-2474138?ie=UTF8&nodeId=
+	input-hidden:__mk_en_US
+	input-search:help_keywords
+	input-submit:
+	input-hidden:search
+	input-hidden:nodeId
+	input-hidden:kwHidden
+	input-hidden:sprefix
+	input-hidden:locale
+
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fselling-services%2Fbenefits.htm%3Fld%3DAZUSVAS-globalfooter%26ref_%3Dfooter_sell_svcs&source=standards&token=E93858F0E946F93FEAC7F36EFB8E10F5C54CDBFC
+method:
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fselling-services%2Fbenefits.htm%3Fld%3DAZUSVAS-globalfooter%26ref_%3Dfooter_sell_svcs&source=standards&token=E93858F0E946F93FEAC7F36EFB8E10F5C54CDBFCget
+	input-hidden:ue_back
+
+https://services.amazon.in/?ref=as_us_header_in-flag
+method:
+https://services.amazon.in/?ref=as_us_header_in-flagget
+	input-hidden:ue_back
+
+https://services.amazon.in/?ref=as_in_header_in-flag
+method:
+https://services.amazon.in/?ref=as_in_header_in-flagget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/?ref=as_in_header_gb-flag
+method:
+https://services.amazon.co.uk/?ref=as_in_header_gb-flagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_uk_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_uk_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.it/?ref=as_in_header_it-flag
+method:
+https://services.amazon.it/?ref=as_in_header_it-flagget
+	input-hidden:ue_back
+
+https://services.amazon.co.jp?ref=as_eu_it_header_jpflag
+method:
+https://services.amazon.co.jp?ref=as_eu_it_header_jpflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/?ref=as_jp_header_mx-flag
+method:
+https://services.amazon.com.mx/?ref=as_jp_header_mx-flagget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=as_mx_header_fr-flag
+method:
+https://services.amazon.fr/?ref=as_mx_header_fr-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_fr_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_fr_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_de_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_de_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as18_in_soa_fnav
+method:
+https://services.amazon.in?ref=as18_in_soa_fnavget
+	input-hidden:ue_back
+
+https://services.amazon.ae/?ref=as_in_header_uae-flag
+method:
+https://services.amazon.ae/?ref=as_in_header_uae-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_ae_header_es-flag
+method:
+https://services.amazon.es/?ref=as_ae_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk?ref=as_eu_fr_header_ukflag
+method:
+https://services.amazon.co.uk?ref=as_eu_fr_header_ukflagget
+	input-hidden:ue_back
+
+https://services.amazon.com?ref=as_eu_uk_header_usflag
+method:
+https://services.amazon.com?ref=as_eu_uk_header_usflagget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk?ref=as_eu_uk_header_ukflag
+method:
+https://services.amazon.co.uk?ref=as_eu_uk_header_ukflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_uk_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_uk_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.br?ref=as_eu_it_header_brflag
+method:
+https://services.amazon.com.br?ref=as_eu_it_header_brflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.au/?ref=as_br_header_au-flag
+method:
+https://services.amazon.com.au/?ref=as_br_header_au-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.au/services/advertising/overview/ref=asau_sp_hnav
+method:
+https://services.amazon.com.au/services/advertising/overview/ref=asau_sp_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com?ref=as_eu_it_header_usflag
+method:
+https://services.amazon.com?ref=as_eu_it_header_usflagget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk?ref=as_eu_it_header_ukflag
+method:
+https://services.amazon.co.uk?ref=as_eu_it_header_ukflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_uk_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_uk_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.br?ref=as_eu_fr_header_brflag
+method:
+https://services.amazon.com.br?ref=as_eu_fr_header_brflagget
+	input-hidden:ue_back
+
+https://services.amazon.com?ref=as_eu_fr_header_usflag
+method:
+https://services.amazon.com?ref=as_eu_fr_header_usflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_fr_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_fr_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_it_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_it_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_it_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_it_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_fr_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_fr_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_fr_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_fr_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg?ref=as_eu_fr_header_sgflag
+method:
+https://services.amazon.com.sg?ref=as_eu_fr_header_sgflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg/resources/blogs.htm/ref=assg_res_hnav_blogs
+method:
+https://services.amazon.com.sg/resources/blogs.htm/ref=assg_res_hnav_blogsget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg/sponsored-products/overview.htm/ref=assg_sp_snav_ovr
+method:
+https://services.amazon.com.sg/sponsored-products/overview.htm/ref=assg_sp_snav_ovrget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg/fulfillment-by-amazon/benefits.htm/ref=assg_fba_hnav
+method:
+https://services.amazon.com.sg/fulfillment-by-amazon/benefits.htm/ref=assg_fba_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg/selling/benefits.htm/ref=assg_soa_hnav
+method:
+https://services.amazon.com.sg/selling/benefits.htm/ref=assg_soa_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_fr_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_fr_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_it_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_it_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_it_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_it_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.br?ref=as_eu_de_header_brflag
+method:
+https://services.amazon.com.br?ref=as_eu_de_header_brflagget
+	input-hidden:ue_back
+
+https://services.amazon.com?ref=as_eu_de_header_usflag
+method:
+https://services.amazon.com?ref=as_eu_de_header_usflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_de_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_de_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_de_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_de_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg?ref=as_eu_it_header_sgflag
+method:
+https://services.amazon.com.sg?ref=as_eu_it_header_sgflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_it_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_it_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_it_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_it_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_it_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_it_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_it_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_it_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_it_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_it_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_fr_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_fr_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_fr_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_fr_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_uk_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_uk_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_uk_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_uk_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_it_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_it_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_it_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_it_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_it_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_it_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_it_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_it_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_it_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_it_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_uk_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_uk_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_uk_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_uk_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_uk_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_uk_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_uk_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_uk_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_uk_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_uk_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_uk_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_uk_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.de?ref=as_eu_uk_header_deflag
+method:
+https://services.amazon.de?ref=as_eu_uk_header_deflagget
+	input-hidden:ue_back
+
+https://services.amazon.it?ref=as_eu_fr_header_itflag
+method:
+https://services.amazon.it?ref=as_eu_fr_header_itflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr?ref=as_eu_fr_header_frflag
+method:
+https://services.amazon.fr?ref=as_eu_fr_header_frflagget
+	input-hidden:ue_back
+
+https://services.amazon.es?ref=as_eu_fr_header_esflag
+method:
+https://services.amazon.es?ref=as_eu_fr_header_esflagget
+	input-hidden:ue_back
+
+https://services.amazon.com.sg?ref=as_eu_fr_header_sgflag
+method:
+https://services.amazon.com.sg?ref=as_eu_fr_header_sgflagget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.es
+method:
+https://services.amazon.esget
+	input-hidden:ue_back
+
+https://sellercentral.amazon.ae/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.ae%2Fhome&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sc_ae_v2&openid.mode=checkid_setup&language=en_AE&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_sc_ae_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+method:post
+https://sellercentral.amazon.ae/ap/signin
+	input-hidden:appActionToken
+	input-hidden:appAction
+	input-hidden:openid.return_to
+	input-hidden:prevRID
+	input-hidden:workflowState
+	input-email:email
+	input-hidden:create
+	input-password:password
+	input-submit:
+	input-checkbox:rememberMe
+
+https://sellercentral.amazon.ae/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.ae%2Fhome&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sc_ae_v2&openid.mode=checkid_setup&language=en_AE&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_sc_ae_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+method:
+https://sellercentral.amazon.ae/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fsellercentral.amazon.ae%2Fhome&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_sc_ae_v2&openid.mode=checkid_setup&language=en_AE&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_sc_ae_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&get
+	input-hidden:ue_back
+
+https://services.amazon.ae/content/contact-us.html/ref=asae_cu_hnav
+method:post
+https://astrocrm.secure.force.com/services/apexrest/legacy.0/web2prospect
+	select-:Product__c
+	select-:Category__c
+	select-:Estimated_Annual_Revenue__c
+	input-number:SKU_count
+	input-text:first_name
+	input-text:phone
+	input-text:company
+	select-:Country_of_Origin__c
+	input-text:last_name
+	input-email:email
+	input-text:URL
+	input-text:Description
+	input-hidden:srcURL
+	input-hidden:retURL
+	input-hidden:oid
+	input-hidden:lead_source
+	input-hidden:Locale__c
+
+https://services.amazon.ae/content/contact-us.html/ref=asae_cu_hnav
+method:
+https://services.amazon.ae/content/contact-us.html/ref=asae_cu_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.ae/tutorials-and-training.html/ref=asae_tut_hnav
+method:
+https://services.amazon.ae/tutorials-and-training.html/ref=asae_tut_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.ae/services/fulfillment-by-amazon/benefits.html/ref=asae_fba_hnav_ben
+method:
+https://services.amazon.ae/services/fulfillment-by-amazon/benefits.html/ref=asae_fba_hnav_benget
+	input-hidden:ue_back
+
+https://services.amazon.ae/services/sell-on-amazon/benefits.html/ref=asae_soa_hnav_ben
+method:
+https://services.amazon.ae/services/sell-on-amazon/benefits.html/ref=asae_soa_hnav_benget
+	input-hidden:ue_back
+
+https://services.amazon.ae/ref=asae_logo
+method:
+https://services.amazon.ae/ref=asae_logoget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_in_header_es-flag
+method:
+https://services.amazon.es/?ref=as_in_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.ae/?ref=as_in_header_uae-flag
+method:
+https://services.amazon.ae/?ref=as_in_header_uae-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_in_header_es-flag
+method:
+https://services.amazon.es/?ref=as_in_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/informationen/terminewebinare.html?ref=asde_soa_ew_hnav
+method:
+https://services.amazon.de/informationen/terminewebinare.html?ref=asde_soa_ew_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.de/programme/amazon-speditionsware.html?ref=asde_ahl_h_hnav
+method:
+https://services.amazon.de/programme/amazon-speditionsware.html?ref=asde_ahl_h_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx?ref=as_eu_uk_header_mxflag
+method:
+https://services.amazon.com.mx?ref=as_eu_uk_header_mxflagget
+	input-hidden:ue_back
+
+https://services.amazon.de/handmade.html?ref=asde_hm_home_hnav
+method:
+https://services.amazon.de/handmade.html?ref=asde_hm_home_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.de
+method:
+https://services.amazon.deget
+	input-hidden:ue_back
+
+https://services.amazon.ae/
+method:
+https://services.amazon.ae/get
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_fr_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_fr_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.fr/services/vendre-sur-internet/avantages.html?ref=asfr_soa_fb_hnav
+method:
+https://services.amazon.fr/services/vendre-sur-internet/avantages.html?ref=asfr_soa_fb_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.fr/services/vendre-sur-internet/avantages.html?ref=asfr_soa_fb_hnav
+method:
+https://services.amazon.fr/services/vendre-sur-internet/avantages.html?ref=asfr_soa_fb_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=asfr_soa_home_hnav
+method:
+https://services.amazon.fr/?ref=asfr_soa_home_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.fr
+method:
+https://services.amazon.frget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_mx_header_es-flag
+method:
+https://services.amazon.es/?ref=as_mx_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/?ref=as_mx_header_de-flag
+method:
+https://services.amazon.de/?ref=as_mx_header_de-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/publicidad/beneficios.html/ref=asmx_sp_hnav
+method:
+https://services.amazon.com.mx/publicidad/beneficios.html/ref=asmx_sp_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/servicios/logistica-de-amazon/beneficios.html/ref=asmx_fba_hnav
+method:
+https://services.amazon.com.mx/servicios/logistica-de-amazon/beneficios.html/ref=asmx_fba_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/servicios/vender/beneficios.html/ref=asmx_soa_hnav
+method:
+https://services.amazon.com.mx/servicios/vender/beneficios.html/ref=asmx_soa_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/
+method:
+https://services.amazon.com.mx/get
+	input-hidden:ue_back
+
+https://services.amazon.co.jp/services/fulfillment-by-amazon/services-overview.html?ref=as_jp_jp_header_fba
+method:
+https://services.amazon.co.jp/services/fulfillment-by-amazon/services-overview.html?ref=as_jp_jp_header_fbaget
+	input-hidden:ue_back
+
+https://services.amazon.co.jp
+method:
+https://services.amazon.co.jpget
+	input-hidden:ue_back
+
+https://services.amazon.in?ref=as_eu_it_header_inflag
+method:
+https://services.amazon.in?ref=as_eu_it_header_inflagget
+	input-hidden:ue_back
+
+https://services.amazon.it/servizi/vendita-su-amazon/piani-e-tariffe.html?ref=asit_soa_p_hnav
+method:
+https://services.amazon.it/servizi/vendita-su-amazon/piani-e-tariffe.html?ref=asit_soa_p_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.it/servizi/vendita-su-amazon/caratteristiche-e-vantaggi.html?ref=asit_soa_fb_hnav
+method:
+https://services.amazon.it/servizi/vendita-su-amazon/caratteristiche-e-vantaggi.html?ref=asit_soa_fb_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.it/servizi/vendita-su-amazon/caratteristiche-e-vantaggi.html?ref=asit_soa_fb_hnav
+method:
+https://services.amazon.it/servizi/vendita-su-amazon/caratteristiche-e-vantaggi.html?ref=asit_soa_fb_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.it/?ref=asit_soa_home_hnav
+method:
+https://services.amazon.it/?ref=asit_soa_home_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.it
+method:
+https://services.amazon.itget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=as_in_header_fr-flag
+method:
+https://services.amazon.fr/?ref=as_in_header_fr-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_in_header_es-flag
+method:
+https://services.amazon.es/?ref=as_in_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/?ref=as_in_header_de-flag
+method:
+https://services.amazon.de/?ref=as_in_header_de-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/?ref=as_in_header_mx-flag
+method:
+https://services.amazon.com.mx/?ref=as_in_header_mx-flagget
+	input-hidden:ue_back
+
+https://services.amazon.in
+method:
+https://services.amazon.inget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/resources/events-webinars.html?ref=asuk_soa_ew_hnav
+method:
+https://services.amazon.co.uk/resources/events-webinars.html?ref=asuk_soa_ew_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/services/amazon-heavy-and-large.html?ref=asuk_ahl_h_hnav
+method:
+https://services.amazon.co.uk/services/amazon-heavy-and-large.html?ref=asuk_ahl_h_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/handmade.html?ref=asuk_hm_home_hnav
+method:
+https://services.amazon.co.uk/handmade.html?ref=asuk_hm_home_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/?ref=asuk_soa_home_hnav
+method:
+https://services.amazon.co.uk/?ref=asuk_soa_home_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk
+method:
+https://services.amazon.co.ukget
+	input-hidden:ue_back
+
+https://services.amazon.it/?ref=as_in_header_it-flag
+method:
+https://services.amazon.it/?ref=as_in_header_it-flagget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=as_in_header_fr-flag
+method:
+https://services.amazon.fr/?ref=as_in_header_fr-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_in_header_es-flag
+method:
+https://services.amazon.es/?ref=as_in_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/?ref=as_in_header_de-flag
+method:
+https://services.amazon.de/?ref=as_in_header_de-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/?ref=as_in_header_mx-flag
+method:
+https://services.amazon.com.mx/?ref=as_in_header_mx-flagget
+	input-hidden:ue_back
+
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnav
+method:post
+https://sellercentral.amazon.in/ap/signin
+	input-hidden:appActionToken
+	input-hidden:appAction
+	input-hidden:openid.return_to
+	input-hidden:prevRID
+	input-hidden:workflowState
+	input-email:email
+	input-hidden:create
+	input-password:password
+	input-submit:
+	input-checkbox:rememberMe
+
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnav
+method:
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnavget
+	input-hidden:ue_back
+
+http://www.amazonspn.in
+method:
+http://www.amazonspn.inget
+	input-hidden:ue_back
+
+https://spcentral.amazon.com?ref_=sc_gspn_hp-si_pc
+method:post
+https://www.amazon.com/ap/signin/143-1516327-8247316
+	input-hidden:appActionToken
+	input-hidden:appAction
+	input-hidden:siteState
+	input-hidden:openid.return_to
+	input-hidden:prevRID
+	input-hidden:workflowState
+	input-email:email
+	input-hidden:create
+	input-password:password
+	input-submit:
+	input-checkbox:rememberMe
+
+https://spcentral.amazon.com?ref_=sc_gspn_hp-si_pc
+method:
+https://spcentral.amazon.com?ref_=sc_gspn_hp-si_pcget
+	input-hidden:ue_back
+
+https://services.amazon.in
+method:
+https://services.amazon.inget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/?ref=as_in_header_gb-flag
+method:
+https://services.amazon.co.uk/?ref=as_in_header_gb-flagget
+	input-hidden:ue_back
+
+https://services.amazon.it/?ref=as_in_header_it-flag
+method:
+https://services.amazon.it/?ref=as_in_header_it-flagget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=as_in_header_fr-flag
+method:
+https://services.amazon.fr/?ref=as_in_header_fr-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_in_header_es-flag
+method:
+https://services.amazon.es/?ref=as_in_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/?ref=as_in_header_de-flag
+method:
+https://services.amazon.de/?ref=as_in_header_de-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/?ref=as_in_header_mx-flag
+method:
+https://services.amazon.com.mx/?ref=as_in_header_mx-flagget
+	input-hidden:ue_back
+
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnav
+method:post
+https://sellercentral.amazon.in/ap/signin
+	input-hidden:appActionToken
+	input-hidden:appAction
+	input-hidden:openid.return_to
+	input-hidden:prevRID
+	input-hidden:workflowState
+	input-email:email
+	input-hidden:create
+	input-password:password
+	input-submit:
+	input-checkbox:rememberMe
+
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnav
+method:
+https://sellercentral.amazon.in/sw/in/FBA/dashboard?productTier=SILVER&productType=SellOnAmazon&ref_=as_in_primeseller_hnavget
+	input-hidden:ue_back
+
+https://sellercentral.amazon.in/gp/homepage.html?ref=as_in_login_hnav
+method:post
+https://sellercentral.amazon.in/ap/signin
+	input-hidden:appActionToken
+	input-hidden:appAction
+	input-hidden:openid.return_to
+	input-hidden:prevRID
+	input-hidden:workflowState
+	input-email:email
+	input-hidden:create
+	input-password:password
+	input-submit:
+	input-checkbox:rememberMe
+
+https://sellercentral.amazon.in/gp/homepage.html?ref=as_in_login_hnav
+method:
+https://sellercentral.amazon.in/gp/homepage.html?ref=as_in_login_hnavget
+	input-hidden:ue_back
+
+https://services.amazon.in
+method:
+https://services.amazon.inget
+	input-hidden:ue_back
+
+https://services.amazon.co.uk/?ref=as_us_header_gb-flag
+method:
+https://services.amazon.co.uk/?ref=as_us_header_gb-flagget
+	input-hidden:ue_back
+
+https://services.amazon.it/?ref=as_us_header_it-flag
+method:
+https://services.amazon.it/?ref=as_us_header_it-flagget
+	input-hidden:ue_back
+
+https://services.amazon.fr/?ref=as_us_header_fr-flag
+method:
+https://services.amazon.fr/?ref=as_us_header_fr-flagget
+	input-hidden:ue_back
+
+https://services.amazon.es/?ref=as_us_header_es-flag
+method:
+https://services.amazon.es/?ref=as_us_header_es-flagget
+	input-hidden:ue_back
+
+https://services.amazon.de/?ref=as_us_header_de-flag
+method:
+https://services.amazon.de/?ref=as_us_header_de-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.br/?ref=as_us_header_br-flag
+method:
+https://services.amazon.com.br/?ref=as_us_header_br-flagget
+	input-hidden:ue_back
+
+https://services.amazon.com.mx/?ref=as_us_header_mx-flag
+method:
+https://services.amazon.com.mx/?ref=as_us_header_mx-flagget
+	input-hidden:ue_back
+
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fhandmade%2Fhandmade.html%3Fld%3DAZUSHNDFooter%26ref_%3Dfooter_hnd&source=standards&token=DA385E26D040DBEFE4D1953FFEE4670F9DBBBAA7
+method:
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fhandmade%2Fhandmade.html%3Fld%3DAZUSHNDFooter%26ref_%3Dfooter_hnd&source=standards&token=DA385E26D040DBEFE4D1953FFEE4670F9DBBBAA7get
+	input-hidden:ue_back
+
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fcontent%2Fsell-on-amazon.html%3Fld%3DAZFSSOA%26ref_%3Dfooter_soa&source=standards&token=67305B06938EF184959C25FEBF1B83085480E205
+method:
+https://www.amazon.com:443/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fservices.amazon.com%2Fcontent%2Fsell-on-amazon.html%3Fld%3DAZFSSOA%26ref_%3Dfooter_soa&source=standards&token=67305B06938EF184959C25FEBF1B83085480E205get
+	input-hidden:ue_back
+
+https://www.aboutamazon.com/amazon-fulfillment-center-tours?utm_source=gateway&utm_medium=footer&utm_campaign=fctours
+method:
+https://www.aboutamazon.com/search
+	input-text:q
+
+https://www.aboutamazon.com/amazon-fulfillment-center-tours?utm_source=gateway&utm_medium=footer&utm_campaign=fctours
+method:POST
+https://www.aboutamazon.com/tours/submit
+	input-hidden:siteId
+	select-:location
+	select-:groupSize
+	input-text:fn1
+	input-text:ln1
+	input-text:bd1
+	input-email:email
+	input-checkbox:newsletterSignup
+	input-text:fn2
+	input-text:ln2
+	input-text:bd2
+	input-text:fn3
+	input-text:ln3
+	input-text:bd3
+	input-text:fn4
+	input-text:ln4
+	input-text:bd4
+	input-text:fn5
+	input-text:ln5
+	input-text:bd5
+	input-text:fn6
+	input-text:ln6
+	input-text:bd6
+	input-text:fn7
+	input-text:ln7
+	input-text:bd7
+	input-text:fn8
+	input-text:ln8
+	input-text:bd8
+	input-text:fn9
+	input-text:ln9
+	input-text:bd9
+	input-text:fn10
+	input-text:ln10
+	input-text:bd10
+
+https://www.aboutamazon.fr
+method:
+https://www.aboutamazon.fr/rechercher
+	input-text:q
+
+https://www.aboutamazon.fr
+method:GET
+https://www.aboutamazon.fr/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.fr
+method:GET
+https://www.aboutamazon.fr/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.fr
+method:GET
+https://www.aboutamazon.fr/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.fr
+method:GET
+https://www.aboutamazon.fr/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.fr
+method:GET
+https://www.aboutamazon.fr/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.eu
+method:
+https://www.aboutamazon.eu/search
+	input-text:q
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.eu
+method:GET
+https://www.aboutamazon.eu/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.eu/job-creation-and-investment
+method:
+https://www.aboutamazon.eu/search
+	input-text:q
+
+https://www.aboutamazon.eu/small-business
+method:
+https://www.aboutamazon.eu/search
+	input-text:q
+
+https://www.aboutamazon.it
+method:
+https://www.aboutamazon.it/cerca
+	input-text:q
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+	textarea-:q
+	input-submit:
+
+https://www.aboutamazon.it
+method:GET
+https://www.aboutamazon.it/search
+	textarea-:q
+	input-submit:
+
+https://amazon-press.it/Top-Navi/Comunicati-Stampa.html?ref_=aa_navt_0&pf_rd_r=0M3DR5TH5405FR9C0B1X&pf_rd_p=7b7375bd-dcba-4c10-af3e-bf4c480a6877
+method:get
+https://amazon-press.it/Top-Navi/Comunicati-Stampa.html?ref_=aa_navt_0&pf_rd_r=0M3DR5TH5405FR9C0B1X&pf_rd_p=7b7375bd-dcba-4c10-af3e-bf4c480a6877/service/Recherche.html
+	input-text:queryStr
+	input-submit:
+
+https://amazon-press.it/Top-Navi/Comunicati-Stampa.html?ref_=aa_navt_0&pf_rd_r=0M3DR5TH5405FR9C0B1X&pf_rd_p=7b7375bd-dcba-4c10-af3e-bf4c480a6877
+method:
+https://amazon-press.it/Top-Navi/Comunicati-Stampa.html?ref_=aa_navt_0&pf_rd_r=0M3DR5TH5405FR9C0B1X&pf_rd_p=7b7375bd-dcba-4c10-af3e-bf4c480a6877/Top-Navi/Comunicati-Stampa.html
+	input-hidden:offset
+	select-:start_month
+	select-:start_year
+	select-:end_month
+	select-:end_year
+	input-submit:apply
+
+http://www.shopbop.com/it/welcome
+method:POST
+http://www.shopbop.com/it/welcome/l10n
+	input-hidden:_csrf
+	input-hidden:returnToUrl
+	input-hidden:returnToHash
+	input-hidden:locationCode
+	input-hidden:languageCode
+	input-hidden:currencyCode
+
+http://www.shopbop.com/it/welcome
+method:get
+http://www.shopbop.com/it/welcome/s/products
+	input-text:query
+	input-hidden:searchSuggestion
+
+http://www.shopbop.com/it/welcome
+method:post
+http://www.shopbop.com/it/welcome/s/subscriptions/MASTER
+	input-text:
+	input-submit:
+	input-hidden:
+	input-hidden:
+	input-hidden:_csrf
+
+http://www.shopbop.com/it/welcome
+method:
+http://www.shopbop.com/it/welcomeget
+	input-hidden:ue_back
+
+https://www.createspace.com/pub/l/diy_it.do
+method:
+https://www.createspace.com/pub/l/diy_it.doget
+	input-hidden:ue_back
+
+http://www.bookdepository.com/
+method:
+http://www.bookdepository.com//search
+	input-text:searchTerm
+	input-hidden:search
+
+http://www.bookdepository.com/
+method:post
+http://www.bookdepository.com/
+	select-:selectLanguage
+
+http://www.bookdepository.com/
+method:post
+http://www.bookdepository.com//
+	select-:selectCurrency
+
+http://www.bookdepository.com/
+method:
+http://www.bookdepository.com//newsletter/add
+	input-email:newsletterEmailAddress
+
+http://www.bookdepository.com/
+method:
+http://www.bookdepository.com/get
+	input-hidden:ue_back
+
+http://www.abebooks.it/
+method:post
+http://www.abebooks.it//servlet/SearchResults
+	input-hidden:cm_sp
+	input-hidden:sts
+	input-text:kn
+
+http://www.abebooks.it/
+method:get
+http://www.abebooks.it//servlet/SearchResults
+	input-hidden:sts
+	input-hidden:cm_sp
+	input-text:an
+	input-text:tn
+	input-text:kn
+	input-text:isbn
+
+https://app.fillz.com/login
+method:POST
+https://app.fillz.com/login/login/
+	input-hidden:csrf_token
+	input-hidden:next
+	input-text:username
+	input-password:password
+	input-submit:submit
+
+https://fillz.zendesk.com/hc/en-us
+method:get
+https://fillz.zendesk.com/hc/en-us/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+https://app.fillz.com/login
+method:POST
+https://app.fillz.com/login/login/
+	input-hidden:csrf_token
+	input-hidden:next
+	input-text:username
+	input-password:password
+	input-submit:submit
+
+https://fillz.zendesk.com/hc/en-us
+method:get
+https://fillz.zendesk.com/hc/en-us/hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+	input-submit:commit
+
+http://www.bookfinder.com/?cm_sp=Ftr-_-Home-_-companies1
+method:GET
+https://www.bookfinder.com/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-text:isbn
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+http://www.bookfinder.com/?cm_sp=Ftr-_-Home-_-companies1
+method:POST
+https://www.bookfinder.com/my/preferences/
+	input-hidden:action
+
+http://www.justbooks.nl/?ref=bf_s1_ft_s5
+method:GET
+https://www.justbooks.nl/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-text:isbn
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+http://www.justbooks.nl/?ref=bf_s1_ft_s5
+method:POST
+https://www.justbooks.nl/mijn/instellingen/
+	input-hidden:action
+
+https://www.justbooks.nl?lang=any&mode=advanced&ref=bf_s1_ft_l2
+method:GET
+https://www.justbooks.nl/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-radio:binding
+	input-radio:binding
+	input-radio:binding
+	input-text:isbn
+	input-text:keywords
+	input-text:minprice
+	input-text:maxprice
+	input-text:publisher
+	input-text:min_year
+	input-text:max_year
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+https://www.justbooks.nl?lang=any&mode=advanced&ref=bf_s1_ft_l2
+method:POST
+https://www.justbooks.nl/mijn/instellingen/
+	input-hidden:action
+
+http://www.justbooks.fr/?ref=bf_s1_ft_s4
+method:GET
+https://www.justbooks.fr/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-text:isbn
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+http://www.justbooks.fr/?ref=bf_s1_ft_s4
+method:POST
+https://www.justbooks.fr/mon/preferences/
+	input-hidden:action
+
+https://www.justbooks.fr?lang=any&mode=advanced&ref=bf_s1_ft_l6
+method:GET
+https://www.justbooks.fr/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-radio:binding
+	input-radio:binding
+	input-radio:binding
+	input-text:isbn
+	input-text:keywords
+	input-text:minprice
+	input-text:maxprice
+	input-text:publisher
+	input-text:min_year
+	input-text:max_year
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+https://www.justbooks.fr?lang=any&mode=advanced&ref=bf_s1_ft_l6
+method:POST
+https://www.justbooks.fr/mon/preferences/
+	input-hidden:action
+
+http://www.justbooks.de/?ref=bf_s1_ft_s3
+method:GET
+https://www.justbooks.de/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-text:isbn
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+http://www.justbooks.de/?ref=bf_s1_ft_s3
+method:POST
+https://www.justbooks.de/meine/einstellungen/
+	input-hidden:action
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_s1_ft_l1
+method:GET
+https://www.justbooks.de/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-radio:binding
+	input-radio:binding
+	input-radio:binding
+	input-text:isbn
+	input-text:keywords
+	input-text:minprice
+	input-text:maxprice
+	input-text:publisher
+	input-text:min_year
+	input-text:max_year
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_s1_ft_l1
+method:POST
+https://www.justbooks.de/meine/einstellungen/
+	input-hidden:action
+
+https://www.justbooks.de/meine/einstellungen/?ref=bf_s1_hd_4
+method:GET
+https://www.justbooks.de/search/
+	input-text:keywords
+	input-hidden:currency
+	input-hidden:lang
+	input-hidden:st
+	input-hidden:ac
+
+https://www.justbooks.de/meine/einstellungen/?ref=bf_s1_hd_4
+method:POST
+https://www.justbooks.de/meine/einstellungen/
+	input-hidden:action
+	input-submit:
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_uu_ft_l1
+method:GET
+https://www.justbooks.de/search/
+	input-text:author
+	input-text:title
+	select-:lang
+	input-submit:submitBtn
+	input-reset:
+	input-radio:new_used
+	input-radio:new_used
+	input-radio:new_used
+	input-checkbox:first_ed
+	input-checkbox:signed
+	input-checkbox:no_pod
+	input-checkbox:no_isbn
+	select-:destination
+	select-:currency
+	input-radio:binding
+	input-radio:binding
+	input-radio:binding
+	input-text:isbn
+	input-text:keywords
+	input-text:minprice
+	input-text:maxprice
+	input-text:publisher
+	input-text:min_year
+	input-text:max_year
+	input-hidden:mode
+	input-hidden:st
+	input-hidden:ac
+
+https://www.justbooks.de?lang=any&mode=advanced&ref=bf_uu_ft_l1
+method:POST
+https://www.justbooks.de/meine/einstellungen/
+	input-hidden:action
+
+https://www.justbooks.de/ueberuns/?ref=bf_s1_hd_3
+method:GET
+https://www.justbooks.de/search/
+	input-text:keywords
+	input-hidden:currency
+	input-hidden:lang
+	input-hidden:st
+	input-hidden:ac
+
+http://www.kearnystreet.org/#!c3my
+method:get
+http://www.kearnystreet.org/#!c3my/search
+	input-text:q
+
+http://kearnystreetworkshop.tumblr.com
+method:get
+http://kearnystreetworkshop.tumblr.com/search
+	input-text:q
+	input-submit:
+
+https://kearnystreetworkshop.tumblr.com/post/150665642782/apature-2016here
+method:get
+https://kearnystreetworkshop.tumblr.com/post/150665642782/apature-2016here/search
+	input-text:q
+	input-submit:
+
+https://kearnystreetworkshop.tumblr.com/tagged/APAture2016
+method:get
+https://kearnystreetworkshop.tumblr.com/tagged/APAture2016/search
+	input-text:q
+	input-submit:
+
+https://kearnystreetworkshop.tumblr.com/post/150848276437/apature-2016-is-8-days-away-come-enjoy-with-us
+method:get
+https://kearnystreetworkshop.tumblr.com/post/150848276437/apature-2016-is-8-days-away-come-enjoy-with-us/search
+	input-text:q
+	input-submit:
+
+http://kearnystreetworkshop.tumblr.com
+method:get
+http://kearnystreetworkshop.tumblr.com/search
+	input-text:q
+	input-submit:
+
+http://www.nicoslate.com/
+method:
+http://www.nicoslate.com/#
+	textarea-:carousel-reblog-content
+	select-:carousel-reblog-to-blog-id
+	input-submit:carousel-reblog-submit
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:_wpnonce
+	input-hidden:_wp_http_referer
+
+https://nicoslatecom.wordpress.com/my-teaching/
+method:
+https://nicoslatecom.wordpress.com/my-teaching/#
+	textarea-:carousel-reblog-content
+	select-:carousel-reblog-to-blog-id
+	input-submit:carousel-reblog-submit
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:_wpnonce
+	input-hidden:_wp_http_referer
+
+https://nicoslatecom.wordpress.com/books/
+method:
+https://nicoslatecom.wordpress.com/books/#
+	textarea-:carousel-reblog-content
+	select-:carousel-reblog-to-blog-id
+	input-submit:carousel-reblog-submit
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:
+	input-hidden:_wpnonce
+	input-hidden:_wp_http_referer
+
+https://www.theatlantic.com/entertainment/archive/2019/02/gandhis-raw-food-diet/582721/
+method:
+https://www.theatlantic.com/entertainment/archive/2019/02/gandhis-raw-food-diet/582721//search/
+	input-search:q
+	input-submit:
+
+https://www.theatlantic.com/entertainment/archive/2019/02/gandhis-raw-food-diet/582721/
+method:
+https://www.theatlantic.com/entertainment/archive/2019/02/gandhis-raw-food-diet/582721//search/
+	input-submit:
+	input-search:q
+
+https://news.harvard.edu/gazette/story/2009/06/invention-of-cooking-drove-evolution-of-the-human-species-new-book-argues/
+method:get
+https://news.harvard.edu/gazette/
+	input-search:s
+	input-submit:
+
+https://news.harvard.edu/gazette/story/2009/06/invention-of-cooking-drove-evolution-of-the-human-species-new-book-argues/
+method:get
+https://www.pages01.net/harvard/gazette
+	input-text:email
+	input-submit:
+
+http://anthropology.si.edu/HumanOrigins/ha/erec.html
+method:get
+http://anthropology.si.edu/HumanOrigins/ha/erec.html/search
+	input-text:keywords
+	input-submit:
+
+http://anthropology.si.edu/HumanOrigins/ha/erec.html
+method:POST
+https://support.si.edu/site/SSurvey
+	input-hidden:cons_info_component
+	input-hidden:SURVEY_ID
+	input-email:cons_email
+	input-submit:ACTION_SUBMIT_SURVEY_RESPONSE
+
+https://npengage.com/
+method:post
+https://npengage.com///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/social-media/
+method:post
+https://npengage.com/social-media///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/social-media/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/social-media/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-technology/
+method:post
+https://npengage.com/nonprofit-technology///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/nonprofit-technology/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-technology/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-management/
+method:post
+https://npengage.com/nonprofit-management///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/nonprofit-management/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-management/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-marketing/
+method:post
+https://npengage.com/nonprofit-marketing///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/nonprofit-marketing/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-marketing/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-fundraising/
+method:post
+https://npengage.com/nonprofit-fundraising///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/nonprofit-fundraising/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-fundraising/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-blogs/
+method:post
+https://npengage.com/nonprofit-blogs///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/nonprofit-blogs/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/nonprofit-blogs/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com
+method:post
+https://npengage.com//npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/
+method:post
+https://npengage.com///npengage.us16.list-manage.com/subscribe/post?u=01e1566517c6bd6e94d3404db&id=3743f10f5b
+	input-email:EMAIL
+	input-text:b_01e1566517c6bd6e94d3404db_3743f10f5b
+	input-submit:subscribe
+
+https://npengage.com/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://npengage.com/
+method:get
+https://npengage.com/
+	input-text:s
+
+https://blackbaud.swoogo.com/bbcon/begin?reg_type_id=68366
+method:post
+https://blackbaud.swoogo.com/bbcon/begin?reg_type_id=68366/bbcon/begin?reg_type_id=68366
+	input-hidden:_csrf
+	input-hidden:Registrant[device]
+	input-hidden:Registrant[js_disabled]
+	input-email:Registrant[email]
+	input-password:Registrant[password]
+	input-password:Registrant[password_repeat]
+	input-hidden:Registrant[c_299586]
+	input-radio:Registrant[c_299586]
+	input-radio:Registrant[c_299586]
+	input-text:Registrant[discount_code]
+
+https://blackbaud.swoogo.com/bbcon2020/begin
+method:post
+https://blackbaud.swoogo.com/bbcon2020/begin/bbcon2020/begin
+	input-hidden:_csrf
+	input-hidden:Registrant[device]
+	input-hidden:Registrant[js_disabled]
+	input-email:Registrant[email]
+	input-text:Registrant[discount_code]
+	input-hidden:Registrant[reg_type_id]
+	input-hidden:Registrant[package_id]
+
+https://blackbaud.swoogo.com/bbcon2020/begin
+method:post
+https://blackbaud.swoogo.com/bbcon2020/begin/bbcon2020/begin
+	input-hidden:_csrf
+	input-hidden:Registrant[device]
+	input-hidden:Registrant[js_disabled]
+	input-email:Registrant[email]
+	input-text:Registrant[discount_code]
+	input-hidden:Registrant[reg_type_id]
+	input-hidden:Registrant[package_id]
+
+https://blackbaud.swoogo.com/bbcon2020/begin
+method:post
+https://blackbaud.swoogo.com/bbcon2020/begin/bbcon2020/begin
+	input-hidden:_csrf
+	input-hidden:Registrant[device]
+	input-hidden:Registrant[js_disabled]
+	input-email:Registrant[email]
+	input-text:Registrant[discount_code]
+	input-hidden:Registrant[reg_type_id]
+	input-hidden:Registrant[package_id]
+
+https://customcontentonline.com/
+method:get
+https://customcontentonline.com/
+	input-search:s
+	input-submit:
+
+http://money.cnn.com/services/terms.html
+method:
+http://money.cnn.com/services/terms.html/search
+	input-search:q
+
+http://www.cnn.com/privacy
+method:
+http://www.cnn.com/privacy/search
+	input-search:q
+
+https://thedma.org/
+method:
+https://thedma.org/#
+	input-search:phrase
+	input-text:phrase
+	input-submit:
+
+http://www.cvent.com/d/4bqb5w/4W
+method:post
+http://www.cvent.com/d/4bqb5w/4W/events/marketing-analytics-conference-2019/archived-2d9dcf7a8a5b41a1a564ec4c558cae1f.aspx
+	input-hidden:__VIEWSTATE
+	input-hidden:__VIEWSTATEGENERATOR
+	input-hidden:__VIEWSTATEENCRYPTED
+
+http://www.cvent.com/en/event-management-software/
+method:post
+http://www.cvent.com/en/event-management-software//en/event-management-software
+	input-checkbox:remember_choice
+	input-hidden:form_build_id
+	input-hidden:form_id
+	input-submit:accept
+	input-submit:cancel
+
+http://www.cvent.com/en/event-management-software/
+method:post
+http://www.cvent.com/en/event-management-software//en/event-management-software
+	input-search:search
+	input-hidden:form_build_id
+	input-hidden:form_id
+	input-submit:
+
+http://www.cvent.com/en/event-management-software/
+method:post
+http://www.cvent.com/en/event-management-software/
+	input-hidden:cID1
+	input-hidden:cID1DATE
+	input-hidden:cID2
+	input-hidden:cID2DATE
+	input-hidden:cID3
+	input-hidden:cID3DATE
+	input-hidden:cID4
+	input-hidden:cID4DATE
+	input-hidden:cID5
+	input-hidden:cID5DATE
+	input-hidden:cID6
+	input-hidden:cID6DATE
+	input-hidden:cID7
+	input-hidden:cID7DATE
+	input-hidden:cID8
+	input-hidden:cID8DATE
+	input-hidden:cID9
+	input-hidden:cID9DATE
+	input-hidden:cID10
+	input-hidden:cID10DATE
+	input-hidden:cID11
+	input-hidden:cID11DATE
+	input-hidden:cID12
+	input-hidden:cID12DATE
+	input-hidden:cID13
+	input-hidden:cID13DATE
+	input-hidden:cID14
+	input-hidden:cID14DATE
+	input-hidden:cID15
+	input-hidden:cID15DATE
+	input-hidden:leadSourceMostRecent
+	input-hidden:queryStringLS
+	input-hidden:send_notification_to
+	input-hidden:Product_Desired__c
+	input-hidden:formProgramType
+	input-hidden:cventConnectProductSelection
+	input-hidden:cventConnectCollateralID
+	input-hidden:contactUsformProductSelection
+	input-hidden:pSRequestedDateTimeLocation
+	input-hidden:sessionCity
+	input-hidden:eOYOffer
+	input-hidden:munchkinId
+	input-hidden:formid
+	input-hidden:tYURL
+	input-hidden:mkto_id
+	input-hidden:mkto_token
+	input-hidden:_mkt_trk
+	input-hidden:adobeDemoProductRegion
+	input-hidden:meetingKey
+	input-hidden:ref_id
+	input-hidden:source_id
+	input-hidden:ecode
+	input-hidden:target
+	input-hidden:clt
+	input-hidden:offerType
+	input-hidden:newsletterProductSelection
+	input-hidden:Types_of_Surveys_Eloqua__c
+	input-hidden:Hospitality_solutions_s_of_interest__c
+	input-hidden:csn-cert
+	input-hidden:CheckBoxVal
+	input-hidden:switchFormid
+	input-hidden:switchFormProgramType
+	input-hidden:changeMsg
+	select-:pSRequestedDateTimeLocation
+	input-radio:offerTypeChoice
+	input-radio:offerTypeChoice
+	input-radio:offerTypeChoice
+	input-checkbox:newsletter_signup_choice
+	input-checkbox:newsletter_signup_choice
+	input-checkbox:newsletter_signup_choice
+	select-:UserChoice
+	select-:partnertype
+	select-:partnertype
+	input-text:FirstName
+	input-text:LastName
+	input-text:Company
+	select-:Segment__c_contact_org
+	input-text:Website
+	input-email:Email
+	input-text:Phone
+	input-text:Title
+	select-:Country
+	select-:State
+	input-text:PostalCode
+	input-text:City
+	input-text:Address
+	input-text:formAdHocQuestion
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-radio:productUser
+	input-radio:productUser
+	input-checkbox:Product_Desired__c
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	select-:cvent_mrkto_what_task
+	select-:cvent_mrkto_how_many_venues
+	select-:Segment__c_contact
+	select-:tool-interested-in
+	select-:Job_Function__c
+	select-:integrationtype
+	select-:Sales_Catering_System__c
+	input-text:other
+	select-:Type_of_Events__c
+	select-:meetingspace
+	select-:hotelsdropdown
+	select-:conventioncenter
+	select-:of_Attendees_Eloqua__c
+	input-radio:Charge_Fee_for_Events__c
+	input-radio:Charge_Fee_for_Events__c
+	select-:of_Attendees_Eloqua__c
+	select-:Type_of_Events__c
+	input-radio:eventOpt
+	input-radio:eventOpt
+	select-:Industry
+	select-:of_Employees_in_Organisation__c
+	select-:Why_are_you_looking_for_a_survey_tool__c
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-text:typesofSurveysOther
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	textarea-:typeofPartnership
+	textarea-:formComments
+	input-checkbox:csnLearnMore
+	input-checkbox:csnLearnMore
+	input-checkbox:survey_hospitality
+	input-checkbox:survey_hospitality
+	input-checkbox:survey_hospitality
+	select-:
+	select-:partnertype
+	select-:usertype
+	input-checkbox:
+	input-hidden:cbxTerms
+	input-checkbox:
+	input-hidden:tempImplicitOptin
+	input-checkbox:gdprOptIn
+	input-hidden:tempImplicitOptin
+	input-checkbox:csn-cert-checkbox-certified
+	input-checkbox:csn-cert-checkbox-certified
+	input-checkbox:csn-cert-checkbox-certified
+	input-radio:cvt-amex-LearnMore
+	input-radio:cvt-amex-LearnMore
+	input-radio:cvt-amex-LearnMore
+	input-checkbox:promoTermsChk
+	input-text:cpt
+	input-submit:Submit
+
+http://www.elitemeetingsalliance.com
+method:post
+http://www.elitemeetingsalliance.com/en/elite-meetings-alliance
+	input-search:search
+	input-hidden:form_build_id
+	input-hidden:form_id
+	input-submit:
+
+http://www.elitemeetingsalliance.com
+method:post
+http://www.elitemeetingsalliance.com
+	input-hidden:cID1
+	input-hidden:cID1DATE
+	input-hidden:cID2
+	input-hidden:cID2DATE
+	input-hidden:cID3
+	input-hidden:cID3DATE
+	input-hidden:cID4
+	input-hidden:cID4DATE
+	input-hidden:cID5
+	input-hidden:cID5DATE
+	input-hidden:cID6
+	input-hidden:cID6DATE
+	input-hidden:cID7
+	input-hidden:cID7DATE
+	input-hidden:cID8
+	input-hidden:cID8DATE
+	input-hidden:cID9
+	input-hidden:cID9DATE
+	input-hidden:cID10
+	input-hidden:cID10DATE
+	input-hidden:cID11
+	input-hidden:cID11DATE
+	input-hidden:cID12
+	input-hidden:cID12DATE
+	input-hidden:cID13
+	input-hidden:cID13DATE
+	input-hidden:cID14
+	input-hidden:cID14DATE
+	input-hidden:cID15
+	input-hidden:cID15DATE
+	input-hidden:leadSourceMostRecent
+	input-hidden:queryStringLS
+	input-hidden:send_notification_to
+	input-hidden:Product_Desired__c
+	input-hidden:formProgramType
+	input-hidden:cventConnectProductSelection
+	input-hidden:cventConnectCollateralID
+	input-hidden:contactUsformProductSelection
+	input-hidden:pSRequestedDateTimeLocation
+	input-hidden:sessionCity
+	input-hidden:eOYOffer
+	input-hidden:munchkinId
+	input-hidden:formid
+	input-hidden:tYURL
+	input-hidden:mkto_id
+	input-hidden:mkto_token
+	input-hidden:_mkt_trk
+	input-hidden:adobeDemoProductRegion
+	input-hidden:meetingKey
+	input-hidden:ref_id
+	input-hidden:source_id
+	input-hidden:ecode
+	input-hidden:target
+	input-hidden:clt
+	input-hidden:offerType
+	input-hidden:newsletterProductSelection
+	input-hidden:Types_of_Surveys_Eloqua__c
+	input-hidden:Hospitality_solutions_s_of_interest__c
+	input-hidden:csn-cert
+	input-hidden:CheckBoxVal
+	input-hidden:switchFormid
+	input-hidden:switchFormProgramType
+	input-hidden:changeMsg
+	select-:pSRequestedDateTimeLocation
+	input-radio:offerTypeChoice
+	input-radio:offerTypeChoice
+	input-radio:offerTypeChoice
+	input-checkbox:newsletter_signup_choice
+	input-checkbox:newsletter_signup_choice
+	input-checkbox:newsletter_signup_choice
+	select-:UserChoice
+	select-:partnertype
+	select-:partnertype
+	input-text:FirstName
+	input-text:LastName
+	input-text:Company
+	select-:Segment__c_contact_org
+	input-text:Website
+	input-email:Email
+	input-text:Phone
+	input-text:Title
+	select-:Country
+	select-:State
+	input-text:PostalCode
+	input-text:City
+	input-text:Address
+	input-text:formAdHocQuestion
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-checkbox:Product_Desired__c
+	input-radio:productUser
+	input-radio:productUser
+	input-checkbox:Product_Desired__c
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	select-:cvent_mrkto_what_task
+	select-:cvent_mrkto_how_many_venues
+	select-:Segment__c_contact
+	select-:tool-interested-in
+	select-:Job_Function__c
+	select-:integrationtype
+	select-:Sales_Catering_System__c
+	input-text:other
+	select-:Type_of_Events__c
+	select-:meetingspace
+	select-:hotelsdropdown
+	select-:conventioncenter
+	select-:of_Attendees_Eloqua__c
+	input-radio:Charge_Fee_for_Events__c
+	input-radio:Charge_Fee_for_Events__c
+	select-:of_Attendees_Eloqua__c
+	select-:Type_of_Events__c
+	input-radio:eventOpt
+	input-radio:eventOpt
+	select-:Industry
+	select-:of_Employees_in_Organisation__c
+	select-:Why_are_you_looking_for_a_survey_tool__c
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-checkbox:Whichtype
+	input-text:typesofSurveysOther
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:csn-cert-checkbox
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	input-checkbox:contactusproductselection
+	textarea-:typeofPartnership
+	textarea-:formComments
+	input-checkbox:csnLearnMore
+	input-checkbox:csnLearnMore
+	input-checkbox:survey_hospitality
+	input-checkbox:survey_hospitality
+	input-checkbox:survey_hospitality
+	select-:
+	select-:partnertype
+	select-:usertype
+	input-checkbox:
+	input-hidden:cbxTerms
+	input-checkbox:
+	input-hidden:tempImplicitOptin
+	input-checkbox:gdprOptIn
+	input-hidden:tempImplicitOptin
+	input-checkbox:csn-cert-checkbox-certified
+	input-checkbox:csn-cert-checkbox-certified
+	input-checkbox:csn-cert-checkbox-certified
+	input-radio:cvt-amex-LearnMore
+	input-radio:cvt-amex-LearnMore
+	input-radio:cvt-amex-LearnMore
+	input-checkbox:promoTermsChk
+	input-text:cpt
+	input-submit:Submit
+
+https://www.flickr.com/photos/cvent/albums/72157711061676408
+method:get
+https://www.flickr.com/photos/cvent/albums/72157711061676408/search/
+	input-submit:
+	input-text:text
+
+http://www.cvent.com/
+method:post
+http://www.cvent.com//
+	input-checkbox:remember_choice
+	input-hidden:form_build_id
+	input-hidden:form_id
+	input-submit:accept
+	input-submit:cancel
+
+http://www.cvent.com/
+method:post
+http://www.cvent.com//
+	input-search:search
+	input-hidden:form_build_id
+	input-hidden:form_id
+	input-submit:
+
+http://www.cvent.com/
+method:post
+http://www.cvent.com/
+	input-hidden:cID1
+	input-hidden:cID1DATE
+	input-hidden:cID2
+	input-hidden:cID2DATE
+	input-hidden:cID3
+	input-hidden:cID3DATE
+	input-hidden:cID4
+	input-hidden:cID4DATE
+	input-hidden:cID5
+	input-hidden:cID5DATE
+	input-hidden:cID6
+	input-hidden:cID6DATE
+	input-hidden:cID7
+	input-hidden:cID7DATE
+	input-hidden:cID8
+	input-hidden:cID8DATE
+	input-hidden:cID9
+	input-hidden:cID9DATE
+	input-hidden:cID10
+	input-hidden:cID10DATE
+	input-hidden:cID11
+	input-hidden:cID11DATE
+	input-hidden:cID12
+	input-hidden:cID12DATE
+	input-hidden:cID13
+	input-hidden:cID13DATE
+	input-hidden:cID14
+	input-hidden:cID14DATE
+	input-hidden:cID15
+	input-hidden:cID15DATE
+	input-hidden:munchkinId
+	input-hidden:formid
+	input-hidden:mkto_id
+	input-hidden:mkto_token
+	input-hidden:_mkt_trk
+	input-hidden:tYURL
+	input-hidden:leadSourceMostRecent
+	input-hidden:queryStringLS
+	input-hidden:send_notification_to
+	input-hidden:Product_Desired__c
+	input-hidden:formProgramType
+	input-hidden:ref_id
+	input-hidden:offerType
+	input-text:FirstName
+	input-text:LastName
+	input-text:Company
+	input-text:Email
+	input-text:Phone
+	input-checkbox:
+	input-hidden:tempImplicitOptin
+	input-submit:Submit
+
+http://bit.ly/2YWucPR
+method:post
+http://bit.ly/2YWucPR/index.php/leadCapture/save
+	input-text:Email
+	input-text:LeadSource
+	input-text:bUConsumer
+	input-text:fDCCampaignCode
+	input-text:_marketo_comments
+	input-hidden:lpId
+	input-hidden:subId
+	input-hidden:lpurl
+	input-hidden:formid
+	input-hidden:ret
+	input-hidden:munchkinId
+	input-hidden:kw
+	input-hidden:cr
+	input-hidden:searchstr
+	input-hidden:_mkt_disp
+	input-hidden:_mkt_trk
+
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319
+method:post
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319/servlet/Transaction
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-HIDDEN:cds_form_submitted
+	input-HIDDEN:cds_doms_order_number
+	input-HIDDEN:cds_doms_offer_code
+	input-HIDDEN:cds_doms_package_offer_id
+	input-HIDDEN:cds_config_id
+	input-HIDDEN:cds_series_status
+	input-HIDDEN:cds_term_value
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-text:cds_name
+	input-text:cds_address_1
+	input-text:cds_address_2
+
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319
+method:post
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319/servlet/Transaction
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-HIDDEN:cds_form_submitted
+	input-HIDDEN:cds_doms_order_number
+	input-HIDDEN:cds_doms_offer_code
+	input-HIDDEN:cds_doms_package_offer_id
+	input-HIDDEN:cds_config_id
+	input-HIDDEN:cds_series_status
+	input-HIDDEN:cds_term_value
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-text:cds_name
+	input-text:cds_address_1
+	input-text:cds_address_2
+
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319
+method:post
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319/servlet/Transaction
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-HIDDEN:cds_form_submitted
+	input-HIDDEN:cds_doms_order_number
+	input-HIDDEN:cds_doms_offer_code
+	input-HIDDEN:cds_doms_package_offer_id
+	input-HIDDEN:cds_config_id
+	input-HIDDEN:cds_series_status
+	input-HIDDEN:cds_term_value
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-text:cds_name
+	input-text:cds_address_1
+	input-text:cds_address_2
+
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319
+method:post
+https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=164319/servlet/Transaction
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-HIDDEN:cds_form_submitted
+	input-HIDDEN:cds_doms_order_number
+	input-HIDDEN:cds_doms_offer_code
+	input-HIDDEN:cds_doms_package_offer_id
+	input-HIDDEN:cds_config_id
+	input-HIDDEN:cds_series_status
+	input-HIDDEN:cds_term_value
+	input-HIDDEN:lsid
+	input-HIDDEN:vid
+	input-HIDDEN:cds_page_id
+	input-HIDDEN:cds_mag_code
+	input-text:cds_name
+	input-text:cds_address_1
+	input-text:cds_address_2
+
+https://upskill.io/
+method:GET
+https://upskill.io/
+	input-text:s
+
+https://upskill.io/skylight/augmented-reality-devices/
+method:GET
+https://upskill.io/
+	input-text:s
+
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn
+method:get
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn/search/
+	input-text:text
+
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn
+method:get
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn/search/
+	input-text:text
+
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn
+method:post
+https://epson.com/moverio-augmented-reality-smart-glasses-for-multi-users?pg=3#sn/email/signup
+	input-email:email
+	input-hidden:pageSource
+	input-hidden:pageType
+	input-hidden:siteName
+
+https://blog.epson.com/
+method:
+https://blog.epson.com/
+	input-text:s
+
+https://blog.epson.com/
+method:post
+https://go.pardot.com/l/407272/2018-04-04/b5bv3
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/
+method:post
+https://go.pardot.com/l/407272/2018-04-13/b5tp9
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/epson-insights/
+method:
+https://blog.epson.com/
+	input-text:s
+
+https://blog.epson.com/category/epson-insights/
+method:post
+https://go.pardot.com/l/407272/2018-04-04/b5bv3
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/epson-insights/
+method:post
+https://go.pardot.com/l/407272/2018-04-13/b5tp9
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/small-business/
+method:
+https://blog.epson.com/
+	input-text:s
+
+https://blog.epson.com/category/small-business/
+method:post
+https://go.pardot.com/l/407272/2018-04-04/b5bv3
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/small-business/
+method:post
+https://go.pardot.com/l/407272/2018-04-13/b5tp9
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/enterprise/
+method:
+https://blog.epson.com/
+	input-text:s
+
+https://blog.epson.com/category/enterprise/
+method:post
+https://go.pardot.com/l/407272/2018-04-04/b5bv3
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/enterprise/
+method:post
+https://go.pardot.com/l/407272/2018-04-13/b5tp9
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/education/
+method:
+https://blog.epson.com/
+	input-text:s
+
+https://blog.epson.com/category/education/
+method:post
+https://go.pardot.com/l/407272/2018-04-04/b5bv3
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+https://blog.epson.com/category/education/
+method:post
+https://go.pardot.com/l/407272/2018-04-13/b5tp9
+	input-hidden:camp_type
+	input-email:email
+	select-:country
+
+http://news.epson.com
+method:get
+http://news.epson.com/news
+	input-search:q
+
+http://news.epson.com
+method:get
+http://news.epson.com/news
+	select-:c
+
+http://news.epson.com
+method:get
+http://news.epson.com/news
+	select-:c
+
+http://news.epson.com
+method:post
+http://news.epson.com/_briefcase/
+	input-hidden:bc_title
+	input-hidden:file_ids
+
+https://www.onlineregister.com/epson/m/reg/
+method:post
+https://www.onlineregister.com/epson/m/reg/
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:CHKD
+	input-hidden:RgVr
+	input-hidden:VERS
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:SRCE
+	input-hidden:RCVR
+	input-hidden:RSrc
+	input-hidden:MOBL
+	input-hidden:LANG
+	input-hidden:VRST
+	input-hidden:DATE
+	input-hidden:TIME
+	input-hidden:RTID
+	input-hidden:IPAD
+	input-hidden:DDPI
+	input-hidden:DRES
+	input-hidden:WRES
+	input-hidden:PGSTACK
+	input-hidden:OSYS
+	input-hidden:OSVR
+
+http://epson.com.ar/
+method:get
+http://epson.com.ar//search/
+	input-text:text
+
+http://epson.com.ar/
+method:get
+http://epson.com.ar//search/
+	input-text:text
+
+https://www.onlineregister.com/epson/rewards/
+method:POST
+https://www.onlineregister.com/epson/rewards/?PG=loginsubmit
+	input-text:SRNU
+	input-password:PWD
+
+https://www.onlineregister.com/epson/select/?LANG=EN
+method:post
+https://www.onlineregister.com/epson/select/?LANG=EN
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:RgVr
+	input-hidden:VERS
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:SRCE
+	input-hidden:RCVR
+	input-hidden:PRNM
+	input-hidden:LANG
+	input-hidden:RSrc
+	input-hidden:VRST
+	input-hidden:DATE
+	input-hidden:TIME
+	input-hidden:RTID
+	input-hidden:IPAD
+	input-hidden:LACH
+	input-hidden:PGSTACK
+	select-:CTRY
+
+https://www.onlineregister.com/epson/lam/?LANG=ES
+method:post
+https://www.onlineregister.com/epson/lam/?LANG=ES
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:RgVr
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:VERS
+	input-hidden:RCVR
+	input-hidden:RSrc
+	input-hidden:passed_products
+	input-hidden:LANG
+	input-hidden:SRCE
+	input-hidden:PAGE
+	input-hidden:SITE
+	input-hidden:SITE_HOST
+	input-hidden:TEST_SERVER
+	input-hidden:REFR
+	input-hidden:autoSerNum
+	input-image:next
+
+https://www.onlineregister.com/epson/lam/?LANG=ES
+method:post
+https://www.onlineregister.com/epson/lam/?LANG=ES
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:RgVr
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:VERS
+	input-hidden:RCVR
+	input-hidden:RSrc
+	input-hidden:passed_products
+	input-hidden:LANG
+	input-hidden:SRCE
+	input-hidden:PAGE
+	input-hidden:SITE
+	input-hidden:SITE_HOST
+	input-hidden:TEST_SERVER
+	input-hidden:REFR
+	input-hidden:autoSerNum
+	input-image:next
+
+https://www.onlineregister.com/epson/rewards/
+method:POST
+https://www.onlineregister.com/epson/rewards/?PG=loginsubmit
+	input-text:SRNU
+	input-password:PWD
+
+https://www.onlineregister.com/epson/lam/?LANG=ES
+method:post
+https://www.onlineregister.com/epson/lam/?LANG=ES
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:RgVr
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:VERS
+	input-hidden:RCVR
+	input-hidden:RSrc
+	input-hidden:passed_products
+	input-hidden:LANG
+	input-hidden:SRCE
+	input-hidden:PAGE
+	input-hidden:SITE
+	input-hidden:SITE_HOST
+	input-hidden:TEST_SERVER
+	input-hidden:REFR
+	input-hidden:autoSerNum
+	input-image:next
+
+https://www.onlineregister.com/epson/m/reg/
+method:post
+https://www.onlineregister.com/epson/m/reg/
+	input-hidden:MFGR
+	input-hidden:PROD
+	input-hidden:CHKD
+	input-hidden:RgVr
+	input-hidden:VERS
+	input-hidden:BlVr
+	input-hidden:WBVR
+	input-hidden:SRCE
+	input-hidden:RCVR
+	input-hidden:RSrc
+	input-hidden:MOBL
+	input-hidden:LANG
+	input-hidden:VRST
+	input-hidden:DATE
+	input-hidden:TIME
+	input-hidden:RTID
+	input-hidden:IPAD
+	input-hidden:DDPI
+	input-hidden:DRES
+	input-hidden:WRES
+	input-hidden:PGSTACK
+	input-hidden:OSYS
+	input-hidden:OSVR
+
+http://www.epson.ie/
+method:POST
+https://register.epson-europe.com/Epson.RegistrationFeed/RegistrationFeed.aspx
+	input-text:ASXC
+	input-hidden:Origin
+	input-hidden:UserToken
+	input-hidden:CampaignName1
+	input-hidden:xmlOutput
+	input-hidden:xmlCampaign
+	input-hidden:SignSuccessUrl
+	input-hidden:SignFailureUrl
+	input-hidden:userIPAddress
+	select-:EnquiryType
+	input-text:FirstName
+	input-text:LastName
+	input-email:Email
+	input-text:CompanyName
+	input-hidden:CountryISO
+	select-:JobPositionID
+	input-text:Telephone
+	input-checkbox:AgeCheck
+	input-number:securityCheck
+
+https://register.epson-europe.com/
+method:post
+https://register.epson-europe.com/./
+	input-hidden:body_rsmMain_TSM
+	input-hidden:__EVENTTARGET
+	input-hidden:__EVENTARGUMENT
+	input-hidden:__LASTFOCUS
+	input-hidden:__VIEWSTATE
+	input-hidden:__VIEWSTATEGENERATOR
+	input-hidden:__EVENTVALIDATION
+	select-:ctl00$ddlPageLanguage
+	select-:ctl00$ddlPageLanguageMobile
+	input-text:ctl00$body$rcbProduct
+	input-hidden:ctl00_body_rcbProduct_ClientState
+	input-radio:ctl00$body$rblPurchasedOnline
+	input-radio:ctl00$body$rblPurchasedOnline
+	input-text:serial-number
+	input-text:email-address
+	input-text:ctl00$body$rcbCountry
+	input-hidden:ctl00_body_rcbCountry_ClientState
+	input-hidden:body_wdtPurchaseDate_clientState
+	input-text:body_wdtPurchaseDate
+	input-checkbox:ctl00$body$cbPromoOptedIn
+	input-checkbox:ctl00$body$cbOver16
+	input-checkbox:ctl00$body$cbMarketResearchOptIn
+	input-submit:ctl00$body$btnPage1Submit
+	input-hidden:ctl00$_IG_CSS_LINKS_
+
+https://www.microsoft.com/en-us/hololens
+method:GET
+https://www.microsoft.com/en-us/search
+	input-search:q
+
+https://products.office.com/en-us/academic/compare-office-365-education-plans
+method:GET
+https://www.microsoft.com/en-us/search/result.aspx
+	input-search:q
+	input-hidden:form
+
+https://www.skype.com/en/
+method:post
+https://www.skype.com/en//en/default.aspx
+	input-hidden:manScript_HiddenField
+	input-hidden:__EVENTTARGET
+	input-hidden:__EVENTARGUMENT
+	input-hidden:lng
+	input-hidden:dm$hdnArgs
+	input-hidden:dm$hdnAnother
+	input-hidden:dm$hdnClose
+	input-hidden:dm$hdnComment
+	input-hidden:dm$hdnCurrStep
+	select-:
+	select-:
+	select-:
+	input-hidden:__VIEWSTATEGENERATOR
+
+https://www.skype.com/en/
+method:
+https://www.skype.com/en//${LC}/
+	select-:userLanguage
+	input-hidden:__VIEWSTATE
+
+https://www.xbox.com/en-us/xbox-one-s?xr=shellnav
+method:GET
+https://www.xbox.com/en-us/Search
+	input-search:q
+
+https://www.visualstudio.com/support/support-overview-vs
+method:GET
+https://social.msdn.microsoft.com/Search/en-us/vscom
+	input-search:query
+	input-hidden:pgArea
+	input-hidden:Refinement
+	input-hidden:ac
+
+https://snapcraft.io/code
+method:POST
+https://docs.google.com/forms/d/e/1FAIpQLSelELZwXzvnDkx52GL7cpnQyWdc_Te6APDs843gIKRBHbh6jA/formResponse
+	input-hidden:entry.1703677219
+	select-:entry.1193754313
+	textarea-text:entry.1170971435
+	input-email:entry.1424146082
+
+https://bugs.launchpad.net/snapstore/+filebug
+method:post
+https://login.launchpad.net/+openid
+	input-hidden:openid.return_to
+	input-hidden:openid.realm
+	input-hidden:openid.sreg.required
+	input-hidden:openid.ns
+	input-hidden:openid.claimed_id
+	input-hidden:openid.ns.sreg
+	input-hidden:openid.assoc_handle
+	input-hidden:openid.mode
+	input-hidden:openid.identity
+	input-submit:
+
+https://www.ubuntu.com/legal/data-privacy
+method:
+https://www.ubuntu.com/legal/data-privacy/search
+	input-search:q
+
+https://blog.canonical.com/
+method:
+https://blog.canonical.com//search
+	input-search:q
+
+https://blog.canonical.com/
+method:get
+https://blog.canonical.com/
+	select-:content
+	input-submit:
+	input-hidden:topic
+
+https://blog.canonical.com/
+method:post
+https://pages.canonical.com/index.php/leadCapture/save
+	input-checkbox:insightscloudserver
+	input-checkbox:insightsdesktop
+	input-checkbox:insightsiot
+	input-checkbox:insightsrobotics
+	input-checkbox:insightstutorials
+	input-email:Email
+	input-checkbox:canonicalUpdatesOptIn
+	input-hidden:Consent_to_Processing__c
+	input-hidden:lpId
+	input-hidden:subId
+	input-hidden:lpurl
+	input-hidden:formid
+	input-hidden:ret
+	input-hidden:munchkinId
+	input-hidden:kw
+	input-hidden:cr
+	input-hidden:searchstr
+	input-hidden:_mkt_disp
+	input-hidden:_mkt_trk
+	input-hidden:thankyoumessage
+
+https://ico.org.uk/concerns/
+method:GET
+https://icosearch.ico.org.uk/s/search.html
+	input-search:query
+	input-hidden:collection
+	input-hidden:profile
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:_q
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+http://www.nationalarchives.gov.uk/about
+method:get
+http://www.nationalarchives.gov.uk/about/search/results
+	input-text:_q
+	input-submit:
+
+http://www.nationalarchives.gov.uk/about
+method:get
+http://www.nationalarchives.gov.uk/about/search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+https://www.nationalarchives.gov.uk
+method:get
+https://www.nationalarchives.gov.uk/search/results
+	input-text:_q
+	input-submit:
+
+https://www.nationalarchives.gov.uk
+method:get
+https://www.nationalarchives.gov.uk/search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+https://www.nationalarchives.gov.uk
+method:get
+https://www.nationalarchives.gov.uk/search/results
+	input-text:_q
+	input-submit:
+
+https://www.nationalarchives.gov.uk
+method:get
+https://www.nationalarchives.gov.uk/search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/re-use-and-licensing/ukglf/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/re-use-and-licensing/ukglf//search/results
+	input-text:_q
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/re-use-and-licensing/ukglf/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/re-use-and-licensing/ukglf//search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:_q
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:_q
+	input-submit:
+
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/
+method:get
+http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework//search/results
+	input-text:QueryText
+	input-radio:radioSearchGroup
+	input-radio:radioSearchGroup
+	input-submit:
+
+http://www.reddit.com/submit?url=http:%2f%2fico.org.uk%2ffor-organisations%2fguide-to-pecr%2fcookies-and-similar-technologies%2f
+method:get
+http://www.reddit.com/submit?url=http:%2f%2fico.org.uk%2ffor-organisations%2fguide-to-pecr%2fcookies-and-similar-technologies%2f/search/
+	input-search:q
+
+https://www.reddithelp.com
+method:get
+https://www.reddithelp.com/en/search
+	input-search:keys
+
+https://www.reddithelp.com
+method:post
+https://reddit.createsend.com/t/i/s/jyydlh/
+	input-email:cm-jyydlh-jyydlh
+
+https://redditblog.com/
+method:get
+https://redditblog.com/
+	input-search:s
+	input-submit:
+
+https://redditblog.com/
+method:post
+https://reddit.createsend.com/t/i/s/jyydlh/
+	input-email:cm-jyydlh-jyydlh
+
+https://www.reddithelp.com/
+method:get
+https://www.reddithelp.com//en/search
+	input-search:keys
+
+https://www.reddithelp.com/
+method:post
+https://reddit.createsend.com/t/i/s/jyydlh/
+	input-email:cm-jyydlh-jyydlh
+
+https://mods.reddithelp.com/
+method:get
+https://mods.reddithelp.com//hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://www.reddithelp.com/en/submit-request
+method:get
+https://www.reddithelp.com/en/submit-request/en/search
+	input-search:keys
+
+https://www.reddithelp.com/en/submit-request
+method:post
+https://www.reddithelp.com/en/submit-request/en/submit-request
+	input-hidden:form_build_id
+	input-hidden:form_id
+
+https://www.reddithelp.com/en/submit-request
+method:post
+https://reddit.createsend.com/t/i/s/jyydlh/
+	input-email:cm-jyydlh-jyydlh
+
+https://mods.reddithelp.com/
+method:get
+https://mods.reddithelp.com//hc/en-us/search
+	input-hidden:utf8
+	input-search:query
+
+https://redditblog.com/topic/technology/
+method:get
+https://redditblog.com/
+	input-search:s
+	input-submit:
+
+https://redditblog.com/topic/technology/
+method:post
+https://reddit.createsend.com/t/i/s/jyydlh/
+	input-email:cm-jyydlh-jyydlh
+
+https://wpvip.com/?utm_source=vip_powered_wpcom&utm_medium=web&utm_campaign=VIP%20Footer%20Credit&utm_term=redditblog.com
+method:post
+https://go.pardot.com/l/602321/2018-10-01/d1cv84
+	input-hidden:oid
+	input-hidden:retURL
+	input-hidden:lead_source
+	input-hidden:utm_source__c
+	input-hidden:utm_medium__c
+	input-hidden:utm_campaign__c
+	input-hidden:utm_term__c
+	input-hidden:utm_content__c
+	input-hidden:keyword__c
+	input-hidden:adgroupid__c
+	input-hidden:device__c
+	input-hidden:matchtype__c
+	input-hidden:creative__c
+	input-hidden:gclid__c
+	input-hidden:00NE00000036RnI
+	input-hidden:captcha_settings
+	input-text:first_name
+	input-text:last_name
+	input-email:email
+	input-text:phone
+	input-text:title
+	input-text:company
+	input-text:00N44000006TbKL
+	select-:industry
+	textarea-:description
+
+https://www.packtpub.com/web-development/bbpress-complete
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/web-development/bbpress-complete
+method:post
+https://www.packtpub.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL3dlYi1kZXZlbG9wbWVudC9iYnByZXNzLWNvbXBsZXRl/product/58893/
+	input-hidden:product
+	input-hidden:selected_configurable_option
+	input-hidden:related_product
+	input-hidden:item
+	input-hidden:form_key
+	input-number:qty
+
+https://www.packtpub.com/web-development/bbpress-complete
+method:post
+https://www.packtpub.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL3dlYi1kZXZlbG9wbWVudC9iYnByZXNzLWNvbXBsZXRl/product/58893/
+	input-hidden:product
+	input-hidden:selected_configurable_option
+	input-hidden:super_attribute[189]
+	input-hidden:qty
+	input-hidden:form_key
+
+https://www.packtpub.com/web-development/bbpress-complete
+method:post
+https://www.packtpub.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL3dlYi1kZXZlbG9wbWVudC9iYnByZXNzLWNvbXBsZXRl/product/58893/
+	input-hidden:product
+	input-hidden:selected_configurable_option
+	input-hidden:super_attribute[189]
+	input-hidden:qty
+	input-hidden:form_key
+
+https://www.packtpub.com/web-development/bbpress-complete
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://subscribe.packtpub.com
+method:GET
+https://subscription.packtpub.com/search
+	input-text:query
+
+https://www.packtpub.com/support
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/support
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://hub.packtpub.com/
+method:get
+https://hub.packtpub.com/
+	input-text:s
+	input-submit:
+
+https://www.packtpub.com/deal-of-the-day
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/deal-of-the-day
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://www.packtpub.com/offers
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/offers
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://www.packtpub.com/free-learning
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/free-learning
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://www.packtpub.com/
+method:get
+https://www.packtpub.com/catalogsearch/result/
+	input-text:q
+
+https://www.packtpub.com/
+method:post
+https://www.packtpub.com/newsletter/subscriber/new/
+	input-email:email
+
+https://bbpress.org/forums/topic/replies-to-my-posts-are-not-being-received-via-email/
+method:post
+https://bbpress.org/wp-login.php
+	input-text:log
+	input-password:pwd
+	input-checkbox:rememberme
+	input-hidden:user-cookie
+	input-hidden:redirect_to
+	input-hidden:_wpnonce
+	input-hidden:_wp_http_referer
+
+https://bbpress.org/forums/topic/replies-to-my-posts-are-not-being-received-via-email/
+method:get
+https://bbpress.org/forums/topic/replies-to-my-posts-are-not-being-received-via-email/
+	input-text:rs
+	input-submit:
+
+https://jjj.blog
+method:get
+https://jjj.blog/
+	input-search:s
+	input-submit:
+
+https://logicalbinary.com/speaking/
+method:post
+https://logicalbinary.com/speaking//2018/10/speaking-when-you-are-not-made-for-speaking/
+	input-email:target_email
+	input-text:source_name
+	input-email:source_email
+	input-text:source_f_name
+	input-submit:
+

@@ -1,0 +1,40 @@
+
+
+
+http://google.com
+method:GET
+http://google.com/search
+input     hidden    source                        hp                  
+input     hidden    ei                            z7qsXc7nM8bOwAK667SQBA
+input     hidden    iflsig                        AAP1E1EAAAAAXazI366DRxnWqluTeO95eEdhVC0F058o
+input     text      q                                                 
+
+curl  "http://google.com/search?source=hp&ei=z7qsXc7nM8bOwAK667SQBA&iflsig=AAP1E1EAAAAAXazI366DRxnWqluTeO95eEdhVC0F058o&q=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://support.google.com/websearch/answer/106230?hl=de-CH
+method:get
+https://support.google.com/websearch/answer/106230?hl=de-CH/websearch/search
+input     text      q                                                 
+
+curl  "https://support.google.com/websearch/answer/106230?hl=de-CH/websearch/search?q=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.google.ch/imghp?hl=de&tab=wi&ogbl
+method:GET
+https://www.google.ch/search
+input     hidden    hl                            de                  
+input     hidden    tbm                           isch                
+input     hidden    source                        hp                  
+input     hidden    biw                                               
+input     hidden    bih                                               
+input     hidden    ei                            0rqsXdWmHIyiwALc4JyYDw
+input     hidden    iflsig                        AAP1E1EAAAAAXazI4imhABAnIJz-VX4S7-Igh7NQuMVR
+input     text      q                                                 
+
+curl  "https://www.google.ch/search?hl=de&tbm=isch&source=hp&biw=1&bih=1&ei=0rqsXdWmHIyiwALc4JyYDw&iflsig=AAP1E1EAAAAAXazI4imhABAnIJz-VX4S7-Igh7NQuMVR&q=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+

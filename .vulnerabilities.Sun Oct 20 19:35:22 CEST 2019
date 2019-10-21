@@ -1,0 +1,973 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            cZqsXa3OAs6tkwWzmKSwAg
+input     hidden    iflsig                        AAP1E1EAAAAAXayogeznA58qwmGaL0hjPxTS2q_mrJuD
+input     text      q                                                 
+
+curl --data source=hp --data ei=cZqsXa3OAs6tkwWzmKSwAg --data iflsig=AAP1E1EAAAAAXayogeznA58qwmGaL0hjPxTS2q_mrJuD --data q= 
+
+
+
+
+https://support.google.com?hl=en
+method:
+https://support.google.com?hl=en/search?hl=en
+input     search    q                                                 
+input     hidden    from_promoted_search          true                
+
+curl --data q= --data from_promoted_search=true 
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp 
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp 
+
+
+
+
+https://twitter.com/share?url=https://g.co/DigitalGarage&text=Free Training Course From Google
+method:post
+https://twitter.com/intent/sessions
+input     hidden    text                          Free Training Course From Google
+input     hidden    url                           https://g.co/DigitalGarage
+input     hidden    repost_after_login            /intent/tweet       
+input     hidden    authenticity_token            f15184e66ff07f2de5ff5f2944bacac35ba9fd49
+textarea            status                                            
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    ui_metrics                                        
+
+curl --data text=Free Training Course From Google --data url=https://g.co/DigitalGarage --data repost_after_login=/intent/tweet --data authenticity_token=f15184e66ff07f2de5ff5f2944bacac35ba9fd49 --data status=<h1>blabla</h1> --data session[username_or_email]=<h1>blabla</h1> --data session[password]= --data remember_me=1 --data ui_metrics=1 
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+curl 
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:GET
+https://twitter.com/signup?context=webintent
+
+curl 
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+curl 
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:GET
+https://twitter.com/signup?context=webintent
+
+curl 
+
+
+
+
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage
+method:post
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100
+input     hidden    jazoest                       2738                
+input     hidden    lsd                           AVrRnRXo            
+input     hidden                                                      
+input     hidden    api_key                       966242223397117     
+input     hidden    cancel_url                    https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_
+input     hidden    display                       popup               
+input     hidden    enable_profile_selector                           
+input     hidden    isprivate                                         
+input     hidden    legacy_return                 0                   
+input     hidden    profile_selector_ids                              
+input     hidden    return_session                                    
+input     hidden    skip_api_login                1                   
+input     hidden    signed_next                   1                   
+input     hidden    trynum                        1                   
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103343_rgA3         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+input     hidden    first_prefill_source                              
+input     hidden    first_prefill_type                                
+input     hidden    had_cp_prefilled              false               
+input     hidden    had_password_prefilled        false               
+input     hidden    ab_test_data                                      
+
+curl --data jazoest=2738 --data lsd=AVrRnRXo --data api_key=966242223397117 --data cancel_url=https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_ --data display=popup --data enable_profile_selector= --data isprivate= --data legacy_return=0 --data profile_selector_ids= --data return_session= --data skip_api_login=1 --data signed_next=1 --data trynum=1 --data timezone= --data lgndim= --data lgnrnd=103343_rgA3 --data lgnjs=n --data email= --data pass=1 --data prefill_contact_point= --data prefill_source=1 --data prefill_type=1 --data first_prefill_source=1 --data first_prefill_type=1 --data had_cp_prefilled=false --data had_password_prefilled=false --data ab_test_data= 
+
+
+
+
+https://www.facebook.com/recover/initiate/?ars=facebook_login
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2727                
+input     hidden    lsd                           AVpaq_RM            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103343_qUPc         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2727 --data lsd=AVpaq_RM --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103343_qUPc --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://www.facebook.com/recover/initiate/?ars=facebook_login
+method:post
+https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2727                
+input     hidden    lsd                           AVpaq_RM            
+input     text      email                                             
+
+curl --data jazoest=2727 --data lsd=AVpaq_RM --data email=<h1>blabla</h1> 
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2731                
+input     hidden    lsd                           AVox8odR            
+input     hidden    initial_request_id            Ao7DfbuvpJQ9F8eHTU9geEI
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103344_Likt         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl --data jazoest=2731 --data lsd=AVox8odR --data initial_request_id=Ao7DfbuvpJQ9F8eHTU9geEI --data timezone= --data lgndim= --data lgnrnd=103344_Likt --data lgnjs=n --data email= --data pass=1 --data persistent=1 --data default_persistent=0 
+
+
+
+
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2729                
+input     hidden    lsd                           AVqE4pzn            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103345_ePVU         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2729 --data lsd=AVqE4pzn --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103345_ePVU --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2729                
+input     hidden    lsd                           AVqE4pzn            
+input     text      email                                             
+
+curl --data jazoest=2729 --data lsd=AVqE4pzn --data email=<h1>blabla</h1> 
+
+
+
+
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2644                
+input     hidden    lsd                           AVrM0Z8l            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103346_Lb8Y         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        fr_FR               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2644 --data lsd=AVrM0Z8l --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103346_Lb8Y --data lgnjs=n --data ab_test_data= --data locale=fr_FR --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2644                
+input     hidden    lsd                           AVrM0Z8l            
+input     text      email                                             
+
+curl --data jazoest=2644 --data lsd=AVrM0Z8l --data email=<h1>blabla</h1> 
+
+
+
+
+https://fr-fr.messenger.com/
+method:post
+https://fr-fr.messenger.com//login/password/
+input     hidden    jazoest                       2689                
+input     hidden    lsd                           AVqCJtXP            
+input     hidden    initial_request_id            AffHFadOd77n1Ey8S0ROdNu
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103347_BV1m         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl --data jazoest=2689 --data lsd=AVqCJtXP --data initial_request_id=AffHFadOd77n1Ey8S0ROdNu --data timezone= --data lgndim= --data lgnrnd=103347_BV1m --data lgnjs=n --data email= --data pass=1 --data persistent=1 --data default_persistent=0 
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=301
+input     hidden    jazoest                       2684                
+input     hidden    lsd                           AVqCwX0b            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103348_SBqO         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2684 --data lsd=AVqCwX0b --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103348_SBqO --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2684                
+input     hidden    lsd                           AVqCwX0b            
+input     text      email                                             
+
+curl --data jazoest=2684 --data lsd=AVqCwX0b --data email=<h1>blabla</h1> 
+
+
+
+
+https://www.facebook.com/
+method:post
+https://www.facebook.com//login/
+input     hidden    jazoest                       2653                
+input     hidden    lsd                           AVqTLsE-            
+input     text      email                                             
+input     password  pass                                              
+
+curl --data jazoest=2653 --data lsd=AVqTLsE- --data email=<h1>blabla</h1> --data pass=1 
+
+
+
+
+https://www.facebook.com/policies/cookies/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2675                
+input     hidden    lsd                           AVrKUw8K            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103348_0Kxh         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2675 --data lsd=AVrKUw8K --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103348_0Kxh --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://www.facebook.com/policies/cookies/
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     hidden    jazoest                       2674                
+input     hidden    lsd                           AVq-_go8            
+input     email     email                                             
+input     password  pass                                              
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        103348_Vq0p         
+input     hidden    lgnjs                         n                   
+input     hidden    ab_test_data                                      
+input     hidden    locale                        de_DE               
+input     hidden    login_source                  login_bluebar       
+input     hidden    guid                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+
+curl --data jazoest=2674 --data lsd=AVq-_go8 --data email=1 --data pass=1 --data timezone= --data lgndim= --data lgnrnd=103348_Vq0p --data lgnjs=n --data ab_test_data= --data locale=de_DE --data login_source=login_bluebar --data guid= --data prefill_contact_point=1 --data prefill_source=1 --data prefill_type=1 
+
+
+
+
+https://www.prestashop.com/
+method:post
+https://www.prestashop.com//en
+input     email     submitted[email]                                  
+input     checkbox  submitted[rgpd_field][rgpd]   rgpd                
+input     hidden    details[sid]                                      
+input     hidden    details[page_num]             1                   
+input     hidden    details[page_count]           1                   
+input     hidden    details[finished]             0                   
+input     hidden    form_build_id                 form--g1KxyBMC4NJeP9_5Kx40njL9Gfgu_inoc0WzXfWNL4
+input     hidden    form_id                       webform_client_form_89159
+input     hidden    webform_ajax_wrapper_id       webform-ajax-wrapper-89159
+
+curl --data submitted[email]=1 --data submitted[rgpd_field][rgpd]=rgpd --data details[sid]=1 --data details[page_num]=1 --data details[page_count]=1 --data details[finished]=0 --data form_build_id=form--g1KxyBMC4NJeP9_5Kx40njL9Gfgu_inoc0WzXfWNL4 --data form_id=webform_client_form_89159 --data webform_ajax_wrapper_id=webform-ajax-wrapper-89159 
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:post
+https://github.com/PrestaShop/PrestaShop/site/dismiss_unsupported_browser
+input     hidden    utf8                          ✓                   
+input     hidden    authenticity_token            +MGEJiPK/GnC8N1N6KEt5MRZo3JbKJkaHjjLL76fxVvezEXg8loymE13G5b2uOtJaGbk1j1ZMHc/7zeOtb5QcQ==
+
+curl --data utf8=✓ --data authenticity_token=+MGEJiPK/GnC8N1N6KEt5MRZo3JbKJkaHjjLL76fxVvezEXg8loymE13G5b2uOtJaGbk1j1ZMHc/7zeOtb5QcQ== 
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:get
+https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search
+input     hidden    utf8                          ✓                   
+input     text      q                                                 
+input     hidden    type                                              
+
+curl --data utf8=✓ --data q= --data type=1 
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:post
+https://github.com/PrestaShop/PrestaShop/prompt_dismissals/signup
+input     hidden    utf8                          ✓                   
+input     hidden    _method                       put                 
+input     hidden    authenticity_token            0IEwzNMW1DXBu7+phOucA4RbA3FV/6tDR5xolmI3+5SLhsOXCqQ/geB2w1Mtxv/dpnuhDrYUOTrZR0C4nutSzw==
+
+curl --data utf8=✓ --data _method=put --data authenticity_token=0IEwzNMW1DXBu7+phOucA4RbA3FV/6tDR5xolmI3+5SLhsOXCqQ/geB2w1Mtxv/dpnuhDrYUOTrZR0C4nutSzw== 
+
+
+
+
+https://github.blog
+method:get
+https://github.blog
+input     search    s                                                 
+
+curl --data s= 
+
+
+
+
+https://github.blog
+method:get
+https://github.blog
+input     search    s                                                 
+
+curl --data s= 
+
+
+
+
+https://twitter.com/github
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fgithub
+input     hidden    authenticity_token            89a9523eb415f7519485b100d5afa041711f8857
+
+curl --data authenticity_token=89a9523eb415f7519485b100d5afa041711f8857 
+
+
+
+
+https://twitter.com/github
+method:
+https://twitter.com/github/search
+input     text      q                                                 
+
+curl --data q=<h1>blabla</h1> 
+
+
+
+
+https://twitter.com/github
+method:POST
+https://twitter.com/github/sessions/change_locale
+input     hidden    lang                                              
+input     hidden    redirect                                          
+input     hidden    authenticity_token            89a9523eb415f7519485b100d5afa041711f8857
+
+curl --data lang=1 --data redirect=1 --data authenticity_token=89a9523eb415f7519485b100d5afa041711f8857 
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            89a9523eb415f7519485b100d5afa041711f8857
+input     hidden    ui_metrics                                        
+
+curl --data session[username_or_email]=<h1>blabla</h1> --data session[password]=1 --data remember_me=1 --data return_to_ssl=true --data scribe_log=1 --data redirect_after_login=/github --data authenticity_token=89a9523eb415f7519485b100d5afa041711f8857 --data ui_metrics=1 
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            89a9523eb415f7519485b100d5afa041711f8857
+input     hidden    ui_metrics                                        
+
+curl --data session[username_or_email]=<h1>blabla</h1> --data session[password]=1 --data remember_me=1 --data return_to_ssl=true --data scribe_log=1 --data redirect_after_login=/github --data authenticity_token=89a9523eb415f7519485b100d5afa041711f8857 --data ui_metrics=1 
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+input     search    q                                                 
+
+curl --data q=1 
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     text      q                                                 
+
+curl --data q=<h1>blabla</h1> 
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+input     radio     csatFormOption                It doesn’t have the information I need.
+input     radio     csatFormOption                The information was hard to follow or confusing.
+input     radio     csatFormOption                The solution did not work as described.
+input     radio     csatFormOption                There is a broken link, missing image, or typo.
+
+curl --data csatFormOption=It doesn’t have the information I need. --data csatFormOption=The information was hard to follow or confusing. --data csatFormOption=The solution did not work as described. --data csatFormOption=There is a broken link, missing image, or typo. 
+
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl --data username=<h1>blabla</h1> --data password=1 --data redirect=1 
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl --data username=<h1>blabla</h1> --data password=1 --data redirect=1 
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl --data username=<h1>blabla</h1> --data password=1 --data redirect=1 
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl --data username=<h1>blabla</h1> --data password=1 --data redirect=1 
+
+
+
+
+https://www.gunjack.com/
+method:post
+http://gunjack.com/
+input     email                                                       
+
+curl 
+
+
+
+
+https://www.oculus.com/en-us/rift/
+method:post
+https://www.oculus.com/en-us/rift//cart/update_country/
+select              country                                           
+
+curl --data country=1 
+
+
+
+
+https://vimeo.com/lougriffith
+method:get
+https://vimeo.com/lougriffith//vimeo.com/search
+input     text      q                                                 
+
+curl --data q= 
+
+
+
+
+https://vimeo.com/cookie_policy
+method:get
+https://vimeo.com/cookie_policy//vimeo.com/search
+input     text      q                                                 
+
+curl --data q= 
+
+
+
+
+https://vimeo-spotlight.myunidays.com/
+method:
+https://vimeo-spotlight.myunidays.com/#
+input     search                                                      
+
+curl 
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl --data text= --data time=1 year --data sort=relevance 
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl --data text= --data time=1 year --data sort=relevance 
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl --data text= --data time=1 year --data sort=relevance 
+
+
+
+
+http://www.ensembleiq.com/home
+method:get
+http://www.ensembleiq.com/home/search/node
+input     search    keys                                              
+
+curl --data keys= 
+
+
+
+
+http://www.ensembleiq.com/home
+method:post
+http://www.ensembleiq.com/home/antibot
+input     text      name                                              
+input     email     email                                             
+input     text      subject                                           
+textarea            message                                           
+select              select_a_brand                                    
+input     hidden    honeypot_time                 nOoMB_qke1B40Vf6lnMe_DY6CFtLebcDFkB_xXKBAEQ
+input     hidden    form_build_id                 form-NsyCc61afCtRa36E9q4RPzG4ixuQhC2JCTjkhoGB5SU
+input     hidden    form_id                       webform_submission_contact_node_28_add_form
+input     hidden    antibot_key                                       
+input     text      url                                               
+
+curl --data name= --data email= --data subject= --data message=<h1>blabla</h1> --data select_a_brand=1 --data honeypot_time=nOoMB_qke1B40Vf6lnMe_DY6CFtLebcDFkB_xXKBAEQ --data form_build_id=form-NsyCc61afCtRa36E9q4RPzG4ixuQhC2JCTjkhoGB5SU --data form_id=webform_submission_contact_node_28_add_form --data antibot_key= --data url= 
+
+
+
+
+https://recruitee.pr.co/
+method:get
+https://recruitee.pr.co//search/press_releases
+input     text      q                                                 
+
+curl --data q=<h1>blabla</h1> 
+
+
+
+
+https://recruitee.pr.co
+method:get
+https://recruitee.pr.co/search/press_releases
+input     text      q                                                 
+
+curl --data q=<h1>blabla</h1> 
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:
+https://search.engadget.com/search
+input     Text      p                                                 
+
+curl --data p= 
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:post
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1/a/mail_subscribe
+input     hidden    csrf                          eyJyIjoiNVZjVzg2bHg3ZUlCQmREdUVPQ0V5WnZON3RyeHl1ZGNSakkrc0swSThVVT0iLCJ0IjoxNTcxNTkyODk2LCJzIjoiRVVZYytHYmxsU0tyMWI5anlieTBLMkxPVW5QSWdKV2Z5SlVTVUFJZnhZaEl5c1FqWEx4VklrV3RsRXlqcDF3K0NpbVpoXC9iMUVTNDBhVU9FbEN4ZGxBPT0ifQ==
+input     text      email                                             
+input     hidden    redirect                      https://www.engadget.com/thanks
+
+curl --data csrf=eyJyIjoiNVZjVzg2bHg3ZUlCQmREdUVPQ0V5WnZON3RyeHl1ZGNSakkrc0swSThVVT0iLCJ0IjoxNTcxNTkyODk2LCJzIjoiRVVZYytHYmxsU0tyMWI5anlieTBLMkxPVW5QSWdKV2Z5SlVTVUFJZnhZaEl5c1FqWEx4VklrV3RsRXlqcDF3K0NpbVpoXC9iMUVTNDBhVU9FbEN4ZGxBPT0ifQ== --data email=<h1>blabla</h1> --data redirect=https://www.engadget.com/thanks 
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:
+https://help.yahoo.com/kb/index
+input     text      question_box                                      
+input     hidden    page                          answers             
+input     hidden    startover                     y                   
+input     hidden    source                        contactform.landing_search
+input     hidden    locale                        es_US               
+input     hidden    y                             PROD_ACCT           
+
+curl --data question_box= --data page=answers --data startover=y --data source=contactform.landing_search --data locale=es_US --data y=PROD_ACCT 
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:post
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=recommended&locale=es_US
+input     hidden    yid                                               
+input     hidden    .crumb                        gAT.LpjnjlFv1I3zTTFwtw--
+input     hidden    y                             PROD_ACCT           
+input     hidden    from                          forms               
+input     hidden    category                      TOP_YPOL            
+input     hidden    subcategory                   ADF138DCE3B31CACE0408962C494295A
+input     hidden    navstep                       5                   
+
+curl --data yid= --data .crumb=gAT.LpjnjlFv1I3zTTFwtw-- --data y=PROD_ACCT --data from=forms --data category=TOP_YPOL --data subcategory=ADF138DCE3B31CACE0408962C494295A --data navstep=5 
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:POST
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=contactform&locale=es_US&token=Zh%2FBBVqXzLHlIbokbUqVWTUbuuQeXGkG46seRNe39YEfhKm%2Bhei2LO0dfJtoiV2m9F2tu0c7swkcN4mWLtcvpGOcvYxDzSWq4OVj1UP8pBYu6DXdRCIRvj%2BdGV8L8QXvAoyc1TdT7itVhJGlZdHbc2ASj6JBmW2P&selectedChannel=email-icon
+input     hidden    dynamicFields[0].docid        DYN356              
+input     hidden    dynamicFields[0].fieldLabel                       
+input     hidden    dynamicFields[0].fieldType    textblock           
+input     hidden    dynamicFields[0].required     false               
+input     hidden    dynamicFields[0].toolTipValue                     
+input     hidden    dynamicFields[0].placeHolder                      
+input     hidden                                                      
+input     hidden    dynamicFields[1].docid        DYN399              
+input     hidden    dynamicFields[1].fieldLabel   Marcas              
+input     hidden    dynamicFields[1].fieldType    dropdown            
+input     hidden    dynamicFields[1].required     true                
+input     hidden    dynamicFields[1].toolTipValue Marca de Oath sobre la que quieres enviar tu opinión.
+input     hidden    dynamicFields[1].placeHolder                      
+input     hidden                                                      
+select              dynamicFields[1].userValue                        
+input     hidden    dynamicFields[2].docid        DYN398              
+input     hidden    dynamicFields[2].fieldLabel   Nombre de usuario   
+input     hidden    dynamicFields[2].fieldType    text                
+input     hidden    dynamicFields[2].required     false               
+input     hidden    dynamicFields[2].toolTipValue ¿A qué nombre de usuario se refiere tu pregunta?
+input     hidden    dynamicFields[2].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[2].userValue                        
+input     hidden    dynamicFields[3].docid        DYN322              
+input     hidden    dynamicFields[3].fieldLabel   ID de Yahoo         
+input     hidden    dynamicFields[3].fieldType    yid                 
+input     hidden    dynamicFields[3].required     false               
+input     hidden    dynamicFields[3].toolTipValue Problemas con un ID de Yahoo o una dirección de correo electrónico
+input     hidden    dynamicFields[3].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[3].userValue                        
+input     hidden    dynamicFields[4].docid        DYN293              
+input     hidden    dynamicFields[4].fieldLabel   Dirección de correo electrónico a la que tienes acceso
+input     hidden    dynamicFields[4].fieldType    useremail           
+input     hidden    dynamicFields[4].required     true                
+input     hidden    dynamicFields[4].toolTipValue Dirección de correo electrónico de contacto
+input     hidden    dynamicFields[4].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[4].userValue                        
+input     hidden    dynamicFields[5].docid        DYN358              
+input     hidden    dynamicFields[5].fieldLabel   Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte.
+input     hidden    dynamicFields[5].fieldType    useremail           
+input     hidden    dynamicFields[5].required     true                
+input     hidden    dynamicFields[5].toolTipValue Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta.
+input     hidden    dynamicFields[5].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[5].userValue                        
+input     hidden    dynamicFields[6].docid        DYN295              
+input     hidden    dynamicFields[6].fieldLabel   Descripción detallada del problema
+input     hidden    dynamicFields[6].fieldType    textarea            
+input     hidden    dynamicFields[6].required     true                
+input     hidden    dynamicFields[6].toolTipValue NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte).
+input     hidden    dynamicFields[6].placeHolder                      
+input     hidden                                                      
+textarea            dynamicFields[6].userValue                        
+input     hidden    dynamicFields[7].docid        DYN303              
+input     hidden    dynamicFields[7].fieldLabel   Mensaje de error, si existe.
+input     hidden    dynamicFields[7].fieldType    text                
+input     hidden    dynamicFields[7].required     false               
+input     hidden    dynamicFields[7].toolTipValue Texto del mensaje de error que aparece.
+input     hidden    dynamicFields[7].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[7].userValue                        
+input     hidden    dynamicFields[8].docid        DYN304              
+input     hidden    dynamicFields[8].fieldLabel   Adjuntar captura de pantalla
+input     hidden    dynamicFields[8].fieldType    file                
+input     hidden    dynamicFields[8].required     false               
+input     hidden    dynamicFields[8].toolTipValue Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF)
+input     hidden    dynamicFields[8].placeHolder                      
+input     hidden                                                      
+input     file                                                        
+input     file                                                        
+input     hidden                                  Se ha enviado un código de verificación a
+input     text      emailCaptchaAnswer                                
+input     hidden    .crumb                        gAT.LpjnjlFv1I3zTTFwtw--
+
+curl --data dynamicFields[0].docid=DYN356 --data dynamicFields[0].fieldLabel= --data dynamicFields[0].fieldType=textblock --data dynamicFields[0].required=false --data dynamicFields[0].toolTipValue= --data dynamicFields[0].placeHolder= --data dynamicFields[1].docid=DYN399 --data dynamicFields[1].fieldLabel=Marcas --data dynamicFields[1].fieldType=dropdown --data dynamicFields[1].required=true --data dynamicFields[1].toolTipValue=Marca de Oath sobre la que quieres enviar tu opinión. --data dynamicFields[1].placeHolder= --data dynamicFields[1].userValue=1 --data dynamicFields[2].docid=DYN398 --data dynamicFields[2].fieldLabel=Nombre de usuario --data dynamicFields[2].fieldType=text --data dynamicFields[2].required=false --data dynamicFields[2].toolTipValue=¿A qué nombre de usuario se refiere tu pregunta? --data dynamicFields[2].placeHolder= --data dynamicFields[2].userValue= --data dynamicFields[3].docid=DYN322 --data dynamicFields[3].fieldLabel=ID de Yahoo --data dynamicFields[3].fieldType=yid --data dynamicFields[3].required=false --data dynamicFields[3].toolTipValue=Problemas con un ID de Yahoo o una dirección de correo electrónico --data dynamicFields[3].placeHolder= --data dynamicFields[3].userValue= --data dynamicFields[4].docid=DYN293 --data dynamicFields[4].fieldLabel=Dirección de correo electrónico a la que tienes acceso --data dynamicFields[4].fieldType=useremail --data dynamicFields[4].required=true --data dynamicFields[4].toolTipValue=Dirección de correo electrónico de contacto --data dynamicFields[4].placeHolder= --data dynamicFields[4].userValue= --data dynamicFields[5].docid=DYN358 --data dynamicFields[5].fieldLabel=Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte. --data dynamicFields[5].fieldType=useremail --data dynamicFields[5].required=true --data dynamicFields[5].toolTipValue=Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta. --data dynamicFields[5].placeHolder= --data dynamicFields[5].userValue= --data dynamicFields[6].docid=DYN295 --data dynamicFields[6].fieldLabel=Descripción detallada del problema --data dynamicFields[6].fieldType=textarea --data dynamicFields[6].required=true --data dynamicFields[6].toolTipValue=NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte). --data dynamicFields[6].placeHolder= --data dynamicFields[6].userValue=<h1>blabla</h1> --data dynamicFields[7].docid=DYN303 --data dynamicFields[7].fieldLabel=Mensaje de error, si existe. --data dynamicFields[7].fieldType=text --data dynamicFields[7].required=false --data dynamicFields[7].toolTipValue=Texto del mensaje de error que aparece. --data dynamicFields[7].placeHolder= --data dynamicFields[7].userValue= --data dynamicFields[8].docid=DYN304 --data dynamicFields[8].fieldLabel=Adjuntar captura de pantalla --data dynamicFields[8].fieldType=file --data dynamicFields[8].required=false --data dynamicFields[8].toolTipValue=Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF) --data dynamicFields[8].placeHolder= --data emailCaptchaAnswer= --data .crumb=gAT.LpjnjlFv1I3zTTFwtw-- 
+
+
+
+
+https://www.verizon.com/about/privacy/privacy-policy-summary
+method:
+https://www.verizon.com/search/SearchResults
+input     text      Ntt                                               
+input     hidden    ES                            Corporate           
+input     hidden    Dy                            1                   
+input     hidden    Nty                           1                   
+
+curl --data Ntt=<h1>blabla</h1> --data ES=Corporate --data Dy=1 --data Nty=1 
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                             Search this site... 
+input     image                                                       
+
+curl --data s=Search this site... 
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                                                 
+
+curl --data s= 
+
+
+
+
+http://www.wordpress.org
+method:get
+http://www.wordpress.org//wordpress.org/search/do-search.php
+input     text      search                                            
+
+curl --data search= 
+
+
+
+
+https://publiccode.eu/
+method:post
+https://forms.fsfe.org/email
+input     hidden    appid                         pmpc-sign           
+input     text      name                                              
+input     email     confirm                                           
+select              country                                           
+input     text      zip                                               
+input     text      comment                                           
+input     checkbox  permissionPriv                yes                 
+input     checkbox  permissionPub                 yes                 
+input     checkbox  permissionNews                yes                 
+input     text      url                                               
+
+curl --data appid=pmpc-sign --data name=<h1>blabla</h1> --data confirm=1 --data country=1 --data zip=<h1>blabla</h1> --data comment=<h1>blabla</h1> --data permissionPriv=yes --data permissionPub=yes --data permissionNews=yes --data url=<h1>blabla</h1> 
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-spread         
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl --data popup=1 --data ref=pmpc-spread --data url=https://publiccode.eu/ --data title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence: --data website=1 --data popup=1 --data diasporapod= --data popup=1 --data mastodonpod= 
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-side           
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl --data popup=1 --data ref=pmpc-side --data url=https://publiccode.eu/ --data title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence: --data website=1 --data popup=1 --data diasporapod= --data popup=1 --data mastodonpod= 
+

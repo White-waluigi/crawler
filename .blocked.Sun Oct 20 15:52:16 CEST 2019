@@ -1,0 +1,650 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+google.com
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+youtube.com
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+input     &-10shidden              lang                
+input     &-10shidden              redirect            
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+
+
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+input     &-10ssearch              q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     &-10stext                q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+twitter.com
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+input     &-10shidden              lang                
+input     &-10shidden              redirect            
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+
+
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+input     &-10ssearch              q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     &-10stext                q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+discourse.org
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+input     &-10shidden              lang                
+input     &-10shidden              redirect            
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+
+
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+input     &-10ssearch              q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     &-10stext                q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/
+method:post
+https://community.cartalk.com//login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+cartalk.com
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     &-10shidden              source              
+input     &-10shidden              ei                  
+input     &-10shidden              iflsig              
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://sustainability.google/
+method:get
+https://sustainability.google//search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2FYouTube
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:
+https://twitter.com/YouTube/search
+input     &-10stext                q                   
+
+
+
+https://twitter.com/YouTube
+method:POST
+https://twitter.com/YouTube/sessions/change_locale
+input     &-10shidden              lang                
+input     &-10shidden              redirect            
+input     &-10shidden              authenticity_token  
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/YouTube
+method:post
+https://twitter.com/sessions
+input     &-10stext                session[username_or_email]
+input     &-10spassword            session[password]   
+input     &-10scheckbox            remember_me         
+input     &-10shidden              return_to_ssl       
+input     &-10shidden              scribe_log          
+input     &-10shidden              redirect_after_login
+input     &-10shidden              authenticity_token  
+input     &-10shidden              ui_metrics          
+
+
+
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+
+
+
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+input     &-10ssearch              q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     &-10stext                q                   
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+input     &-10sradio               csatFormOption      
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/
+method:post
+https://community.cartalk.com//login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/t/1979-ford-mustang-cylinder-heads/151019
+method:post
+https://community.cartalk.com/t/1979-ford-mustang-cylinder-heads/151019/login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/t/white-splatters-on-engine/151105
+method:post
+https://community.cartalk.com/t/white-splatters-on-engine/151105/login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/t/battery-light-wont-go-away/150980
+method:post
+https://community.cartalk.com/t/battery-light-wont-go-away/150980/login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/t/2017-jeep-grand-cherokee-hsa-no-longer-holds/150684
+method:post
+https://community.cartalk.com/t/2017-jeep-grand-cherokee-hsa-no-longer-holds/150684/login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://community.cartalk.com/t/1990-cadillac-deville-hub-cap-issues/150990
+method:post
+https://community.cartalk.com/t/1990-cadillac-deville-hub-cap-issues/150990/login
+input     &-10stext                username            
+input     &-10spassword            password            
+input     &-10shidden              redirect            
+
+
+
+https://www.discounttire.com/learn/difference-between-rims-wheels-hubcaps
+method:get
+https://www.discounttire.com/learn/difference-between-rims-wheels-hubcaps/search/
+input     &-10s                    text                
+
+
+
+https://www.discounttire.com/learn/difference-between-rims-wheels-hubcaps
+method:get
+https://www.discounttire.com/learn/difference-between-rims-wheels-hubcaps/search/
+input     &-10s                    text                
+
+
+
+https://www.facebook.com/DiscountTire
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     &-10shidden              jazoest             
+input     &-10shidden              lsd                 
+input     &-10semail               email               
+input     &-10spassword            pass                
+input     &-10shidden              timezone            
+input     &-10shidden              lgndim              
+input     &-10shidden              lgnrnd              
+input     &-10shidden              lgnjs               
+input     &-10shidden              ab_test_data        
+input     &-10shidden              locale              
+input     &-10shidden              login_source        
+input     &-10shidden              guid                
+input     &-10shidden              prefill_contact_point
+input     &-10shidden              prefill_source      
+input     &-10shidden              prefill_type        
+
+
+
+https://www.facebook.com/DiscountTire
+method:post
+https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+input     &-10shidden              jazoest             
+input     &-10shidden              lsd                 
+input     &-10semail               email               
+input     &-10spassword            pass                
+input     &-10shidden              timezone            
+input     &-10shidden              lgndim              
+input     &-10shidden              lgnrnd              
+input     &-10shidden              lgnjs               
+input     &-10shidden              ab_test_data        
+input     &-10shidden              locale              
+input     &-10shidden              next                
+input     &-10shidden              guid                
+input     &-10shidden              prefill_contact_point
+input     &-10shidden              prefill_source      
+input     &-10shidden              prefill_type        
+
+
+
+https://www.facebook.com/DiscountTire
+method:post
+https://www.facebook.com/DiscountTire/ajax/ufi/modify.php
+input     &-10shidden              jazoest             
+input     &-10shidden              lsd                 
+input     &-10shidden              ft_ent_identifier   
+input     &-10shidden              data_only_response  
+
+
+
+https://www.facebook.com/DiscountTire
+method:post
+https://www.facebook.com/DiscountTire/ajax/ufi/modify.php
+input     &-10shidden              jazoest             
+input     &-10shidden              lsd                 
+input     &-10shidden              ft_ent_identifier   
+input     &-10shidden              data_only_response  
+facebook.com

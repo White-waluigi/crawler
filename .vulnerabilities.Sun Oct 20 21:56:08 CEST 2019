@@ -1,0 +1,387 @@
+
+
+
+http://google.com
+method:GET
+http://google.com/search
+input     hidden    source                        hp                  
+input     hidden    ei                            ILusXfX2FIG4kwWmmLnQDQ
+input     hidden    iflsig                        AAP1E1EAAAAAXazJMGzaHmjEpmzsFh8yAhVoVHM8xiQy
+input     text      q                                                 
+
+curl  "http://google.com/search?source=hp&ei=ILusXfX2FIG4kwWmmLnQDQ&iflsig=AAP1E1EAAAAAXazJMGzaHmjEpmzsFh8yAhVoVHM8xiQy&q=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://twitter.com/github
+method:GET
+https://twitter.com/github/search
+input     text      q                                                 
+
+curl  "https://twitter.com/github/search?q=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            be1fc7c83389003321a098dfc81420317d89c4ce
+input     hidden    ui_metrics                                        
+
+curl --data "session[username_or_email]=<h1>blabla</h1>" --data "session[password]=1" --data "remember_me=1" --data "return_to_ssl=true" --data "scribe_log=1" --data "redirect_after_login=/github" --data "authenticity_token=be1fc7c83389003321a098dfc81420317d89c4ce" --data "ui_metrics=1"  "https://twitter.com/sessions" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            be1fc7c83389003321a098dfc81420317d89c4ce
+input     hidden    ui_metrics                                        
+
+curl --data "session[username_or_email]=<h1>blabla</h1>" --data "session[password]=1" --data "remember_me=1" --data "return_to_ssl=true" --data "scribe_log=1" --data "redirect_after_login=/github" --data "authenticity_token=be1fc7c83389003321a098dfc81420317d89c4ce" --data "ui_metrics=1"  "https://twitter.com/sessions" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://dev.twitter.com/web/embedded-tweets
+method:post
+https://dev.twitter.com/web/embedded-tweetsindex.html
+input     radio     csatFormOption                This page is missing information.
+input     radio     csatFormOption                The information was hard to follow or confusing.
+input     radio     csatFormOption                There is inaccurate information.
+input     radio     csatFormOption                There is a broken link or typo.
+textarea            additionalFeedback                                
+
+curl --data "csatFormOption=This page is missing information." --data "csatFormOption=The information was hard to follow or confusing." --data "csatFormOption=There is inaccurate information." --data "csatFormOption=There is a broken link or typo." --data "additionalFeedback=<h1>blabla</h1>"  "https://dev.twitter.com/web/embedded-tweetsindex.html" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl --data "first_name=<h1>blabla</h1>" --data "last_name=<h1>blabla</h1>" --data "job_title=<h1>blabla</h1>" --data "email=" --data "phone=<h1>blabla</h1>" --data "company=<h1>blabla</h1>" --data "demandbaseSubscriptionFormOptInCheck=1" --data "referer=//www.demandbase.com/company" --data "retURL=//www.demandbase.com/" --data "lead_source=Website" --data "Campaign_ID=70140000000ViNK" --data "LastSFDCCampaignStatus=Converted"  "https://www.demandbase.com/privacy-policy/" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.demandbase.com/privacy-policy/
+method:post
+https://www.demandbase.com/privacy-policy/
+input     text      first_name                                        
+input     text      last_name                                         
+input     text      job_title                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      company                                           
+input     checkbox  demandbaseSubscriptionFormOptInCheck1                   
+input     hidden    referer                       //www.demandbase.com/company
+input     hidden    retURL                        //www.demandbase.com/
+input     hidden    lead_source                   Website             
+input     hidden    Campaign_ID                   70140000000ViNK     
+input     hidden    LastSFDCCampaignStatus        Converted           
+
+curl --data "first_name=<h1>blabla</h1>" --data "last_name=<h1>blabla</h1>" --data "job_title=<h1>blabla</h1>" --data "email=" --data "phone=<h1>blabla</h1>" --data "company=<h1>blabla</h1>" --data "demandbaseSubscriptionFormOptInCheck=1" --data "referer=//www.demandbase.com/company" --data "retURL=//www.demandbase.com/" --data "lead_source=Website" --data "Campaign_ID=70140000000ViNK" --data "LastSFDCCampaignStatus=Converted"  "https://www.demandbase.com/privacy-policy/" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.com/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm
+method:get
+https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://fr.glassdoor.ch/Présentation/Travailler-chez-Demandbase-EI_IE271272.16,26.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm
+method:get
+https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    Demandbase          
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.co.uk/Overview/Working-at-Demandbase-EI_IE271272.11,21.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:GET
+https://www.youtube.com/Glassdoor/results
+input     text      search_query                                      
+
+curl  "https://www.youtube.com/Glassdoor/results?search_query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/Glassdoor
+method:get
+https://www.youtube.com/Glassdoor/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  "https://www.youtube.com/Glassdoor/user/GlassdoorInc/search?query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2731                
+input     hidden    lsd                           AVqUYVgh            
+input     text      email                                             
+
+curl --data "jazoest=2731" --data "lsd=AVqUYVgh" --data "email=<h1>blabla</h1>"  "https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2693                
+input     hidden    lsd                           AVqiuUI1            
+input     hidden    initial_request_id            ATvZt7tWpwSayZPml6kH1Xb
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        125318_optH         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl --data "jazoest=2693" --data "lsd=AVqiuUI1" --data "initial_request_id=ATvZt7tWpwSayZPml6kH1Xb" --data "timezone=" --data "lgndim=" --data "lgnrnd=125318_optH" --data "lgnjs=n" --data "email=<h1>blabla</h1>" --data "pass=1" --data "persistent=1" --data "default_persistent=0"  "https://messenger.com//login/password/" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.facebook.com/
+method:post
+https://m.facebook.com/reg/
+input     hidden    jazoest                       2703                
+input     hidden    lsd                           AVpVY4of            
+input     text      firstname                                         
+input     text      lastname                                          
+input     text      reg_email__                                       
+input     text      reg_email_confirmation__                          
+input     text      reg_second_contactpoint__                         
+input     password  reg_passwd__                                      
+select              birthday_day                                      
+select              birthday_month                                    
+select              birthday_year                                     
+input     radio     sex                           1                   
+input     radio     sex                           2                   
+input     radio     sex                           -1                  
+select              preferred_pronoun                                 
+input     text      custom_gender                                     
+input     hidden    referrer                                          
+input     hidden    asked_to_login                0                   
+input     hidden    use_custom_gender                                 
+input     hidden    terms                         on                  
+input     hidden    ns                            0                   
+input     hidden    ri                            5a6c0008-69a9-4345-8b09-1326d4dadf77
+input     hidden    action_dialog_shown                               
+input     hidden    contactpoint_label            email_or_phone      
+input     hidden    ignore                        reg_email_confirmation__|reg_second_contactpoint__
+input     hidden    locale                        de_DE               
+input     hidden    reg_instance                  L7usXSZlMQYPBqhQSEwnjr2_
+input     hidden    captcha_persist_data          AZl27dYzMFdgw8FvHvE0yhhf0MIv-Fns36_QcwgTixK7QP59NwBnyDoTcNHkVXJu8Li_yMTnt8S39v6ujaj5up-mWpw7c7pF35AwTx_BixewnjAnWkUXSa87LiUhgolmyhsSVwuRo270iPji3bMwhw6SB3kplSnvAYEJknkv5ryGRUyNMFSUsddwiJZHmb-bucuL97F5POWJ8NWbi4_n0pvRAqLDakG0V49Sm4jqrtQGcKZmZUxJ5lx6xNPsLniZd1utku7A-9D4p9fHHAJrzmRemOfGDB67nB9pGsfjmtxVXq5mv0RQOryl-P3RJnmXVgojZSIb_tD3YkZW04306-QvlF7OajFw9L2LchS5znCygqF7RrZkaH37LKnsFpIRRaM
+input     hidden    captcha_response                                  
+
+curl --data "jazoest=2703" --data "lsd=AVpVY4of" --data "firstname=<h1>blabla</h1>" --data "lastname=<h1>blabla</h1>" --data "reg_email__=<h1>blabla</h1>" --data "reg_email_confirmation__=<h1>blabla</h1>" --data "reg_second_contactpoint__=<h1>blabla</h1>" --data "reg_passwd__=1" --data "birthday_day=1" --data "birthday_month=1" --data "birthday_year=1" --data "sex=1" --data "sex=2" --data "sex=-1" --data "preferred_pronoun=1" --data "custom_gender=<h1>blabla</h1>" --data "referrer=" --data "asked_to_login=0" --data "use_custom_gender=" --data "terms=on" --data "ns=0" --data "ri=5a6c0008-69a9-4345-8b09-1326d4dadf77" --data "action_dialog_shown=" --data "contactpoint_label=email_or_phone" --data "ignore=reg_email_confirmation__|reg_second_contactpoint__" --data "locale=de_DE" --data "reg_instance=L7usXSZlMQYPBqhQSEwnjr2_" --data "captcha_persist_data=AZl27dYzMFdgw8FvHvE0yhhf0MIv-Fns36_QcwgTixK7QP59NwBnyDoTcNHkVXJu8Li_yMTnt8S39v6ujaj5up-mWpw7c7pF35AwTx_BixewnjAnWkUXSa87LiUhgolmyhsSVwuRo270iPji3bMwhw6SB3kplSnvAYEJknkv5ryGRUyNMFSUsddwiJZHmb-bucuL97F5POWJ8NWbi4_n0pvRAqLDakG0V49Sm4jqrtQGcKZmZUxJ5lx6xNPsLniZd1utku7A-9D4p9fHHAJrzmRemOfGDB67nB9pGsfjmtxVXq5mv0RQOryl-P3RJnmXVgojZSIb_tD3YkZW04306-QvlF7OajFw9L2LchS5znCygqF7RrZkaH37LKnsFpIRRaM" --data "captcha_response=1"  "https://m.facebook.com/reg/" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.de/blog/
+method:get
+https://www.glassdoor.de/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.de/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.fr/blog/
+method:get
+https://www.glassdoor.fr/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.fr/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:GET
+https://www.youtube.com/user/GlassdoorInc/results
+input     text      search_query                                      
+
+curl  "https://www.youtube.com/user/GlassdoorInc/results?search_query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:get
+https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  "https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search?query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:GET
+https://www.youtube.com/user/GlassdoorInc/results
+input     text      search_query                                      
+
+curl  "https://www.youtube.com/user/GlassdoorInc/results?search_query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.youtube.com/user/GlassdoorInc
+method:get
+https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search
+input     text      query                                             
+
+curl  "https://www.youtube.com/user/GlassdoorInc/user/GlassdoorInc/search?query=<h1>blabla</h1>" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.nl/blog/
+method:get
+https://www.glassdoor.nl/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.nl/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.nl/blog/
+method:get
+https://www.glassdoor.nl/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.nl/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+
+
+
+
+https://www.glassdoor.fr/blog/marque-employeur/
+method:get
+https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  "https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=<h1>blabla</h1>&<h1>blabla</h1>&locT=&locId=&jobType=" 2> /dev/null 1| grep "<h1>blabla</h1>";echo $?
+

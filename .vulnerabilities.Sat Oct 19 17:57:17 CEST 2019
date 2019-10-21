@@ -1,0 +1,179 @@
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+https://github.com/TheTorProject
+method:get
+https://github.com/TheTorProject/orgs/TheTorProject/search
+	input-hidden:utf8
+	input-text:q
+	input-hidden:type
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+https://github.com/TheTorProject
+method:get
+https://github.com/TheTorProject/orgs/TheTorProject/search
+	input-hidden:utf8
+	input-text:q
+	input-hidden:type
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/prompt_dismissals/signup
+	input-hidden:utf8
+	input-hidden:_method
+	input-hidden:authenticity_token
+
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://www.wikileaks.org/
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://wikileaks.org/-News-.html
+method:get
+https://search.wikileaks.org/
+	input-text:q
+https://tails.boum.org/
+method:get
+https://tails.boum.org//ikiwiki.cgi
+	input-text:P
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/site/dismiss_unsupported_browser
+	input-hidden:utf8
+	input-hidden:authenticity_token
+https://github.com/TheTorProject
+method:get
+https://github.com/TheTorProject/orgs/TheTorProject/search
+	input-hidden:utf8
+	input-text:q
+	input-hidden:type
+https://github.com/TheTorProject
+method:post
+https://github.com/TheTorProject/prompt_dismissals/signup
+	input-hidden:utf8
+	input-hidden:_method
+	input-hidden:authenticity_token
+https://github.com/TheTorProject
+method:get
+https://github.com/TheTorProject/TheTorProject
+	input-hidden:utf8
+	input-search:q
+	input-radio:type
+	input-radio:type
+	input-radio:type
+	input-radio:type
+	input-radio:type
+	input-radio:language
+	input-radio:language
+	input-radio:language
+	input-radio:language
+	input-radio:language
+	input-radio:language
+	input-radio:language
+

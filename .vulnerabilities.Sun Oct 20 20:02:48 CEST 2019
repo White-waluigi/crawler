@@ -1,0 +1,3928 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            dp-sXbXcMo3TwALv2an4DQ
+input     hidden    iflsig                        AAP1E1EAAAAAXaythheddTu1FgTfnL9r-U-Ccxd9bBFv
+input     text      q                                                 
+
+curl  https://www.google.com//search?source=hp&ei=dp-sXbXcMo3TwALv2an4DQ&iflsig=AAP1E1EAAAAAXaythheddTu1FgTfnL9r-U-Ccxd9bBFv&q=blabla | grep "blabla"
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search?blabla&src=itunes_serp | grep "blabla"
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search?blabla&src=itunes_serp | grep "blabla"
+
+
+
+
+https://twitter.com/share?url=https://g.co/DigitalGarage&text=Free Training Course From Google
+method:post
+https://twitter.com/intent/sessions
+input     hidden    text                          Free Training Course From Google
+input     hidden    url                           https://g.co/DigitalGarage
+input     hidden    repost_after_login            /intent/tweet       
+input     hidden    authenticity_token            c74c819fbeb6333db91a6fed2e2084775269b1af
+textarea            status                                            
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    ui_metrics                                        
+
+curl  https://twitter.com/intent/sessions?text=Free Training Course From Google&url=https://g.co/DigitalGarage&repost_after_login=/intent/tweet&authenticity_token=c74c819fbeb6333db91a6fed2e2084775269b1af&status=blabla&session[username_or_email]=blabla&session[password]=&remember_me=1&ui_metrics=1 | grep "blabla"
+
+
+
+
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage
+method:post
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100
+input     hidden    jazoest                       2770                
+input     hidden    lsd                           AVofIyqc            
+input     hidden                                                      
+input     hidden    api_key                       966242223397117     
+input     hidden    cancel_url                    https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_
+input     hidden    display                       popup               
+input     hidden    enable_profile_selector                           
+input     hidden    isprivate                                         
+input     hidden    legacy_return                 0                   
+input     hidden    profile_selector_ids                              
+input     hidden    return_session                                    
+input     hidden    skip_api_login                1                   
+input     hidden    signed_next                   1                   
+input     hidden    trynum                        1                   
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        105508_r99n         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+input     hidden    first_prefill_source                              
+input     hidden    first_prefill_type                                
+input     hidden    had_cp_prefilled              false               
+input     hidden    had_password_prefilled        false               
+input     hidden    ab_test_data                                      
+
+curl  http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100?jazoest=2770&lsd=AVofIyqc&1&api_key=966242223397117&cancel_url=https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_&display=popup&enable_profile_selector=&isprivate=&legacy_return=0&profile_selector_ids=&return_session=&skip_api_login=1&signed_next=1&trynum=1&timezone=&lgndim=&lgnrnd=105508_r99n&lgnjs=n&email=blabla&pass=1&prefill_contact_point=&prefill_source=1&prefill_type=1&first_prefill_source=1&first_prefill_type=1&had_cp_prefilled=false&had_password_prefilled=false&ab_test_data= | grep "blabla"
+
+
+
+
+https://www.facebook.com/recover/initiate/?ars=facebook_login
+method:post
+https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2645                
+input     hidden    lsd                           AVrcCKX3            
+input     text      email                                             
+
+curl  https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2645&lsd=AVrcCKX3&email=blabla | grep "blabla"
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2706                
+input     hidden    lsd                           AVqScdQO            
+input     hidden    initial_request_id            ARnWgK7AzCqkO-gXiK5BDHg
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        105509_zsH7         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  https://messenger.com//login/password/?jazoest=2706&lsd=AVqScdQO&initial_request_id=ARnWgK7AzCqkO-gXiK5BDHg&timezone=&lgndim=&lgnrnd=105509_zsH7&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0 | grep "blabla"
+
+
+
+
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2692                
+input     hidden    lsd                           AVplWb3U            
+input     text      email                                             
+
+curl  https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2692&lsd=AVplWb3U&email=blabla | grep "blabla"
+
+
+
+
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2738                
+input     hidden    lsd                           AVpLzp3r            
+input     text      email                                             
+
+curl  https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2738&lsd=AVpLzp3r&email=blabla | grep "blabla"
+
+
+
+
+https://fr-fr.messenger.com/
+method:post
+https://fr-fr.messenger.com//login/password/
+input     hidden    jazoest                       2714                
+input     hidden    lsd                           AVpEw6wZ            
+input     hidden    initial_request_id            AbCEFUcEhgpV1pYImsSsMge
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        105512_OZvu         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  https://fr-fr.messenger.com//login/password/?jazoest=2714&lsd=AVpEw6wZ&initial_request_id=AbCEFUcEhgpV1pYImsSsMge&timezone=&lgndim=&lgnrnd=105512_OZvu&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0 | grep "blabla"
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2814                
+input     hidden    lsd                           AVprUvvt            
+input     text      email                                             
+
+curl  https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover?jazoest=2814&lsd=AVprUvvt&email=blabla | grep "blabla"
+
+
+
+
+https://www.facebook.com/
+method:post
+https://m.facebook.com/reg/
+input     hidden    jazoest                       2680                
+input     hidden    lsd                           AVo3UzWI            
+input     text      firstname                                         
+input     text      lastname                                          
+input     text      reg_email__                                       
+input     text      reg_email_confirmation__                          
+input     text      reg_second_contactpoint__                         
+input     password  reg_passwd__                                      
+select              birthday_day                                      
+select              birthday_month                                    
+select              birthday_year                                     
+input     radio     sex                           1                   
+input     radio     sex                           2                   
+input     radio     sex                           -1                  
+select              preferred_pronoun                                 
+input     text      custom_gender                                     
+input     hidden    referrer                                          
+input     hidden    asked_to_login                0                   
+input     hidden    use_custom_gender                                 
+input     hidden    terms                         on                  
+input     hidden    ns                            0                   
+input     hidden    ri                            a5803551-bcd9-41d8-80f2-c948f8fb17d2
+input     hidden    action_dialog_shown                               
+input     hidden    contactpoint_label            email_or_phone      
+input     hidden    ignore                        reg_email_confirmation__|reg_second_contactpoint__
+input     hidden    locale                        de_DE               
+input     hidden    reg_instance                  gZ-sXWwGRTwODxPGCjjl7N3b
+input     hidden    captcha_persist_data          AZlA52gLhNxGRP-D3ozcflvNjJlO_J1SMmICXTcBLLeToAVt4gnGR3bWy-lpkxJ4EAk-HQBXGbQlsfFlACfqK98Zointd2vSw1Fpuiy1aJ7xPwkZycdrspOI0mtbOhH4vzyRNGtoBPM8Bk9PaSIHUBN6llUFpnPdBid71Noq_7owFmS7myZC642m5YhIIkUDz_xwEXV-ee91PIJP0ybzS9MFHDh55O6CLWAZTFJwkW9vzGbgMeONQyklrmQpKyT3mC6XuqGJXDR6JOkFMlSiuVtZHGV5rBQ_NW-ncmS2qtu3EPoMD3CXzHITz0zWcvyPjahIyOQePRlwJld6ch2pFaCuJ62YTNj3rgpVTX2ZU0k_Ik1qrrS7pRxrkYuKZlfEYcc
+input     hidden    captcha_response                                  
+
+curl  https://m.facebook.com/reg/?jazoest=2680&lsd=AVo3UzWI&firstname=blabla&lastname=blabla&reg_email__=blabla&reg_email_confirmation__=blabla&reg_second_contactpoint__=blabla&reg_passwd__=1&birthday_day=1&birthday_month=1&birthday_year=1&sex=1&sex=2&sex=-1&preferred_pronoun=1&custom_gender=blabla&referrer=&asked_to_login=0&use_custom_gender=&terms=on&ns=0&ri=a5803551-bcd9-41d8-80f2-c948f8fb17d2&action_dialog_shown=&contactpoint_label=email_or_phone&ignore=reg_email_confirmation__|reg_second_contactpoint__&locale=de_DE&reg_instance=gZ-sXWwGRTwODxPGCjjl7N3b&captcha_persist_data=AZlA52gLhNxGRP-D3ozcflvNjJlO_J1SMmICXTcBLLeToAVt4gnGR3bWy-lpkxJ4EAk-HQBXGbQlsfFlACfqK98Zointd2vSw1Fpuiy1aJ7xPwkZycdrspOI0mtbOhH4vzyRNGtoBPM8Bk9PaSIHUBN6llUFpnPdBid71Noq_7owFmS7myZC642m5YhIIkUDz_xwEXV-ee91PIJP0ybzS9MFHDh55O6CLWAZTFJwkW9vzGbgMeONQyklrmQpKyT3mC6XuqGJXDR6JOkFMlSiuVtZHGV5rBQ_NW-ncmS2qtu3EPoMD3CXzHITz0zWcvyPjahIyOQePRlwJld6ch2pFaCuJ62YTNj3rgpVTX2ZU0k_Ik1qrrS7pRxrkYuKZlfEYcc&captcha_response=1 | grep "blabla"
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:get
+https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search
+input     hidden    utf8                          ✓                   
+input     text      q                                                 
+input     hidden    type                                              
+
+curl  https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search?utf8=✓&q=blabla&type=1 | grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:
+https://twitter.com/github/search
+input     text      q                                                 
+
+curl  https://twitter.com/github/search?q=blabla | grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            0c96c98560d782fe957319d318bc51da810b7d53
+input     hidden    ui_metrics                                        
+
+curl  https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=0c96c98560d782fe957319d318bc51da810b7d53&ui_metrics=1 | grep "blabla"
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            0c96c98560d782fe957319d318bc51da810b7d53
+input     hidden    ui_metrics                                        
+
+curl  https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=0c96c98560d782fe957319d318bc51da810b7d53&ui_metrics=1 | grep "blabla"
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     text      q                                                 
+
+curl  https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html?q=blabla | grep "blabla"
+
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  https://twittercommunity.com//login?username=blabla&password=1&redirect=1 | grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  https://forums.eveonline.com//login?username=blabla&password=1&redirect=1 | grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  https://forums.eveonline.com//login?username=blabla&password=1&redirect=1 | grep "blabla"
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  https://forums.eveonline.com//login?username=blabla&password=1&redirect=1 | grep "blabla"
+
+
+
+
+https://vimeo.com/lougriffith
+method:get
+https://vimeo.com/lougriffith//vimeo.com/search
+input     text      q                                                 
+
+curl  https://vimeo.com/lougriffith//vimeo.com/search?q=blabla | grep "blabla"
+
+
+
+
+https://vimeo.com/help/contact
+method:get
+https://vimeo.com/help/contact//vimeo.com/search
+input     text      q                                                 
+
+curl  https://vimeo.com/help/contact//vimeo.com/search?q=blabla | grep "blabla"
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance | grep "blabla"
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance | grep "blabla"
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance | grep "blabla"
+
+
+
+
+http://www.ensembleiq.com/home
+method:post
+http://www.ensembleiq.com/home/antibot
+input     text      name                                              
+input     email     email                                             
+input     text      subject                                           
+textarea            message                                           
+select              select_a_brand                                    
+input     hidden    honeypot_time                 QeR1enZalBqAJuHdIhAP0t6shDNNSPe7HqvmpukWh1s
+input     hidden    form_build_id                 form-1uCZIlOpgLv9snqxpnFP9S53c_OsQ6JkQ8wWggsnJgA
+input     hidden    form_id                       webform_submission_contact_node_28_add_form
+input     hidden    antibot_key                                       
+input     text      url                                               
+
+curl  http://www.ensembleiq.com/home/antibot?name=blabla&email=&subject=blabla&message=blabla&select_a_brand=1&honeypot_time=QeR1enZalBqAJuHdIhAP0t6shDNNSPe7HqvmpukWh1s&form_build_id=form-1uCZIlOpgLv9snqxpnFP9S53c_OsQ6JkQ8wWggsnJgA&form_id=webform_submission_contact_node_28_add_form&antibot_key=&url=blabla | grep "blabla"
+
+
+
+
+https://recruitee.pr.co/
+method:get
+https://recruitee.pr.co//search/press_releases
+input     text      q                                                 
+
+curl  https://recruitee.pr.co//search/press_releases?q=blabla | grep "blabla"
+
+
+
+
+https://recruitee.pr.co
+method:get
+https://recruitee.pr.co/search/press_releases
+input     text      q                                                 
+
+curl  https://recruitee.pr.co/search/press_releases?q=blabla | grep "blabla"
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:
+https://search.engadget.com/search
+input     Text      p                                                 
+
+curl  https://search.engadget.com/search?p=blabla | grep "blabla"
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:post
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1/a/mail_subscribe
+input     hidden    csrf                          eyJyIjoiMDVKQjdPVlJDOXc1UXZ6bmlFeUtBZVBrejZQMFRRaENyVTUrRndsUEIrVT0iLCJ0IjoxNTcxNTk0MTU5LCJzIjoibU1QTXBKZisxRTRJc1laSVdsSStMZmRrZFwveGNpdW1zTGVmb3I0UnhvekFRMTJLRlRvakN0WjBtbGc1VG9qMWF2WHAyRGFsdm5Za3Q1M3A3d1VnSUFBPT0ifQ==
+input     text      email                                             
+input     hidden    redirect                      https://www.engadget.com/thanks
+
+curl  https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1/a/mail_subscribe?csrf=eyJyIjoiMDVKQjdPVlJDOXc1UXZ6bmlFeUtBZVBrejZQMFRRaENyVTUrRndsUEIrVT0iLCJ0IjoxNTcxNTk0MTU5LCJzIjoibU1QTXBKZisxRTRJc1laSVdsSStMZmRrZFwveGNpdW1zTGVmb3I0UnhvekFRMTJLRlRvakN0WjBtbGc1VG9qMWF2WHAyRGFsdm5Za3Q1M3A3d1VnSUFBPT0ifQ==&email=blabla&redirect=https://www.engadget.com/thanks | grep "blabla"
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:
+https://help.yahoo.com/kb/index
+input     text      question_box                                      
+input     hidden    page                          answers             
+input     hidden    startover                     y                   
+input     hidden    source                        contactform.landing_search
+input     hidden    locale                        es_US               
+input     hidden    y                             PROD_ACCT           
+
+curl  https://help.yahoo.com/kb/index?question_box=blabla&page=answers&startover=y&source=contactform.landing_search&locale=es_US&y=PROD_ACCT | grep "blabla"
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:POST
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=contactform&locale=es_US&token=Zh%2FBBVqXzLHlIbokbUqVWTUbuuQeXGkG46seRNe39YEfhKm%2Bhei2LO0dfJtoiV2m9F2tu0c7swkcN4mWLtcvpGOcvYxDzSWq4OVj1UP8pBYu6DXdRCIRvj%2BdGV8L8QXvAoyc1TdT7itVhJGlZdHbc2ASj6JBmW2P&selectedChannel=email-icon
+input     hidden    dynamicFields[0].docid        DYN356              
+input     hidden    dynamicFields[0].fieldLabel                       
+input     hidden    dynamicFields[0].fieldType    textblock           
+input     hidden    dynamicFields[0].required     false               
+input     hidden    dynamicFields[0].toolTipValue                     
+input     hidden    dynamicFields[0].placeHolder                      
+input     hidden                                                      
+input     hidden    dynamicFields[1].docid        DYN399              
+input     hidden    dynamicFields[1].fieldLabel   Marcas              
+input     hidden    dynamicFields[1].fieldType    dropdown            
+input     hidden    dynamicFields[1].required     true                
+input     hidden    dynamicFields[1].toolTipValue Marca de Oath sobre la que quieres enviar tu opinión.
+input     hidden    dynamicFields[1].placeHolder                      
+input     hidden                                                      
+select              dynamicFields[1].userValue                        
+input     hidden    dynamicFields[2].docid        DYN398              
+input     hidden    dynamicFields[2].fieldLabel   Nombre de usuario   
+input     hidden    dynamicFields[2].fieldType    text                
+input     hidden    dynamicFields[2].required     false               
+input     hidden    dynamicFields[2].toolTipValue ¿A qué nombre de usuario se refiere tu pregunta?
+input     hidden    dynamicFields[2].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[2].userValue                        
+input     hidden    dynamicFields[3].docid        DYN322              
+input     hidden    dynamicFields[3].fieldLabel   ID de Yahoo         
+input     hidden    dynamicFields[3].fieldType    yid                 
+input     hidden    dynamicFields[3].required     false               
+input     hidden    dynamicFields[3].toolTipValue Problemas con un ID de Yahoo o una dirección de correo electrónico
+input     hidden    dynamicFields[3].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[3].userValue                        
+input     hidden    dynamicFields[4].docid        DYN293              
+input     hidden    dynamicFields[4].fieldLabel   Dirección de correo electrónico a la que tienes acceso
+input     hidden    dynamicFields[4].fieldType    useremail           
+input     hidden    dynamicFields[4].required     true                
+input     hidden    dynamicFields[4].toolTipValue Dirección de correo electrónico de contacto
+input     hidden    dynamicFields[4].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[4].userValue                        
+input     hidden    dynamicFields[5].docid        DYN358              
+input     hidden    dynamicFields[5].fieldLabel   Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte.
+input     hidden    dynamicFields[5].fieldType    useremail           
+input     hidden    dynamicFields[5].required     true                
+input     hidden    dynamicFields[5].toolTipValue Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta.
+input     hidden    dynamicFields[5].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[5].userValue                        
+input     hidden    dynamicFields[6].docid        DYN295              
+input     hidden    dynamicFields[6].fieldLabel   Descripción detallada del problema
+input     hidden    dynamicFields[6].fieldType    textarea            
+input     hidden    dynamicFields[6].required     true                
+input     hidden    dynamicFields[6].toolTipValue NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte).
+input     hidden    dynamicFields[6].placeHolder                      
+input     hidden                                                      
+textarea            dynamicFields[6].userValue                        
+input     hidden    dynamicFields[7].docid        DYN303              
+input     hidden    dynamicFields[7].fieldLabel   Mensaje de error, si existe.
+input     hidden    dynamicFields[7].fieldType    text                
+input     hidden    dynamicFields[7].required     false               
+input     hidden    dynamicFields[7].toolTipValue Texto del mensaje de error que aparece.
+input     hidden    dynamicFields[7].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[7].userValue                        
+input     hidden    dynamicFields[8].docid        DYN304              
+input     hidden    dynamicFields[8].fieldLabel   Adjuntar captura de pantalla
+input     hidden    dynamicFields[8].fieldType    file                
+input     hidden    dynamicFields[8].required     false               
+input     hidden    dynamicFields[8].toolTipValue Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF)
+input     hidden    dynamicFields[8].placeHolder                      
+input     hidden                                                      
+input     file                                                        
+input     file                                                        
+input     hidden                                  Se ha enviado un código de verificación a
+input     text      emailCaptchaAnswer                                
+input     hidden    .crumb                        8oH1ntGm6saFaP528KiX0g--
+
+curl  https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=contactform&locale=es_US&token=Zh%2FBBVqXzLHlIbokbUqVWTUbuuQeXGkG46seRNe39YEfhKm%2Bhei2LO0dfJtoiV2m9F2tu0c7swkcN4mWLtcvpGOcvYxDzSWq4OVj1UP8pBYu6DXdRCIRvj%2BdGV8L8QXvAoyc1TdT7itVhJGlZdHbc2ASj6JBmW2P&selectedChannel=email-icon?dynamicFields[0].docid=DYN356&dynamicFields[0].fieldLabel=&dynamicFields[0].fieldType=textblock&dynamicFields[0].required=false&dynamicFields[0].toolTipValue=&dynamicFields[0].placeHolder=&&dynamicFields[1].docid=DYN399&dynamicFields[1].fieldLabel=Marcas&dynamicFields[1].fieldType=dropdown&dynamicFields[1].required=true&dynamicFields[1].toolTipValue=Marca de Oath sobre la que quieres enviar tu opinión.&dynamicFields[1].placeHolder=&&dynamicFields[1].userValue=1&dynamicFields[2].docid=DYN398&dynamicFields[2].fieldLabel=Nombre de usuario&dynamicFields[2].fieldType=text&dynamicFields[2].required=false&dynamicFields[2].toolTipValue=¿A qué nombre de usuario se refiere tu pregunta?&dynamicFields[2].placeHolder=&&dynamicFields[2].userValue=blabla&dynamicFields[3].docid=DYN322&dynamicFields[3].fieldLabel=ID de Yahoo&dynamicFields[3].fieldType=yid&dynamicFields[3].required=false&dynamicFields[3].toolTipValue=Problemas con un ID de Yahoo o una dirección de correo electrónico&dynamicFields[3].placeHolder=&&dynamicFields[3].userValue=blabla&dynamicFields[4].docid=DYN293&dynamicFields[4].fieldLabel=Dirección de correo electrónico a la que tienes acceso&dynamicFields[4].fieldType=useremail&dynamicFields[4].required=true&dynamicFields[4].toolTipValue=Dirección de correo electrónico de contacto&dynamicFields[4].placeHolder=&&dynamicFields[4].userValue=blabla&dynamicFields[5].docid=DYN358&dynamicFields[5].fieldLabel=Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte.&dynamicFields[5].fieldType=useremail&dynamicFields[5].required=true&dynamicFields[5].toolTipValue=Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta.&dynamicFields[5].placeHolder=&&dynamicFields[5].userValue=blabla&dynamicFields[6].docid=DYN295&dynamicFields[6].fieldLabel=Descripción detallada del problema&dynamicFields[6].fieldType=textarea&dynamicFields[6].required=true&dynamicFields[6].toolTipValue=NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte).&dynamicFields[6].placeHolder=&&dynamicFields[6].userValue=blabla&dynamicFields[7].docid=DYN303&dynamicFields[7].fieldLabel=Mensaje de error, si existe.&dynamicFields[7].fieldType=text&dynamicFields[7].required=false&dynamicFields[7].toolTipValue=Texto del mensaje de error que aparece.&dynamicFields[7].placeHolder=&&dynamicFields[7].userValue=blabla&dynamicFields[8].docid=DYN304&dynamicFields[8].fieldLabel=Adjuntar captura de pantalla&dynamicFields[8].fieldType=file&dynamicFields[8].required=false&dynamicFields[8].toolTipValue=Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF)&dynamicFields[8].placeHolder=&&&&Se ha enviado un código de verificación a&emailCaptchaAnswer=blabla&.crumb=8oH1ntGm6saFaP528KiX0g-- | grep "blabla"
+
+
+
+
+https://www.verizon.com/about/privacy/privacy-policy-summary
+method:
+https://www.verizon.com/search/SearchResults
+input     text      Ntt                                               
+input     hidden    ES                            Corporate           
+input     hidden    Dy                            1                   
+input     hidden    Nty                           1                   
+
+curl  https://www.verizon.com/search/SearchResults?Ntt=blabla&ES=Corporate&Dy=1&Nty=1 | grep "blabla"
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                             Search this site... 
+input     image                                                       
+
+curl  https://asrcreviews.org//?s=blabla&1 | grep "blabla"
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                                                 
+
+curl  https://asrcreviews.org//?s=blabla | grep "blabla"
+
+
+
+
+http://www.wordpress.org
+method:get
+http://www.wordpress.org//wordpress.org/search/do-search.php
+input     text      search                                            
+
+curl  http://www.wordpress.org//wordpress.org/search/do-search.php?search=blabla | grep "blabla"
+
+
+
+
+https://publiccode.eu/
+method:post
+https://forms.fsfe.org/email
+input     hidden    appid                         pmpc-sign           
+input     text      name                                              
+input     email     confirm                                           
+select              country                                           
+input     text      zip                                               
+input     text      comment                                           
+input     checkbox  permissionPriv                yes                 
+input     checkbox  permissionPub                 yes                 
+input     checkbox  permissionNews                yes                 
+input     text      url                                               
+
+curl  https://forms.fsfe.org/email?appid=pmpc-sign&name=blabla&confirm=1&country=1&zip=blabla&comment=blabla&permissionPriv=yes&permissionPub=yes&permissionNews=yes&url=blabla | grep "blabla"
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-spread         
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl  https://fsfe.org/share?popup=1&ref=pmpc-spread&url=https://publiccode.eu/&title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:&website=1&popup=1&diasporapod=blabla&popup=1&mastodonpod=blabla | grep "blabla"
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-side           
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl  https://fsfe.org/share?popup=1&ref=pmpc-side&url=https://publiccode.eu/&title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:&website=1&popup=1&diasporapod=blabla&popup=1&mastodonpod=blabla | grep "blabla"
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  https://cercador.barcelona.cat/ca?query=blabla | grep "blabla"
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  https://cercador.barcelona.cat/ca?query=blabla | grep "blabla"
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  https://cercador.barcelona.cat/ca?query=blabla | grep "blabla"
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla | grep "blabla"
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla | grep "blabla"
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla | grep "blabla"
+
+
+
+
+https://photography.tutsplus.com
+method:get
+https://photography.tutsplus.com/tutorials/search
+input     hidden    utf8                          ✓                   
+input     text      search[terms]                                     
+
+curl  https://photography.tutsplus.com/tutorials/search?utf8=✓&search[terms]=blabla | grep "blabla"
+
+
+
+
+https://photography.tutsplus.com
+method:get
+https://photography.tutsplus.com/tutorials/search
+input     hidden    utf8                          ✓                   
+input     text      search[terms]                                     
+
+curl  https://photography.tutsplus.com/tutorials/search?utf8=✓&search[terms]=blabla | grep "blabla"
+
+
+
+
+https://youtu.be/sBhAKwWZulo
+method:
+https://youtu.be/sBhAKwWZulo/results
+input     text      search_query                                      
+
+curl  https://youtu.be/sBhAKwWZulo/results?search_query=blabla | grep "blabla"
+
+
+
+
+https://restlessdevelopment.com/contact/
+method:post
+https://restlessdevelopment.com/contact//contact/#wpcf7-f261-p69-o1
+input     hidden    _wpcf7                        261                 
+input     hidden    _wpcf7_version                5.1.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f261-p69-o1   
+input     hidden    _wpcf7_container_post         69                  
+input     text      your-name                                         
+input     email     your-email                                        
+input     text      your-subject                                      
+textarea            your-message                                      
+
+curl  https://restlessdevelopment.com/contact//contact/#wpcf7-f261-p69-o1?_wpcf7=261&_wpcf7_version=5.1.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f261-p69-o1&_wpcf7_container_post=69&your-name=blabla&your-email=&your-subject=blabla&your-message=blabla | grep "blabla"
+
+
+
+
+http://gedung.themesawesome.com/contact/
+method:post
+http://gedung.themesawesome.com/contact//contact/#wpcf7-f261-p69-o1
+input     hidden    _wpcf7                        261                 
+input     hidden    _wpcf7_version                5.1.1               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f261-p69-o1   
+input     hidden    _wpcf7_container_post         69                  
+input     hidden    g-recaptcha-response                              
+input     text      your-name                                         
+input     email     your-email                                        
+input     text      your-subject                                      
+textarea            your-message                                      
+
+curl  http://gedung.themesawesome.com/contact//contact/#wpcf7-f261-p69-o1?_wpcf7=261&_wpcf7_version=5.1.1&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f261-p69-o1&_wpcf7_container_post=69&g-recaptcha-response=&your-name=blabla&your-email=&your-subject=blabla&your-message=blabla | grep "blabla"
+
+
+
+
+https://gedung.themesawesome.com/lobortis-id-bibendum-et-rhoncus-porttitor-tortor/
+method:post
+https://gedung.themesawesome.com/wp-comments-post.php
+textarea            comment                                           
+input     text      author                                            
+input     email     email                                             
+input     url       url                                               
+input     checkbox  wp-comment-cookies-consent    yes                 
+input     hidden    comment_post_ID               52                  
+input     hidden    comment_parent                0                   
+input     hidden    akismet_comment_nonce         3ac7c95922          
+input     hidden    ak_js                         127                 
+
+curl  https://gedung.themesawesome.com/wp-comments-post.php?comment=blabla&author=blabla&email=&url=&wp-comment-cookies-consent=yes&comment_post_ID=52&comment_parent=0&akismet_comment_nonce=3ac7c95922&ak_js=127 | grep "blabla"
+
+
+
+
+https://gedung.themesawesome.com/phasellus-molestie-feugiat-hendrerit-interdum/
+method:post
+https://gedung.themesawesome.com/wp-comments-post.php
+textarea            comment                                           
+input     text      author                                            
+input     email     email                                             
+input     url       url                                               
+input     checkbox  wp-comment-cookies-consent    yes                 
+input     hidden    comment_post_ID               54                  
+input     hidden    comment_parent                0                   
+input     hidden    akismet_comment_nonce         f4c35bbd26          
+input     hidden    ak_js                         142                 
+
+curl  https://gedung.themesawesome.com/wp-comments-post.php?comment=blabla&author=blabla&email=&url=&wp-comment-cookies-consent=yes&comment_post_ID=54&comment_parent=0&akismet_comment_nonce=f4c35bbd26&ak_js=142 | grep "blabla"
+
+
+
+
+https://gedung.themesawesome.com/contact/
+method:post
+https://gedung.themesawesome.com/contact//contact/#wpcf7-f261-p69-o1
+input     hidden    _wpcf7                        261                 
+input     hidden    _wpcf7_version                5.1.1               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f261-p69-o1   
+input     hidden    _wpcf7_container_post         69                  
+input     hidden    g-recaptcha-response                              
+input     text      your-name                                         
+input     email     your-email                                        
+input     text      your-subject                                      
+textarea            your-message                                      
+
+curl  https://gedung.themesawesome.com/contact//contact/#wpcf7-f261-p69-o1?_wpcf7=261&_wpcf7_version=5.1.1&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f261-p69-o1&_wpcf7_container_post=69&g-recaptcha-response=&your-name=blabla&your-email=&your-subject=blabla&your-message=blabla | grep "blabla"
+
+
+
+
+http://codeclub.org
+method:get
+http://codeclub.org/en/clubs
+input     hidden    utf8                          ✓                   
+select              clubs_search[country]                             
+input     text      clubs_search[q]                                   
+
+curl  http://codeclub.org/en/clubs?utf8=✓&clubs_search[country]=1&clubs_search[q]=blabla | grep "blabla"
+
+
+
+
+https://www.raspberrypi.org/about/
+method:POST
+https://raspberrypi.hosted.phplist.com/lists/?p=subscribe&id=1
+input     email     email                                             
+input     hidden    htmlemail                     1                   
+input     hidden    list[3]                       signup              
+input     hidden    listname[3]                   Raspberry Pi Weekly 
+input     text      VerificationCodeX                                 
+
+curl  https://raspberrypi.hosted.phplist.com/lists/?p=subscribe&id=1?email=1&htmlemail=1&list[3]=signup&listname[3]=Raspberry Pi Weekly&VerificationCodeX=blabla | grep "blabla"
+
+
+
+
+https://youtu.be/uXUjwk2-qx4
+method:
+https://youtu.be/uXUjwk2-qx4/results
+input     text      search_query                                      
+
+curl  https://youtu.be/uXUjwk2-qx4/results?search_query=blabla | grep "blabla"
+
+
+
+
+https://youtu.be/xr6_jSLZwGc
+method:
+https://youtu.be/xr6_jSLZwGc/results
+input     text      search_query                                      
+
+curl  https://youtu.be/xr6_jSLZwGc/results?search_query=blabla | grep "blabla"
+
+
+
+
+https://www.spreadshirt.net/forum/
+method:post
+https://www.spreadshirt.net/forum//forum/login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  https://www.spreadshirt.net/forum//forum/login?username=blabla&password=1&redirect=1 | grep "blabla"
+
+
+
+
+https://www.flickr.com/photos/spreadshirt
+method:get
+https://www.flickr.com/photos/spreadshirt/search/
+input     text      text                                              
+
+curl  https://www.flickr.com/photos/spreadshirt/search/?text=blabla | grep "blabla"
+
+
+
+
+https://www.smugmug.com/
+method:get
+https://www.smugmug.com//search/
+input     text      q                                                 
+input     hidden    c                             photos              
+
+curl  https://www.smugmug.com//search/?q=blabla&c=photos | grep "blabla"
+
+
+
+
+http://dgrin.com
+method:get
+http://dgrin.com/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  http://dgrin.com/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+http://vanillicon.com/
+method:get
+http://vanillicon.com///vanillicon.com/
+input     text      seed                                              
+
+curl  http://vanillicon.com///vanillicon.com/?seed=blabla | grep "blabla"
+
+
+
+
+https://blog.vanillaforums.com/
+method:
+https://blog.vanillaforums.com//search
+input     text      query                                             
+
+curl  https://blog.vanillaforums.com//search?query=blabla | grep "blabla"
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://vanillaforums.org/discussions/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      search                                            
+
+curl  https://vanillaforums.org/discussions/search?search=blabla | grep "blabla"
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      search                                            
+
+curl  https://vanillaforums.org/discussions/search?search=blabla | grep "blabla"
+
+
+
+
+https://vanillaforums.org/discussions
+method:get
+https://vanillaforums.org/discussions/search
+input     text      Search                                            
+
+curl  https://vanillaforums.org/discussions/search?Search=blabla | grep "blabla"
+
+
+
+
+https://accounts.vanillaforums.com/entry/signin
+method:post
+https://accounts.vanillaforums.com/entry/signin/entry/signin
+input     hidden    TransientKey                                      
+input     hidden    hpt                                               
+input     hidden    Target                                            
+input     text      Email                                             
+input     password  Password                                          
+input     hidden    Checkboxes[]                  RememberMe          
+input     checkbox  RememberMe                    1                   
+
+curl  https://accounts.vanillaforums.com/entry/signin/entry/signin?TransientKey=&hpt=&Target=&Email=blabla&Password=&Checkboxes[]=RememberMe&RememberMe=1 | grep "blabla"
+
+
+
+
+https://accounts.vanillaforums.com/entry/signin
+method:post
+https://accounts.vanillaforums.com/entry/signin/entry/passwordrequest
+input     hidden    TransientKey                                      
+input     hidden    hpt                                               
+input     text      Email                                             
+
+curl  https://accounts.vanillaforums.com/entry/signin/entry/passwordrequest?TransientKey=&hpt=&Email=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/smugmug-customization/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    cat                           64                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-customization/search?cat=64&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-customization
+method:get
+https://dgrin.com/categories/smugmug-customization/search
+input     hidden    cat                           64                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-customization/search?cat=64&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/smugmug-pro-sales-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    cat                           35                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-pro-sales-support/search?cat=35&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-pro-sales-support
+method:get
+https://dgrin.com/categories/smugmug-pro-sales-support/search
+input     hidden    cat                           35                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-pro-sales-support/search?cat=35&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/bug-reporting/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    cat                           54                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/bug-reporting/search?cat=54&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/bug-reporting
+method:get
+https://dgrin.com/categories/bug-reporting/search
+input     hidden    cat                           54                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/bug-reporting/search?cat=54&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/smugmug-product-news/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    cat                           62                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-product-news/search?cat=62&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-product-news
+method:get
+https://dgrin.com/categories/smugmug-product-news/search
+input     hidden    cat                           62                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-product-news/search?cat=62&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/smugmug-feature-requests/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    cat                           63                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-feature-requests/search?cat=63&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-feature-requests
+method:get
+https://dgrin.com/categories/smugmug-feature-requests/search
+input     hidden    cat                           63                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-feature-requests/search?cat=63&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/smugmug-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    cat                           12                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-support/search?cat=12&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/smugmug-support
+method:get
+https://dgrin.com/categories/smugmug-support/search
+input     hidden    cat                           12                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/smugmug-support/search?cat=12&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com/categories/dgrin-forum-support/search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    cat                           28                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/dgrin-forum-support/search?cat=28&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/categories/dgrin-forum-support
+method:get
+https://dgrin.com/categories/dgrin-forum-support/search
+input     hidden    cat                           28                  
+input     hidden    adv                           1                   
+input     text      search                                            
+
+curl  https://dgrin.com/categories/dgrin-forum-support/search?cat=28&adv=1&search=blabla | grep "blabla"
+
+
+
+
+https://dgrin.com/
+method:get
+https://dgrin.com//search
+input     hidden    adv                                               
+input     text      search                                            
+input     text      title                                             
+input     text      author                                            
+select              cat                                               
+input     checkbox  subcats                       1                   
+input     checkbox  followedcats                  1                   
+input     checkbox  archived                      1                   
+input     text      tags                                              
+input     checkbox  discussion_d                  1                   
+input     checkbox  comment_c                     1                   
+input     checkbox  discussion_poll               1                   
+select              within                                            
+input     text      date                                              
+
+curl  https://dgrin.com//search?adv=&search=blabla&title=blabla&author=blabla&cat=1&subcats=1&followedcats=1&archived=1&tags=blabla&discussion_d=1&comment_c=1&discussion_poll=1&within=1&date=blabla | grep "blabla"
+
+
+
+
+https://blog.flickr.net/
+method:get
+https://blog.flickr.net/
+input     text      s                                                 
+
+curl  https://blog.flickr.net/?s=blabla | grep "blabla"
+
+
+
+
+https://blog.flickr.net/
+method:
+https://blog.flickr.net/#
+textarea            carousel-reblog-content                           
+select              carousel-reblog-to-blog-id                        
+input     hidden                                  957851              
+input     hidden                                  https://blog.flickr.net
+input     hidden                                  Flickr Blog         
+input     hidden                                                      
+input     hidden                                                      
+input     hidden    _wpnonce                      c98c61793c          
+input     hidden    _wp_http_referer              /                   
+
+curl  https://blog.flickr.net/#?carousel-reblog-content=blabla&carousel-reblog-to-blog-id=1&957851&https://blog.flickr.net&Flickr Blog&&&_wpnonce=c98c61793c&_wp_http_referer=/ | grep "blabla"
+
+
+
+
+http://vip.wordpress.com
+method:post
+https://go.pardot.com/l/602321/2018-10-01/d1cv84
+input     hidden    oid                           00DE0000000YdpT     
+input     hidden    retURL                        https://wpvip.com/thanks/
+input     hidden    lead_source                   VIP contact form    
+input     hidden    utm_source__c                                     
+input     hidden    utm_medium__c                                     
+input     hidden    utm_campaign__c                                   
+input     hidden    utm_term__c                                       
+input     hidden    utm_content__c                                    
+input     hidden    keyword__c                                        
+input     hidden    adgroupid__c                                      
+input     hidden    device__c                                         
+input     hidden    matchtype__c                                      
+input     hidden    creative__c                                       
+input     hidden    gclid__c                                          
+input     hidden    00NE00000036RnI                                   
+input     hidden    captcha_settings              {"keyname":"wpvip_lead_form","fallback":"true","orgId":"00DE0000000YdpT","ts":""}
+input     text      first_name                                        
+input     text      last_name                                         
+input     email     email                                             
+input     text      phone                                             
+input     text      title                                             
+input     text      company                                           
+input     text      00N44000006TbKL                                   
+select              industry                                          
+textarea            description                                       
+
+curl  https://go.pardot.com/l/602321/2018-10-01/d1cv84?oid=00DE0000000YdpT&retURL=https://wpvip.com/thanks/&lead_source=VIP contact form&utm_source__c=1&utm_medium__c=1&utm_campaign__c=1&utm_term__c=1&utm_content__c=1&keyword__c=1&adgroupid__c=1&device__c=1&matchtype__c=1&creative__c=1&gclid__c=1&00NE00000036RnI=&captcha_settings={"keyname":"wpvip_lead_form","fallback":"true","orgId":"00DE0000000YdpT","ts":""}&first_name=blabla&last_name=blabla&email=1&phone=blabla&title=blabla&company=blabla&00N44000006TbKL=blabla&industry=1&description=blabla | grep "blabla"
+
+
+
+
+https://woocommerce.com/
+method:
+https://woocommerce.com/search
+input     text      q                                                 
+
+curl  https://woocommerce.com/search?q=blabla | grep "blabla"
+
+
+
+
+https://automattic.com/work-with-us/
+method:
+https://automattic.com/work-with-us/#
+textarea            carousel-reblog-content                           
+select              carousel-reblog-to-blog-id                        
+input     hidden                                  54117               
+input     hidden                                  https://automattic.com
+input     hidden                                  Automattic          
+input     hidden                                                      
+input     hidden                                                      
+input     hidden    _wpnonce                      c98c61793c          
+input     hidden    _wp_http_referer              /work-with-us/      
+
+curl  https://automattic.com/work-with-us/#?carousel-reblog-content=blabla&carousel-reblog-to-blog-id=1&54117&https://automattic.com&Automattic&&&_wpnonce=c98c61793c&_wp_http_referer=/work-with-us/ | grep "blabla"
+
+
+
+
+http://opensource.org/
+method:post
+http://opensource.org//
+input     text      search_block_form             Search this website...
+input     hidden    form_build_id                 form-7E1bnpvmq3fi8qUjOglFTcXHMA7_ZJysIKOR0pu63o4
+input     hidden    form_id                       search_block_form   
+
+curl  http://opensource.org//?search_block_form=blabla&form_build_id=form-7E1bnpvmq3fi8qUjOglFTcXHMA7_ZJysIKOR0pu63o4&form_id=search_block_form | grep "blabla"
+
+
+
+
+https://www.digitalocean.com/
+method:post
+https://cloud.digitalocean.com/registrations
+input     hidden    user[signup_form_name]        Homepage            
+input     text      user[name]                                        
+input     email     user[email]                                       
+input     password  user[password]                                    
+
+curl  https://cloud.digitalocean.com/registrations?user[signup_form_name]=Homepage&user[name]=blabla&user[email]=1&user[password]=1 | grep "blabla"
+
+
+
+
+https://www.glassdoor.com/Overview/Working-at-DigitalOcean-EI_IE823482.11,23.htm
+method:get
+https://www.glassdoor.com/Overview/Working-at-DigitalOcean-EI_IE823482.11,23.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    DigitalOcean        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.com/Overview/Working-at-DigitalOcean-EI_IE823482.11,23.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType= | grep "blabla"
+
+
+
+
+https://fr.glassdoor.ch/Présentation/Travailler-chez-DigitalOcean-EI_IE823482.16,28.htm
+method:get
+https://fr.glassdoor.ch/Présentation/Travailler-chez-DigitalOcean-EI_IE823482.16,28.htm/Reviews/company-reviews.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                    DigitalOcean        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://fr.glassdoor.ch/Présentation/Travailler-chez-DigitalOcean-EI_IE823482.16,28.htm/Reviews/company-reviews.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType= | grep "blabla"
+
+
+
+
+https://www.glassdoor.fr/blog/marque-employeur/
+method:get
+https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/blog/marque-employeur//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType= | grep "blabla"
+
+
+
+
+https://www.glassdoor.fr/blog/
+method:get
+https://www.glassdoor.fr/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.fr/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType= | grep "blabla"
+
+
+
+
+https://www.glassdoor.de/blog/
+method:get
+https://www.glassdoor.de/blog//Job/jobs.htm
+input     hidden    suggestCount                  0                   
+input     hidden    suggestChosen                 false               
+input     hidden    clickSource                   searchBtn           
+input     hidden    typedKeyword                                      
+input     text      sc.keyword                                        
+input     text                                                        
+input     hidden    locT                                              
+input     hidden    locId                                             
+input     hidden    jobType                                           
+
+curl  https://www.glassdoor.de/blog//Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&sc.keyword=blabla&blabla&locT=&locId=&jobType= | grep "blabla"
+
+
+
+
+https://spotifyforvendors.com/
+method:get
+https://spotifyforvendors.com/
+input     text      s                                                 
+
+curl  https://spotifyforvendors.com/?s=blabla | grep "blabla"
+
+
+
+
+https://spotifyforvendors.com/
+method:get
+https://spotifyforvendors.com/
+input     text      s                                                 
+
+curl  https://spotifyforvendors.com/?s=blabla | grep "blabla"
+
+
+
+
+https://spotifyforvendors.com/faq/
+method:get
+https://spotifyforvendors.com/
+input     text      s                                                 
+
+curl  https://spotifyforvendors.com/?s=blabla | grep "blabla"
+
+
+
+
+https://spotifyforvendors.com/faq/
+method:get
+https://spotifyforvendors.com/
+input     text      s                                                 
+
+curl  https://spotifyforvendors.com/?s=blabla | grep "blabla"
+
+
+
+
+https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Practices_Guide
+method:POST
+https://library.serviceinnovation.org/Special:UserLogin?returntotitle=KCS%2FKCS_v6%2FKCS_v6_Practices_Guide
+input     text      username                                          
+input     password  password                                          
+
+curl  https://library.serviceinnovation.org/Special:UserLogin?returntotitle=KCS%2FKCS_v6%2FKCS_v6_Practices_Guide?username=blabla&password=1 | grep "blabla"
+
+
+
+
+http://creativecommons.org/licenses/by-nc/4.0/
+method:get
+https://us.netdonor.net/page/6650/donate/1
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       gf_other_choice     
+input     text      transaction.donationAmt.other                     
+input     hidden    type                          One Time            
+input     hidden    ea.tracking.id                deed-overlay        
+
+curl  https://us.netdonor.net/page/6650/donate/1?transaction.donationAmt=5&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=gf_other_choice&transaction.donationAmt.other=blabla&type=One Time&ea.tracking.id=deed-overlay | grep "blabla"
+
+
+
+
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer
+method:post
+https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2
+input     hidden    hidden                                            
+input     hidden    sessionId                     31740e7c19354b6081e4f91f1debd664-server50012
+input     hidden    gatewaykey                                        
+input     hidden    gatewayaccountid                                  
+input     hidden    gatewaymode                                       
+input     hidden    transaction.selprodvariantid                      
+input     radio     transaction.recurrpay         one-time            
+input     radio     transaction.recurrpay         Y                   
+input     radio     transaction.donationAmt       5                   
+input     radio     transaction.donationAmt       10                  
+input     radio     transaction.donationAmt       15                  
+input     radio     transaction.donationAmt       25                  
+input     radio     transaction.donationAmt       50                  
+input     radio     transaction.donationAmt       75                  
+input     radio     transaction.donationAmt       100                 
+input     radio     transaction.donationAmt                           
+input     text      transaction.donationAmt.other                     
+input     hidden    transaction.recurrfreq        MONTHLY             
+input     hidden    transaction.recurrday                             
+input     hidden    transaction.paycurrency       USD                 
+input     text      supporter.firstName                               
+input     text      supporter.lastName                                
+input     text      supporter.emailAddress                            
+input     checkbox  supporter.questions.60047     Y                   
+
+curl  https://us.netdonor.net/page/6650/donate/1?ea.tracking.id=license-footer/page/6650/donate/2?hidden=&sessionId=31740e7c19354b6081e4f91f1debd664-server50012&gatewaykey=&gatewayaccountid=&gatewaymode=&transaction.selprodvariantid=&transaction.recurrpay=one-time&transaction.recurrpay=Y&transaction.donationAmt=5&transaction.donationAmt=10&transaction.donationAmt=15&transaction.donationAmt=25&transaction.donationAmt=50&transaction.donationAmt=75&transaction.donationAmt=100&transaction.donationAmt=&transaction.donationAmt.other=blabla&transaction.recurrfreq=MONTHLY&transaction.recurrday=&transaction.paycurrency=USD&supporter.firstName=blabla&supporter.lastName=blabla&supporter.emailAddress=blabla&supporter.questions.60047=Y | grep "blabla"
+
+
+
+
+https://www.flickr.com/people/pingnews/
+method:get
+https://www.flickr.com/people/pingnews//search/
+input     text      text                                              
+
+curl  https://www.flickr.com/people/pingnews//search/?text=blabla | grep "blabla"
+
+
+
+
+http://artistechmedia.com/
+method:POST
+https://madam-snowflake-h9gw.squarespace.com
+input     text      fname                                             
+input     text      lname                                             
+input     email     email                                             
+input     text                                                        
+textarea                                                              
+
+curl  https://madam-snowflake-h9gw.squarespace.com?fname=blabla&lname=blabla&email=1&blabla&blabla | grep "blabla"
+
+
+
+
+https://channel9.msdn.com/
+method:
+https://channel9.msdn.com//Search
+input     text      term                                              
+
+curl  https://channel9.msdn.com//Search?term=blabla | grep "blabla"
+
+
+
+
+http://www.neighborfoundation.org/
+method:POST
+https://neighborfoundation.squarespace.com
+input     email     email                                             
+textarea                                                              
+
+curl  https://neighborfoundation.squarespace.com?email=1&blabla | grep "blabla"
+
+
+
+
+http://www.oaic.gov.au
+method:GET
+http://www.oaic.gov.au/search/getSearchResults
+input     text      Search                                            
+
+curl  http://www.oaic.gov.au/search/getSearchResults?Search=blabla | grep "blabla"
+
+
+
+
+http://www.oaic.gov.au/
+method:GET
+http://www.oaic.gov.au//search/getSearchResults
+input     text      Search                                            
+
+curl  http://www.oaic.gov.au//search/getSearchResults?Search=blabla | grep "blabla"
+
+
+
+
+https://www.privacyshield.gov/article?id=ANNEX-I-introduction
+method:post
+https://www.privacyshield.gov/article?id=ANNEX-I-introduction/article?id=ANNEX-I-introduction
+input     hidden    j_id0:j_id1:j_id137:j_id138:j_id140j_id0:j_id1:j_id137:j_id138:j_id140
+input     text                                                        
+
+curl  https://www.privacyshield.gov/article?id=ANNEX-I-introduction/article?id=ANNEX-I-introduction?j_id0:j_id1:j_id137:j_id138:j_id140=j_id0:j_id1:j_id137:j_id138:j_id140&blabla | grep "blabla"
+
+
+
+
+http://www.adobe.com/go/creativecloud_forums
+method:post
+https://community.adobe.com/t5/community/page.searchformv32.form.form
+input     hidden    t:cp                          search/contributions/page
+input     hidden    lia-form-context              6uF2fwiHRavW1CrDfNofTNTQoY2lb8pJlE5LjmWc8-ODwyuRHdGxX-CcGku32pSTdcMWwvcA37D9SE9sL_Mc54k-ENGeYOceReQ_EwoxXVgSNVPqH088OM8wVcJ522pBSB2MDElGTosR4EbMg8AwQaUKTGSxSAt339-oah2PRgAQCO_EUikQC_dUJ5pTTCnb_MOsv4DjG8pFHd8_namcVGdXM4mZ2rQElEWKMFNtKJaA48-keM2X4fryvBwqNUhk_NMezudeSoBZccuWtHeCxE42Qs__ZMN4mLVfsB0yXmZ6WN8EuWsS7hpfXFV9dxWRLMq5DrECCOvJ3ylYT8djfuxRFN4PwwXRIjKZwFRL9iPbbRWHWCagEaRzjZRpV6DdAzILPoAH67mCl5L9940oXgYMXO1qEcYIXHEpVqXCvEzv1wywI3fXKD7L7onu9UAsNKOtLNqywcqGS2fieHQn2NTHPKoEWC-WiuJnUG-h4w6M_EYziqeQSEC4yf5DBsoaOZdU1oCJKZh5-m7yiNIkitoK8wZtlTLDv3WJo3YEYo5T5d4LgVPHJ0MiBaou7BAwGftLFkCoSdnFlCG_4Bk5fq3VyqZI62NMscaydL96mSzXlCw_fbxX7aFTnbcAlCV_Cd_6oV_tl1tKpZ9-suSodB1ot0JN6hJlnTgY5p9evJWq5kauVDK-18J2zpZRwZuoaSRAxTj4Ji0f5BZZ6a4HHgrUHrCX6gVrYs4lnwyxa4NxdcAl0AuDYWE4MquOw_I73kXxhlcuSIKHE7rvtvB_rbNUyLDlmAZtJkQbFPhNsyz8o2nUv8Dl4-u3_Tg8y7-9hqkEVXNxVMuzP77Of1p1wty41cuj23S9PdCej5jDfqiPeEVUxhUy-4SVJFI-xpsaR1mtECN76BCAkJWpzOELBC8PitfTlj5iN8Vq3qlCWSyAVcKFv9IlFywGlZMULu02ZNyz136XAAPFMzPP14zR1ArbzLSeoAaHZHpyFO0KS4Kaeth9Ht9nXBtSK25xY0B_d9ByikoGs-V3sUORRG8j4d-on4pPG3u1ZTbWvI8AJFC9_uTRPk2wqZ3lfRZ8-0_0b1jJAepgl6bnykHBpFqKD5eR24O1fiirqk9-pripDZg-ko1BNGtS4r7GS3mqJ-7cKiTRZJDdnT7eH0oHqjSmPBt3_fuk3R1rwcldCeN_dGitM0u82XDZw0Et3JVrekiHXOzCzeD3fZGgrjU7tMLRu-C6z0jybPrtoRQljQyBktV9Ue0FUohiMTLdlNjYN17pCCk2pItIf2baavZ6P2LDdtPx19Cn1UvFX5zuQBm2SrM.
+input     hidden    liaFormContentKey             CommunityPage::searchformv32.form:
+input     hidden    t:formdata                    BJR3mZgsgXhChjmdyYZbPmMg/lU=:H4sIAAAAAAAAALWRzUrDQBSFr4WuiohF30C3iahdaEUogkWoGgyu5SadptEkE2du+rPpo/gE4kt04c538AHcunJhkkm1VsHE1tVwzx3O+c7M/QuU+3XYkwyF3dVtHpBwrYhcHkjdQIftq02HC7+3s62pyREYRB4Kl4ZSQI0LR8MQ7S7TCEMmSQxrms0F81xLs1AyrWHFItp07DKvvWEyisLNy3Hlef3xrQRLLaikwdw7Q58RVFvX2EPdw8DRzZgncOqDkGBVhTc/w+clbxQlNwS3mZRmZPmulHHU+KG923m9eyoBDML+IRzkxkksKDuS22xA8hZGAATLSj1S6ryuiWm5fw6neU38uGGsZmLS+wdpwlrNVma6Sl9p4VmqwQUYeV3pxipUYu17iaut/whUTU6gmdc4kkxMW87MkwIriT79BYuLKIwccPryCjPzB3Ki/xH5l4gU+R2rKjjg2gQAAA==
+input     hidden    lia-action-token              YbwKEma0ZekCtYJcfn5xHVLaQuBGhmE1w2T5RYHeYl0.
+input     hidden    form_UID                      form_220836893bca06 
+input     hidden    form_instance_key                                 
+select              searchGranularity                                 
+input     hidden    submitContextX                searchForm          
+input     text      messageSearchField                                
+input     text      messageSearchField_0                              
+input     text      userSearchField                                   
+input     text      noteSearchField                                   
+input     hidden    as-search-action-id                               
+
+curl  https://community.adobe.com/t5/community/page.searchformv32.form.form?t:cp=search/contributions/page&lia-form-context=6uF2fwiHRavW1CrDfNofTNTQoY2lb8pJlE5LjmWc8-ODwyuRHdGxX-CcGku32pSTdcMWwvcA37D9SE9sL_Mc54k-ENGeYOceReQ_EwoxXVgSNVPqH088OM8wVcJ522pBSB2MDElGTosR4EbMg8AwQaUKTGSxSAt339-oah2PRgAQCO_EUikQC_dUJ5pTTCnb_MOsv4DjG8pFHd8_namcVGdXM4mZ2rQElEWKMFNtKJaA48-keM2X4fryvBwqNUhk_NMezudeSoBZccuWtHeCxE42Qs__ZMN4mLVfsB0yXmZ6WN8EuWsS7hpfXFV9dxWRLMq5DrECCOvJ3ylYT8djfuxRFN4PwwXRIjKZwFRL9iPbbRWHWCagEaRzjZRpV6DdAzILPoAH67mCl5L9940oXgYMXO1qEcYIXHEpVqXCvEzv1wywI3fXKD7L7onu9UAsNKOtLNqywcqGS2fieHQn2NTHPKoEWC-WiuJnUG-h4w6M_EYziqeQSEC4yf5DBsoaOZdU1oCJKZh5-m7yiNIkitoK8wZtlTLDv3WJo3YEYo5T5d4LgVPHJ0MiBaou7BAwGftLFkCoSdnFlCG_4Bk5fq3VyqZI62NMscaydL96mSzXlCw_fbxX7aFTnbcAlCV_Cd_6oV_tl1tKpZ9-suSodB1ot0JN6hJlnTgY5p9evJWq5kauVDK-18J2zpZRwZuoaSRAxTj4Ji0f5BZZ6a4HHgrUHrCX6gVrYs4lnwyxa4NxdcAl0AuDYWE4MquOw_I73kXxhlcuSIKHE7rvtvB_rbNUyLDlmAZtJkQbFPhNsyz8o2nUv8Dl4-u3_Tg8y7-9hqkEVXNxVMuzP77Of1p1wty41cuj23S9PdCej5jDfqiPeEVUxhUy-4SVJFI-xpsaR1mtECN76BCAkJWpzOELBC8PitfTlj5iN8Vq3qlCWSyAVcKFv9IlFywGlZMULu02ZNyz136XAAPFMzPP14zR1ArbzLSeoAaHZHpyFO0KS4Kaeth9Ht9nXBtSK25xY0B_d9ByikoGs-V3sUORRG8j4d-on4pPG3u1ZTbWvI8AJFC9_uTRPk2wqZ3lfRZ8-0_0b1jJAepgl6bnykHBpFqKD5eR24O1fiirqk9-pripDZg-ko1BNGtS4r7GS3mqJ-7cKiTRZJDdnT7eH0oHqjSmPBt3_fuk3R1rwcldCeN_dGitM0u82XDZw0Et3JVrekiHXOzCzeD3fZGgrjU7tMLRu-C6z0jybPrtoRQljQyBktV9Ue0FUohiMTLdlNjYN17pCCk2pItIf2baavZ6P2LDdtPx19Cn1UvFX5zuQBm2SrM.&liaFormContentKey=CommunityPage::searchformv32.form:&t:formdata=BJR3mZgsgXhChjmdyYZbPmMg/lU=:H4sIAAAAAAAAALWRzUrDQBSFr4WuiohF30C3iahdaEUogkWoGgyu5SadptEkE2du+rPpo/gE4kt04c538AHcunJhkkm1VsHE1tVwzx3O+c7M/QuU+3XYkwyF3dVtHpBwrYhcHkjdQIftq02HC7+3s62pyREYRB4Kl4ZSQI0LR8MQ7S7TCEMmSQxrms0F81xLs1AyrWHFItp07DKvvWEyisLNy3Hlef3xrQRLLaikwdw7Q58RVFvX2EPdw8DRzZgncOqDkGBVhTc/w+clbxQlNwS3mZRmZPmulHHU+KG923m9eyoBDML+IRzkxkksKDuS22xA8hZGAATLSj1S6ryuiWm5fw6neU38uGGsZmLS+wdpwlrNVma6Sl9p4VmqwQUYeV3pxipUYu17iaut/whUTU6gmdc4kkxMW87MkwIriT79BYuLKIwccPryCjPzB3Ki/xH5l4gU+R2rKjjg2gQAAA==&lia-action-token=YbwKEma0ZekCtYJcfn5xHVLaQuBGhmE1w2T5RYHeYl0.&form_UID=form_220836893bca06&form_instance_key=&searchGranularity=1&submitContextX=searchForm&messageSearchField=blabla&messageSearchField_0=blabla&userSearchField=blabla&noteSearchField=blabla&as-search-action-id=1 | grep "blabla"
+
+
+
+
+https://acrobatusers.com/tutorials
+method:post
+https://acrobatusers.com/tutorials/filter
+input     text      keywords                                          
+input     hidden    channel                       tutorials           
+select              category[]                                        
+select              category[]                                        
+input     checkbox  tut_type[]                    Video+OnDemand      
+input     checkbox  tut_type[]                    Infographic         
+input     checkbox  tut_type[]                    HTML                
+input     checkbox  tut_type[]                    PDF                 
+
+curl  https://acrobatusers.com/tutorials/filter?keywords=blabla&channel=tutorials&category[]=1&category[]=1&tut_type[]=Video+OnDemand&tut_type[]=Infographic&tut_type[]=HTML&tut_type[]=PDF | grep "blabla"
+
+
+
+
+https://www.idg.com/about-adchoices-pcworld/
+method:get
+https://www.idg.com/search-results/
+input     text      swpquery                                          
+
+curl  https://www.idg.com/search-results/?swpquery=blabla | grep "blabla"
+
+
+
+
+https://www.idg.com/about-adchoices-pcworld/
+method:get
+https://www.idg.com/search-results/
+input     text      swpquery                                          
+
+curl  https://www.idg.com/search-results/?swpquery=blabla | grep "blabla"
+
+
+
+
+https://www.idc.com/
+method:get
+https://www.idc.com//search/simple/perform.do
+input     text      query                                             
+input     hidden    lang                          English             
+
+curl  https://www.idc.com//search/simple/perform.do?query=blabla&lang=English | grep "blabla"
+
+
+
+
+https://www.idc-community.com/
+method:get
+https://www.idc-community.com/
+input     text      s                                                 
+
+curl  https://www.idc-community.com/?s=blabla | grep "blabla"
+
+
+
+
+https://stores.org/category/nrf19/
+method:get
+https://stores.org/
+input     text      s                                                 
+
+curl  https://stores.org/?s=blabla | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:get
+https://www.naylor.com/
+input     text      s                                                 
+
+curl  https://www.naylor.com/?s=blabla | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     text      input_17                                          
+input     hidden    is_submit_11                  1                   
+input     hidden    gform_submit                  11                  
+input     hidden    gform_unique_id                                   
+input     hidden    state_11                      WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_11   0                   
+input     hidden    gform_source_page_number_11   1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&input_17=blabla&is_submit_11=1&gform_submit=11&gform_unique_id=&state_11=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_11=0&gform_source_page_number_11=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_3                                           
+textarea            input_8                                           
+input     text      input_5                       Home page           
+input     text      input_11                                          
+input     hidden    is_submit_12                  1                   
+input     hidden    gform_submit                  12                  
+input     hidden    gform_unique_id                                   
+input     hidden    state_12                      WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_12   0                   
+input     hidden    gform_source_page_number_12   1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_3=blabla&input_8=blabla&input_5=blabla&input_11=blabla&is_submit_12=1&gform_submit=12&gform_unique_id=&state_12=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_12=0&gform_source_page_number_12=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     hidden    is_submit_9                   1                   
+input     hidden    gform_submit                  9                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_9                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_9    0                   
+input     hidden    gform_source_page_number_9    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&is_submit_9=1&gform_submit=9&gform_unique_id=&state_9=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_9=0&gform_source_page_number_9=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     text      input_16                                          
+input     hidden    is_submit_8                   1                   
+input     hidden    gform_submit                  8                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_8                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_8    0                   
+input     hidden    gform_source_page_number_8    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&input_16=blabla&is_submit_8=1&gform_submit=8&gform_unique_id=&state_8=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_8=0&gform_source_page_number_8=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     hidden    is_submit_10                  1                   
+input     hidden    gform_submit                  10                  
+input     hidden    gform_unique_id                                   
+input     hidden    state_10                      WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_10   0                   
+input     hidden    gform_source_page_number_10   1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&is_submit_10=1&gform_submit=10&gform_unique_id=&state_10=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_10=0&gform_source_page_number_10=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     hidden    is_submit_6                   1                   
+input     hidden    gform_submit                  6                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_6                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_6    0                   
+input     hidden    gform_source_page_number_6    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&is_submit_6=1&gform_submit=6&gform_unique_id=&state_6=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_6=0&gform_source_page_number_6=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_12                      866980136           
+input     hidden    input_13                      866980013           
+input     hidden    is_submit_5                   1                   
+input     hidden    gform_submit                  5                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_5                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_5    0                   
+input     hidden    gform_source_page_number_5    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_12=866980136&input_13=866980013&is_submit_5=1&gform_submit=5&gform_unique_id=&state_5=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_5=0&gform_source_page_number_5=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_13                      866980136           
+input     hidden    input_14                      866980013           
+input     hidden    is_submit_7                   1                   
+input     hidden    gform_submit                  7                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_7                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_7    0                   
+input     hidden    gform_source_page_number_7    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_11=blabla&input_5=blabla&input_13=866980136&input_14=866980013&is_submit_7=1&gform_submit=7&gform_unique_id=&state_7=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_7=0&gform_source_page_number_7=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.naylor.com
+method:post
+https://www.naylor.com/
+input     hidden                                  {"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}
+input     text      input_1                                           
+input     text      input_2                                           
+input     text      input_4                                           
+input     text      input_7                                           
+input     text      input_8                                           
+input     text      input_3                                           
+select              input_10                                          
+textarea            input_11                                          
+input     text      input_5                       Home page           
+input     hidden    input_14                      866980136           
+input     hidden    input_15                      866980013           
+input     text      input_18                                          
+input     hidden    is_submit_4                   1                   
+input     hidden    gform_submit                  4                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_4                       WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=
+input     hidden    gform_target_page_number_4    0                   
+input     hidden    gform_source_page_number_4    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.naylor.com/?{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}&input_1=blabla&input_2=blabla&input_4=blabla&input_7=blabla&input_8=blabla&input_3=blabla&input_10=1&input_11=blabla&input_5=blabla&input_14=866980136&input_15=866980013&input_18=blabla&is_submit_4=1&gform_submit=4&gform_unique_id=&state_4=WyJbXSIsImI5NGI2YTRkYzkwN2RiNmJkYTQ2MjkxYTgzNDBkZjk3Il0=&gform_target_page_number_4=0&gform_source_page_number_4=1&gform_field_values= | grep "blabla"
+
+
+
+
+http://response.associationadviser.com/2019benchmarkingwebinarLP/?Source=Naylorwebsite
+method:post
+https://s1436581052.t.eloqua.com/e/f2?LP=1043
+input     hidden    elqFormName                   2019-Benchmarking-Webinar
+input     hidden    elqSiteId                     1436581052          
+input     hidden    elqCampaignId                                     
+input     text      firstName                     Colleague           
+input     text      lastName                                          
+input     text      company                                           
+input     text      emailAddress                                      
+select              jobRole1                                          
+input     text      busPhone                                          
+select              outsourcedCommunications1                         
+select              ofSupplierMembers1                                
+input     Submit                                  Save My Seat        
+input     hidden    hiddenField                   866980112           
+input     hidden    hiddenField2                  866980002           
+input     hidden    source                        Naylorwebsite       
+
+curl  https://s1436581052.t.eloqua.com/e/f2?LP=1043?elqFormName=2019-Benchmarking-Webinar&elqSiteId=1436581052&elqCampaignId=1&firstName=blabla&lastName=blabla&company=blabla&emailAddress=blabla&jobRole1=1&busPhone=blabla&outsourcedCommunications1=1&ofSupplierMembers1=1&Save My Seat&hiddenField=866980112&hiddenField2=866980002&source=Naylorwebsite | grep "blabla"
+
+
+
+
+https://clients.boxwoodtech.com/login/administrator/?RU=/index.cfm
+method:post
+https://clients.boxwoodtech.com/login/administrator/?RU=/index.cfm/login/administrator/index.cfm?ru=/index.cfm
+input     text      email                                             
+input     password  password                                          
+input     checkbox  login_remember_me             checked             
+
+curl  https://clients.boxwoodtech.com/login/administrator/?RU=/index.cfm/login/administrator/index.cfm?ru=/index.cfm?email=blabla&password=&login_remember_me=checked | grep "blabla"
+
+
+
+
+https://www.naylornetwork.com/AP
+method:post
+https://www.naylornetwork.com/AP./Login.aspx?ReturnUrl=%2fAP
+input     hidden    __LASTFOCUS                                       
+input     hidden    __EVENTTARGET                                     
+input     hidden    __EVENTARGUMENT                                   
+input     hidden    __VIEWSTATE                   /wEPDwUKMTM5MDU0ODQyMw9kFgICAQ9kFgICAQ9kFgJmD2QWAmYPZBYCAg0PEA8WAh4HQ2hlY2tlZGdkZGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBR11Y0xvZ2luMiRMb2dpblVzZXIkUmVtZW1iZXJNZbqnLVZiGfCd5fPZOU8zluMOH5iDKTNLYKqoOpHseBlX
+input     hidden    __VIEWSTATEGENERATOR          B069E287            
+input     hidden    __SCROLLPOSITIONX             0                   
+input     hidden    __SCROLLPOSITIONY             0                   
+input     hidden    __EVENTVALIDATION             /wEdAAZaK5uqpKb9qUXvV65/yyP7Y0CCi+rGHocxOr+P1+I20YJMUrKbRwNLucl/ZQJBN62TpLWrU8L4qavN+bKttbj+/+q5TNc0xHeD7KVjfvG/Z7U3zaTs9Ah+Lyp4AX88QyHp7zG7/RXube6SBZjkEnP1lK7Pr2Yb0cPde4arVgOBtg==
+input     text      ucLogin2$LoginUser$UserName                       
+input     password  ucLogin2$LoginUser$Password                       
+input     checkbox  ucLogin2$LoginUser$RememberMe                     
+
+curl  https://www.naylornetwork.com/AP./Login.aspx?ReturnUrl=%2fAP?__LASTFOCUS=&__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=/wEPDwUKMTM5MDU0ODQyMw9kFgICAQ9kFgICAQ9kFgJmD2QWAmYPZBYCAg0PEA8WAh4HQ2hlY2tlZGdkZGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBR11Y0xvZ2luMiRMb2dpblVzZXIkUmVtZW1iZXJNZbqnLVZiGfCd5fPZOU8zluMOH5iDKTNLYKqoOpHseBlX&__VIEWSTATEGENERATOR=B069E287&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=0&__EVENTVALIDATION=/wEdAAZaK5uqpKb9qUXvV65/yyP7Y0CCi+rGHocxOr+P1+I20YJMUrKbRwNLucl/ZQJBN62TpLWrU8L4qavN+bKttbj+/+q5TNc0xHeD7KVjfvG/Z7U3zaTs9Ah+Lyp4AX88QyHp7zG7/RXube6SBZjkEnP1lK7Pr2Yb0cPde4arVgOBtg==&ucLogin2$LoginUser$UserName=blabla&ucLogin2$LoginUser$Password=1&ucLogin2$LoginUser$RememberMe=1 | grep "blabla"
+
+
+
+
+https://www.builtincolorado.com/companies/best-places-to-work-colorado
+method:get
+https://www.builtincolorado.com/companies/best-places-to-work-colorado/search
+input     text      s                                                 
+
+curl  https://www.builtincolorado.com/companies/best-places-to-work-colorado/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtincolorado.com/companies/best-places-to-work-colorado
+method:get
+https://www.builtincolorado.com/companies/best-places-to-work-colorado/search
+input     text      s                                                 
+
+curl  https://www.builtincolorado.com/companies/best-places-to-work-colorado/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinsf.com
+method:get
+https://www.builtinsf.com/search
+input     text      s                                                 
+
+curl  https://www.builtinsf.com/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinsf.com
+method:get
+https://www.builtinsf.com/search
+input     text      s                                                 
+
+curl  https://www.builtinsf.com/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinseattle.com
+method:get
+https://www.builtinseattle.com/search
+input     text      s                                                 
+
+curl  https://www.builtinseattle.com/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinseattle.com
+method:get
+https://www.builtinseattle.com/search
+input     text      s                                                 
+
+curl  https://www.builtinseattle.com/search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinla.com/
+method:get
+https://www.builtinla.com//search
+input     text      s                                                 
+
+curl  https://www.builtinla.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinla.com/
+method:get
+https://www.builtinla.com//search
+input     text      s                                                 
+
+curl  https://www.builtinla.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtincolorado.com/
+method:get
+https://www.builtincolorado.com//search
+input     text      s                                                 
+
+curl  https://www.builtincolorado.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtincolorado.com/
+method:get
+https://www.builtincolorado.com//search
+input     text      s                                                 
+
+curl  https://www.builtincolorado.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinboston.com/
+method:get
+https://www.builtinboston.com//search
+input     text      s                                                 
+
+curl  https://www.builtinboston.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinboston.com/
+method:get
+https://www.builtinboston.com//search
+input     text      s                                                 
+
+curl  https://www.builtinboston.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinaustin.com/
+method:get
+https://www.builtinaustin.com//search
+input     text      s                                                 
+
+curl  https://www.builtinaustin.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.builtinaustin.com/
+method:get
+https://www.builtinaustin.com//search
+input     text      s                                                 
+
+curl  https://www.builtinaustin.com//search?s=blabla | grep "blabla"
+
+
+
+
+https://www.gdpr.org
+method:get
+https://www.gdpr.orgco.search.php
+input     text      q                                                 
+
+curl  https://www.gdpr.orgco.search.php?q=blabla | grep "blabla"
+
+
+
+
+https://www.gdpr.org/user/login.php
+method:post
+https://www.gdpr.org/user/login.phplogin.proc.php
+input     text      username                                          
+input     password  password                                          
+
+curl  https://www.gdpr.org/user/login.phplogin.proc.php?username=blabla&password=1 | grep "blabla"
+
+
+
+
+https://www.gdpr.org/user/signup.php?t=pro
+method:post
+https://www.gdpr.org/user/signup.php?t=prosignup.proc.php
+input     text      first_name                                        
+input     text      last_name                                         
+input     email     email                                             
+input     text      jobtitle                                          
+input     text      country                                           
+input     text      company_name                                      
+input     password  password                                          
+input     password  password_confirmation                             
+
+curl  https://www.gdpr.org/user/signup.php?t=prosignup.proc.php?first_name=blabla&last_name=blabla&email=1&jobtitle=blabla&country=blabla&company_name=blabla&password=1&password_confirmation=1 | grep "blabla"
+
+
+
+
+https://www.gdpr.org/
+method:get
+https://www.gdpr.org/co.search.php
+input     text      q                                                 
+
+curl  https://www.gdpr.org/co.search.php?q=blabla | grep "blabla"
+
+
+
+
+https://www.gdpr.org/contact.php
+method:post
+https://www.gdpr.org/contact.phpcontactengine.php
+input     text      name                                              
+input     tel       tel                                               
+input     text      email                                             
+textarea            message                                           
+
+curl  https://www.gdpr.org/contact.phpcontactengine.php?name=blabla&tel=1&email=blabla&message=blabla | grep "blabla"
+
+
+
+
+https://www.gdpr.org/user/signup.php?t=dpa
+method:post
+https://www.gdpr.org/user/signup.php?t=dpasignup.proc.php
+input     text      first_name                                        
+input     text      last_name                                         
+input     email     email                                             
+input     text      jobtitle                                          
+input     text      country                                           
+input     text      company_name                                      
+select              dpa                                               
+input     password  password                                          
+input     password  password_confirmation                             
+
+curl  https://www.gdpr.org/user/signup.php?t=dpasignup.proc.php?first_name=blabla&last_name=blabla&email=1&jobtitle=blabla&country=blabla&company_name=blabla&dpa=1&password=1&password_confirmation=1 | grep "blabla"
+
+
+
+
+https://www.gdpr.org/user/signup.php?t=co
+method:post
+https://www.gdpr.org/user/signup.php?t=cosignup.proc.php
+input     text      first_name                                        
+input     text      last_name                                         
+input     email     email                                             
+input     text      jobtitle                                          
+input     text      country                                           
+input     text      company_name                                      
+input     checkbox  official_company_rep          yes                 
+input     password  password                                          
+input     password  password_confirmation                             
+
+curl  https://www.gdpr.org/user/signup.php?t=cosignup.proc.php?first_name=blabla&last_name=blabla&email=1&jobtitle=blabla&country=blabla&company_name=blabla&official_company_rep=yes&password=1&password_confirmation=1 | grep "blabla"
+
+
+
+
+https://www.gdpr.org/user/signup.php?t=pro
+method:post
+https://www.gdpr.org/user/signup.php?t=prosignup.proc.php
+input     text      first_name                                        
+input     text      last_name                                         
+input     email     email                                             
+input     text      jobtitle                                          
+input     text      country                                           
+input     text      company_name                                      
+input     password  password                                          
+input     password  password_confirmation                             
+
+curl  https://www.gdpr.org/user/signup.php?t=prosignup.proc.php?first_name=blabla&last_name=blabla&email=1&jobtitle=blabla&country=blabla&company_name=blabla&password=1&password_confirmation=1 | grep "blabla"
+
+
+
+
+https://www.gdpr.org/
+method:get
+https://www.gdpr.org/co.search.php
+input     text      q                                                 
+
+curl  https://www.gdpr.org/co.search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.etrust.org/apply/index.html
+method:
+http://www.etrust.org/apply/index.htmlindex.php
+input     text      clientName                                        
+input     email     clientEmail                                       
+textarea            clientMessage                                     
+input     hidden    captcha                       1                   
+
+curl  http://www.etrust.org/apply/index.htmlindex.php?clientName=blabla&clientEmail=&clientMessage=blabla&captcha=1 | grep "blabla"
+
+
+
+
+http://www.etrust.org/apply/fees.html
+method:
+http://www.etrust.org/apply/fees.htmlindex.php
+input     text      clientName                                        
+input     email     clientEmail                                       
+textarea            clientMessage                                     
+input     hidden    captcha                       1                   
+
+curl  http://www.etrust.org/apply/fees.htmlindex.php?clientName=blabla&clientEmail=&clientMessage=blabla&captcha=1 | grep "blabla"
+
+
+
+
+http://www.trustiva.com
+method:get
+http://www.trustiva.com#
+input     text                                                        
+
+curl  http://www.trustiva.com#?blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.companyregistry.org
+method:post
+http://www.companyregistry.org/jsp/apply.php
+input     text      name                                              
+select              country                                           
+input     text      email                                             
+textarea            address                                           
+input     text      website                       http://             
+input     text      employees                                         
+input     text      turnover                                          
+textarea            services                                          
+
+curl  http://www.companyregistry.org/jsp/apply.php?name=blabla&country=1&email=blabla&address=blabla&website=blabla&employees=blabla&turnover=blabla&services=blabla | grep "blabla"
+
+
+
+
+http://www.appcert.org//contact.php
+method:post
+http://www.appcert.org//contact.phpcontact.php
+input     text      nom_name                                          
+input     text      nom_email                                         
+textarea            message                                           
+
+curl  http://www.appcert.org//contact.phpcontact.php?nom_name=blabla&nom_email=blabla&message=blabla | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org
+method:post
+http://www.internationalcharter.org/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.internationalcharter.org/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org/legal.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org/legal.html
+method:post
+http://www.internationalcharter.org/legal.html/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.internationalcharter.org/legal.html/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org/index.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.internationalcharter.org/index.html
+method:post
+http://www.internationalcharter.org/index.html/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.internationalcharter.org/index.html/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/ic9700/index.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/ic9700/index.html
+method:post
+http://www.icharter.org/certification/ic9700/index.html/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.icharter.org/certification/ic9700/index.html/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.trustbase.com
+method:
+http://www.trustbase.comhandlers/mailchimp/formSubscribe.php
+input     text      exampleInputSubscribe                             
+
+curl  http://www.trustbase.comhandlers/mailchimp/formSubscribe.php?exampleInputSubscribe=blabla | grep "blabla"
+
+
+
+
+http://www.trustbase.com
+method:
+http://www.trustbase.com/form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  http://www.trustbase.com/form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+http://www.trustbase.com/blog
+method:
+http://www.trustbase.com/blog/form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  http://www.trustbase.com/blog/form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+https://www.trustbase.com/about/
+method:
+https://www.trustbase.com/about//form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  https://www.trustbase.com/about//form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+https://www.trustbase.com/about/
+method:
+https://www.trustbase.com/about//form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  https://www.trustbase.com/about//form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/ic9200/index.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/ic9200/index.html
+method:post
+http://www.icharter.org/certification/ic9200/index.html/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.icharter.org/certification/ic9200/index.html/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/index.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org/certification/index.html
+method:post
+http://www.icharter.org/certification/index.html/servlets/mailinglist/subscribe.php
+input     text      email                                             
+input     hidden    tag                           generic             
+
+curl  http://www.icharter.org/certification/index.html/servlets/mailinglist/subscribe.php?email=blabla&tag=generic | grep "blabla"
+
+
+
+
+http://www.trustbase.com/features/certifications.php
+method:
+http://www.trustbase.com/features/certifications.php/form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  http://www.trustbase.com/features/certifications.php/form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+http://www.addthis.com/bookmark.php?v=20
+method:post
+http://www.addthis.com/bookmark.php?v=20bookmark.php
+input     hidden    ate                           AT-internal/-/-/-/-/-
+input     hidden    s                                                 
+input     hidden    source                        max-300             
+input     hidden    tt                            0                   
+input     hidden    pub                                               
+input     hidden    ct                                                
+input     hidden    uid                                               
+input     hidden    url                                               
+input     hidden    title                                             
+input     hidden    lng                           en                  
+input     hidden    winname                                           
+input     hidden    email_template                                    
+input     hidden    email_vars                                        
+input     hidden    swfurl                                            
+input     hidden    iframeurl                                         
+input     hidden    module                                            
+input     hidden    screenshot                                        
+input     hidden    width                                             
+input     hidden    height                                            
+input     hidden    rawcontent                                        
+input     text                                                        
+
+curl  http://www.addthis.com/bookmark.php?v=20bookmark.php?ate=AT-internal/-/-/-/-/-&s=&source=max-300&tt=0&pub=&ct=&uid=&url=&title=&lng=en&winname=&email_template=&email_vars=&swfurl=&iframeurl=&module=&screenshot=&width=&height=&rawcontent=&blabla | grep "blabla"
+
+
+
+
+http://www.allergyaware.org/restaurants/form.php
+method:post
+http://www.allergyaware.org/restaurants/form.phpform.php
+input     text      nom_name                                          
+input     text      nom_email                                         
+input     text      rest_name                                         
+input     text      rest_address                                      
+input     text      rest_country                                      
+input     text      rest_website                                      
+input     text      rest_cuisine                                      
+input     radio     work                          yes                 
+input     radio     work                          no                  
+input     text      rest_jobtitle_1                                   
+input     text      rest_contact_name                                 
+input     text      rest_contact_email                                
+input     text      rest_contact_jobtitle                             
+
+curl  http://www.allergyaware.org/restaurants/form.phpform.php?nom_name=blabla&nom_email=blabla&rest_name=blabla&rest_address=blabla&rest_country=blabla&rest_website=blabla&rest_cuisine=blabla&work=yes&work=no&rest_jobtitle_1=blabla&rest_contact_name=blabla&rest_contact_email=blabla&rest_contact_jobtitle=blabla | grep "blabla"
+
+
+
+
+https://www.trustbase.com
+method:
+https://www.trustbase.comhandlers/mailchimp/formSubscribe.php
+input     text      exampleInputSubscribe                             
+
+curl  https://www.trustbase.comhandlers/mailchimp/formSubscribe.php?exampleInputSubscribe=blabla | grep "blabla"
+
+
+
+
+https://www.trustbase.com
+method:
+https://www.trustbase.com/form.contact.php
+input                                                                 
+input     email                                                       
+textarea                                                              
+
+curl  https://www.trustbase.com/form.contact.php?1&1&blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/procert.org.uk
+method:post
+http://www.sitewise.org/site/procert.org.uk/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/procert.org.uk/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/amexia.com
+method:post
+http://www.sitewise.org/site/amexia.com/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/amexia.com/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/icharter.org
+method:post
+http://www.sitewise.org/site/icharter.org/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/icharter.org/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/news.bbc.co.uk
+method:post
+http://www.sitewise.org/site/news.bbc.co.uk/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/news.bbc.co.uk/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/bbc.co.uk
+method:post
+http://www.sitewise.org/site/bbc.co.uk/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/bbc.co.uk/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/gsk.com
+method:post
+http://www.sitewise.org/site/gsk.com/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/gsk.com/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.sitewise.org/site/icharter.org
+method:post
+http://www.sitewise.org/site/icharter.org/search.php
+input     text      q                                                 
+
+curl  http://www.sitewise.org/site/icharter.org/search.php?q=blabla | grep "blabla"
+
+
+
+
+http://www.icharter.org/index.html
+method:
+http://www.icharter.org/search/search.pl
+input     text      terms                                             
+
+curl  http://www.icharter.org/search/search.pl?terms=blabla | grep "blabla"
+
+
+
+
+http://www.trustiva.com/
+method:get
+http://www.trustiva.com/#
+input     text                                                        
+
+curl  http://www.trustiva.com/#?blabla | grep "blabla"
+
+
+
+
+https://www.operasoftware.com/press
+method:get
+https://press.opera.com/
+input     text      s                                                 
+input     hidden    product                                           
+
+curl  https://press.opera.com/?s=blabla&product= | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:get
+https://blogs.opera.com/mobile/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/mobile/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:get
+https://blogs.opera.com/mobile/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/mobile/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:post
+https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59
+input     email     EMAIL                                             
+input     text      b_4e82c768ae000d9ebd6283346_7ebbb58b59                    
+
+curl  https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59?EMAIL=&b_4e82c768ae000d9ebd6283346_7ebbb58b59=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:get
+https://blogs.opera.com/mobile/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/mobile/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:get
+https://blogs.opera.com/mobile/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/mobile/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/mobile/
+method:post
+https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59
+input     email     EMAIL                                             
+input     text      b_4e82c768ae000d9ebd6283346_7ebbb58b59                    
+
+curl  https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59?EMAIL=&b_4e82c768ae000d9ebd6283346_7ebbb58b59=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:get
+https://blogs.opera.com/desktop/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/desktop/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:get
+https://blogs.opera.com/desktop/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/desktop/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:post
+https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59
+input     email     EMAIL                                             
+input     text      b_4e82c768ae000d9ebd6283346_7ebbb58b59                    
+
+curl  https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59?EMAIL=&b_4e82c768ae000d9ebd6283346_7ebbb58b59=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:get
+https://blogs.opera.com/desktop/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/desktop/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:get
+https://blogs.opera.com/desktop/
+input     text      s                                                 
+
+curl  https://blogs.opera.com/desktop/?s=blabla | grep "blabla"
+
+
+
+
+https://blogs.opera.com/desktop/
+method:post
+https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59
+input     email     EMAIL                                             
+input     text      b_4e82c768ae000d9ebd6283346_7ebbb58b59                    
+
+curl  https://opera.us7.list-manage.com/subscribe/post?u=4e82c768ae000d9ebd6283346&id=7ebbb58b59?EMAIL=&b_4e82c768ae000d9ebd6283346_7ebbb58b59=blabla | grep "blabla"
+
+
+
+
+https://help.getpocket.com
+method:GET
+https://help.getpocket.com/search
+input     text      query                                             
+
+curl  https://help.getpocket.com/search?query=blabla | grep "blabla"
+
+
+
+
+https://help.getpocket.com
+method:post
+https://help.getpocket.com/contact
+input     text      name                                              
+input     email     email                                             
+input     text      phone                                             
+input     text      subject                                           
+textarea            message                                           
+input     file      upload                                            
+
+curl  https://help.getpocket.com/contact?name=blabla&email=1&phone=blabla&subject=blabla&message=blabla&upload=1 | grep "blabla"
+
+
+
+
+https://bcorporation.net/directory/help-scout
+method:post
+https://bcorporation.net/directory/help-scout/directory/help-scout
+input     text      company_search                                    
+select              industry                                          
+select              country                                           
+select              state                                             
+select              city                                              
+input     hidden    form_build_id                 form-mRB-YW5FpXvHBos0_qr_F5YM7tHAg3qtO6dG3MIBwqg
+input     hidden    form_id                       bcorp_custom_corp_search_form
+
+curl  https://bcorporation.net/directory/help-scout/directory/help-scout?company_search=blabla&industry=1&country=1&state=1&city=1&form_build_id=form-mRB-YW5FpXvHBos0_qr_F5YM7tHAg3qtO6dG3MIBwqg&form_id=bcorp_custom_corp_search_form | grep "blabla"
+
+
+
+
+https://bcorporation.net/directory/help-scout
+method:post
+https://bcorporation.net/directory/help-scout/antibot
+input     text      email                                             
+input     hidden    first_name                                        
+input     hidden    last_name                                         
+input     hidden    source                        https://bcorporation.net
+input     hidden    success_location              https://bcorporation.net/submit-success
+input     hidden    error_location                https://bcorporation.net/submit-error
+input     hidden    form_build_id                 form-BBkjw3KJ7EK40KbFdXausuIHHPv70ZZWj1c4XIkP860
+input     hidden    form_id                       bcorp_mailing_list_form
+input     hidden    antibot_key                                       
+
+curl  https://bcorporation.net/directory/help-scout/antibot?email=blabla&first_name=&last_name=&source=https://bcorporation.net&success_location=https://bcorporation.net/submit-success&error_location=https://bcorporation.net/submit-error&form_build_id=form-BBkjw3KJ7EK40KbFdXausuIHHPv70ZZWj1c4XIkP860&form_id=bcorp_mailing_list_form&antibot_key= | grep "blabla"
+
+
+
+
+https://bcorporation.uk/
+method:post
+https://bcorporation.uk//
+input     text      company_search                                    
+select              industry                                          
+select              country                                           
+select              state                                             
+select              city                                              
+input     hidden    form_build_id                 form-Il1NDAydw1svqreoyS0AIfbA7H8Gz1kqwALBCcJc1js
+input     hidden    form_id                       bcorp_custom_corp_search_form
+
+curl  https://bcorporation.uk//?company_search=blabla&industry=1&country=1&state=1&city=1&form_build_id=form-Il1NDAydw1svqreoyS0AIfbA7H8Gz1kqwALBCcJc1js&form_id=bcorp_custom_corp_search_form | grep "blabla"
+
+
+
+
+https://bcorporation.uk/
+method:post
+https://bcorporation.uk//antibot
+input     text      email                                             
+input     hidden    first_name                                        
+input     hidden    last_name                                         
+input     hidden    source                        https://bcorporation.uk
+input     hidden    success_location              https://bcorporation.uk/submit-success
+input     hidden    error_location                https://bcorporation.uk/submit-error
+input     hidden    form_build_id                 form-hWnnKpG1bqvaZzvbbIYMhATRxsJN4lyWNx2v1crRi-w
+input     hidden    form_id                       bcorp_mailing_list_form
+input     hidden    antibot_key                                       
+
+curl  https://bcorporation.uk//antibot?email=blabla&first_name=&last_name=&source=https://bcorporation.uk&success_location=https://bcorporation.uk/submit-success&error_location=https://bcorporation.uk/submit-error&form_build_id=form-hWnnKpG1bqvaZzvbbIYMhATRxsJN4lyWNx2v1crRi-w&form_id=bcorp_mailing_list_form&antibot_key= | grep "blabla"
+
+
+
+
+http://www.bcorporation.net/what-are-b-corps
+method:post
+http://www.bcorporation.net/what-are-b-corps/about-b-corps
+input     text      company_search                                    
+select              industry                                          
+select              country                                           
+select              state                                             
+select              city                                              
+input     hidden    form_build_id                 form-MZXsFCPn3MlK60v19rTkITyGetn3Pzx31GkMUtJ3m6M
+input     hidden    form_id                       bcorp_custom_corp_search_form
+
+curl  http://www.bcorporation.net/what-are-b-corps/about-b-corps?company_search=blabla&industry=1&country=1&state=1&city=1&form_build_id=form-MZXsFCPn3MlK60v19rTkITyGetn3Pzx31GkMUtJ3m6M&form_id=bcorp_custom_corp_search_form | grep "blabla"
+
+
+
+
+http://www.bcorporation.net/what-are-b-corps
+method:post
+http://www.bcorporation.net/what-are-b-corps/antibot
+input     text      email                                             
+input     hidden    first_name                                        
+input     hidden    last_name                                         
+input     hidden    source                        https://bcorporation.net
+input     hidden    success_location              https://bcorporation.net/submit-success
+input     hidden    error_location                https://bcorporation.net/submit-error
+input     hidden    form_build_id                 form-35Z1VnX1DqetX9hFemyvyTo56wh94xsoB11f15PRI2o
+input     hidden    form_id                       bcorp_mailing_list_form
+input     hidden    antibot_key                                       
+
+curl  http://www.bcorporation.net/what-are-b-corps/antibot?email=blabla&first_name=&last_name=&source=https://bcorporation.net&success_location=https://bcorporation.net/submit-success&error_location=https://bcorporation.net/submit-error&form_build_id=form-35Z1VnX1DqetX9hFemyvyTo56wh94xsoB11f15PRI2o&form_id=bcorp_mailing_list_form&antibot_key= | grep "blabla"
+
+
+
+
+https://b-labeastafrica.net/
+method:get
+https://b-labeastafrica.net/
+input     text      s                                                 
+
+curl  https://b-labeastafrica.net/?s=blabla | grep "blabla"
+
+
+
+
+https://dlandroid24.com/
+method:get
+https://dlandroid24.com/
+input     text      s                                                 
+
+curl  https://dlandroid24.com/?s=blabla | grep "blabla"
+
+
+
+
+https://marquimanagement.com/
+method:post
+https://marquimanagement.com/contact.php
+input     text      name                                              
+input     email     email                                             
+input     text      subject                                           
+textarea            message                                           
+
+curl  https://marquimanagement.com/contact.php?name=blabla&email=1&subject=blabla&message=blabla | grep "blabla"
+
+
+
+
+https://www.bodybybell.com/
+method:get
+https://www.bodybybell.com/
+input     text      s                                                 
+
+curl  https://www.bodybybell.com/?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/author/bodybybell/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/get-stronger/super-strength-rock-solid-muscle/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/get-stronger/super-strength-rock-solid-muscle/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/fit/bigger-muscles/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/fit/get-stronger/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/fit/bigger-muscles/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://buildsuperstrength.com/fit/get-stronger/
+method:get
+http://buildsuperstrength.com
+input     text      s                                                 
+
+curl  http://buildsuperstrength.com?s=blabla | grep "blabla"
+
+
+
+
+http://myfitnessresolutions.com/
+method:get
+https://myfitnessresolutions.com/
+input     text      s                                                 
+
+curl  https://myfitnessresolutions.com/?s=blabla | grep "blabla"
+
+
+
+
+https://youtu.be/LHjbyqBuGQU
+method:
+https://youtu.be/LHjbyqBuGQU/results
+input     text      search_query                                      
+
+curl  https://youtu.be/LHjbyqBuGQU/results?search_query=blabla | grep "blabla"
+
+
+
+
+https://www.spelinspektionen.se/spellicenser
+method:get
+https://www.spelinspektionen.se/spellicenser/sok/
+input     text      q                                                 
+
+curl  https://www.spelinspektionen.se/spellicenser/sok/?q=blabla | grep "blabla"
+
+
+
+
+https://www.spelinspektionen.se/spellicenser
+method:get
+https://www.spelinspektionen.se/spellicenser/sok/
+input     text      q                                                 
+
+curl  https://www.spelinspektionen.se/spellicenser/sok/?q=blabla | grep "blabla"
+
+
+
+
+https://www.spelinspektionen.se/spelproblem
+method:get
+https://www.spelinspektionen.se/spelproblem/sok/
+input     text      q                                                 
+
+curl  https://www.spelinspektionen.se/spelproblem/sok/?q=blabla | grep "blabla"
+
+
+
+
+https://www.spelinspektionen.se/spelproblem
+method:get
+https://www.spelinspektionen.se/spelproblem/sok/
+input     text      q                                                 
+
+curl  https://www.spelinspektionen.se/spelproblem/sok/?q=blabla | grep "blabla"
+
+
+
+
+https://spelberoendegruppen.com/
+method:post
+https://spelberoendegruppen.com/#contact-form-15
+input     text      g15-namnortfrivilligt                             
+input     text      g15-emailtelefonnummer                            
+textarea            g15-meddelande                                    
+input     hidden    contact-form-id               15                  
+input     hidden    action                        grunion-contact-form
+input     hidden    contact-form-hash             d1871bd008c1e5b48f7aef49f479e0fe66626e06
+
+curl  https://spelberoendegruppen.com/#contact-form-15?g15-namnortfrivilligt=blabla&g15-emailtelefonnummer=blabla&g15-meddelande=blabla&contact-form-id=15&action=grunion-contact-form&contact-form-hash=d1871bd008c1e5b48f7aef49f479e0fe66626e06 | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/new-casino-sites
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/new-casino-sites
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+http://begambleaware.org
+method:get
+http://begambleaware.org/search-results
+input     text      searchterm                    Ask us anything     
+
+curl  http://begambleaware.org/search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+http://www.begambleaware.org/
+method:get
+http://www.begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  http://www.begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+http://www.begambleaware.org/
+method:get
+http://www.begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  http://www.begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://www.begambleaware.org/
+method:get
+https://www.begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  https://www.begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/gala-casino
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/gala-casino
+method:
+https://slotsia.com/uk/gala-casino#
+textarea            comment                                           
+input     text      author                                            
+input     hidden    comment_post_ID               11399               
+input     hidden    comment_parent                0                   
+input     hidden    akismet_comment_nonce         76c1f2bdb5          
+input     hidden    ak_js                         198                 
+
+curl  https://slotsia.com/uk/gala-casino#?comment=blabla&author=blabla&comment_post_ID=11399&comment_parent=0&akismet_comment_nonce=76c1f2bdb5&ak_js=198 | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/gala-casino
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/vip-club
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/vip-club
+method:
+https://slotsia.com/uk/vip-club#
+textarea            comment                                           
+input     text      author                                            
+input     hidden    comment_post_ID               12687               
+input     hidden    comment_parent                0                   
+input     hidden    akismet_comment_nonce         20d0aac1c1          
+input     hidden    ak_js                         218                 
+
+curl  https://slotsia.com/uk/vip-club#?comment=blabla&author=blabla&comment_post_ID=12687&comment_parent=0&akismet_comment_nonce=20d0aac1c1&ak_js=218 | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/vip-club
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/uk/
+method:get
+https://slotsia.com/uk/
+input     text      s                                                 
+
+curl  https://slotsia.com/uk/?s=blabla | grep "blabla"
+
+
+
+
+https://begambleaware.org/
+method:get
+https://begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  https://begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://begambleaware.org/
+method:get
+https://begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  https://begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://begambleaware.org/
+method:get
+https://begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  https://begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://begambleaware.org/
+method:get
+https://begambleaware.org//search-results
+input     text      searchterm                    Ask us anything     
+
+curl  https://begambleaware.org//search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/de/neue-online-casinos
+method:get
+https://slotsia.com/de/
+input     text      s                                                 
+
+curl  https://slotsia.com/de/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/de/neue-online-casinos
+method:get
+https://slotsia.com/de/
+input     text      s                                                 
+
+curl  https://slotsia.com/de/?s=blabla | grep "blabla"
+
+
+
+
+https://slotsia.com/ja/
+method:get
+https://slotsia.com/ja/
+input     text      s                                                 
+
+curl  https://slotsia.com/ja/?s=blabla | grep "blabla"
+
+
+
+
+http://www.gpwa.net/
+method:post
+http://www.gpwa.net/
+input     hidden    do                            process             
+input     hidden    showposts                     0                   
+input     hidden    quicksearch                   1                   
+input     hidden    s                                                 
+input     text      query                         Search Our Forums   
+input     image                                   search              
+
+curl  http://www.gpwa.net/?do=process&showposts=0&quicksearch=1&s=&query=blabla&search | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com
+method:get
+https://www.livecasinocomparer.com/
+input     text      s                                                 
+
+curl  https://www.livecasinocomparer.com/?s=blabla | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com
+method:post
+https://www.livecasinocomparer.com/
+input     text      input_1                                           
+input     text      input_2                                           
+textarea            input_3                                           
+input     hidden    is_submit_1                   1                   
+input     hidden    gform_submit                  1                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_1                       WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=
+input     hidden    gform_target_page_number_1    0                   
+input     hidden    gform_source_page_number_1    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.livecasinocomparer.com/?input_1=blabla&input_2=blabla&input_3=blabla&is_submit_1=1&gform_submit=1&gform_unique_id=&state_1=WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=&gform_target_page_number_1=0&gform_source_page_number_1=1&gform_field_values= | grep "blabla"
+
+
+
+
+http://statcounter.com/blogger/
+method:get
+http://statcounter.com/blogger//support/search/
+input     text      search_text                                       
+
+curl  http://statcounter.com/blogger//support/search/?search_text=blabla | grep "blabla"
+
+
+
+
+https://forum.statcounter.com/
+method:post
+https://forum.statcounter.com//search/search
+input     text      keywords                                          
+input     checkbox  c[title_only]                 1                   
+input               c[users]                                          
+input     hidden    _xfToken                      1571594547,e0e0b32074f57ff2d2d7a3b19de34e8d
+
+curl  https://forum.statcounter.com//search/search?keywords=blabla&c[title_only]=1&c[users]=1&_xfToken=1571594547,e0e0b32074f57ff2d2d7a3b19de34e8d | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/
+method:post
+http://www.perthlabourhire.net.au//#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au//#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/labour-hire/
+method:post
+http://www.perthlabourhire.net.au/labour-hire//labour-hire/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/labour-hire//labour-hire/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/about-us/
+method:post
+http://www.perthlabourhire.net.au/about-us//about-us/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/about-us//about-us/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au
+method:post
+http://www.perthlabourhire.net.au/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/contact-us/
+method:post
+http://www.perthlabourhire.net.au/contact-us//contact-us/#wpcf7-f27-p17-o1
+input     hidden    _wpcf7                        27                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f27-p17-o1    
+input     hidden    _wpcf7_container_post         17                  
+input     text      your-name                                         
+input     email     your-email                                        
+input     text      your-subject                                      
+textarea            your-message                                      
+
+curl  http://www.perthlabourhire.net.au/contact-us//contact-us/#wpcf7-f27-p17-o1?_wpcf7=27&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f27-p17-o1&_wpcf7_container_post=17&your-name=blabla&your-email=&your-subject=blabla&your-message=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/contact-us/
+method:post
+http://www.perthlabourhire.net.au/contact-us//contact-us/#wpcf7-f25-o2
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o2        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/contact-us//contact-us/#wpcf7-f25-o2?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o2&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/looking-for-work/
+method:post
+http://www.perthlabourhire.net.au/looking-for-work//looking-for-work/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/looking-for-work//looking-for-work/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/need-staff/
+method:post
+http://www.perthlabourhire.net.au/need-staff//need-staff/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/need-staff//need-staff/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/labour-hire/
+method:post
+http://www.perthlabourhire.net.au/labour-hire//labour-hire/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/labour-hire//labour-hire/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+http://www.perthlabourhire.net.au/about-us/
+method:post
+http://www.perthlabourhire.net.au/about-us//about-us/#wpcf7-f25-o1
+input     hidden    _wpcf7                        25                  
+input     hidden    _wpcf7_version                5.0.4               
+input     hidden    _wpcf7_locale                 en_US               
+input     hidden    _wpcf7_unit_tag               wpcf7-f25-o1        
+input     hidden    _wpcf7_container_post         0                   
+input     text      text-998                                          
+input     text      text-894                                          
+input     text      text-74                                           
+textarea            textarea-401                                      
+
+curl  http://www.perthlabourhire.net.au/about-us//about-us/#wpcf7-f25-o1?_wpcf7=25&_wpcf7_version=5.0.4&_wpcf7_locale=en_US&_wpcf7_unit_tag=wpcf7-f25-o1&_wpcf7_container_post=0&text-998=blabla&text-894=blabla&text-74=blabla&textarea-401=blabla | grep "blabla"
+
+
+
+
+https://forum.statcounter.com/
+method:post
+https://forum.statcounter.com//search/search
+input     text      keywords                                          
+input     checkbox  c[title_only]                 1                   
+input               c[users]                                          
+input     hidden    _xfToken                      1571594557,c16bcd03065da11e801863c641492251
+
+curl  https://forum.statcounter.com//search/search?keywords=blabla&c[title_only]=1&c[users]=1&_xfToken=1571594557,c16bcd03065da11e801863c641492251 | grep "blabla"
+
+
+
+
+https://forum.statcounter.com/
+method:post
+https://forum.statcounter.com//search/search
+input     text      keywords                                          
+input     checkbox  c[title_only]                 1                   
+input               c[users]                                          
+input     hidden    _xfToken                      1571594558,b08a4a22fdfd515570e3805680b08b7c
+
+curl  https://forum.statcounter.com//search/search?keywords=blabla&c[title_only]=1&c[users]=1&_xfToken=1571594558,b08a4a22fdfd515570e3805680b08b7c | grep "blabla"
+
+
+
+
+http://www.begambleaware.org
+method:get
+http://www.begambleaware.org/search-results
+input     text      searchterm                    Ask us anything     
+
+curl  http://www.begambleaware.org/search-results?searchterm=blabla | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/high-roller-live-casinos/
+method:get
+https://www.livecasinocomparer.com/
+input     text      s                                                 
+
+curl  https://www.livecasinocomparer.com/?s=blabla | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/high-roller-live-casinos/
+method:post
+https://www.livecasinocomparer.com/high-roller-live-casinos//high-roller-live-casinos/
+input     text      input_1                                           
+input     text      input_2                                           
+textarea            input_3                                           
+input     hidden    is_submit_1                   1                   
+input     hidden    gform_submit                  1                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_1                       WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=
+input     hidden    gform_target_page_number_1    0                   
+input     hidden    gform_source_page_number_1    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.livecasinocomparer.com/high-roller-live-casinos//high-roller-live-casinos/?input_1=blabla&input_2=blabla&input_3=blabla&is_submit_1=1&gform_submit=1&gform_unique_id=&state_1=WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=&gform_target_page_number_1=0&gform_source_page_number_1=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/casinos-with-exclusive-live-dealer-tables/
+method:get
+https://www.livecasinocomparer.com/
+input     text      s                                                 
+
+curl  https://www.livecasinocomparer.com/?s=blabla | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/casinos-with-exclusive-live-dealer-tables/
+method:post
+https://www.livecasinocomparer.com/casinos-with-exclusive-live-dealer-tables//casinos-with-exclusive-live-dealer-tables/
+input     text      input_1                                           
+input     text      input_2                                           
+textarea            input_3                                           
+input     hidden    is_submit_1                   1                   
+input     hidden    gform_submit                  1                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_1                       WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=
+input     hidden    gform_target_page_number_1    0                   
+input     hidden    gform_source_page_number_1    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.livecasinocomparer.com/casinos-with-exclusive-live-dealer-tables//casinos-with-exclusive-live-dealer-tables/?input_1=blabla&input_2=blabla&input_3=blabla&is_submit_1=1&gform_submit=1&gform_unique_id=&state_1=WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=&gform_target_page_number_1=0&gform_source_page_number_1=1&gform_field_values= | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/mobile-live-casino/
+method:get
+https://www.livecasinocomparer.com/
+input     text      s                                                 
+
+curl  https://www.livecasinocomparer.com/?s=blabla | grep "blabla"
+
+
+
+
+https://www.livecasinocomparer.com/mobile-live-casino/
+method:post
+https://www.livecasinocomparer.com/mobile-live-casino//mobile-live-casino/
+input     text      input_1                                           
+input     text      input_2                                           
+textarea            input_3                                           
+input     hidden    is_submit_1                   1                   
+input     hidden    gform_submit                  1                   
+input     hidden    gform_unique_id                                   
+input     hidden    state_1                       WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=
+input     hidden    gform_target_page_number_1    0                   
+input     hidden    gform_source_page_number_1    1                   
+input     hidden    gform_field_values                                
+
+curl  https://www.livecasinocomparer.com/mobile-live-casino//mobile-live-casino/?input_1=blabla&input_2=blabla&input_3=blabla&is_submit_1=1&gform_submit=1&gform_unique_id=&state_1=WyJbXSIsIjNmMjM4ODkxNGFiNzZiMDBkZWYyYzMwNmM4OWVkNmVhIl0=&gform_target_page_number_1=0&gform_source_page_number_1=1&gform_field_values= | grep "blabla"
+

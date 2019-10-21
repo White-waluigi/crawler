@@ -1,0 +1,725 @@
+https://www.ch.ch/
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://www.blog.ch.ch/
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://www.youtube.com/chchportal
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/PxPzPogxiH
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/4g2gjo3b8x
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/zGCtN9cEgS
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/GY1PcPKkhD
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/sXbgEQrPvK
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://t.co/pUShrN77o7
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+http://t.co/bDJRBIriab
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://pbs.twimg.com/profile_images/2852339273/e9f546a36bee35f7591a9027335b7606.png
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://pbs.twimg.com/profile_images/2852339273/e9f546a36bee35f7591a9027335b7606_400x400.png
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/signup
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+	input-submit:
+https://help.twitter.com/rules-and-policies/twitter-cookies
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+	input-submit:
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+http://optout.networkadvertising.org/#/
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+	input-submit:
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+http://www.networkadvertising.org/terms-of-use
+https://www.ch.ch/
+method:get
+https://www.ch.ch//en/search/
+	input-hidden:search_paths[]
+	input-text:query
+	input-submit:
+https://twitter.com/ch_portal
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fch_portal
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:
+https://twitter.com/ch_portal/search
+	input-text:q
+https://twitter.com/ch_portal
+method:POST
+https://twitter.com/ch_portal/sessions/change_locale
+	input-hidden:lang
+	input-hidden:redirect
+	input-hidden:authenticity_token
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/ch_portal
+method:post
+https://twitter.com/sessions
+	input-text:session[username_or_email]
+	input-password:session[password]
+	input-checkbox:remember_me
+	input-submit:
+	input-hidden:return_to_ssl
+	input-hidden:scribe_log
+	input-hidden:redirect_after_login
+	input-hidden:authenticity_token
+	input-hidden:ui_metrics
+https://twitter.com/signup
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup
+https://twitter.com/signup
+method:GET
+https://twitter.com/signup
+	input-submit:
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search
+	input-search:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+	input-text:q
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:post
+https://help.twitter.com/rules-and-policies/twitter-cookiesindex.html
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+	input-radio:csatFormOption
+http://www.networkadvertising.org/code-enforcement/code

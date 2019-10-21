@@ -1,0 +1,730 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            cqasXa22JIvXwAKB1LLYDg
+input     hidden    iflsig                        AAP1E1EAAAAAXay0go7W07_WJMwvzbhB13hVEcyCsL7s
+input     text      q                                                 
+
+curl  "https://www.google.com//search?source=hp&ei=cqasXa22JIvXwAKB1LLYDg&iflsig=AAP1E1EAAAAAXay0go7W07_WJMwvzbhB13hVEcyCsL7s&q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  "https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search?blabla&src=itunes_serp" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl  "https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search?blabla&src=itunes_serp" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/share?url=https://g.co/DigitalGarage&text=Free Training Course From Google
+method:post
+https://twitter.com/intent/sessions
+input     hidden    text                          Free Training Course From Google
+input     hidden    url                           https://g.co/DigitalGarage
+input     hidden    repost_after_login            /intent/tweet       
+input     hidden    authenticity_token            7a7a8386967d9a97b996f42eefe108c691e4fdd3
+textarea            status                                            
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/intent/sessions?text=Free Training Course From Google&url=https://g.co/DigitalGarage&repost_after_login=/intent/tweet&authenticity_token=7a7a8386967d9a97b996f42eefe108c691e4fdd3&status=blabla&session[username_or_email]=blabla&session[password]=&remember_me=1&ui_metrics=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage
+method:post
+http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100
+input     hidden    jazoest                       2783                
+input     hidden    lsd                           AVp8utxo            
+input     hidden                                                      
+input     hidden    api_key                       966242223397117     
+input     hidden    cancel_url                    https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_
+input     hidden    display                       popup               
+input     hidden    enable_profile_selector                           
+input     hidden    isprivate                                         
+input     hidden    legacy_return                 0                   
+input     hidden    profile_selector_ids                              
+input     hidden    return_session                                    
+input     hidden    skip_api_login                1                   
+input     hidden    signed_next                   1                   
+input     hidden    trynum                        1                   
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112455_B6Zp         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     hidden    prefill_contact_point                             
+input     hidden    prefill_source                                    
+input     hidden    prefill_type                                      
+input     hidden    first_prefill_source                              
+input     hidden    first_prefill_type                                
+input     hidden    had_cp_prefilled              false               
+input     hidden    had_password_prefilled        false               
+input     hidden    ab_test_data                                      
+
+curl  "http://www.facebook.com/sharer/sharer.php?u=https://learndigital.withgoogle.com/digitalgarage/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Flearndigital.withgoogle.com%252Fdigitalgarage&popup=1&lwv=100?jazoest=2783&lsd=AVp8utxo&1&api_key=966242223397117&cancel_url=https://www.facebook.com/dialog/close_window/?app_id=966242223397117&connect=0#_=_&display=popup&enable_profile_selector=&isprivate=&legacy_return=0&profile_selector_ids=&return_session=&skip_api_login=1&signed_next=1&trynum=1&timezone=&lgndim=&lgnrnd=112455_B6Zp&lgnjs=n&email=blabla&pass=1&prefill_contact_point=&prefill_source=1&prefill_type=1&first_prefill_source=1&first_prefill_type=1&had_cp_prefilled=false&had_password_prefilled=false&ab_test_data=" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.facebook.com/recover/initiate/?ars=facebook_login
+method:post
+https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2711                
+input     hidden    lsd                           AVqYgU5u            
+input     text      email                                             
+
+curl  "https://www.facebook.com/recover/initiate/?ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2711&lsd=AVqYgU5u&email=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://messenger.com/
+method:post
+https://messenger.com//login/password/
+input     hidden    jazoest                       2730                
+input     hidden    lsd                           AVr5jUti            
+input     hidden    initial_request_id            AcrXZjj5SFcefZTjDtnnjyn
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112457_6zLl         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  "https://messenger.com//login/password/?jazoest=2730&lsd=AVr5jUti&initial_request_id=AcrXZjj5SFcefZTjDtnnjyn&timezone=&lgndim=&lgnrnd=112457_6zLl&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2736                
+input     hidden    lsd                           AVo2wbp_            
+input     text      email                                             
+
+curl  "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2736&lsd=AVo2wbp_&email=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login
+method:post
+https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2734                
+input     hidden    lsd                           AVoidBrW            
+input     text      email                                             
+
+curl  "https://fr-fr.facebook.com/login/identify/?ctx=recover&ars=facebook_login/ajax/login/help/identify.php?ctx=recover?jazoest=2734&lsd=AVoidBrW&email=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://fr-fr.messenger.com/
+method:post
+https://fr-fr.messenger.com//login/password/
+input     hidden    jazoest                       2655                
+input     hidden    lsd                           AVpdG53u            
+input     hidden    initial_request_id            A9uqdQrygUoMRjBac86PKzF
+input     hidden    timezone                                          
+input     hidden    lgndim                                            
+input     hidden    lgnrnd                        112459_Yi0m         
+input     hidden    lgnjs                         n                   
+input     text      email                                             
+input     password  pass                                              
+input     checkbox  persistent                    1                   
+input     hidden    default_persistent            0                   
+
+curl  "https://fr-fr.messenger.com//login/password/?jazoest=2655&lsd=AVpdG53u&initial_request_id=A9uqdQrygUoMRjBac86PKzF&timezone=&lgndim=&lgnrnd=112459_Yi0m&lgnjs=n&email=blabla&pass=1&persistent=1&default_persistent=0" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar
+method:post
+https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover
+input     hidden    jazoest                       2694                
+input     hidden    lsd                           AVq3aJcm            
+input     text      email                                             
+
+curl  "https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar/ajax/login/help/identify.php?ctx=recover?jazoest=2694&lsd=AVq3aJcm&email=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.facebook.com/
+method:post
+https://m.facebook.com/reg/
+input     hidden    jazoest                       2696                
+input     hidden    lsd                           AVrKAjJo            
+input     text      firstname                                         
+input     text      lastname                                          
+input     text      reg_email__                                       
+input     text      reg_email_confirmation__                          
+input     text      reg_second_contactpoint__                         
+input     password  reg_passwd__                                      
+select              birthday_day                                      
+select              birthday_month                                    
+select              birthday_year                                     
+input     radio     sex                           1                   
+input     radio     sex                           2                   
+input     radio     sex                           -1                  
+select              preferred_pronoun                                 
+input     text      custom_gender                                     
+input     hidden    referrer                                          
+input     hidden    asked_to_login                0                   
+input     hidden    use_custom_gender                                 
+input     hidden    terms                         on                  
+input     hidden    ns                            0                   
+input     hidden    ri                            6d1089c8-289a-4fbb-8a4c-3cedb7673cd8
+input     hidden    action_dialog_shown                               
+input     hidden    contactpoint_label            email_or_phone      
+input     hidden    ignore                        reg_email_confirmation__|reg_second_contactpoint__
+input     hidden    locale                        de_DE               
+input     hidden    reg_instance                  fKasXZCnU3rxT9y5rLW4WEq_
+input     hidden    captcha_persist_data          AZlSrH243TTmB7xYDEMKbrlWIJDJ8yxixpWlRaUoPMkK87Yk-1QRSSjvxODjgY8QVZtwOxwY6JpIxIk4vfaShpH7YXoji37WbDoWO614AmxQJF95ze17461e889e4wg-UsCughGubrBB7iUpwMEtsmumxdy_ZrjkdYpUMJlhzskmQ5r0wotcLoT4Jwg7pC3BegCl1LkbpjHmjkdBbhWy6Bq7WiaiIje_GNnOpoVUzcDuckJZoDZaV7mm1RwwGh7pPfDw4--SeGd6_oH0kkWyfCYVa63PWA5fmEh_2ad9wNvQ5ApFvrFCap-T4rk4fZdWoEV1OQfq6ojUnhieXdsBKZZNrZGBmy5_fMlOIKUoXXx5oSeK0YfVkjLAgwAqv2mzlvE
+input     hidden    captcha_response                                  
+
+curl  "https://m.facebook.com/reg/?jazoest=2696&lsd=AVrKAjJo&firstname=blabla&lastname=blabla&reg_email__=blabla&reg_email_confirmation__=blabla&reg_second_contactpoint__=blabla&reg_passwd__=1&birthday_day=1&birthday_month=1&birthday_year=1&sex=1&sex=2&sex=-1&preferred_pronoun=1&custom_gender=blabla&referrer=&asked_to_login=0&use_custom_gender=&terms=on&ns=0&ri=6d1089c8-289a-4fbb-8a4c-3cedb7673cd8&action_dialog_shown=&contactpoint_label=email_or_phone&ignore=reg_email_confirmation__|reg_second_contactpoint__&locale=de_DE&reg_instance=fKasXZCnU3rxT9y5rLW4WEq_&captcha_persist_data=AZlSrH243TTmB7xYDEMKbrlWIJDJ8yxixpWlRaUoPMkK87Yk-1QRSSjvxODjgY8QVZtwOxwY6JpIxIk4vfaShpH7YXoji37WbDoWO614AmxQJF95ze17461e889e4wg-UsCughGubrBB7iUpwMEtsmumxdy_ZrjkdYpUMJlhzskmQ5r0wotcLoT4Jwg7pC3BegCl1LkbpjHmjkdBbhWy6Bq7WiaiIje_GNnOpoVUzcDuckJZoDZaV7mm1RwwGh7pPfDw4--SeGd6_oH0kkWyfCYVa63PWA5fmEh_2ad9wNvQ5ApFvrFCap-T4rk4fZdWoEV1OQfq6ojUnhieXdsBKZZNrZGBmy5_fMlOIKUoXXx5oSeK0YfVkjLAgwAqv2mzlvE&captcha_response=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://github.com/PrestaShop/PrestaShop
+method:get
+https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search
+input     hidden    utf8                          ✓                   
+input     text      q                                                 
+input     hidden    type                                              
+
+curl  "https://github.com/PrestaShop/PrestaShop/PrestaShop/PrestaShop/search?utf8=✓&q=blabla&type=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/github
+method:
+https://twitter.com/github/search
+input     text      q                                                 
+
+curl  "https://twitter.com/github/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            e4d6b71342bcfccbf0c1de9b55bb6dc35a228cc9
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=e4d6b71342bcfccbf0c1de9b55bb6dc35a228cc9&ui_metrics=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twitter.com/github
+method:post
+https://twitter.com/sessions
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    return_to_ssl                 true                
+input     hidden    scribe_log                                        
+input     hidden    redirect_after_login          /github             
+input     hidden    authenticity_token            e4d6b71342bcfccbf0c1de9b55bb6dc35a228cc9
+input     hidden    ui_metrics                                        
+
+curl  "https://twitter.com/sessions?session[username_or_email]=blabla&session[password]=1&remember_me=1&return_to_ssl=true&scribe_log=1&redirect_after_login=/github&authenticity_token=e4d6b71342bcfccbf0c1de9b55bb6dc35a228cc9&ui_metrics=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://help.twitter.com/rules-and-policies/twitter-cookies
+method:
+https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html
+input     text      q                                                 
+
+curl  "https://help.twitter.com/rules-and-policies/twitter-cookies/en/search.html?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://twittercommunity.com/
+method:post
+https://twittercommunity.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://twittercommunity.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://forums.eveonline.com/
+method:post
+https://forums.eveonline.com//login
+input     text      username                                          
+input     password  password                                          
+input     hidden    redirect                                          
+
+curl  "https://forums.eveonline.com//login?username=blabla&password=1&redirect=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vimeo.com/lougriffith
+method:get
+https://vimeo.com/lougriffith//vimeo.com/search
+input     text      q                                                 
+
+curl  "https://vimeo.com/lougriffith//vimeo.com/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://vimeo.com/cookie_policy
+method:get
+https://vimeo.com/cookie_policy//vimeo.com/search
+input     text      q                                                 
+
+curl  "https://vimeo.com/cookie_policy//vimeo.com/search?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  "https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  "https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z
+method:get
+https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search
+input     text      text                                              
+input     hidden    time                          1 year              
+input     hidden    sort                          relevance           
+
+curl  "https://hospitalitytech.com/digital-natives-are-different-three-tech-enabled-ways-restaurants-can-reach-gen-z/search?text=blabla&time=1 year&sort=relevance" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.ensembleiq.com/home
+method:post
+http://www.ensembleiq.com/home/antibot
+input     text      name                                              
+input     email     email                                             
+input     text      subject                                           
+textarea            message                                           
+select              select_a_brand                                    
+input     hidden    honeypot_time                 _YELKQxzuwo6PbgXJj-f64TDj8aZwxl3WiUfAY6oJj0
+input     hidden    form_build_id                 form-ldokJjyKOLjA-plhMIAjgVr-CUEb7tm01wQQBYS2nlM
+input     hidden    form_id                       webform_submission_contact_node_28_add_form
+input     hidden    antibot_key                                       
+input     text      url                                               
+
+curl  "http://www.ensembleiq.com/home/antibot?name=blabla&email=&subject=blabla&message=blabla&select_a_brand=1&honeypot_time=_YELKQxzuwo6PbgXJj-f64TDj8aZwxl3WiUfAY6oJj0&form_build_id=form-ldokJjyKOLjA-plhMIAjgVr-CUEb7tm01wQQBYS2nlM&form_id=webform_submission_contact_node_28_add_form&antibot_key=&url=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://recruitee.pr.co/
+method:get
+https://recruitee.pr.co//search/press_releases
+input     text      q                                                 
+
+curl  "https://recruitee.pr.co//search/press_releases?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://recruitee.pr.co
+method:get
+https://recruitee.pr.co/search/press_releases
+input     text      q                                                 
+
+curl  "https://recruitee.pr.co/search/press_releases?q=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:
+https://search.engadget.com/search
+input     Text      p                                                 
+
+curl  "https://search.engadget.com/search?p=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1
+method:post
+https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1/a/mail_subscribe
+input     hidden    csrf                          eyJyIjoiVkxsN2UzQnIrZ1RtVjhTb293MFEzblZkXC9mS2RvZmlJSFZ5SEZ0VjRUeEk9IiwidCI6MTU3MTU5NTkzNywicyI6ImFKK2VGNktGZUY4djE5UmloNzFEcmhoSERRSlJUOFFJQkRSQVVod3ZtcGhhSE5jU2x1VmprdXpIOXJpOEthXC85XC9GNHZYUGFjeXhkVXNHNGp6NGhUeVE9PSJ9
+input     text      email                                             
+input     hidden    redirect                      https://www.engadget.com/thanks
+
+curl  "https://www.engadget.com/2016/08/08/this-is-the-hiring-tool-all-modern-teams-should-have/?guccounter=1/a/mail_subscribe?csrf=eyJyIjoiVkxsN2UzQnIrZ1RtVjhTb293MFEzblZkXC9mS2RvZmlJSFZ5SEZ0VjRUeEk9IiwidCI6MTU3MTU5NTkzNywicyI6ImFKK2VGNktGZUY4djE5UmloNzFEcmhoSERRSlJUOFFJQkRSQVVod3ZtcGhhSE5jU2x1VmprdXpIOXJpOEthXC85XC9GNHZYUGFjeXhkVXNHNGp6NGhUeVE9PSJ9&email=blabla&redirect=https://www.engadget.com/thanks" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:
+https://help.yahoo.com/kb/index
+input     text      question_box                                      
+input     hidden    page                          answers             
+input     hidden    startover                     y                   
+input     hidden    source                        contactform.landing_search
+input     hidden    locale                        es_US               
+input     hidden    y                             PROD_ACCT           
+
+curl  "https://help.yahoo.com/kb/index?question_box=blabla&page=answers&startover=y&source=contactform.landing_search&locale=es_US&y=PROD_ACCT" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-icon
+method:POST
+https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=contactform&locale=es_US&token=Zh%2FBBVqXzLHlIbokbUqVWTUbuuQeXGkG46seRNe39YEfhKm%2Bhei2LO0dfJtoiV2m9F2tu0c7swkcN4mWLtcvpGOcvYxDzSWq4OVj1UP8pBYu6DXdRCIRvj%2BdGV8L8QXvAoyc1TdT7itVhJGlZdHbc2ASj6JBmW2P&selectedChannel=email-icon
+input     hidden    dynamicFields[0].docid        DYN356              
+input     hidden    dynamicFields[0].fieldLabel                       
+input     hidden    dynamicFields[0].fieldType    textblock           
+input     hidden    dynamicFields[0].required     false               
+input     hidden    dynamicFields[0].toolTipValue                     
+input     hidden    dynamicFields[0].placeHolder                      
+input     hidden                                                      
+input     hidden    dynamicFields[1].docid        DYN399              
+input     hidden    dynamicFields[1].fieldLabel   Marcas              
+input     hidden    dynamicFields[1].fieldType    dropdown            
+input     hidden    dynamicFields[1].required     true                
+input     hidden    dynamicFields[1].toolTipValue Marca de Oath sobre la que quieres enviar tu opinión.
+input     hidden    dynamicFields[1].placeHolder                      
+input     hidden                                                      
+select              dynamicFields[1].userValue                        
+input     hidden    dynamicFields[2].docid        DYN398              
+input     hidden    dynamicFields[2].fieldLabel   Nombre de usuario   
+input     hidden    dynamicFields[2].fieldType    text                
+input     hidden    dynamicFields[2].required     false               
+input     hidden    dynamicFields[2].toolTipValue ¿A qué nombre de usuario se refiere tu pregunta?
+input     hidden    dynamicFields[2].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[2].userValue                        
+input     hidden    dynamicFields[3].docid        DYN322              
+input     hidden    dynamicFields[3].fieldLabel   ID de Yahoo         
+input     hidden    dynamicFields[3].fieldType    yid                 
+input     hidden    dynamicFields[3].required     false               
+input     hidden    dynamicFields[3].toolTipValue Problemas con un ID de Yahoo o una dirección de correo electrónico
+input     hidden    dynamicFields[3].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[3].userValue                        
+input     hidden    dynamicFields[4].docid        DYN293              
+input     hidden    dynamicFields[4].fieldLabel   Dirección de correo electrónico a la que tienes acceso
+input     hidden    dynamicFields[4].fieldType    useremail           
+input     hidden    dynamicFields[4].required     true                
+input     hidden    dynamicFields[4].toolTipValue Dirección de correo electrónico de contacto
+input     hidden    dynamicFields[4].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[4].userValue                        
+input     hidden    dynamicFields[5].docid        DYN358              
+input     hidden    dynamicFields[5].fieldLabel   Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte.
+input     hidden    dynamicFields[5].fieldType    useremail           
+input     hidden    dynamicFields[5].required     true                
+input     hidden    dynamicFields[5].toolTipValue Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta.
+input     hidden    dynamicFields[5].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[5].userValue                        
+input     hidden    dynamicFields[6].docid        DYN295              
+input     hidden    dynamicFields[6].fieldLabel   Descripción detallada del problema
+input     hidden    dynamicFields[6].fieldType    textarea            
+input     hidden    dynamicFields[6].required     true                
+input     hidden    dynamicFields[6].toolTipValue NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte).
+input     hidden    dynamicFields[6].placeHolder                      
+input     hidden                                                      
+textarea            dynamicFields[6].userValue                        
+input     hidden    dynamicFields[7].docid        DYN303              
+input     hidden    dynamicFields[7].fieldLabel   Mensaje de error, si existe.
+input     hidden    dynamicFields[7].fieldType    text                
+input     hidden    dynamicFields[7].required     false               
+input     hidden    dynamicFields[7].toolTipValue Texto del mensaje de error que aparece.
+input     hidden    dynamicFields[7].placeHolder                      
+input     hidden                                                      
+input     text      dynamicFields[7].userValue                        
+input     hidden    dynamicFields[8].docid        DYN304              
+input     hidden    dynamicFields[8].fieldLabel   Adjuntar captura de pantalla
+input     hidden    dynamicFields[8].fieldType    file                
+input     hidden    dynamicFields[8].required     false               
+input     hidden    dynamicFields[8].toolTipValue Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF)
+input     hidden    dynamicFields[8].placeHolder                      
+input     hidden                                                      
+input     file                                                        
+input     file                                                        
+input     hidden                                  Se ha enviado un código de verificación a
+input     text      emailCaptchaAnswer                                
+input     hidden    .crumb                        Mp_GHE5TJId8GWy8GLOSFA--
+
+curl  "https://io.help.yahoo.com/contact/index?y=PROD_ACCT&token=w5FCchB1dWFBK0e02%252BwEylJn1ziDqePb2Dq22Z0PBKmuG9cZpE4MM9vS6l0r8gi9F6k%252FK8nik5MH8JQjZy5NlWIyygEGVpVVmjszaJKQEUG%252BQrbeKzAXPujc40d6FVzLRjBbfdQVQqU%253D&locale=es_US&page=contactform&selectedChannel=email-iconindex?page=contactform&locale=es_US&token=Zh%2FBBVqXzLHlIbokbUqVWTUbuuQeXGkG46seRNe39YEfhKm%2Bhei2LO0dfJtoiV2m9F2tu0c7swkcN4mWLtcvpGOcvYxDzSWq4OVj1UP8pBYu6DXdRCIRvj%2BdGV8L8QXvAoyc1TdT7itVhJGlZdHbc2ASj6JBmW2P&selectedChannel=email-icon?dynamicFields[0].docid=DYN356&dynamicFields[0].fieldLabel=&dynamicFields[0].fieldType=textblock&dynamicFields[0].required=false&dynamicFields[0].toolTipValue=&dynamicFields[0].placeHolder=&&dynamicFields[1].docid=DYN399&dynamicFields[1].fieldLabel=Marcas&dynamicFields[1].fieldType=dropdown&dynamicFields[1].required=true&dynamicFields[1].toolTipValue=Marca de Oath sobre la que quieres enviar tu opinión.&dynamicFields[1].placeHolder=&&dynamicFields[1].userValue=1&dynamicFields[2].docid=DYN398&dynamicFields[2].fieldLabel=Nombre de usuario&dynamicFields[2].fieldType=text&dynamicFields[2].required=false&dynamicFields[2].toolTipValue=¿A qué nombre de usuario se refiere tu pregunta?&dynamicFields[2].placeHolder=&&dynamicFields[2].userValue=blabla&dynamicFields[3].docid=DYN322&dynamicFields[3].fieldLabel=ID de Yahoo&dynamicFields[3].fieldType=yid&dynamicFields[3].required=false&dynamicFields[3].toolTipValue=Problemas con un ID de Yahoo o una dirección de correo electrónico&dynamicFields[3].placeHolder=&&dynamicFields[3].userValue=blabla&dynamicFields[4].docid=DYN293&dynamicFields[4].fieldLabel=Dirección de correo electrónico a la que tienes acceso&dynamicFields[4].fieldType=useremail&dynamicFields[4].required=true&dynamicFields[4].toolTipValue=Dirección de correo electrónico de contacto&dynamicFields[4].placeHolder=&&dynamicFields[4].userValue=blabla&dynamicFields[5].docid=DYN358&dynamicFields[5].fieldLabel=Vuelve a introducir la dirección de correo electrónico que podemos utilizar para contactarte.&dynamicFields[5].fieldType=useremail&dynamicFields[5].required=true&dynamicFields[5].toolTipValue=Puesto que nos pondremos en contacto contigo a través de esta dirección, queremos asegurarnos de que es correcta.&dynamicFields[5].placeHolder=&&dynamicFields[5].userValue=blabla&dynamicFields[6].docid=DYN295&dynamicFields[6].fieldLabel=Descripción detallada del problema&dynamicFields[6].fieldType=textarea&dynamicFields[6].required=true&dynamicFields[6].toolTipValue=NO introduzcas ningún tipo de información personal en este formulario (como contraseñas o números de la Seguridad Social (NSS), tarjeta de crédito, carné de conducir, o pasaporte).&dynamicFields[6].placeHolder=&&dynamicFields[6].userValue=blabla&dynamicFields[7].docid=DYN303&dynamicFields[7].fieldLabel=Mensaje de error, si existe.&dynamicFields[7].fieldType=text&dynamicFields[7].required=false&dynamicFields[7].toolTipValue=Texto del mensaje de error que aparece.&dynamicFields[7].placeHolder=&&dynamicFields[7].userValue=blabla&dynamicFields[8].docid=DYN304&dynamicFields[8].fieldLabel=Adjuntar captura de pantalla&dynamicFields[8].fieldType=file&dynamicFields[8].required=false&dynamicFields[8].toolTipValue=Captura de pantalla (máx. 2 MB, JPEG, GIF, PNG, BMP, TIFF)&dynamicFields[8].placeHolder=&&&&Se ha enviado un código de verificación a&emailCaptchaAnswer=blabla&.crumb=Mp_GHE5TJId8GWy8GLOSFA--" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://www.verizon.com/about/privacy/privacy-policy-summary
+method:
+https://www.verizon.com/search/SearchResults
+input     text      Ntt                                               
+input     hidden    ES                            Corporate           
+input     hidden    Dy                            1                   
+input     hidden    Nty                           1                   
+
+curl  "https://www.verizon.com/search/SearchResults?Ntt=blabla&ES=Corporate&Dy=1&Nty=1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                             Search this site... 
+input     image                                                       
+
+curl  "https://asrcreviews.org//?s=blabla&1" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.asrcreviews.org
+method:get
+https://asrcreviews.org//
+input     text      s                                                 
+
+curl  "https://asrcreviews.org//?s=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.wordpress.org
+method:get
+http://www.wordpress.org//wordpress.org/search/do-search.php
+input     text      search                                            
+
+curl  "http://www.wordpress.org//wordpress.org/search/do-search.php?search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://publiccode.eu/
+method:post
+https://forms.fsfe.org/email
+input     hidden    appid                         pmpc-sign           
+input     text      name                                              
+input     email     confirm                                           
+select              country                                           
+input     text      zip                                               
+input     text      comment                                           
+input     checkbox  permissionPriv                yes                 
+input     checkbox  permissionPub                 yes                 
+input     checkbox  permissionNews                yes                 
+input     text      url                                               
+
+curl  "https://forms.fsfe.org/email?appid=pmpc-sign&name=blabla&confirm=1&country=1&zip=blabla&comment=blabla&permissionPriv=yes&permissionPub=yes&permissionNews=yes&url=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-spread         
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl  "https://fsfe.org/share?popup=1&ref=pmpc-spread&url=https://publiccode.eu/&title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:&website=1&popup=1&diasporapod=blabla&popup=1&mastodonpod=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://publiccode.eu/
+method:GET
+https://fsfe.org/share
+input     radio     popup                                             
+input     hidden    ref                           pmpc-side           
+input     hidden    url                           https://publiccode.eu/
+input     hidden    title                         If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:
+input               website                                           
+input     radio     popup                                             
+input     text      diasporapod                                       
+input     radio     popup                                             
+input     text      mastodonpod                                       
+
+curl  "https://fsfe.org/share?popup=1&ref=pmpc-side&url=https://publiccode.eu/&title=If it is public money, it should be public code as well. I support this call for more public code under a Free Software licence:&website=1&popup=1&diasporapod=blabla&popup=1&mastodonpod=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  "https://cercador.barcelona.cat/ca?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  "https://cercador.barcelona.cat/ca?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl  "https://cercador.barcelona.cat/ca?query=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  "https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  "https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl  "https://sayitloudbcn.bigcartel.com/products?utf8=✓&search=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://photography.tutsplus.com
+method:get
+https://photography.tutsplus.com/tutorials/search
+input     hidden    utf8                          ✓                   
+input     text      search[terms]                                     
+
+curl  "https://photography.tutsplus.com/tutorials/search?utf8=✓&search[terms]=blabla" 2> /dev/null 1| grep "blabla";echo $?
+
+
+
+
+https://photography.tutsplus.com
+method:get
+https://photography.tutsplus.com/tutorials/search
+input     hidden    utf8                          ✓                   
+input     text      search[terms]                                     
+
+curl  "https://photography.tutsplus.com/tutorials/search?utf8=✓&search[terms]=blabla" 2> /dev/null 1| grep "blabla";echo $?
+

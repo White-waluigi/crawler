@@ -1,0 +1,141 @@
+
+
+
+https://www.google.com/
+method:GET
+https://www.google.com//search
+input     hidden    source                        hp                  
+input     hidden    ei                            25qsXZ6pD5LEwQLnuK-4CQ
+input     hidden    iflsig                        AAP1E1EAAAAAXayo6x1rV_5WKvHo4XRAQmOmGkDiqOpm
+input     text      q                                                 
+
+curl --data source=hp --data ei=25qsXZ6pD5LEwQLnuK-4CQ --data iflsig=AAP1E1EAAAAAXayo6x1rV_5WKvHo4XRAQmOmGkDiqOpm --data q=  https://www.google.com//search
+
+
+
+
+https://support.google.com?hl=en
+method:
+https://support.google.com?hl=en/search?hl=en
+input     search    q                                                 
+input     hidden    from_promoted_search          true                
+
+curl --data q= --data from_promoted_search=true  https://support.google.com?hl=en/search?hl=en
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl --data query=<h1>blabla</h1> 
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl --data query=<h1>blabla</h1> 
+
+
+
+
+http://www.bcn.cat/
+method:
+https://cercador.barcelona.cat/ca
+input     text      query                                             
+
+curl --data query=<h1>blabla</h1> 
+
+
+
+
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp  https://itunes.apple.com/app/apple-store/id1096918571?pt=9008&ct=aboutSiteGoogle&mt=8//www.apple.com/us/search
+
+
+
+
+https://sayitloudbcn.bigcartel.com
+method:get
+https://sayitloudbcn.bigcartel.com/products
+input     hidden    utf8                          ✓                   
+input     text      search                                            
+
+curl --data utf8=✓ --data search=<h1>blabla</h1> 
+
+
+
+
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8
+method:get
+https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+input     text                                                        
+input     hidden    src                           itunes_serp         
+
+curl --data src=itunes_serp  https://itunes.apple.com/app/apple-store/id422689480?pt=9008&ct=aboutprod&mt=8//www.apple.com/us/search
+
+
+
+
+https://twitter.com/share?url=https://g.co/DigitalGarage&text=Free Training Course From Google
+method:post
+https://twitter.com/intent/sessions
+input     hidden    text                          Free Training Course From Google
+input     hidden    url                           https://g.co/DigitalGarage
+input     hidden    repost_after_login            /intent/tweet       
+input     hidden    authenticity_token            bda6d5c5d45450864f26454873d31bf4afacd85f
+textarea            status                                            
+input     text      session[username_or_email]                        
+input     password  session[password]                                 
+input     checkbox  remember_me                   1                   
+input     hidden    ui_metrics                                        
+
+curl --data text=Free Training Course From Google --data url=https://g.co/DigitalGarage --data repost_after_login=/intent/tweet --data authenticity_token=bda6d5c5d45450864f26454873d31bf4afacd85f --data status=<h1>blabla</h1> --data session[username_or_email]=<h1>blabla</h1> --data session[password]= --data remember_me=1 --data ui_metrics=1  https://twitter.com/intent/sessions
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+curl  https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:GET
+https://twitter.com/signup?context=webintent
+
+curl  https://twitter.com/signup?context=webintent
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:POST
+https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+curl  https://mobile.twitter.com/i/nojs_router?path=%2Fsignup%3Fcontext%3Dwebintent
+
+
+
+
+https://twitter.com/signup?context=webintent
+method:GET
+https://twitter.com/signup?context=webintent
+
+curl  https://twitter.com/signup?context=webintent
+
